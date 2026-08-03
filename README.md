@@ -13,6 +13,10 @@ Open `index.html` in any modern browser. The page is fully static and needs no b
 ## Character portraits
 All 158 hero and villain portraits are bundled locally as compressed WebP files. The unified set uses cropped Fantasy Flight Games/Marvel Champions card illustrations for 145 characters, with 13 visually reviewed local fallbacks where official scans are not yet available. FFG portraits are made from the original full-resolution scans in a single subject-aware crop, with hand-tuned focal overrides where automatic attention favors a weapon, effect, or card icon over the character. The complete set is reviewed in contact sheets before release. Card frames, titles, rules text, and logos are excluded from the portrait crops. The site makes no external image requests and remains fully usable offline. Source metadata is recorded in `images/portraits/ffg_sources.json` and `images/portraits/sources.json`; styled monograms remain as error fallbacks.
 
+## MarvelCDB deck links
+
+Every hero card links to that identity's top-ranked MarvelCDB deck under MarvelCDB's default popularity sort, checked August 3, 2026. Luke Cage and Jessica Jones display a pending state because MarvelCDB does not yet list either identity for published decklists.
+
 ## Local editing
 Edit `matchups.json` for reference, but the current `app.js` contains an embedded copy of the dataset so the page also works when opened directly from disk. To make content changes, update both or regenerate the page from your source workflow.
 
