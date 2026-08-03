@@ -4,7 +4,7 @@
 
 **Repeat marker:** 🔁 means the hero appeared earlier in the sequence.
 
-**Release-order constraint:** Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; they become eligible afterward.
+**Release-order constraint:** Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.
 
 ## Core Set
 
@@ -90,18 +90,18 @@
 
 ### 15. The Collector — Escape the Museum
 - **Villain side:** The Collector
-- **Hero team:** Star-Lord + Gamora
-- **Context:** Peter devises the reckless escape plan while Gamora makes sure it has at least some chance of succeeding.
+- **Hero team:** Drax + Gamora
+- **Context:** Drax supplies the muscle while Gamora's discipline and experience keep their escape from becoming another museum exhibit.
 
 ### 16. Nebula
 - **Villain side:** Nebula
-- **Hero team:** Gamora 🔁 + Nebula
-- **Context:** The sisters confront their shared history, with heroic Nebula facing the villainous incarnation of herself.
+- **Hero team:** Gamora 🔁 + Star-Lord
+- **Context:** Gamora confronts her sister while Star-Lord keeps the Guardians focused on stopping Nebula's assault.
 
 ### 17. Ronan the Accuser
 - **Villain side:** Ronan the Accuser
-- **Hero team:** Drax + Nova
-- **Context:** Drax brings the personal grudge and raw violence; Nova brings direct experience with interstellar law, war and the Kree.
+- **Hero team:** Nebula + Nova
+- **Context:** Nebula has every reason to oppose one of Thanos's most dangerous allies, while Nova brings direct experience with interstellar law, war and the Kree.
 
 ## The Mad Titan’s Shadow
 
@@ -207,8 +207,8 @@
 
 ### 36. Magneto
 - **Villain side:** Magneto
-- **Hero team:** Cyclops 🔁 + Magneto
-- **Context:** Scott confronts the opposing mutant leader while heroic Magneto creates a direct ideological mirror match.
+- **Hero team:** Cyclops 🔁 + Phoenix
+- **Context:** Scott and Jean unite X-Men leadership, tactics and telepathy against their team's most defining ideological enemy.
 
 ## NeXt Evolution
 
@@ -246,22 +246,22 @@
 
 ### 43. The Four Horsemen
 - **Villain side:** War + Famine + Pestilence + Death
-- **Hero team:** Angel + Psylocke 🔁
-- **Context:** Warren’s transformation into Archangel makes him mandatory; Betsy understands both him and Apocalypse’s psychological damage.
+- **Hero team:** Nightcrawler 🔁 + Psylocke 🔁
+- **Context:** Nightcrawler's faith and compassion resist Apocalypse's corruption, while Psylocke brings the psychic discipline to withstand the Horsemen.
 
 ### 44. Apocalypse
 - **Villain side:** Apocalypse
-- **Hero team:** Magik + Nightcrawler 🔁
-- **Context:** Two teleporting and spiritually resilient X-Men attempt to break Apocalypse’s control over the world.
+- **Hero team:** Magik + Angel
+- **Context:** Magik breaks into Apocalypse's domain while Warren confronts the tyrant who transformed him into Death.
 
 ### 45. Dark Beast
 - **Villain side:** Dark Beast
-- **Hero team:** Phoenix + X-23 🔁
+- **Hero team:** Phoenix 🔁 + X-23 🔁
 - **Context:** Jean counters his psychological and genetic experimentation while Laura has every reason to destroy someone who treats mutants as laboratory material.
 
 ### 46. En Sabah Nur
 - **Villain side:** En Sabah Nur
-- **Hero team:** Magneto 🔁 + Rogue 🔁
+- **Hero team:** Magneto + Rogue 🔁
 - **Context:** Both have major stakes in the Age of Apocalypse reality and its mutant resistance.
 
 ## Agents of S.H.I.E.L.D.

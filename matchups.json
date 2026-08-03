@@ -3,7 +3,7 @@
   "updated": "2026-08-03",
   "rules": {
     "repeatMarker": "🔁",
-    "sequenceNote": "Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; they become eligible afterward.",
+    "sequenceNote": "Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.",
     "scope": "65 scenario matchups through Fear No Evil. Shadowland is excluded because it is upcoming in this sequence."
   },
   "campaigns": [
@@ -372,15 +372,15 @@
             "collector"
           ],
           "heroes": [
-            "nebula-hero",
+            "drax",
             "gamora"
           ],
-          "context": "Nebula and Gamora turn their shared experience as Thanos's unwilling operatives into the perfect skill set for escaping the Collector's museum.",
+          "context": "Drax supplies the muscle while Gamora's discipline and experience keep their escape from becoming another museum exhibit.",
           "number": 15,
           "id": "battle-15",
           "heroAssignments": [
             {
-              "id": "nebula-hero",
+              "id": "drax",
               "repeat": false
             },
             {
@@ -418,15 +418,15 @@
             "ronan"
           ],
           "heroes": [
-            "drax",
+            "nebula-hero",
             "nova"
           ],
-          "context": "Drax brings the personal grudge and raw violence; Nova brings direct experience with interstellar law, war and the Kree.",
+          "context": "Nebula has every reason to oppose one of Thanos's most dangerous allies, while Nova brings direct experience with interstellar law, war and the Kree.",
           "number": 17,
           "id": "battle-17",
           "heroAssignments": [
             {
-              "id": "drax",
+              "id": "nebula-hero",
               "repeat": false
             },
             {
@@ -873,9 +873,9 @@
           ],
           "heroes": [
             "storm",
-            "magneto-hero"
+            "colossus"
           ],
-          "context": "Storm leads the defense of the mansion while heroic Magneto turns the Brotherhood's attack back against its perpetrators.",
+          "context": "Two classic X-Men defend their home and students from the Brotherhood.",
           "number": 35,
           "id": "battle-35",
           "heroAssignments": [
@@ -884,7 +884,7 @@
               "repeat": true
             },
             {
-              "id": "magneto-hero",
+              "id": "colossus",
               "repeat": false
             }
           ]
@@ -896,9 +896,9 @@
           ],
           "heroes": [
             "cyclops",
-            "colossus"
+            "phoenix"
           ],
-          "context": "Cyclops leads an iconic X-Men showdown while Colossus provides the strength and resolve to stand against Magneto's power.",
+          "context": "Scott and Jean unite X-Men leadership, tactics and telepathy against their team's most defining ideological enemy.",
           "number": 36,
           "id": "battle-36",
           "heroAssignments": [
@@ -907,7 +907,7 @@
               "repeat": true
             },
             {
-              "id": "colossus",
+              "id": "phoenix",
               "repeat": false
             }
           ]
@@ -1083,16 +1083,16 @@
             "horseman-death"
           ],
           "heroes": [
-            "angel",
+            "nightcrawler",
             "psylocke"
           ],
-          "context": "Warren’s transformation into Archangel makes him mandatory; Betsy understands both him and Apocalypse’s psychological damage.",
+          "context": "Nightcrawler's faith and compassion resist Apocalypse's corruption, while Psylocke brings the psychic discipline to withstand the Horsemen.",
           "number": 43,
           "id": "battle-43",
           "heroAssignments": [
             {
-              "id": "angel",
-              "repeat": false
+              "id": "nightcrawler",
+              "repeat": true
             },
             {
               "id": "psylocke",
@@ -1107,9 +1107,9 @@
           ],
           "heroes": [
             "magik",
-            "nightcrawler"
+            "angel"
           ],
-          "context": "Two teleporting and spiritually resilient X-Men attempt to break Apocalypse’s control over the world.",
+          "context": "Magik breaks into Apocalypse's domain while Warren confronts the tyrant who transformed him into Death.",
           "number": 44,
           "id": "battle-44",
           "heroAssignments": [
@@ -1118,8 +1118,8 @@
               "repeat": false
             },
             {
-              "id": "nightcrawler",
-              "repeat": true
+              "id": "angel",
+              "repeat": false
             }
           ]
         },
@@ -1138,7 +1138,7 @@
           "heroAssignments": [
             {
               "id": "phoenix",
-              "repeat": false
+              "repeat": true
             },
             {
               "id": "x-23",
@@ -1161,7 +1161,7 @@
           "heroAssignments": [
             {
               "id": "magneto-hero",
-              "repeat": true
+              "repeat": false
             },
             {
               "id": "rogue",
