@@ -6,6 +6,8 @@
 
 **Release-order constraint:** Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.
 
+**Encounter setup:** Official recommended and required modular sets for every battle are maintained in `matchups.json` and displayed on each battle card. Variable setups remain variable, and unavailable Fear No Evil recommendations are marked as catalog-pending instead of being guessed.
+
 ## Core Set
 
 ### 1. Rhino
@@ -202,8 +204,8 @@
 
 ### 35. Mansion Attack
 - **Villain side:** Avalanche + Blob + Pyro + Toad
-- **Hero team:** Storm 🔁 + Colossus
-- **Context:** Two classic X-Men defend their home and students from the Brotherhood.
+- **Hero team:** Shadowcat 🔁 + Colossus
+- **Context:** Kitty phases through the mansion’s defenses to protect its students while Colossus provides the strength to drive the Brotherhood back.
 
 ### 36. Magneto
 - **Villain side:** Magneto
@@ -377,4 +379,4 @@
 
 ## Instructions for a work assistant
 
-Treat this document and `matchups.json` as the canonical source for the campaign matchup project. Preserve scenario order, hero pairings, repeat markers, battle context, and the Luke Cage/Jessica Jones availability gate unless the user explicitly changes them. When revising a pairing, re-audit all 65 scenarios and all 69 heroes for omissions and update repeat markers based on first appearance in sequence.
+Treat this document and `matchups.json` as the canonical source for the campaign matchup project. Preserve scenario order, hero pairings, repeat markers, encounter setup, battle context, and the Luke Cage/Jessica Jones availability gate unless the user explicitly changes them. When revising a pairing, re-audit all 65 scenarios and all 69 heroes for omissions and update repeat markers based on first appearance in sequence.

@@ -6,6 +6,292 @@
     "sequenceNote": "Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.",
     "scope": "65 scenario matchups through Fear No Evil. Shadowland is excluded because it is upcoming in this sequence."
   },
+  "encounterModules": {
+    "battle-01": {
+      "type": "official",
+      "sets": ["Bomb Scare"]
+    },
+    "battle-02": {
+      "type": "official",
+      "sets": ["Masters of Evil"]
+    },
+    "battle-03": {
+      "type": "official",
+      "sets": ["Under Attack"]
+    },
+    "battle-04": {
+      "type": "official",
+      "sets": ["Goblin Gimmicks"]
+    },
+    "battle-05": {
+      "type": "official",
+      "sets": ["Goblin Gimmicks"]
+    },
+    "battle-06": {
+      "type": "self-contained",
+      "sets": [],
+      "note": "Uses the Wrecker, Piledriver, Bulldozer, and Thunderball encounter decks. The printed setup does not use Standard, Expert, or a modular encounter set."
+    },
+    "battle-07": {
+      "type": "official",
+      "sets": ["Temporal"]
+    },
+    "battle-08": {
+      "type": "official",
+      "sets": ["Experimental Weapons", "Hydra Assault", "Weapon Master", "Legions of Hydra"]
+    },
+    "battle-09": {
+      "type": "official",
+      "sets": ["Hydra Patrol"]
+    },
+    "battle-10": {
+      "type": "official",
+      "sets": ["Hydra Patrol", "Weapon Master"]
+    },
+    "battle-11": {
+      "type": "official",
+      "sets": ["Under Attack"]
+    },
+    "battle-12": {
+      "type": "official",
+      "sets": ["Hydra Assault", "Hydra Patrol"]
+    },
+    "battle-13": {
+      "type": "official",
+      "sets": ["Ship Command", "Band of Badoon"]
+    },
+    "battle-14": {
+      "type": "official",
+      "sets": ["Galactic Artifacts", "Menagerie Medley"]
+    },
+    "battle-15": {
+      "type": "official",
+      "sets": ["Galactic Artifacts", "Ship Command", "Menagerie Medley"]
+    },
+    "battle-16": {
+      "type": "official",
+      "sets": ["Power Stone", "Ship Command", "Space Pirates"]
+    },
+    "battle-17": {
+      "type": "official",
+      "sets": ["Power Stone", "Ship Command", "Kree Militants"]
+    },
+    "battle-18": {
+      "type": "official",
+      "sets": ["Armies of Titan", "Black Order"]
+    },
+    "battle-19": {
+      "type": "official",
+      "sets": ["Armies of Titan"]
+    },
+    "battle-20": {
+      "type": "official",
+      "sets": ["Infinity Gauntlet", "Black Order", "Children of Thanos"]
+    },
+    "battle-21": {
+      "type": "official",
+      "sets": ["Legions of Hel", "Frost Giants"]
+    },
+    "battle-22": {
+      "type": "official",
+      "sets": ["Infinity Gauntlet", "Enchantress", "Frost Giants"]
+    },
+    "battle-23": {
+      "type": "variable",
+      "sets": ["Choose 7 modular encounter sets"],
+      "note": "The Hood pack includes Beasty Boys, Brothers Grimm, Crossfire’s Crew, Mister Hyde, Ransacked Armory, Sinister Syndicate, State of Emergency, Streets of Mayhem, and Wrecking Crew as its modular pool."
+    },
+    "battle-24": {
+      "type": "official",
+      "sets": ["City in Chaos", "Down to Earth"]
+    },
+    "battle-25": {
+      "type": "official",
+      "sets": ["Symbiotic Strength", "Down to Earth"]
+    },
+    "battle-26": {
+      "type": "official",
+      "sets": ["Personal Nightmare", "Whispers of Paranoia"]
+    },
+    "battle-27": {
+      "type": "official",
+      "sets": ["Guerrilla Tactics"]
+    },
+    "battle-28": {
+      "type": "official",
+      "sets": ["Symbiotic Strength", "Goblin Gear"]
+    },
+    "battle-29": {
+      "type": "variable",
+      "sets": ["1 random MojoMania modular set"],
+      "note": "Official pool: Crime, Fantasy, Horror, Sci-Fi, Sitcom, and Western."
+    },
+    "battle-30": {
+      "type": "variable",
+      "sets": ["3 random MojoMania modular sets"],
+      "note": "Official pool: Crime, Fantasy, Horror, Sci-Fi, Sitcom, and Western."
+    },
+    "battle-31": {
+      "type": "variable",
+      "sets": ["Choose 1 + 1 per hero"],
+      "note": "Choose from the MojoMania pool: Crime, Fantasy, Horror, Sci-Fi, Sitcom, and Western."
+    },
+    "battle-32": {
+      "type": "official",
+      "sets": ["Brotherhood", "Mystique"]
+    },
+    "battle-33": {
+      "type": "official",
+      "sets": ["Zero Tolerance", "Sentinels"]
+    },
+    "battle-34": {
+      "type": "official",
+      "sets": ["Sentinels", "Zero Tolerance"]
+    },
+    "battle-35": {
+      "type": "official",
+      "sets": ["Brotherhood", "Mystique"]
+    },
+    "battle-36": {
+      "type": "official",
+      "sets": ["Acolytes"]
+    },
+    "battle-37": {
+      "type": "official",
+      "sets": ["Military Grade", "Mutant Slayers"]
+    },
+    "battle-38": {
+      "type": "official",
+      "sets": ["Mutant Slayers", "Military Grade", "Nasty Boys"]
+    },
+    "battle-39": {
+      "type": "official",
+      "sets": ["Hope Summers", "Black Tom Cassidy"]
+    },
+    "battle-40": {
+      "type": "official",
+      "sets": ["Flight", "Super Strength", "Telepathy", "Hope Summers", "Nasty Boys"]
+    },
+    "battle-41": {
+      "type": "official",
+      "sets": ["Hope Summers", "Extreme Measures", "Mutant Insurrection"]
+    },
+    "battle-42": {
+      "type": "official",
+      "sets": ["Infinites", "Dystopian Nightmare"]
+    },
+    "battle-43": {
+      "type": "official",
+      "sets": ["Dystopian Nightmare", "Hounds"]
+    },
+    "battle-44": {
+      "type": "official",
+      "sets": ["Prelates", "Dark Riders", "Infinites"]
+    },
+    "battle-45": {
+      "type": "official",
+      "sets": ["Blue Moon", "Genosha", "Savage Land", "Dystopian Nightmare"]
+    },
+    "battle-46": {
+      "type": "official",
+      "sets": ["Celestial Tech", "Clan Akkaba"]
+    },
+    "battle-47": {
+      "type": "official",
+      "sets": ["A.I.M. Abduction", "A.I.M. Science"]
+    },
+    "battle-48": {
+      "type": "official",
+      "sets": ["A.I.M. Science", "Batroc’s Brigade"]
+    },
+    "battle-49": {
+      "type": "official",
+      "sets": ["Scientist Supreme"]
+    },
+    "battle-50": {
+      "type": "variable",
+      "sets": ["Choose 1 + 1 per hero"],
+      "note": "Each selected set must contain an Elite Thunderbolt minion. Official pool: Gravitational Pull, Hard Sound, Pale Little Spider, Power of the Atom, Supersonic, and The Leaper."
+    },
+    "battle-51": {
+      "type": "official",
+      "sets": ["Scientist Supreme", "S.H.I.E.L.D."],
+      "note": "The S.H.I.E.L.D. Executive Board and Executive Board Evidence sets are handled separately by the scenario setup."
+    },
+    "battle-52": {
+      "type": "official",
+      "sets": ["Trickster Magic"]
+    },
+    "battle-53": {
+      "type": "official",
+      "sets": ["Trickster Magic"]
+    },
+    "battle-54": {
+      "type": "official",
+      "sets": ["Mighty Avengers", "The Initiative", "Maria Hill", "Dangerous Recruits"],
+      "note": "Official preconstructed scenario. Main schemes: Cut Off Support → Negative Zone Prison."
+    },
+    "battle-55": {
+      "type": "official",
+      "sets": ["Cape-Killer", "Martial Law", "Heroes for Hire", "Paladin"],
+      "note": "Official preconstructed scenario. Main schemes: S.H.I.E.L.D. Recruits → Hunting Rebel Heroes."
+    },
+    "battle-56": {
+      "type": "official",
+      "sets": ["New Avengers", "Secret Avengers", "Namor", "Atlanteans"],
+      "note": "Official preconstructed scenario. Main schemes: Gathering Support → Secret Avengers."
+    },
+    "battle-57": {
+      "type": "official",
+      "sets": ["Spider-Man", "Defenders", "Hell’s Kitchen", "Cloak & Dagger"],
+      "note": "Official preconstructed scenario. Main schemes: Open Rebellion → Neighborhood Protectors."
+    },
+    "battle-58": {
+      "type": "official",
+      "sets": ["S.H.I.E.L.D. Ops", "Thunderbolts", "Taskmaster", "Deadly Duo"],
+      "note": "Official preconstructed scenario. Main schemes: Enforce the Law → Mighty Avengers."
+    },
+    "battle-59": {
+      "type": "official",
+      "sets": ["Young Avengers", "Scarlet Twins", "Moon Knight", "Royal Guard"],
+      "note": "Official preconstructed scenario. Main schemes: Protect Secret Identities → Expose Overreach."
+    },
+    "battle-60": {
+      "type": "official",
+      "scenarioSet": "Protection Racket",
+      "sets": ["Disasters", "Tracksuit Mafia"],
+      "note": "Official Fear No Evil campaign pairing."
+    },
+    "battle-61": {
+      "type": "campaign",
+      "scenarioSet": "The Getaway",
+      "sets": [],
+      "note": "Official campaign pairing. Its additional printed modular recommendation is not yet listed in the public card catalog."
+    },
+    "battle-62": {
+      "type": "campaign",
+      "scenarioSet": "Stop the Press",
+      "sets": [],
+      "note": "Official campaign pairing. Its additional printed modular recommendation is not yet listed in the public card catalog."
+    },
+    "battle-63": {
+      "type": "campaign",
+      "scenarioSet": "The Raft Breakout",
+      "sets": [],
+      "note": "Official campaign pairing. Its additional printed modular recommendation is not yet listed in the public card catalog."
+    },
+    "battle-64": {
+      "type": "campaign",
+      "scenarioSet": "Art Heist",
+      "sets": [],
+      "note": "Official campaign pairing. Its additional printed modular recommendation is not yet listed in the public card catalog."
+    },
+    "battle-65": {
+      "type": "special",
+      "sets": ["Each hero’s nemesis set"],
+      "note": "Kingpin’s official special setup does not use the Standard encounter set and brings each player’s nemesis into the scenario."
+    }
+  },
   "campaigns": [
     {
       "campaign": "Core Set",
@@ -872,15 +1158,15 @@
             "toad"
           ],
           "heroes": [
-            "storm",
+            "shadowcat",
             "colossus"
           ],
-          "context": "Two classic X-Men defend their home and students from the Brotherhood.",
+          "context": "Kitty phases through the mansion’s defenses to protect its students while Colossus provides the strength to drive the Brotherhood back.",
           "number": 35,
           "id": "battle-35",
           "heroAssignments": [
             {
-              "id": "storm",
+              "id": "shadowcat",
               "repeat": true
             },
             {
@@ -3104,6 +3390,18 @@
     {
       "label": "Hall of Heroes card database and release index",
       "url": "https://hallofheroeslcg.com/browse/"
+    },
+    {
+      "label": "Civil War official scenario rulebook",
+      "url": "https://hallofheroeslcg.com/wp-content/uploads/2025/10/civil-war-pdf.pdf"
+    },
+    {
+      "label": "Synthezoid Smackdown official scenario rulebook",
+      "url": "https://hallofheroeslcg.com/wp-content/uploads/2025/12/mc57_rulebook-web.pdf"
+    },
+    {
+      "label": "Fantasy Flight Games — Fear No Evil preview",
+      "url": "https://www.fantasyflightgames.com/en/news/2026/4/16/fear-no-evil/"
     }
   ]
 }

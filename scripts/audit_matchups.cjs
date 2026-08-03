@@ -60,6 +60,8 @@ const usedHeroes = new Set();
 const usedVillains = new Set();
 const seenHeroes = new Set();
 const seenPairs = new Map();
+const seenBattleIds = new Set();
+const validModuleTypes = new Set(["official", "variable", "self-contained", "campaign", "special"]);
 const firstHeroBattle = new Map();
 const firstVillainBattle = new Map();
 let battleCount = 0;
@@ -69,6 +71,25 @@ for (const campaign of data.campaigns) {
     battleCount += 1;
     if (scenario.number !== battleCount) {
       errors.push(`Expected battle ${battleCount}, found ${scenario.number}.`);
+    }
+    seenBattleIds.add(scenario.id);
+
+    const moduleInfo = data.encounterModules?.[scenario.id];
+    if (!moduleInfo) {
+      errors.push(`Battle ${scenario.number} is missing encounter-module setup.`);
+    } else {
+      if (!validModuleTypes.has(moduleInfo.type)) {
+        errors.push(`Battle ${scenario.number} has invalid encounter-module type ${moduleInfo.type}.`);
+      }
+      if (!Array.isArray(moduleInfo.sets) || moduleInfo.sets.some((set) => typeof set !== "string" || !set.trim())) {
+        errors.push(`Battle ${scenario.number} has an invalid encounter-module set list.`);
+      }
+      if (moduleInfo.scenarioSet !== undefined && (typeof moduleInfo.scenarioSet !== "string" || !moduleInfo.scenarioSet.trim())) {
+        errors.push(`Battle ${scenario.number} has an invalid scenario-set label.`);
+      }
+      if (moduleInfo.note !== undefined && (typeof moduleInfo.note !== "string" || !moduleInfo.note.trim())) {
+        errors.push(`Battle ${scenario.number} has an invalid encounter-module note.`);
+      }
     }
 
     const heroIdentities = new Set();
@@ -133,6 +154,10 @@ for (const campaign of data.campaigns) {
       seenHeroes.add(assignment.id);
     });
   }
+}
+
+for (const battleId of Object.keys(data.encounterModules || {})) {
+  if (!seenBattleIds.has(battleId)) errors.push(`Encounter-module setup references unknown battle ${battleId}.`);
 }
 
 for (const [identity, heroBattle] of firstHeroBattle) {

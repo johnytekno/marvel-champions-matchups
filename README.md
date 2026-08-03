@@ -5,8 +5,8 @@ Open `index.html` in any modern browser. The page is fully static and needs no b
 ## Files
 - `index.html` — page shell
 - `styles.css` — visual design and print styles
-- `app.js` — filters, rendering, repeat markers, and JSON export
-- `scripts/audit_matchups.cjs` — validates roster coverage, identity sequencing, pair uniqueness, repeat markers, and local portraits
+- `app.js` — filters, rendering, encounter modules, hero usage counts, repeat markers, and JSON export
+- `scripts/audit_matchups.cjs` — validates roster coverage, identity sequencing, pair uniqueness, repeat markers, encounter setup, and local portraits
 - `images/portraits/` — locally bundled, compressed character portraits
 - `matchups.json` — canonical structured dataset
 - `WORK_CHAT_SOURCE.md` — text-first source designed for upload/paste into another assistant
@@ -25,6 +25,9 @@ Edit `matchups.json` for reference, but the current `app.js` contains an embedde
 - All 65 battles now use a distinct two-hero pairing.
 - All 69 heroes and all 89 villain-side identities appear in the schedule.
 - No hero fights their own villain incarnation, and Nebula, Magneto, and Angel debut as heroes only after their villain encounters.
+- Every battle shows its official recommended or required encounter modules; variable and catalog-pending setups are labeled honestly.
+- A frequency-sorted hero usage panel shows total appearances and repeat counts for all 69 heroes.
+- Mansion Attack now gives Shadowcat a second appearance instead of giving Storm a third; Cyclops remains at two appearances.
 - Active search and campaign filters now show a concise results summary.
 - A Reset filters button returns the full 65-matchup sequence in one step.
 - Empty searches offer an immediate “Show all matchups” recovery action.
