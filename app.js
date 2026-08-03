@@ -1,79 +1,414 @@
 
 const DATA = {"title":"Marvel Champions: Thematic Two-Hero Matchups","updated":"2026-07-30","rules":{"repeatMarker":"🔁","sequenceNote":"Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; they become eligible afterward.","scope":"65 scenario matchups through Fear No Evil. Shadowland is excluded because it is upcoming in this sequence."},"campaigns":[{"campaign":"Core Set","scenarios":[{"title":"Rhino","villains":["rhino"],"heroes":["spider-man-peter","she-hulk"],"context":"Peter gets his classic street-level enemy, while Jen supplies the muscle to stop Rhino without turning the fight into a cosmic event.","number":1,"id":"battle-01","heroAssignments":[{"id":"spider-man-peter","repeat":false},{"id":"she-hulk","repeat":false}]},{"title":"Klaw","villains":["klaw"],"heroes":["black-panther-tchalla","storm"],"context":"Klaw is fundamentally a Wakandan enemy; T’Challa brings the personal stakes while Storm’s history as Wakanda’s queen gives her a direct reason to defend it.","number":2,"id":"battle-02","heroAssignments":[{"id":"black-panther-tchalla","repeat":false},{"id":"storm","repeat":false}]},{"title":"Ultron","villains":["ultron"],"heroes":["ant-man","wasp"],"context":"Both heroes are tied directly to the Pym legacy and therefore to Ultron’s creation and recurring attacks.","number":3,"id":"battle-03","heroAssignments":[{"id":"ant-man","repeat":false},{"id":"wasp","repeat":false}]}],"id":"core-set"},{"campaign":"Green Goblin","scenarios":[{"title":"Risky Business — Norman Osborn / Green Goblin","villains":["norman-osborn","green-goblin"],"heroes":["spider-man-peter","ghost-spider"],"context":"Peter gets his defining Goblin feud, while Gwen understands better than almost anyone what a Goblin can cost a Spider-hero.","number":4,"id":"battle-04","heroAssignments":[{"id":"spider-man-peter","repeat":true},{"id":"ghost-spider","repeat":false}]},{"title":"Mutagen Formula — Green Goblin","villains":["green-goblin"],"heroes":["spider-woman","spider-man-miles"],"context":"Jessica brings espionage and HYDRA connections; Miles represents the next Spider generation taking on Norman’s escalating madness.","number":5,"id":"battle-05","heroAssignments":[{"id":"spider-woman","repeat":false},{"id":"spider-man-miles","repeat":false}]}],"id":"green-goblin"},{"campaign":"The Wrecking Crew","scenarios":[{"title":"The Wrecking Crew","villains":["wrecker","piledriver","bulldozer","thunderball"],"heroes":["thor","hercules"],"context":"The Crew’s enchanted power belongs directly in Thor’s corner of Marvel, and Hercules turns the encounter into the proper god-tier bar fight it deserves.","number":6,"id":"battle-06","heroAssignments":[{"id":"thor","repeat":false},{"id":"hercules","repeat":false}]}],"id":"the-wrecking-crew"},{"campaign":"The Once and Future Kang","scenarios":[{"title":"Kang","villains":["kang"],"heroes":["hulkling","iron-man"],"context":"Kang has significant Young Avengers connections, giving Hulkling a reason to be here, while Tony handles the Avengers strategy and future-technology problem.","number":7,"id":"battle-07","heroAssignments":[{"id":"hulkling","repeat":false},{"id":"iron-man","repeat":false}]}],"id":"the-once-and-future-kang"},{"campaign":"The Rise of Red Skull","scenarios":[{"title":"Crossbones","villains":["crossbones"],"heroes":["captain-america","winter-soldier"],"context":"Both heroes have deeply personal HYDRA history, and Crossbones is one of Steve’s most persistent modern enemies.","number":8,"id":"battle-08","heroAssignments":[{"id":"captain-america","repeat":false},{"id":"winter-soldier","repeat":false}]},{"title":"Absorbing Man","villains":["absorbing-man"],"heroes":["thor","hulk"],"context":"Crusher Creel is a recurring Thor opponent who also fits naturally into Hulk’s heavyweight division.","number":9,"id":"battle-09","heroAssignments":[{"id":"thor","repeat":true},{"id":"hulk","repeat":false}]},{"title":"Taskmaster","villains":["taskmaster"],"heroes":["black-widow","hawkeye"],"context":"Two elite combat specialists face an enemy specifically designed to copy and counter fighting styles.","number":10,"id":"battle-10","heroAssignments":[{"id":"black-widow","repeat":false},{"id":"hawkeye","repeat":false}]},{"title":"Zola","villains":["zola"],"heroes":["vision","war-machine"],"context":"Vision confronts Zola’s artificial-life experimentation while Rhodey brings military firepower against the laboratory complex.","number":11,"id":"battle-11","heroAssignments":[{"id":"vision","repeat":false},{"id":"war-machine","repeat":false}]},{"title":"Red Skull","villains":["red-skull"],"heroes":["captain-america","falcon"],"context":"Steve faces his defining ideological enemy with his closest Captain America partner beside him.","number":12,"id":"battle-12","heroAssignments":[{"id":"captain-america","repeat":true},{"id":"falcon","repeat":false}]}],"id":"the-rise-of-red-skull"},{"campaign":"Galaxy’s Most Wanted","scenarios":[{"title":"Drang","villains":["drang"],"heroes":["captain-marvel","spectrum"],"context":"Two space-capable military heroes respond to a full Badoon invasion.","number":13,"id":"battle-13","heroAssignments":[{"id":"captain-marvel","repeat":false},{"id":"spectrum","repeat":false}]},{"title":"The Collector — Infiltrate the Museum","villains":["collector"],"heroes":["rocket-raccoon","groot"],"context":"Rocket and Groot are perfectly suited to breaking into a cosmic museum, stealing the objective and damaging everything nearby.","number":14,"id":"battle-14","heroAssignments":[{"id":"rocket-raccoon","repeat":false},{"id":"groot","repeat":false}]},{"title":"The Collector — Escape the Museum","villains":["collector"],"heroes":["star-lord","gamora"],"context":"Peter devises the reckless escape plan while Gamora makes sure it has at least some chance of succeeding.","number":15,"id":"battle-15","heroAssignments":[{"id":"star-lord","repeat":false},{"id":"gamora","repeat":false}]},{"title":"Nebula","villains":["nebula-villain"],"heroes":["gamora","nebula-hero"],"context":"The sisters confront their shared history, with heroic Nebula facing the villainous incarnation of herself.","number":16,"id":"battle-16","heroAssignments":[{"id":"gamora","repeat":true},{"id":"nebula-hero","repeat":false}]},{"title":"Ronan the Accuser","villains":["ronan"],"heroes":["drax","nova"],"context":"Drax brings the personal grudge and raw violence; Nova brings direct experience with interstellar law, war and the Kree.","number":17,"id":"battle-17","heroAssignments":[{"id":"drax","repeat":false},{"id":"nova","repeat":false}]}],"id":"galaxy-s-most-wanted"},{"campaign":"The Mad Titan’s Shadow","scenarios":[{"title":"Ebony Maw","villains":["ebony-maw"],"heroes":["doctor-strange","scarlet-witch"],"context":"Strange and Wanda are the two heroes best equipped to resist Maw’s sorcery, manipulation and mental control.","number":18,"id":"battle-18","heroAssignments":[{"id":"doctor-strange","repeat":false},{"id":"scarlet-witch","repeat":false}]},{"title":"Tower Defense — Corvus Glaive & Proxima Midnight","villains":["corvus-glaive","proxima-midnight"],"heroes":["black-panther-shuri","ironheart"],"context":"Shuri coordinates Wakanda’s defense while Ironheart adds a second Wakanda-tested engineering mind and heavy armor against the Black Order.","number":19,"id":"battle-19","heroAssignments":[{"id":"black-panther-shuri","repeat":false},{"id":"ironheart","repeat":false}]},{"title":"Thanos","villains":["thanos"],"heroes":["adam-warlock","iron-man"],"context":"Adam is among Thanos’s most defining cosmic opponents, while Tony brings Avengers leadership and the desperate technological plan.","number":20,"id":"battle-20","heroAssignments":[{"id":"adam-warlock","repeat":false},{"id":"iron-man","repeat":true}]},{"title":"Hela","villains":["hela"],"heroes":["thor","valkyrie"],"context":"Both are directly rooted in Asgard, death mythology and the struggle over Hel.","number":21,"id":"battle-21","heroAssignments":[{"id":"thor","repeat":true},{"id":"valkyrie","repeat":false}]},{"title":"Loki","villains":["loki"],"heroes":["thor","doctor-strange"],"context":"Thor confronts his brother while Doctor Strange cuts through Loki’s sorcery, illusions and dimensional tricks.","number":22,"id":"battle-22","heroAssignments":[{"id":"thor","repeat":true},{"id":"doctor-strange","repeat":true}]}],"id":"the-mad-titan-s-shadow"},{"campaign":"The Hood","scenarios":[{"title":"The Hood","villains":["the-hood"],"heroes":["daredevil","spider-woman"],"context":"Matt handles the New York criminal empire while Jessica brings espionage, investigation and experience with larger conspiracies.","number":23,"id":"battle-23","heroAssignments":[{"id":"daredevil","repeat":false},{"id":"spider-woman","repeat":true}]}],"id":"the-hood"},{"campaign":"Sinister Motives","note":"Revised for variety: New York, street-level, tech and Spider-adjacent heroes; no cosmic outsiders; no hero repeats inside this campaign.","scenarios":[{"title":"Sandman","villains":["sandman"],"heroes":["she-hulk","tigra"],"context":"Two grounded New York heroes respond to a city-scale physical disaster. Jen supplies brute strength while Tigra provides speed, tracking and urban mobility.","number":24,"id":"battle-24","heroAssignments":[{"id":"she-hulk","repeat":true},{"id":"tigra","repeat":false}]},{"title":"Venom","villains":["venom-villain"],"heroes":["spider-man-peter","venom-hero"],"context":"Peter’s symbiote history is too important to ignore, while heroic Flash Thompson confronting a hostile Venom creates a strong mirror matchup.","number":25,"id":"battle-25","heroAssignments":[{"id":"spider-man-peter","repeat":true},{"id":"venom-hero","repeat":false}]},{"title":"Mysterio","villains":["mysterio"],"heroes":["doctor-strange","vision"],"context":"Strange determines whether anything apparently supernatural is real; Vision’s synthetic senses provide a believable defense against sensory illusions.","number":26,"id":"battle-26","heroAssignments":[{"id":"doctor-strange","repeat":true},{"id":"vision","repeat":true}]},{"title":"The Sinister Six","villains":["doctor-octopus","electro","hobgoblin","kraven","scorpion","vulture"],"heroes":["spider-man-miles","hawkeye"],"context":"Miles preserves the Spider legacy while Clint provides veteran urban tactics against six coordinated threats.","number":27,"id":"battle-27","heroAssignments":[{"id":"spider-man-miles","repeat":true},{"id":"hawkeye","repeat":true}]},{"title":"Venom Goblin","villains":["venom-goblin"],"heroes":["ghost-spider","spdr"],"context":"Gwen carries the Goblin connection and emotional stakes; Peni supplies specialized Spider technology against Norman’s symbiote-enhanced equipment.","number":28,"id":"battle-28","heroAssignments":[{"id":"ghost-spider","repeat":true},{"id":"spdr","repeat":false}]}],"id":"sinister-motives"},{"campaign":"MojoMania","scenarios":[{"title":"Magog","villains":["magog"],"heroes":["hulk","drax"],"context":"Both heroes are ideal contestants for an absurd televised gladiator match.","number":29,"id":"battle-29","heroAssignments":[{"id":"hulk","repeat":true},{"id":"drax","repeat":true}]},{"title":"Spiral","villains":["spiral"],"heroes":["psylocke","deadpool"],"context":"Psylocke has direct mutant-world connections to Spiral, while Deadpool belongs naturally in Mojoworld’s chaotic entertainment format.","number":30,"id":"battle-30","heroAssignments":[{"id":"psylocke","repeat":false},{"id":"deadpool","repeat":false}]},{"title":"Mojo","villains":["mojo"],"heroes":["spider-ham","deadpool"],"context":"Two fourth-wall-breaking heroes fight a villain obsessed with ratings, audience reactions and narrative nonsense.","number":31,"id":"battle-31","heroAssignments":[{"id":"spider-ham","repeat":false},{"id":"deadpool","repeat":true}]}],"id":"mojomania"},{"campaign":"Mutant Genesis","scenarios":[{"title":"Sabretooth","villains":["sabretooth"],"heroes":["wolverine","rogue"],"context":"Logan is Sabretooth’s defining rival, while Rogue fits the Brotherhood-era conflict and mission to protect Senator Kelly.","number":32,"id":"battle-32","heroAssignments":[{"id":"wolverine","repeat":false},{"id":"rogue","repeat":false}]},{"title":"Project Wideawake","villains":["sentinel"],"heroes":["bishop","jubilee"],"context":"Bishop represents the Sentinel-controlled future, while Jubilee represents the young mutants being hunted in the present.","number":33,"id":"battle-33","heroAssignments":[{"id":"bishop","repeat":false},{"id":"jubilee","repeat":false}]},{"title":"Master Mold","villains":["master-mold"],"heroes":["cyclops","shadowcat"],"context":"Scott leads the tactical assault while Kitty phases through Sentinel defenses and machinery.","number":34,"id":"battle-34","heroAssignments":[{"id":"cyclops","repeat":false},{"id":"shadowcat","repeat":false}]},{"title":"Mansion Attack","villains":["avalanche","blob","pyro","toad"],"heroes":["storm","colossus"],"context":"Two classic X-Men defend their home and students from the Brotherhood.","number":35,"id":"battle-35","heroAssignments":[{"id":"storm","repeat":true},{"id":"colossus","repeat":false}]},{"title":"Magneto","villains":["magneto-villain"],"heroes":["cyclops","magneto-hero"],"context":"Scott confronts the opposing mutant leader while heroic Magneto creates a direct ideological mirror match.","number":36,"id":"battle-36","heroAssignments":[{"id":"cyclops","repeat":true},{"id":"magneto-hero","repeat":false}]}],"id":"mutant-genesis"},{"campaign":"NeXt Evolution","scenarios":[{"title":"Morlock Siege — The Marauders","villains":["arclight","blockbuster","chimera","greycrow","harpoon","riptide","vertigo"],"heroes":["storm","nightcrawler"],"context":"Storm’s leadership of the Morlocks makes her essential, while Kurt embodies the compassion at the center of their defense.","number":37,"id":"battle-37","heroAssignments":[{"id":"storm","repeat":true},{"id":"nightcrawler","repeat":false}]},{"title":"On the Run — The Marauders","villains":["arclight","blockbuster","chimera","greycrow","harpoon","riptide","vertigo"],"heroes":["x-23","wolverine"],"context":"The most natural pair for surviving a violent mutant manhunt and turning it against the hunters.","number":38,"id":"battle-38","heroAssignments":[{"id":"x-23","repeat":false},{"id":"wolverine","repeat":true}]},{"title":"Juggernaut","villains":["juggernaut"],"heroes":["colossus","iceman"],"context":"Colossus provides the iconic powerhouse collision while Bobby supplies battlefield control capable of slowing Cain down.","number":39,"id":"battle-39","heroAssignments":[{"id":"colossus","repeat":true},{"id":"iceman","repeat":false}]},{"title":"Mister Sinister","villains":["mister-sinister"],"heroes":["cable","gambit"],"context":"Cable is tied to Sinister’s obsession with the Summers bloodline; Gambit has personal history with Sinister and the Marauders.","number":40,"id":"battle-40","heroAssignments":[{"id":"cable","repeat":false},{"id":"gambit","repeat":false}]},{"title":"Stryfe","villains":["stryfe"],"heroes":["cable","domino"],"context":"Cable faces his clone and defining enemy, backed by his most dependable X-Force partner.","number":41,"id":"battle-41","heroAssignments":[{"id":"cable","repeat":true},{"id":"domino","repeat":false}]}],"id":"next-evolution"},{"campaign":"The Age of Apocalypse","scenarios":[{"title":"Unus","villains":["unus"],"heroes":["bishop","iceman"],"context":"Two resistance-ready X-Men oppose a Brotherhood-linked enforcer in Apocalypse’s altered world.","number":42,"id":"battle-42","heroAssignments":[{"id":"bishop","repeat":true},{"id":"iceman","repeat":true}]},{"title":"The Four Horsemen","villains":["horseman-war","horseman-famine","horseman-pestilence","horseman-death"],"heroes":["angel","psylocke"],"context":"Warren’s transformation into Archangel makes him mandatory; Betsy understands both him and Apocalypse’s psychological damage.","number":43,"id":"battle-43","heroAssignments":[{"id":"angel","repeat":false},{"id":"psylocke","repeat":true}]},{"title":"Apocalypse","villains":["apocalypse"],"heroes":["magik","nightcrawler"],"context":"Two teleporting and spiritually resilient X-Men attempt to break Apocalypse’s control over the world.","number":44,"id":"battle-44","heroAssignments":[{"id":"magik","repeat":false},{"id":"nightcrawler","repeat":true}]},{"title":"Dark Beast","villains":["dark-beast"],"heroes":["phoenix","x-23"],"context":"Jean counters his psychological and genetic experimentation while Laura has every reason to destroy someone who treats mutants as laboratory material.","number":45,"id":"battle-45","heroAssignments":[{"id":"phoenix","repeat":false},{"id":"x-23","repeat":true}]},{"title":"En Sabah Nur","villains":["en-sabah-nur"],"heroes":["magneto-hero","rogue"],"context":"Both have major stakes in the Age of Apocalypse reality and its mutant resistance.","number":46,"id":"battle-46","heroAssignments":[{"id":"magneto-hero","repeat":true},{"id":"rogue","repeat":true}]}],"id":"the-age-of-apocalypse"},{"campaign":"Agents of S.H.I.E.L.D.","note":"Luke Cage and Jessica Jones become eligible after this campaign in the planned play sequence.","scenarios":[{"title":"Black Widow — Yelena Belova","villains":["black-widow-yelena"],"heroes":["black-widow","winter-soldier"],"context":"Natasha faces her Red Room counterpart, with Bucky completing the team of damaged former super-spies.","number":47,"id":"battle-47","heroAssignments":[{"id":"black-widow","repeat":true},{"id":"winter-soldier","repeat":true}]},{"title":"Batroc","villains":["batroc"],"heroes":["falcon","nick-fury"],"context":"Sam brings the Captain America-world connection while Fury manages the infiltration and intelligence operation.","number":48,"id":"battle-48","heroAssignments":[{"id":"falcon","repeat":true},{"id":"nick-fury","repeat":false}]},{"title":"M.O.D.O.K.","villains":["modok"],"heroes":["ironheart","ms-marvel"],"context":"Two young heroes confront A.I.M.’s weaponized science, with Riri supplying the technical answer and Kamala the adaptable field response.","number":49,"id":"battle-49","heroAssignments":[{"id":"ironheart","repeat":true},{"id":"ms-marvel","repeat":false}]},{"title":"Thunderbolts — Citizen V","villains":["citizen-v","atlas","mach-x","meteorite","songbird","techno"],"heroes":["hawkeye","wonder-man"],"context":"Clint has extensive Thunderbolts history, while Simon represents the Avengers side of the team’s false-hero identity.","number":50,"id":"battle-50","heroAssignments":[{"id":"hawkeye","repeat":true},{"id":"wonder-man","repeat":false}]},{"title":"Baron Zemo","villains":["baron-zemo"],"heroes":["captain-america","maria-hill"],"context":"Steve confronts his historic enemy while Hill exposes and dismantles Zemo’s infiltration of S.H.I.E.L.D.","number":51,"id":"battle-51","heroAssignments":[{"id":"captain-america","repeat":true},{"id":"maria-hill","repeat":false}]}],"id":"agents-of-s-h-i-e-l-d"},{"campaign":"Trickster Takeover","scenarios":[{"title":"Enchantress","villains":["enchantress"],"heroes":["valkyrie","scarlet-witch"],"context":"Valkyrie handles the Asgardian threat while Wanda provides the magical strength needed to resist Amora’s enchantments.","number":52,"id":"battle-52","heroAssignments":[{"id":"valkyrie","repeat":true},{"id":"scarlet-witch","repeat":true}]},{"title":"Loki, God of Lies","villains":["loki-god-of-lies"],"heroes":["thor","hulkling"],"context":"Thor faces his brother once more, while Hulkling brings Young Avengers experience with identity manipulation and reality-scale deception.","number":53,"id":"battle-53","heroAssignments":[{"id":"thor","repeat":true},{"id":"hulkling","repeat":true}]}],"id":"trickster-takeover"},{"campaign":"Civil War","note":"These are opposing hero-leader scenarios rather than conventional villains.","scenarios":[{"title":"Iron Man — Registration","villains":["iron-man-leader"],"heroes":["captain-america","spider-woman"],"context":"Steve is Tony’s defining ideological opponent, while Jessica contributes covert resistance skills and divided loyalties.","number":54,"id":"battle-54","heroAssignments":[{"id":"captain-america","repeat":true},{"id":"spider-woman","repeat":true}]},{"title":"Captain Marvel — Registration","villains":["captain-marvel-leader"],"heroes":["ms-marvel","rogue"],"context":"Kamala must challenge her idol while Rogue and Carol bring decades of painful personal history.","number":55,"id":"battle-55","heroAssignments":[{"id":"ms-marvel","repeat":true},{"id":"rogue","repeat":true}]},{"title":"Captain America — Resistance","villains":["captain-america-leader"],"heroes":["iron-man","black-widow"],"context":"Tony is the obvious opposing leader, while Natasha embodies the conflict’s shifting loyalties and moral uncertainty.","number":56,"id":"battle-56","heroAssignments":[{"id":"iron-man","repeat":true},{"id":"black-widow","repeat":true}]},{"title":"Spider-Woman — Resistance","villains":["spider-woman-leader"],"heroes":["captain-marvel","hawkeye"],"context":"Carol is Jessica’s closest major heroic relationship, while Clint offers the grounded Avengers perspective.","number":57,"id":"battle-57","heroAssignments":[{"id":"captain-marvel","repeat":true},{"id":"hawkeye","repeat":true}]}],"id":"civil-war"},{"campaign":"Synthezoid Smackdown","note":"Customizable opposing leader scenarios.","scenarios":[{"title":"She-Hulk — Registration","villains":["she-hulk-leader"],"heroes":["daredevil","tigra"],"context":"Matt can oppose Jen through both legal philosophy and combat, while Tigra is a longtime Avenger peer who can survive the physical confrontation.","number":58,"id":"battle-58","heroAssignments":[{"id":"daredevil","repeat":true},{"id":"tigra","repeat":true}]},{"title":"Vision — Resistance","villains":["vision-leader"],"heroes":["scarlet-witch","quicksilver"],"context":"Wanda is Vision’s defining relationship, while Pietro is the protective brother who has never been entirely comfortable with him.","number":59,"id":"battle-59","heroAssignments":[{"id":"scarlet-witch","repeat":true},{"id":"quicksilver","repeat":false}]}],"id":"synthezoid-smackdown"},{"campaign":"Fear No Evil","scenarios":[{"title":"Bullseye","villains":["bullseye"],"heroes":["daredevil","echo"],"context":"Bullseye is Matt’s definitive assassin enemy, while Echo can match his precision and has her own history within Kingpin’s world.","number":60,"id":"battle-60","heroAssignments":[{"id":"daredevil","repeat":true},{"id":"echo","repeat":false}]},{"title":"Electro","villains":["electro-fne"],"heroes":["spider-man-peter","silk"],"context":"Two New York web-warriors confront one of Spider-Man’s foundational villains.","number":61,"id":"battle-61","heroAssignments":[{"id":"spider-man-peter","repeat":true},{"id":"silk","repeat":false}]},{"title":"Hammerhead","villains":["hammerhead"],"heroes":["luke-cage","tigra"],"context":"Luke protects New York neighborhoods from organized crime, while Tigra brings street-level investigation and enough strength for a Maggia war.","number":62,"id":"battle-62","heroAssignments":[{"id":"luke-cage","repeat":false},{"id":"tigra","repeat":true}]},{"title":"Purple Man","villains":["purple-man"],"heroes":["jessica-jones","daredevil"],"context":"Jessica is mandatory because Killgrave is the central source of her trauma; Matt adds another Defender familiar with his methods.","number":63,"id":"battle-63","heroAssignments":[{"id":"jessica-jones","repeat":false},{"id":"daredevil","repeat":true}]},{"title":"Typhoid Mary","villains":["typhoid-mary"],"heroes":["daredevil","deadpool"],"context":"Mary is one of Matt’s most personal enemies and also has substantial history with Deadpool.","number":64,"id":"battle-64","heroAssignments":[{"id":"daredevil","repeat":true},{"id":"deadpool","repeat":true}]},{"title":"Kingpin","villains":["kingpin"],"heroes":["daredevil","luke-cage"],"context":"Matt is non-negotiable, while Luke completes the Defenders-style pairing against Fisk’s control of New York.","number":65,"id":"battle-65","heroAssignments":[{"id":"daredevil","repeat":true},{"id":"luke-cage","repeat":true}]}],"id":"fear-no-evil"}],"characters":{"spider-man-peter":{"display":"Spider-Man (Peter Parker)","role":"hero","aliases":["Spider-Man"],"hints":["Peter Parker","Core Set"]},"she-hulk":{"display":"She-Hulk","role":"hero","aliases":["She-Hulk"],"hints":["Jennifer Walters"]},"black-panther-tchalla":{"display":"Black Panther (T’Challa)","role":"hero","aliases":["Black Panther"],"hints":["T’Challa","TChalla","Core Set"]},"black-panther-shuri":{"display":"Black Panther (Shuri)","role":"hero","aliases":["Black Panther"],"hints":["Shuri"]},"ant-man":{"display":"Ant-Man","role":"hero","aliases":["Ant-Man"],"hints":["Scott Lang"]},"wasp":{"display":"Wasp","role":"hero","aliases":["Wasp"],"hints":["Nadia Van Dyne"]},"ghost-spider":{"display":"Ghost-Spider","role":"hero","aliases":["Ghost-Spider"],"hints":["Gwen Stacy"]},"spider-woman":{"display":"Spider-Woman","role":"hero","aliases":["Spider-Woman"],"hints":["Jessica Drew"]},"spider-man-miles":{"display":"Spider-Man (Miles Morales)","role":"hero","aliases":["Spider-Man"],"hints":["Miles Morales","Sinister Motives"]},"thor":{"display":"Thor","role":"hero","aliases":["Thor"],"hints":["Odinson"]},"hercules":{"display":"Hercules","role":"hero","aliases":["Hercules"],"hints":[]},"hulkling":{"display":"Hulkling","role":"hero","aliases":["Hulkling"],"hints":["Teddy Altman"]},"iron-man":{"display":"Iron Man","role":"hero","aliases":["Iron Man"],"hints":["Tony Stark"]},"captain-america":{"display":"Captain America","role":"hero","aliases":["Captain America"],"hints":["Steve Rogers"]},"winter-soldier":{"display":"Winter Soldier","role":"hero","aliases":["Winter Soldier"],"hints":["Bucky Barnes"]},"hulk":{"display":"Hulk","role":"hero","aliases":["Hulk"],"hints":["Bruce Banner"]},"black-widow":{"display":"Black Widow","role":"hero","aliases":["Black Widow"],"hints":["Natasha Romanoff"]},"hawkeye":{"display":"Hawkeye","role":"hero","aliases":["Hawkeye"],"hints":["Clint Barton"]},"vision":{"display":"Vision","role":"hero","aliases":["Vision"],"hints":["Victor Shade"]},"war-machine":{"display":"War Machine","role":"hero","aliases":["War Machine"],"hints":["James Rhodes","Rhodey"]},"falcon":{"display":"Falcon","role":"hero","aliases":["Falcon"],"hints":["Sam Wilson"]},"captain-marvel":{"display":"Captain Marvel","role":"hero","aliases":["Captain Marvel"],"hints":["Carol Danvers"]},"spectrum":{"display":"Spectrum","role":"hero","aliases":["Spectrum"],"hints":["Monica Rambeau"]},"rocket-raccoon":{"display":"Rocket Raccoon","role":"hero","aliases":["Rocket Raccoon"],"hints":["Rocket"]},"groot":{"display":"Groot","role":"hero","aliases":["Groot"],"hints":[]},"star-lord":{"display":"Star-Lord","role":"hero","aliases":["Star-Lord"],"hints":["Peter Quill"]},"gamora":{"display":"Gamora","role":"hero","aliases":["Gamora"],"hints":[]},"nebula-hero":{"display":"Nebula","role":"hero","aliases":["Nebula"],"hints":["Hero"]},"drax":{"display":"Drax","role":"hero","aliases":["Drax"],"hints":[]},"nova":{"display":"Nova","role":"hero","aliases":["Nova"],"hints":["Sam Alexander"]},"doctor-strange":{"display":"Doctor Strange","role":"hero","aliases":["Doctor Strange"],"hints":["Stephen Strange"]},"scarlet-witch":{"display":"Scarlet Witch","role":"hero","aliases":["Scarlet Witch"],"hints":["Wanda Maximoff"]},"adam-warlock":{"display":"Adam Warlock","role":"hero","aliases":["Adam Warlock"],"hints":[]},"valkyrie":{"display":"Valkyrie","role":"hero","aliases":["Valkyrie"],"hints":["Brunnhilde"]},"daredevil":{"display":"Daredevil","role":"hero","aliases":["Daredevil"],"hints":["Matt Murdock"]},"tigra":{"display":"Tigra","role":"hero","aliases":["Tigra"],"hints":["Greer Nelson"]},"venom-hero":{"display":"Venom","role":"hero","aliases":["Venom"],"hints":["Flash Thompson","Hero"]},"spdr":{"display":"SP//dr","role":"hero","aliases":["SP//dr","SP//DR"],"hints":["Peni Parker"]},"psylocke":{"display":"Psylocke","role":"hero","aliases":["Psylocke"],"hints":["Betsy Braddock"]},"deadpool":{"display":"Deadpool","role":"hero","aliases":["Deadpool"],"hints":["Wade Wilson"]},"spider-ham":{"display":"Spider-Ham","role":"hero","aliases":["Spider-Ham"],"hints":["Peter Porker"]},"wolverine":{"display":"Wolverine","role":"hero","aliases":["Wolverine"],"hints":["Logan"]},"rogue":{"display":"Rogue","role":"hero","aliases":["Rogue"],"hints":["Anna Marie"]},"bishop":{"display":"Bishop","role":"hero","aliases":["Bishop"],"hints":["Lucas Bishop"]},"jubilee":{"display":"Jubilee","role":"hero","aliases":["Jubilee"],"hints":["Jubilation Lee"]},"cyclops":{"display":"Cyclops","role":"hero","aliases":["Cyclops"],"hints":["Scott Summers"]},"shadowcat":{"display":"Shadowcat","role":"hero","aliases":["Shadowcat"],"hints":["Kitty Pryde"]},"storm":{"display":"Storm","role":"hero","aliases":["Storm"],"hints":["Ororo Munroe"]},"colossus":{"display":"Colossus","role":"hero","aliases":["Colossus"],"hints":["Piotr Rasputin"]},"magneto-hero":{"display":"Magneto","role":"hero","aliases":["Magneto"],"hints":["Erik Lehnsherr","Hero"]},"nightcrawler":{"display":"Nightcrawler","role":"hero","aliases":["Nightcrawler"],"hints":["Kurt Wagner"]},"x-23":{"display":"X-23","role":"hero","aliases":["X-23"],"hints":["Laura Kinney"]},"iceman":{"display":"Iceman","role":"hero","aliases":["Iceman"],"hints":["Bobby Drake"]},"cable":{"display":"Cable","role":"hero","aliases":["Cable"],"hints":["Nathan Summers"]},"gambit":{"display":"Gambit","role":"hero","aliases":["Gambit"],"hints":["Remy LeBeau"]},"domino":{"display":"Domino","role":"hero","aliases":["Domino"],"hints":["Neena Thurman"]},"angel":{"display":"Angel","role":"hero","aliases":["Angel"],"hints":["Warren Worthington"]},"magik":{"display":"Magik","role":"hero","aliases":["Magik"],"hints":["Illyana Rasputin"]},"phoenix":{"display":"Phoenix","role":"hero","aliases":["Phoenix"],"hints":["Jean Grey"]},"nick-fury":{"display":"Nick Fury","role":"hero","aliases":["Nick Fury"],"hints":[]},"ironheart":{"display":"Ironheart","role":"hero","aliases":["Ironheart"],"hints":["Riri Williams"]},"ms-marvel":{"display":"Ms. Marvel","role":"hero","aliases":["Ms. Marvel"],"hints":["Kamala Khan"]},"wonder-man":{"display":"Wonder Man","role":"hero","aliases":["Wonder Man"],"hints":["Simon Williams"]},"maria-hill":{"display":"Maria Hill","role":"hero","aliases":["Maria Hill"],"hints":[]},"quicksilver":{"display":"Quicksilver","role":"hero","aliases":["Quicksilver"],"hints":["Pietro Maximoff"]},"echo":{"display":"Echo","role":"hero","aliases":["Echo"],"hints":["Maya Lopez"]},"silk":{"display":"Silk","role":"hero","aliases":["Silk"],"hints":["Cindy Moon"]},"luke-cage":{"display":"Luke Cage","role":"hero","aliases":["Luke Cage"],"hints":["Carl Lucas"]},"jessica-jones":{"display":"Jessica Jones","role":"hero","aliases":["Jessica Jones"],"hints":[]},"rhino":{"display":"Rhino","role":"villain","aliases":["Rhino"],"hints":[]},"klaw":{"display":"Klaw","role":"villain","aliases":["Klaw"],"hints":[]},"ultron":{"display":"Ultron","role":"villain","aliases":["Ultron"],"hints":[]},"norman-osborn":{"display":"Norman Osborn","role":"villain","aliases":["Norman Osborn"],"hints":[]},"green-goblin":{"display":"Green Goblin","role":"villain","aliases":["Green Goblin"],"hints":[]},"wrecker":{"display":"Wrecker","role":"villain","aliases":["Wrecker"],"hints":[]},"piledriver":{"display":"Piledriver","role":"villain","aliases":["Piledriver"],"hints":[]},"bulldozer":{"display":"Bulldozer","role":"villain","aliases":["Bulldozer"],"hints":[]},"thunderball":{"display":"Thunderball","role":"villain","aliases":["Thunderball"],"hints":[]},"kang":{"display":"Kang","role":"villain","aliases":["Kang"],"hints":[]},"crossbones":{"display":"Crossbones","role":"villain","aliases":["Crossbones"],"hints":[]},"absorbing-man":{"display":"Absorbing Man","role":"villain","aliases":["Absorbing Man"],"hints":[]},"taskmaster":{"display":"Taskmaster","role":"villain","aliases":["Taskmaster"],"hints":[]},"zola":{"display":"Zola","role":"villain","aliases":["Zola"],"hints":[]},"red-skull":{"display":"Red Skull","role":"villain","aliases":["Red Skull"],"hints":[]},"drang":{"display":"Drang","role":"villain","aliases":["Drang"],"hints":[]},"collector":{"display":"The Collector","role":"villain","aliases":["The Collector","Collector"],"hints":[]},"nebula-villain":{"display":"Nebula","role":"villain","aliases":["Nebula"],"hints":["Villain"]},"ronan":{"display":"Ronan the Accuser","role":"villain","aliases":["Ronan the Accuser"],"hints":[]},"ebony-maw":{"display":"Ebony Maw","role":"villain","aliases":["Ebony Maw"],"hints":[]},"corvus-glaive":{"display":"Corvus Glaive","role":"villain","aliases":["Corvus Glaive"],"hints":[]},"proxima-midnight":{"display":"Proxima Midnight","role":"villain","aliases":["Proxima Midnight"],"hints":[]},"thanos":{"display":"Thanos","role":"villain","aliases":["Thanos"],"hints":[]},"hela":{"display":"Hela","role":"villain","aliases":["Hela"],"hints":[]},"loki":{"display":"Loki","role":"villain","aliases":["Loki"],"hints":[]},"the-hood":{"display":"The Hood","role":"villain","aliases":["The Hood"],"hints":[]},"sandman":{"display":"Sandman","role":"villain","aliases":["Sandman"],"hints":[]},"venom-villain":{"display":"Venom","role":"villain","aliases":["Venom"],"hints":["Villain","Sinister Motives"]},"mysterio":{"display":"Mysterio","role":"villain","aliases":["Mysterio"],"hints":[]},"doctor-octopus":{"display":"Doctor Octopus","role":"villain","aliases":["Doctor Octopus"],"hints":[]},"electro":{"display":"Electro","role":"villain","aliases":["Electro"],"hints":[]},"hobgoblin":{"display":"Hobgoblin","role":"villain","aliases":["Hobgoblin"],"hints":[]},"kraven":{"display":"Kraven the Hunter","role":"villain","aliases":["Kraven the Hunter"],"hints":[]},"scorpion":{"display":"Scorpion","role":"villain","aliases":["Scorpion"],"hints":[]},"vulture":{"display":"Vulture","role":"villain","aliases":["Vulture"],"hints":[]},"venom-goblin":{"display":"Venom Goblin","role":"villain","aliases":["Venom Goblin"],"hints":[]},"magog":{"display":"Magog","role":"villain","aliases":["Magog"],"hints":[]},"spiral":{"display":"Spiral","role":"villain","aliases":["Spiral"],"hints":[]},"mojo":{"display":"Mojo","role":"villain","aliases":["Mojo"],"hints":[]},"sabretooth":{"display":"Sabretooth","role":"villain","aliases":["Sabretooth"],"hints":[]},"sentinel":{"display":"Sentinel","role":"villain","aliases":["Sentinel"],"hints":[]},"master-mold":{"display":"Master Mold","role":"villain","aliases":["Master Mold"],"hints":[]},"avalanche":{"display":"Avalanche","role":"villain","aliases":["Avalanche"],"hints":[]},"blob":{"display":"Blob","role":"villain","aliases":["Blob"],"hints":[]},"pyro":{"display":"Pyro","role":"villain","aliases":["Pyro"],"hints":[]},"toad":{"display":"Toad","role":"villain","aliases":["Toad"],"hints":[]},"magneto-villain":{"display":"Magneto","role":"villain","aliases":["Magneto"],"hints":["Villain","Mutant Genesis"]},"arclight":{"display":"Arclight","role":"villain","aliases":["Arclight"],"hints":[]},"blockbuster":{"display":"Blockbuster","role":"villain","aliases":["Blockbuster"],"hints":[]},"chimera":{"display":"Chimera","role":"villain","aliases":["Chimera"],"hints":[]},"greycrow":{"display":"Greycrow","role":"villain","aliases":["Greycrow","Scalphunter"],"hints":[]},"harpoon":{"display":"Harpoon","role":"villain","aliases":["Harpoon"],"hints":[]},"riptide":{"display":"Riptide","role":"villain","aliases":["Riptide"],"hints":[]},"vertigo":{"display":"Vertigo","role":"villain","aliases":["Vertigo"],"hints":[]},"juggernaut":{"display":"Juggernaut","role":"villain","aliases":["Juggernaut"],"hints":[]},"mister-sinister":{"display":"Mister Sinister","role":"villain","aliases":["Mister Sinister"],"hints":[]},"stryfe":{"display":"Stryfe","role":"villain","aliases":["Stryfe"],"hints":[]},"unus":{"display":"Unus","role":"villain","aliases":["Unus"],"hints":[]},"horseman-war":{"display":"War","role":"villain","aliases":["War","The Horseman of War"],"hints":[]},"horseman-famine":{"display":"Famine","role":"villain","aliases":["Famine","The Horseman of Famine"],"hints":[]},"horseman-pestilence":{"display":"Pestilence","role":"villain","aliases":["Pestilence","The Horseman of Pestilence"],"hints":[]},"horseman-death":{"display":"Death","role":"villain","aliases":["Death","The Horseman of Death"],"hints":[]},"apocalypse":{"display":"Apocalypse","role":"villain","aliases":["Apocalypse"],"hints":[]},"dark-beast":{"display":"Dark Beast","role":"villain","aliases":["Dark Beast"],"hints":[]},"en-sabah-nur":{"display":"En Sabah Nur","role":"villain","aliases":["En Sabah Nur"],"hints":[]},"black-widow-yelena":{"display":"Black Widow","role":"villain","aliases":["Black Widow"],"hints":["Yelena Belova","Villain"]},"batroc":{"display":"Batroc","role":"villain","aliases":["Batroc"],"hints":[]},"modok":{"display":"M.O.D.O.K.","role":"villain","aliases":["M.O.D.O.K."],"hints":[]},"citizen-v":{"display":"Citizen V","role":"villain","aliases":["Citizen V"],"hints":[]},"atlas":{"display":"Atlas","role":"villain","aliases":["Atlas"],"hints":[]},"mach-x":{"display":"MACH-X","role":"villain","aliases":["MACH-X","MACH-I","MACH-1"],"hints":[]},"meteorite":{"display":"Meteorite","role":"villain","aliases":["Meteorite"],"hints":[]},"songbird":{"display":"Songbird","role":"villain","aliases":["Songbird"],"hints":[]},"techno":{"display":"Techno","role":"villain","aliases":["Techno"],"hints":[]},"baron-zemo":{"display":"Baron Zemo","role":"villain","aliases":["Baron Zemo"],"hints":[]},"enchantress":{"display":"Enchantress","role":"villain","aliases":["Enchantress"],"hints":[]},"loki-god-of-lies":{"display":"Loki","role":"villain","aliases":["Loki"],"hints":["Trickster Takeover","God of Lies"]},"iron-man-leader":{"display":"Iron Man","role":"villain","aliases":["Iron Man"],"hints":["Civil War","Synthezoid Smackdown","Villain"]},"captain-marvel-leader":{"display":"Captain Marvel","role":"villain","aliases":["Captain Marvel"],"hints":["Civil War","Synthezoid Smackdown","Villain"]},"captain-america-leader":{"display":"Captain America","role":"villain","aliases":["Captain America"],"hints":["Civil War","Synthezoid Smackdown","Villain"]},"spider-woman-leader":{"display":"Spider-Woman","role":"villain","aliases":["Spider-Woman"],"hints":["Civil War","Synthezoid Smackdown","Villain"]},"she-hulk-leader":{"display":"She-Hulk","role":"villain","aliases":["She-Hulk"],"hints":["Civil War","Synthezoid Smackdown","Villain"]},"vision-leader":{"display":"Vision","role":"villain","aliases":["Vision"],"hints":["Civil War","Synthezoid Smackdown","Villain"]},"bullseye":{"display":"Bullseye","role":"villain","aliases":["Bullseye"],"hints":[]},"electro-fne":{"display":"Electro","role":"villain","aliases":["Electro"],"hints":["Fear No Evil"]},"hammerhead":{"display":"Hammerhead","role":"villain","aliases":["Hammerhead"],"hints":[]},"purple-man":{"display":"Purple Man","role":"villain","aliases":["Purple Man"],"hints":[]},"typhoid-mary":{"display":"Typhoid Mary","role":"villain","aliases":["Typhoid Mary"],"hints":[]},"kingpin":{"display":"Kingpin","role":"villain","aliases":["Kingpin"],"hints":[]}},"sources":[{"label":"Fantasy Flight Games — Marvel Champions product line","url":"https://www.fantasyflightgames.com/en/products/marvel-champions-the-card-game/"},{"label":"MarvelCDB public API and card images","url":"https://marvelcdb.com/api/"},{"label":"Hall of Heroes card database and release index","url":"https://hallofheroeslcg.com/browse/"}]};
 const MARVELCDB_DECKS={
-'adam-warlock':'https://marvelcdb.com/decklist/view/13922/wild-tutor-adam-warlock-1.0',
-'angel':'https://marvelcdb.com/decklist/view/64353/angel-3.0',
-'ant-man':'https://marvelcdb.com/decklist/view/63449/the-king-of-ping-damage-competitive-coop-modes-1.0',
-'bishop':'https://marvelcdb.com/decklist/view/58036/daring-lime-s-on-call-1.0',
-'black-panther-shuri':'https://marvelcdb.com/decklist/view/64220/float-like-an-elephant-1.0',
-'black-panther-tchalla':'https://marvelcdb.com/decklist/view/64222/wakandan-firepower-1.0',
-'black-widow':'https://marvelcdb.com/decklist/view/10156/playing-poker-with-natasha-romanoff-1.0',
-'cable':'https://marvelcdb.com/decklist/view/64404/cable-1.0',
-'captain-america':'https://marvelcdb.com/decklist/view/482/stun-lock-3-0-captain-america-protection-may-21-1.0',
-'captain-marvel':'https://marvelcdb.com/decklist/view/64385/prohibido-el-uso-de-drones-en-este-espacio-aereo-1.0',
-'colossus':'https://marvelcdb.com/decklist/view/64421/colossus-3.0',
-'cyclops':'https://marvelcdb.com/decklist/view/63323/smoke-and-a-pancake-1.0',
-'daredevil':'https://marvelcdb.com/decklist/view/63988/the-defense-rests-your-honor-1.0',
-'deadpool':'https://marvelcdb.com/decklist/view/64091/guess-who-remembered-their-ammo-bag-1.0',
-'doctor-strange':'https://marvelcdb.com/decklist/view/1771/doctor-strange-tough-enough-heroic-ally-swarm-1.0',
-'domino':'https://marvelcdb.com/decklist/view/61159/domino-must-have-infinite-combo-patreon-1.0',
-'drax':'https://marvelcdb.com/decklist/view/49904/drax-mantis-buddy-cops-coh-25-and-beyond-1.0',
-'echo':'https://marvelcdb.com/decklist/view/64354/echo-s-a-brute-1.0',
-'falcon':'https://marvelcdb.com/decklist/view/51247/infinite-wind-power-1.0',
-'gambit':'https://marvelcdb.com/decklist/view/64322/ragin-cajun-ronin-1.0',
-'gamora':'https://marvelcdb.com/decklist/view/64396/gamora-active-2.0',
-'ghost-spider':'https://marvelcdb.com/decklist/view/64429/ghost-spider-alone-v2-1.0',
-'groot':'https://marvelcdb.com/decklist/view/63921/make-america-groot-again-1.0',
-'hawkeye':'https://marvelcdb.com/decklist/view/63913/the-best-offense-leading-blow-1.0',
-'hercules':'https://marvelcdb.com/decklist/view/63267/daring-lime-s-divine-reckoning-1.0',
-'hulk':'https://marvelcdb.com/decklist/view/63942/mr-fixit-1.0',
-'hulkling':'https://marvelcdb.com/decklist/view/64424/hulkling-1.0',
-'iceman':'https://marvelcdb.com/decklist/view/52908/s-tier-iceman-1.0',
-'ironheart':'https://marvelcdb.com/decklist/view/19353/tony-starks-a-i-ronheart-turbo-deck-1.0',
-'iron-man':'https://marvelcdb.com/decklist/view/21035/iron-man-perfected-2-0-2.0',
-'jubilee':'https://marvelcdb.com/decklist/view/64206/jubilee-one-woman-army-1.0',
-'magik':'https://marvelcdb.com/decklist/view/61745/magik-queen-of-limbo-expert-and-versatile-1.0',
-'magneto-hero':'https://marvelcdb.com/decklist/view/63825/savage-magnus-1.0',
-'maria-hill':'https://marvelcdb.com/decklist/view/64390/shield-literally-goes-cloak-and-dagger-1.0',
-'ms-marvel':'https://marvelcdb.com/decklist/view/64367/play-her-events-in-the-villain-phase-1.0',
-'nebula-hero':'https://marvelcdb.com/decklist/view/55872/enter-the-matrix-1.0',
-'nick-fury':'https://marvelcdb.com/decklist/view/64417/shadow-operative-1.0',
-'nightcrawler':'https://marvelcdb.com/decklist/view/63918/nein-freund-1.0',
-'nova':'https://marvelcdb.com/decklist/view/62341/tell-me-about-your-father-1.0',
-'phoenix':'https://marvelcdb.com/decklist/view/23088/phoenix-and-the-danger-room-cerebro-thwarting-machine-2.0',
-'psylocke':'https://marvelcdb.com/decklist/view/64368/psylocke-ninja-1.0',
-'quicksilver':'https://marvelcdb.com/decklist/view/64397/always-be-ronin-redux-exp-magneto-venomgoblin-defeat-1.0',
-'rocket-raccoon':'https://marvelcdb.com/decklist/view/64373/rocket-raccoon-draft-1.0',
-'rogue':'https://marvelcdb.com/decklist/view/64203/rogue-shadow-adaptation-1.0',
-'scarlet-witch':'https://marvelcdb.com/decklist/view/7692/scarlet-witch-turbo-draw-and-build-heroic-clearing-1.0',
-'shadowcat':'https://marvelcdb.com/decklist/view/64156/an-untouchable-army-of-one-1.0',
-'she-hulk':'https://marvelcdb.com/decklist/view/543/draw-slam-3-0-she-hulk-leadership-march-21-1.0',
-'silk':'https://marvelcdb.com/decklist/view/64395/web-of-protection-threat-control-2.0',
-'spdr':'https://marvelcdb.com/decklist/view/64422/robot-ronin-1.0',
-'spectrum':'https://marvelcdb.com/decklist/view/13617/red-rambo-spectrum-1.0',
-'spider-ham':'https://marvelcdb.com/decklist/view/63650/go-pig-or-go-home-1.0',
-'spider-man-miles':'https://marvelcdb.com/decklist/view/64419/the-spider-s-h-i-e-l-d-1.0',
-'spider-man-peter':'https://marvelcdb.com/decklist/view/64276/aunt-may-said-knock-you-out-ex-venom-goblin-cleared-1.0',
-'spider-woman':'https://marvelcdb.com/decklist/view/63454/spider-woman-righteous-shield-1.0',
-'star-lord':'https://marvelcdb.com/decklist/view/63284/prison-uniform-1.0',
-'storm':'https://marvelcdb.com/decklist/view/24149/thunderstruck-1.0',
-'thor':'https://marvelcdb.com/decklist/view/2250/thor-we-were-swingin-1.0',
-'tigra':'https://marvelcdb.com/decklist/view/64083/paw-order-1.0',
-'valkyrie':'https://marvelcdb.com/decklist/view/62295/the-sword-and-the-psionic-helmet-valkyrie-solved-1.0',
-'venom-hero':'https://marvelcdb.com/decklist/view/64418/venom-2.0',
-'vision':'https://marvelcdb.com/decklist/view/16623/no-defending-energy-barrier-tank-updated-2.0',
-'war-machine':'https://marvelcdb.com/decklist/view/62896/war-machine-has-the-fire-power-1.0',
-'wasp':'https://marvelcdb.com/decklist/view/62732/slap-with-precision-1.0',
-'winter-soldier':'https://marvelcdb.com/decklist/view/64392/iconic-issue-devil-s-reign-winter-soldier-2022-1-1.0',
-'wolverine':'https://marvelcdb.com/decklist/view/63897/the-ronin-of-weapon-x-1.0',
-'wonder-man':'https://marvelcdb.com/decklist/view/64209/me-you-me-1.0',
-'x-23':'https://marvelcdb.com/decklist/view/64428/scratch-and-protect-for-solo-1.0'
+  "adam-warlock": {
+    "url": "https://marvelcdb.com/decklist/view/13922/wild-tutor-adam-warlock-1.0",
+    "likes": 1103,
+    "published": "2021-11-02",
+    "selection": "all-time"
+  },
+  "angel": {
+    "url": "https://marvelcdb.com/decklist/view/32096/on-a-wing-and-a-prayer-1.0",
+    "likes": 293,
+    "published": "2023-09-22",
+    "selection": "all-time"
+  },
+  "ant-man": {
+    "url": "https://marvelcdb.com/decklist/view/5063/x-con-security-consultants-ant-man-justice-v1-0-1.0",
+    "likes": 727,
+    "published": "2020-11-07",
+    "selection": "all-time"
+  },
+  "bishop": {
+    "url": "https://marvelcdb.com/decklist/view/37204/resource-tutor-1.0",
+    "likes": 369,
+    "published": "2024-03-31",
+    "selection": "all-time"
+  },
+  "black-panther-shuri": {
+    "url": "https://marvelcdb.com/decklist/view/49281/shuri-s-fury-repurpose-dora-milaje-1.0",
+    "likes": 213,
+    "published": "2025-04-26",
+    "selection": "all-time"
+  },
+  "black-panther-tchalla": {
+    "url": "https://marvelcdb.com/decklist/view/449/wakanda-forever-and-ever-and-ever-and-ever-an-1.0",
+    "likes": 816,
+    "published": "2020-01-19",
+    "selection": "all-time"
+  },
+  "black-widow": {
+    "url": "https://marvelcdb.com/decklist/view/10156/playing-poker-with-natasha-romanoff-1.0",
+    "likes": 1055,
+    "published": "2021-06-02",
+    "selection": "all-time"
+  },
+  "cable": {
+    "url": "https://marvelcdb.com/decklist/view/36270/i-love-spider-man-1.0",
+    "likes": 413,
+    "published": "2024-02-23",
+    "selection": "all-time"
+  },
+  "captain-america": {
+    "url": "https://marvelcdb.com/decklist/view/482/stun-lock-3-0-captain-america-protection-may-21-1.0",
+    "likes": 1963,
+    "published": "2020-01-26",
+    "selection": "all-time"
+  },
+  "captain-marvel": {
+    "url": "https://marvelcdb.com/decklist/view/577/further-faster-baby-2-0-capt-marvel-leadership-3.0",
+    "likes": 859,
+    "published": "2020-03-01",
+    "selection": "all-time"
+  },
+  "colossus": {
+    "url": "https://marvelcdb.com/decklist/view/40979/the-night-guard-we-ve-all-been-playing-colossus-wrong-1.0",
+    "likes": 385,
+    "published": "2024-08-03",
+    "selection": "all-time"
+  },
+  "cyclops": {
+    "url": "https://marvelcdb.com/decklist/view/24164/50-shades-of-x-men-1.0",
+    "likes": 632,
+    "published": "2022-11-15",
+    "selection": "all-time"
+  },
+  "daredevil": {
+    "url": "https://marvelcdb.com/decklist/view/63988/the-defense-rests-your-honor-1.0",
+    "likes": 58,
+    "published": "2026-07-25",
+    "selection": "recent"
+  },
+  "deadpool": {
+    "url": "https://marvelcdb.com/decklist/view/33532/resource-pool-1.0",
+    "likes": 373,
+    "published": "2023-11-18",
+    "selection": "all-time"
+  },
+  "doctor-strange": {
+    "url": "https://marvelcdb.com/decklist/view/1771/doctor-strange-tough-enough-heroic-ally-swarm-1.0",
+    "likes": 1733,
+    "published": "2020-07-03",
+    "selection": "all-time"
+  },
+  "domino": {
+    "url": "https://marvelcdb.com/decklist/view/31027/the-posse-hits-the-jackpot-1.0",
+    "likes": 288,
+    "published": "2023-08-19",
+    "selection": "all-time"
+  },
+  "drax": {
+    "url": "https://marvelcdb.com/decklist/view/10588/rise-from-the-slashes-1.0",
+    "likes": 456,
+    "published": "2021-06-19",
+    "selection": "all-time"
+  },
+  "echo": {
+    "url": "https://marvelcdb.com/decklist/view/63930/reverberations-1.0",
+    "likes": 48,
+    "published": "2026-07-24",
+    "selection": "recent"
+  },
+  "falcon": {
+    "url": "https://marvelcdb.com/decklist/view/51247/infinite-wind-power-1.0",
+    "likes": 195,
+    "published": "2025-06-23",
+    "selection": "all-time"
+  },
+  "gambit": {
+    "url": "https://marvelcdb.com/decklist/view/26314/5-card-stud-1.0",
+    "likes": 381,
+    "published": "2023-02-24",
+    "selection": "all-time"
+  },
+  "gamora": {
+    "url": "https://marvelcdb.com/decklist/view/9617/the-swift-sword-of-justice-1.0",
+    "likes": 680,
+    "published": "2021-05-14",
+    "selection": "all-time"
+  },
+  "ghost-spider": {
+    "url": "https://marvelcdb.com/decklist/view/18100/true-solo-expert-villains-normal-campaign-rules-cleared-1.0",
+    "likes": 550,
+    "published": "2022-04-09",
+    "selection": "all-time"
+  },
+  "groot": {
+    "url": "https://marvelcdb.com/decklist/view/8422/the-best-of-growth-worlds-1.0",
+    "likes": 599,
+    "published": "2021-04-03",
+    "selection": "all-time"
+  },
+  "hawkeye": {
+    "url": "https://marvelcdb.com/decklist/view/3277/the-hawk-s-nest-1-0-hawkeye-leadership-1.0",
+    "likes": 502,
+    "published": "2020-09-04",
+    "selection": "all-time"
+  },
+  "hercules": {
+    "url": "https://marvelcdb.com/decklist/view/60036/hercules-avenges-his-friends-expert-ronan-1.0",
+    "likes": 104,
+    "published": "2026-02-27",
+    "selection": "recent"
+  },
+  "hulk": {
+    "url": "https://marvelcdb.com/decklist/view/6252/build-a-hulk-solo-hulk-justice-undefeated-on-expert-1.0",
+    "likes": 753,
+    "published": "2021-01-08",
+    "selection": "all-time"
+  },
+  "hulkling": {
+    "url": "https://marvelcdb.com/decklist/view/55325/wiccan-is-the-new-moon-girl-expert-ronan-1.0",
+    "likes": 134,
+    "published": "2025-10-18",
+    "selection": "recent"
+  },
+  "iceman": {
+    "url": "https://marvelcdb.com/decklist/view/52908/s-tier-iceman-1.0",
+    "likes": 171,
+    "published": "2025-08-08",
+    "selection": "recent"
+  },
+  "ironheart": {
+    "url": "https://marvelcdb.com/decklist/view/19353/tony-starks-a-i-ronheart-turbo-deck-1.0",
+    "likes": 541,
+    "published": "2022-05-21",
+    "selection": "all-time"
+  },
+  "iron-man": {
+    "url": "https://marvelcdb.com/decklist/view/510/tech-nova-2-0-iron-man-protection-1.0",
+    "likes": 1127,
+    "published": "2020-02-05",
+    "selection": "all-time"
+  },
+  "jubilee": {
+    "url": "https://marvelcdb.com/decklist/view/40621/rush-hour-1.0",
+    "likes": 259,
+    "published": "2024-07-23",
+    "selection": "all-time"
+  },
+  "magik": {
+    "url": "https://marvelcdb.com/decklist/view/37117/devil-may-scry-1.0",
+    "likes": 434,
+    "published": "2024-03-30",
+    "selection": "all-time"
+  },
+  "magneto-hero": {
+    "url": "https://marvelcdb.com/decklist/view/43978/magneto-was-right-gmw-expert-campaign-1.0",
+    "likes": 332,
+    "published": "2024-11-16",
+    "selection": "all-time"
+  },
+  "maria-hill": {
+    "url": "https://marvelcdb.com/decklist/view/47248/stun-me-all-you-want-expert-venom-goblin-1.0",
+    "likes": 194,
+    "published": "2025-03-02",
+    "selection": "all-time"
+  },
+  "ms-marvel": {
+    "url": "https://marvelcdb.com/decklist/view/280/smells-like-teen-angst-in-the-mosh-pit-2.0",
+    "likes": 1031,
+    "published": "2019-12-31",
+    "selection": "all-time"
+  },
+  "nebula-hero": {
+    "url": "https://marvelcdb.com/decklist/view/12837/local-woman-with-family-issues-steals-overpriced-paperweight-1.0",
+    "likes": 327,
+    "published": "2021-09-18",
+    "selection": "all-time"
+  },
+  "nick-fury": {
+    "url": "https://marvelcdb.com/decklist/view/47451/ezekiel-25-17-1.0",
+    "likes": 144,
+    "published": "2025-03-08",
+    "selection": "all-time"
+  },
+  "nightcrawler": {
+    "url": "https://marvelcdb.com/decklist/view/42268/no-allies-no-problem-1.0",
+    "likes": 204,
+    "published": "2024-09-20",
+    "selection": "all-time"
+  },
+  "nova": {
+    "url": "https://marvelcdb.com/decklist/view/19390/don-t-stop-me-now-super-nova-1.0",
+    "likes": 398,
+    "published": "2022-05-22",
+    "selection": "all-time"
+  },
+  "phoenix": {
+    "url": "https://marvelcdb.com/decklist/view/23088/phoenix-and-the-danger-room-cerebro-thwarting-machine-2.0",
+    "likes": 478,
+    "published": "2022-10-02",
+    "selection": "all-time"
+  },
+  "psylocke": {
+    "url": "https://marvelcdb.com/decklist/view/32089/ten-percent-luck-twenty-percent-skill-1.0",
+    "likes": 398,
+    "published": "2023-09-22",
+    "selection": "all-time"
+  },
+  "quicksilver": {
+    "url": "https://marvelcdb.com/decklist/view/6898/2-fast-2-furious-1.0",
+    "likes": 766,
+    "published": "2021-02-06",
+    "selection": "all-time"
+  },
+  "rocket-raccoon": {
+    "url": "https://marvelcdb.com/decklist/view/19706/drawn-and-quartered-rocket-raccoon-turbo-draw-1.0",
+    "likes": 441,
+    "published": "2022-05-30",
+    "selection": "all-time"
+  },
+  "rogue": {
+    "url": "https://marvelcdb.com/decklist/view/26321/touchin-me-touchin-blue-1.0",
+    "likes": 250,
+    "published": "2023-02-24",
+    "selection": "all-time"
+  },
+  "scarlet-witch": {
+    "url": "https://marvelcdb.com/decklist/view/7692/scarlet-witch-turbo-draw-and-build-heroic-clearing-1.0",
+    "likes": 1556,
+    "published": "2021-03-08",
+    "selection": "all-time"
+  },
+  "shadowcat": {
+    "url": "https://marvelcdb.com/decklist/view/23166/drunken-master-1.0",
+    "likes": 648,
+    "published": "2022-10-03",
+    "selection": "all-time"
+  },
+  "she-hulk": {
+    "url": "https://marvelcdb.com/decklist/view/543/draw-slam-3-0-she-hulk-leadership-march-21-1.0",
+    "likes": 949,
+    "published": "2020-02-15",
+    "selection": "all-time"
+  },
+  "silk": {
+    "url": "https://marvelcdb.com/decklist/view/49979/web-warrior-fanatic-2099-expert-ronan-1.0",
+    "likes": 190,
+    "published": "2025-05-14",
+    "selection": "all-time"
+  },
+  "spdr": {
+    "url": "https://marvelcdb.com/decklist/view/20890/sp-dr00-s-n-rf-this-1.0",
+    "likes": 467,
+    "published": "2022-07-15",
+    "selection": "all-time"
+  },
+  "spectrum": {
+    "url": "https://marvelcdb.com/decklist/view/13617/red-rambo-spectrum-1.0",
+    "likes": 502,
+    "published": "2021-10-19",
+    "selection": "all-time"
+  },
+  "spider-ham": {
+    "url": "https://marvelcdb.com/decklist/view/20876/ronan-goes-vegan-expert-1st-try-1.0",
+    "likes": 483,
+    "published": "2022-07-15",
+    "selection": "all-time"
+  },
+  "spider-man-miles": {
+    "url": "https://marvelcdb.com/decklist/view/18096/spider-verse-swarm-1.0",
+    "likes": 497,
+    "published": "2022-04-09",
+    "selection": "all-time"
+  },
+  "spider-man-peter": {
+    "url": "https://marvelcdb.com/decklist/view/103/spider-man-and-friends-solo-play-expert-mode-1.0",
+    "likes": 1146,
+    "published": "2019-11-06",
+    "selection": "all-time"
+  },
+  "spider-woman": {
+    "url": "https://marvelcdb.com/decklist/view/3314/upgrading-the-pre-con-deck-rise-of-red-skull-expert-1.0",
+    "likes": 474,
+    "published": "2020-09-05",
+    "selection": "all-time"
+  },
+  "star-lord": {
+    "url": "https://marvelcdb.com/decklist/view/9685/going-knowhere-fast-disco-death-race-2000-1.0",
+    "likes": 638,
+    "published": "2021-05-14",
+    "selection": "all-time"
+  },
+  "storm": {
+    "url": "https://marvelcdb.com/decklist/view/24149/thunderstruck-1.0",
+    "likes": 511,
+    "published": "2022-11-14",
+    "selection": "all-time"
+  },
+  "thor": {
+    "url": "https://marvelcdb.com/decklist/view/2250/thor-we-were-swingin-1.0",
+    "likes": 791,
+    "published": "2020-07-27",
+    "selection": "all-time"
+  },
+  "tigra": {
+    "url": "https://marvelcdb.com/decklist/view/61565/all-cats-are-beautiful-1.0",
+    "likes": 64,
+    "published": "2026-04-22",
+    "selection": "recent"
+  },
+  "valkyrie": {
+    "url": "https://marvelcdb.com/decklist/view/15163/aerial-annabelle-valkyrie-l-1.0",
+    "likes": 263,
+    "published": "2021-12-23",
+    "selection": "all-time"
+  },
+  "venom-hero": {
+    "url": "https://marvelcdb.com/decklist/view/11340/venom-confuse-lock-1.0",
+    "likes": 853,
+    "published": "2021-07-18",
+    "selection": "all-time"
+  },
+  "vision": {
+    "url": "https://marvelcdb.com/decklist/view/16623/no-defending-energy-barrier-tank-updated-2.0",
+    "likes": 497,
+    "published": "2022-02-07",
+    "selection": "all-time"
+  },
+  "war-machine": {
+    "url": "https://marvelcdb.com/decklist/view/14191/call-for-iron-man-war-machine-1.0",
+    "likes": 402,
+    "published": "2021-11-12",
+    "selection": "all-time"
+  },
+  "wasp": {
+    "url": "https://marvelcdb.com/decklist/view/6768/defend-the-nest-wasp-protection-v1-0-1.0",
+    "likes": 528,
+    "published": "2021-02-02",
+    "selection": "all-time"
+  },
+  "winter-soldier": {
+    "url": "https://marvelcdb.com/decklist/view/51222/bucky-the-minion-slayer-expert-ronan-w-video-1.0",
+    "likes": 223,
+    "published": "2025-06-23",
+    "selection": "all-time"
+  },
+  "wolverine": {
+    "url": "https://marvelcdb.com/decklist/view/24209/the-claw-that-broke-the-camel-s-back-1.0",
+    "likes": 481,
+    "published": "2022-11-16",
+    "selection": "all-time"
+  },
+  "wonder-man": {
+    "url": "https://marvelcdb.com/decklist/view/60267/free-energy-15-zero-cost-events-defeats-ronan-1.0",
+    "likes": 135,
+    "published": "2026-03-05",
+    "selection": "recent"
+  },
+  "x-23": {
+    "url": "https://marvelcdb.com/decklist/view/34241/x-23-perfected-1.0",
+    "likes": 207,
+    "published": "2023-12-10",
+    "selection": "all-time"
+  }
 };
 const state={query:'',campaign:'all',hideRepeats:false,expanded:true};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const norm=s=>(s||'').toLowerCase().normalize('NFKD').replace(/[’']/g,'').replace(/[^a-z0-9]+/g,' ').trim();
 const initials=name=>name.replace(/\([^)]*\)/g,'').split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
-function characterCard(id,repeat=false){const m=DATA.characters[id]||{display:id,role:'hero',aliases:[id],hints:[]},url=`images/portraits/${id}.webp`,deckUrl=MARVELCDB_DECKS[id],deck=m.role==='hero'?(deckUrl?`<a class="deck-link" href="${deckUrl}" target="_blank" rel="noopener noreferrer" aria-label="Open ${m.display}’s popular deck on MarvelCDB">Top deck ↗</a>`:'<span class="deck-pending" title="No published MarvelCDB deck yet">Deck pending</span>'):'';return `<div class="character ${m.role}" data-character="${id}" title="${m.display}${repeat?' — repeat appearance':''}">${repeat?'<span class="repeat" aria-label="Repeat appearance">🔁</span>':''}<div class="portrait"><span class="monogram">${initials(m.display)}</span><img loading="lazy" alt="${m.display} portrait" src="${url}" onload="this.parentElement.classList.add('loaded')" onerror="this.remove()"></div><div class="character-name">${m.display}</div>${deck}</div>`}
+function characterCard(id,repeat=false){const m=DATA.characters[id]||{display:id,role:'hero',aliases:[id],hints:[]},url=`images/portraits/${id}.webp`,deckRec=MARVELCDB_DECKS[id],deck=m.role==='hero'?(deckRec?`<a class="deck-link" href="${deckRec.url}" target="_blank" rel="noopener noreferrer" aria-label="Open the recommended ${m.display} deck on MarvelCDB" title="MarvelCDB recommendation · ${deckRec.likes} likes · ${deckRec.selection==='recent'?'published within 12 months':'community classic'}">Recommended ↗</a>`:'<span class="deck-pending" title="No published MarvelCDB deck yet">Deck pending</span>'):'';return `<div class="character ${m.role}" data-character="${id}" title="${m.display}${repeat?' — repeat appearance':''}">${repeat?'<span class="repeat" aria-label="Repeat appearance">🔁</span>':''}<div class="portrait"><span class="monogram">${initials(m.display)}</span><img loading="lazy" alt="${m.display} portrait" src="${url}" onload="this.parentElement.classList.add('loaded')" onerror="this.remove()"></div><div class="character-name">${m.display}</div>${deck}</div>`}
 function battleMatches(c,s){const q=norm(state.query);if(state.campaign!=='all'&&c.id!==state.campaign)return false;if(!q)return true;const chars=[...s.villains,...s.heroes].map(id=>DATA.characters[id]?.display||id).join(' ');return norm(`${c.campaign} ${s.title} ${s.context} ${chars}`).includes(q)}
 function render(){const root=$('#campaigns');let shown=0;root.innerHTML=DATA.campaigns.map((c,ci)=>{const sc=c.scenarios.filter(s=>battleMatches(c,s));if(!sc.length)return'';shown+=sc.length;return `<section class="campaign ${state.expanded?'':'collapsed'}" id="${c.id}"><button class="campaign-head" onclick="toggleCampaign(this)" aria-expanded="${state.expanded}"><span class="campaign-index">${String(ci+1).padStart(2,'0')}</span><span><h2>${c.campaign}</h2><div class="campaign-meta">${sc.length} matchup${sc.length===1?'':'s'}</div></span><span class="chevron">⌄</span></button>${c.note?`<p class="campaign-note">${c.note}</p>`:''}<div class="campaign-body">${sc.map(s=>battleHtml(s)).join('')}</div></section>`}).join('');if(!shown)root.innerHTML='<div class="empty">No battles match those filters. <button class="btn" onclick="resetFilters()">Show all matchups</button></div>';$('#shownCount').textContent=shown;updateFilterFeedback(shown)}
 function battleHtml(s){const heroAssignments=s.heroAssignments.filter(a=>!(state.hideRepeats&&a.repeat));return `<article class="battle" id="${s.id}"><div><div class="battle-number">Battle ${String(s.number).padStart(2,'0')}</div><h3>${s.title}</h3><div class="side-label">Villain side</div><div class="roster">${s.villains.map(id=>characterCard(id,false)).join('')}</div></div><div><div class="side-label">Thematic hero team</div><div class="roster">${heroAssignments.length?heroAssignments.map(a=>characterCard(a.id,a.repeat)).join(''):'<span class="campaign-meta">Repeat heroes hidden</span>'}</div></div><div class="battle-context"><strong>Why this battle works</strong>${s.context}</div></article>`}

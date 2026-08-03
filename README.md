@@ -15,7 +15,7 @@ All 158 hero and villain portraits are bundled locally as compressed WebP files.
 
 ## MarvelCDB deck links
 
-Every hero card links to that identity's top-ranked MarvelCDB deck under MarvelCDB's default popularity sort, checked August 3, 2026. Luke Cage and Jessica Jones display a pending state because MarvelCDB does not yet list either identity for published decklists.
+Every hero card links to a transparent MarvelCDB recommendation checked August 3, 2026. The baseline is the most-liked published deck with a play guide of at least 500 characters. A deck published since August 3, 2025 is preferred only when it retains at least 70% of the guided community leader's likes. Luke Cage and Jessica Jones display a pending state because MarvelCDB does not yet list either identity for published decklists. The complete decision data is recorded in `recommended-decks.json`.
 
 ## Local editing
 Edit `matchups.json` for reference, but the current `app.js` contains an embedded copy of the dataset so the page also works when opened directly from disk. To make content changes, update both or regenerate the page from your source workflow.
