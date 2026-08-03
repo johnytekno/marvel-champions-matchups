@@ -1,0 +1,1491 @@
+{
+  "spider-man-peter": {
+    "status": "ok",
+    "card": "Spider-Man",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Core Set",
+    "code": "01001a",
+    "score": 290,
+    "source": "https://marvelcdb.com/bundles/cards/01001a.png"
+  },
+  "she-hulk": {
+    "status": "ok",
+    "card": "She-Hulk",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Core Set",
+    "code": "01019a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/01019a.png"
+  },
+  "black-panther-tchalla": {
+    "status": "ok",
+    "card": "Black Panther",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Core Set",
+    "code": "01040a",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/01040a.png"
+  },
+  "black-panther-shuri": {
+    "status": "ok",
+    "card": "Black Panther",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Black Panther",
+    "code": "51001a",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/51001a.png"
+  },
+  "ant-man": {
+    "status": "ok",
+    "card": "Ant-Man",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Ant-Man",
+    "code": "12001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/12001a.png"
+  },
+  "wasp": {
+    "status": "ok",
+    "card": "Wasp",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Wasp",
+    "code": "13001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/13001a.png"
+  },
+  "ghost-spider": {
+    "status": "ok",
+    "card": "Ghost-Spider",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Sinister Motives",
+    "code": "27001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/27001a.png"
+  },
+  "spider-woman": {
+    "status": "ok",
+    "card": "Spider-Woman",
+    "subname": null,
+    "type": "Hero",
+    "pack": "The Rise of Red Skull",
+    "code": "04031a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/04031a.png"
+  },
+  "spider-man-miles": {
+    "status": "ok",
+    "card": "Spider-Man",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Sinister Motives",
+    "code": "27030a",
+    "score": 290,
+    "source": "https://marvelcdb.com/bundles/cards/27030a.png"
+  },
+  "thor": {
+    "status": "ok",
+    "card": "Thor",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Thor",
+    "code": "06001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/06001a.png"
+  },
+  "hercules": {
+    "status": "ok",
+    "card": "Hercules",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Hercules",
+    "code": "59001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/59001a.png"
+  },
+  "hulkling": {
+    "status": "ok",
+    "card": "Hulkling",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Civil War",
+    "code": "56029a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/56029a.png"
+  },
+  "iron-man": {
+    "status": "ok",
+    "card": "Iron Man",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Core Set",
+    "code": "01029a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/01029a.png"
+  },
+  "captain-america": {
+    "status": "ok",
+    "card": "Captain America",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Captain America",
+    "code": "03001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/03001a.png"
+  },
+  "winter-soldier": {
+    "status": "ok",
+    "card": "Winter Soldier",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Winter Soldier",
+    "code": "54001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/54001a.png"
+  },
+  "hulk": {
+    "status": "ok",
+    "card": "Hulk",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Hulk",
+    "code": "10001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/10001a.png"
+  },
+  "black-widow": {
+    "status": "ok",
+    "card": "Black Widow",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Black Widow",
+    "code": "08001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/08001a.png"
+  },
+  "hawkeye": {
+    "status": "ok",
+    "card": "Hawkeye",
+    "subname": null,
+    "type": "Hero",
+    "pack": "The Rise of Red Skull",
+    "code": "04001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/04001a.png"
+  },
+  "vision": {
+    "status": "ok",
+    "card": "Vision",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Vision",
+    "code": "26001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/26001a.png"
+  },
+  "war-machine": {
+    "status": "ok",
+    "card": "War Machine",
+    "subname": null,
+    "type": "Hero",
+    "pack": "War Machine",
+    "code": "23001a",
+    "score": 290,
+    "source": "https://marvelcdb.com/bundles/cards/23001a.png"
+  },
+  "falcon": {
+    "status": "ok",
+    "card": "Falcon",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Falcon",
+    "code": "53001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/53001a.png"
+  },
+  "captain-marvel": {
+    "status": "ok",
+    "card": "Captain Marvel",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Core Set",
+    "code": "01010a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/01010a.png"
+  },
+  "spectrum": {
+    "status": "ok",
+    "card": "Spectrum",
+    "subname": null,
+    "type": "Hero",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/21001a.png"
+  },
+  "rocket-raccoon": {
+    "status": "ok",
+    "card": "Rocket Raccoon",
+    "subname": null,
+    "type": "Hero",
+    "pack": "The Galaxy's Most Wanted",
+    "code": "16029a",
+    "score": 290,
+    "source": "https://marvelcdb.com/bundles/cards/16029a.png"
+  },
+  "groot": {
+    "status": "ok",
+    "card": "Groot",
+    "subname": null,
+    "type": "Hero",
+    "pack": "The Galaxy's Most Wanted",
+    "code": "16001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/16001a.png"
+  },
+  "star-lord": {
+    "status": "ok",
+    "card": "Star-Lord",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Star-Lord",
+    "code": "17001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/17001a.png"
+  },
+  "gamora": {
+    "status": "ok",
+    "card": "Gamora",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Gamora",
+    "code": "18001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/18001a.png"
+  },
+  "nebula-hero": {
+    "status": "ok",
+    "card": "Nebula",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Nebula",
+    "code": "22001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/22001a.png"
+  },
+  "drax": {
+    "status": "ok",
+    "card": "Drax",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Drax",
+    "code": "19001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/19001a.png"
+  },
+  "nova": {
+    "status": "ok",
+    "card": "Nova",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Nova",
+    "code": "28001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/28001a.png"
+  },
+  "doctor-strange": {
+    "status": "ok",
+    "card": "Doctor Strange",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Doctor Strange",
+    "code": "09001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/09001a.png"
+  },
+  "scarlet-witch": {
+    "status": "ok",
+    "card": "Scarlet Witch",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Scarlet Witch",
+    "code": "15001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/15001a.png"
+  },
+  "adam-warlock": {
+    "status": "ok",
+    "card": "Adam Warlock",
+    "subname": null,
+    "type": "Hero",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21031a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/21031a.png"
+  },
+  "valkyrie": {
+    "status": "ok",
+    "card": "Valkyrie",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Valkyrie",
+    "code": "25001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/25001a.png"
+  },
+  "daredevil": {
+    "status": "ok",
+    "card": "Daredevil",
+    "subname": "Matt Murdock",
+    "type": "Ally",
+    "pack": "Core Set",
+    "code": "01058",
+    "score": 210,
+    "source": "https://marvelcdb.com/bundles/cards/01058.png"
+  },
+  "tigra": {
+    "status": "ok",
+    "card": "Tigra",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Civil War",
+    "code": "56001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/56001a.png"
+  },
+  "venom-hero": {
+    "status": "ok",
+    "card": "Venom",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Venom",
+    "code": "20001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/20001a.png"
+  },
+  "spdr": {
+    "status": "ok",
+    "card": "SP//dr Suit",
+    "subname": null,
+    "type": "Hero",
+    "pack": "SP//dr",
+    "code": "31001a",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/31001a.png"
+  },
+  "psylocke": {
+    "status": "ok",
+    "card": "Psylocke",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Psylocke",
+    "code": "41001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/41001a.png"
+  },
+  "deadpool": {
+    "status": "ok",
+    "card": "Deadpool",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Deadpool",
+    "code": "44001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/44001a.png"
+  },
+  "spider-ham": {
+    "status": "ok",
+    "card": "Spider-Ham",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Spider-Ham",
+    "code": "30001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/30001a.png"
+  },
+  "wolverine": {
+    "status": "ok",
+    "card": "Wolverine",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Wolverine",
+    "code": "35001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/35001a.png"
+  },
+  "rogue": {
+    "status": "ok",
+    "card": "Rogue",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Rogue",
+    "code": "38001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/38001a.png"
+  },
+  "bishop": {
+    "status": "ok",
+    "card": "Bishop",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Age of Apocalypse",
+    "code": "45001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/45001a.png"
+  },
+  "jubilee": {
+    "status": "ok",
+    "card": "Jubilee",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Jubilee",
+    "code": "47001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/47001a.png"
+  },
+  "cyclops": {
+    "status": "ok",
+    "card": "Cyclops",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Cyclops",
+    "code": "33001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/33001a.png"
+  },
+  "shadowcat": {
+    "status": "ok",
+    "card": "Shadowcat",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Mutant Genesis",
+    "code": "32030a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/32030a.png"
+  },
+  "storm": {
+    "status": "ok",
+    "card": "Storm",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Storm",
+    "code": "36001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/36001a.png"
+  },
+  "colossus": {
+    "status": "ok",
+    "card": "Colossus",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Mutant Genesis",
+    "code": "32001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/32001a.png"
+  },
+  "magneto-hero": {
+    "status": "ok",
+    "card": "Magneto",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Magneto",
+    "code": "49001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/49001a.png"
+  },
+  "nightcrawler": {
+    "status": "ok",
+    "card": "Nightcrawler",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Nightcrawler",
+    "code": "48001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/48001a.png"
+  },
+  "x-23": {
+    "status": "ok",
+    "card": "X-23",
+    "subname": null,
+    "type": "Hero",
+    "pack": "X-23",
+    "code": "43001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/43001a.png"
+  },
+  "iceman": {
+    "status": "ok",
+    "card": "Iceman",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Iceman",
+    "code": "46001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/46001a.png"
+  },
+  "cable": {
+    "status": "ok",
+    "card": "Cable",
+    "subname": null,
+    "type": "Hero",
+    "pack": "NeXt Evolution",
+    "code": "40001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/40001a.png"
+  },
+  "gambit": {
+    "status": "ok",
+    "card": "Gambit",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Gambit",
+    "code": "37001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/37001a.png"
+  },
+  "domino": {
+    "status": "ok",
+    "card": "Domino",
+    "subname": null,
+    "type": "Hero",
+    "pack": "NeXt Evolution",
+    "code": "40037a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/40037a.png"
+  },
+  "angel": {
+    "status": "ok",
+    "card": "Angel",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Angel",
+    "code": "42001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/42001a.png"
+  },
+  "magik": {
+    "status": "ok",
+    "card": "Magik",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Age of Apocalypse",
+    "code": "45030a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/45030a.png"
+  },
+  "phoenix": {
+    "status": "ok",
+    "card": "Phoenix",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Phoenix",
+    "code": "34001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/34001a.png"
+  },
+  "nick-fury": {
+    "status": "ok",
+    "card": "Nick Fury",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Agents of S.H.I.E.L.D.",
+    "code": "50034a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/50034a.png"
+  },
+  "ironheart": {
+    "status": "ok",
+    "card": "Ironheart",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Ironheart",
+    "code": "29001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/29001a.png"
+  },
+  "ms-marvel": {
+    "status": "ok",
+    "card": "Ms. Marvel",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Ms. Marvel",
+    "code": "05001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/05001a.png"
+  },
+  "wonder-man": {
+    "status": "ok",
+    "card": "Wonder Man",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Wonder Man",
+    "code": "58001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/58001a.png"
+  },
+  "maria-hill": {
+    "status": "ok",
+    "card": "Maria Hill",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Agents of S.H.I.E.L.D.",
+    "code": "50001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/50001a.png"
+  },
+  "quicksilver": {
+    "status": "ok",
+    "card": "Quicksilver",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Quicksilver",
+    "code": "14001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/14001a.png"
+  },
+  "echo": {
+    "status": "unresolved"
+  },
+  "silk": {
+    "status": "ok",
+    "card": "Silk",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Silk",
+    "code": "52001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/52001a.png"
+  },
+  "luke-cage": {
+    "status": "ok",
+    "card": "Luke Cage",
+    "subname": null,
+    "type": "Ally",
+    "pack": "Core Set",
+    "code": "01076",
+    "score": 155,
+    "source": "https://marvelcdb.com/bundles/cards/01076.png"
+  },
+  "jessica-jones": {
+    "status": "ok",
+    "card": "Jessica Jones",
+    "subname": null,
+    "type": "Ally",
+    "pack": "Core Set",
+    "code": "01059",
+    "score": 155,
+    "source": "https://marvelcdb.com/bundles/cards/01059.png"
+  },
+  "rhino": {
+    "status": "ok",
+    "card": "Rhino",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Core Set",
+    "code": "01094",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/01094.png"
+  },
+  "klaw": {
+    "status": "ok",
+    "card": "Klaw",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Core Set",
+    "code": "01113",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/01113.png"
+  },
+  "ultron": {
+    "status": "ok",
+    "card": "Ultron",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Core Set",
+    "code": "01134",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/01134.png"
+  },
+  "norman-osborn": {
+    "status": "ok",
+    "card": "Norman Osborn",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Green Goblin",
+    "code": "02001a",
+    "score": 247,
+    "source": "https://marvelcdb.com/bundles/cards/02001a.png"
+  },
+  "green-goblin": {
+    "status": "ok",
+    "card": "Green Goblin",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Green Goblin",
+    "code": "02001b",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/02001b.png"
+  },
+  "wrecker": {
+    "status": "ok",
+    "card": "Wrecker",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Wrecking Crew",
+    "code": "07002",
+    "score": 230,
+    "source": "https://marvelcdb.com/bundles/cards/07002.png"
+  },
+  "piledriver": {
+    "status": "ok",
+    "card": "Piledriver",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Wrecking Crew",
+    "code": "07032",
+    "score": 230,
+    "source": "https://marvelcdb.com/bundles/cards/07032.png"
+  },
+  "bulldozer": {
+    "status": "ok",
+    "card": "Bulldozer",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Wrecking Crew",
+    "code": "07046",
+    "score": 230,
+    "source": "https://marvelcdb.com/bundles/cards/07046.png"
+  },
+  "thunderball": {
+    "status": "ok",
+    "card": "Thunderball",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Wrecking Crew",
+    "code": "07017",
+    "score": 230,
+    "source": "https://marvelcdb.com/bundles/cards/07017.png"
+  },
+  "kang": {
+    "status": "ok",
+    "card": "Kang (The Conqueror)",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Once and Future Kang",
+    "code": "11001",
+    "score": 187,
+    "source": "https://marvelcdb.com/bundles/cards/11001.png"
+  },
+  "crossbones": {
+    "status": "ok",
+    "card": "Crossbones",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Rise of Red Skull",
+    "code": "04058",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/04058.png"
+  },
+  "absorbing-man": {
+    "status": "ok",
+    "card": "Absorbing Man",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Rise of Red Skull",
+    "code": "04076",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/04076.png"
+  },
+  "taskmaster": {
+    "status": "ok",
+    "card": "Taskmaster",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Rise of Red Skull",
+    "code": "04093",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/04093.png"
+  },
+  "zola": {
+    "status": "ok",
+    "card": "Zola",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Rise of Red Skull",
+    "code": "04109",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/04109.png"
+  },
+  "red-skull": {
+    "status": "ok",
+    "card": "Red Skull",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Rise of Red Skull",
+    "code": "04125",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/04125.png"
+  },
+  "drang": {
+    "status": "ok",
+    "card": "Drang",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Galaxy's Most Wanted",
+    "code": "16058",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/16058.png"
+  },
+  "collector": {
+    "status": "ok",
+    "card": "Collector",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Galaxy's Most Wanted",
+    "code": "16070",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/16070.png"
+  },
+  "nebula-villain": {
+    "status": "ok",
+    "card": "Nebula",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Galaxy's Most Wanted",
+    "code": "16088",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/16088.png"
+  },
+  "ronan": {
+    "status": "ok",
+    "card": "Ronan the Accuser",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Galaxy's Most Wanted",
+    "code": "16103",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/16103.png"
+  },
+  "ebony-maw": {
+    "status": "ok",
+    "card": "Ebony Maw",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21071",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/21071.png"
+  },
+  "corvus-glaive": {
+    "status": "ok",
+    "card": "Corvus Glaive",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21095",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/21095.png"
+  },
+  "proxima-midnight": {
+    "status": "ok",
+    "card": "Proxima Midnight",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21092",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/21092.png"
+  },
+  "thanos": {
+    "status": "ok",
+    "card": "Thanos",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21111",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/21111.png"
+  },
+  "hela": {
+    "status": "ok",
+    "card": "Hela",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21136a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/21136a.png"
+  },
+  "loki": {
+    "status": "ok",
+    "card": "Loki",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21160",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/21160.png"
+  },
+  "the-hood": {
+    "status": "ok",
+    "card": "The Hood",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Hood",
+    "code": "24001",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/24001.png"
+  },
+  "sandman": {
+    "status": "ok",
+    "card": "Sandman",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27061",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27061.png"
+  },
+  "venom-villain": {
+    "status": "ok",
+    "card": "Venom",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27073",
+    "score": 297,
+    "source": "https://marvelcdb.com/bundles/cards/27073.png"
+  },
+  "mysterio": {
+    "status": "ok",
+    "card": "Mysterio",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27084",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27084.png"
+  },
+  "doctor-octopus": {
+    "status": "ok",
+    "card": "Doctor Octopus",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27094",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27094.png"
+  },
+  "electro": {
+    "status": "ok",
+    "card": "Electro",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27095",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27095.png"
+  },
+  "hobgoblin": {
+    "status": "ok",
+    "card": "Hobgoblin",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27096",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27096.png"
+  },
+  "kraven": {
+    "status": "ok",
+    "card": "Kraven the Hunter",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27097",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27097.png"
+  },
+  "scorpion": {
+    "status": "ok",
+    "card": "Scorpion",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27098",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27098.png"
+  },
+  "vulture": {
+    "status": "ok",
+    "card": "Vulture",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27099",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27099.png"
+  },
+  "venom-goblin": {
+    "status": "ok",
+    "card": "Venom Goblin",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27113",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27113.png"
+  },
+  "magog": {
+    "status": "ok",
+    "card": "MaGog",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mojo Mania",
+    "code": "39001a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/39001a.png"
+  },
+  "spiral": {
+    "status": "ok",
+    "card": "Spiral",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mojo Mania",
+    "code": "39012a",
+    "score": 247,
+    "source": "https://marvelcdb.com/bundles/cards/39012a.png"
+  },
+  "mojo": {
+    "status": "ok",
+    "card": "Mojo",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mojo Mania",
+    "code": "39022",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/39022.png"
+  },
+  "sabretooth": {
+    "status": "ok",
+    "card": "Sabretooth",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32060",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/32060.png"
+  },
+  "sentinel": {
+    "status": "ok",
+    "card": "Sentinel",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32084",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/32084.png"
+  },
+  "master-mold": {
+    "status": "ok",
+    "card": "Master Mold",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32109",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/32109.png"
+  },
+  "avalanche": {
+    "status": "ok",
+    "card": "Avalanche",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32121a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/32121a.png"
+  },
+  "blob": {
+    "status": "ok",
+    "card": "Blob",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32122a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/32122a.png"
+  },
+  "pyro": {
+    "status": "ok",
+    "card": "Pyro",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32123a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/32123a.png"
+  },
+  "toad": {
+    "status": "ok",
+    "card": "Toad",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32124a",
+    "score": 235,
+    "source": "https://marvelcdb.com/bundles/cards/32124a.png"
+  },
+  "magneto-villain": {
+    "status": "ok",
+    "card": "Magneto",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Mutant Genesis",
+    "code": "32138",
+    "score": 297,
+    "source": "https://marvelcdb.com/bundles/cards/32138.png"
+  },
+  "arclight": {
+    "status": "ok",
+    "card": "Arclight",
+    "subname": null,
+    "type": "Minion",
+    "pack": "NeXt Evolution",
+    "code": "40094",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/40094.png"
+  },
+  "blockbuster": {
+    "status": "ok",
+    "card": "Blockbuster",
+    "subname": null,
+    "type": "Minion",
+    "pack": "NeXt Evolution",
+    "code": "40095",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/40095.png"
+  },
+  "chimera": {
+    "status": "ok",
+    "card": "Chimera",
+    "subname": null,
+    "type": "Minion",
+    "pack": "NeXt Evolution",
+    "code": "40096",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/40096.png"
+  },
+  "greycrow": {
+    "status": "ok",
+    "card": "Greycrow",
+    "subname": null,
+    "type": "Minion",
+    "pack": "NeXt Evolution",
+    "code": "40097",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/40097.png"
+  },
+  "harpoon": {
+    "status": "ok",
+    "card": "Harpoon",
+    "subname": null,
+    "type": "Minion",
+    "pack": "NeXt Evolution",
+    "code": "40098",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/40098.png"
+  },
+  "riptide": {
+    "status": "ok",
+    "card": "Riptide",
+    "subname": null,
+    "type": "Minion",
+    "pack": "NeXt Evolution",
+    "code": "40099",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/40099.png"
+  },
+  "vertigo": {
+    "status": "ok",
+    "card": "Vertigo",
+    "subname": null,
+    "type": "Minion",
+    "pack": "NeXt Evolution",
+    "code": "40100",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/40100.png"
+  },
+  "juggernaut": {
+    "status": "ok",
+    "card": "Juggernaut",
+    "subname": null,
+    "type": "Villain",
+    "pack": "NeXt Evolution",
+    "code": "40118",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/40118.png"
+  },
+  "mister-sinister": {
+    "status": "ok",
+    "card": "Mister Sinister",
+    "subname": null,
+    "type": "Villain",
+    "pack": "NeXt Evolution",
+    "code": "40136",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/40136.png"
+  },
+  "stryfe": {
+    "status": "ok",
+    "card": "Stryfe",
+    "subname": null,
+    "type": "Villain",
+    "pack": "NeXt Evolution",
+    "code": "40163",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/40163.png"
+  },
+  "unus": {
+    "status": "ok",
+    "card": "Unus",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Age of Apocalypse",
+    "code": "45059",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/45059.jpg"
+  },
+  "horseman-war": {
+    "status": "unresolved"
+  },
+  "horseman-famine": {
+    "status": "unresolved"
+  },
+  "horseman-pestilence": {
+    "status": "unresolved"
+  },
+  "horseman-death": {
+    "status": "unresolved"
+  },
+  "apocalypse": {
+    "status": "unresolved"
+  },
+  "dark-beast": {
+    "status": "ok",
+    "card": "Dark Beast",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Age of Apocalypse",
+    "code": "45118",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/45118.jpg"
+  },
+  "en-sabah-nur": {
+    "status": "unresolved"
+  },
+  "black-widow-yelena": {
+    "status": "ok",
+    "card": "Black Widow",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Agents of S.H.I.E.L.D.",
+    "code": "50064",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/50064.jpg"
+  },
+  "batroc": {
+    "status": "ok",
+    "card": "Batroc",
+    "subname": null,
+    "type": "Minion",
+    "pack": "Agents of S.H.I.E.L.D.",
+    "code": "50161",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/50161.jpg"
+  },
+  "modok": {
+    "status": "ok",
+    "card": "M.O.D.O.K.",
+    "subname": null,
+    "type": "Minion",
+    "pack": "Core Set",
+    "code": "01184",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/01184.png"
+  },
+  "citizen-v": {
+    "status": "unresolved"
+  },
+  "atlas": {
+    "status": "ok",
+    "card": "Atlas",
+    "subname": null,
+    "type": "Minion",
+    "pack": "Silk",
+    "code": "52035",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/52035.jpg"
+  },
+  "mach-x": {
+    "status": "ok",
+    "card": "MACH-IV",
+    "subname": null,
+    "type": "Minion",
+    "pack": "Agents of S.H.I.E.L.D.",
+    "code": "50156",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/50156.jpg"
+  },
+  "meteorite": {
+    "status": "unresolved"
+  },
+  "songbird": {
+    "status": "ok",
+    "card": "Songbird",
+    "subname": null,
+    "type": "Minion",
+    "pack": "Agents of S.H.I.E.L.D.",
+    "code": "50143",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/50143.jpg"
+  },
+  "techno": {
+    "status": "ok",
+    "card": "Techno",
+    "subname": null,
+    "type": "Treachery",
+    "pack": "Falcon",
+    "code": "53042",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/53042.jpg"
+  },
+  "baron-zemo": {
+    "status": "ok",
+    "card": "Baron Zemo",
+    "subname": null,
+    "type": "Minion",
+    "pack": "Captain America",
+    "code": "03028",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/03028.png"
+  },
+  "enchantress": {
+    "status": "ok",
+    "card": "Enchantress",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Trickster Takeover",
+    "code": "55001",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/55001.jpg"
+  },
+  "loki-god-of-lies": {
+    "status": "ok",
+    "card": "Loki",
+    "subname": null,
+    "type": "Villain",
+    "pack": "The Mad Titan's Shadow",
+    "code": "21160",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/21160.png"
+  },
+  "iron-man-leader": {
+    "status": "ok",
+    "card": "Iron Man",
+    "subname": null,
+    "type": "Leader",
+    "pack": "Civil War",
+    "code": "56059",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/56059.jpg"
+  },
+  "captain-marvel-leader": {
+    "status": "ok",
+    "card": "Captain Marvel",
+    "subname": null,
+    "type": "Leader",
+    "pack": "Civil War",
+    "code": "56092",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/56092.jpg"
+  },
+  "captain-america-leader": {
+    "status": "ok",
+    "card": "Captain America",
+    "subname": null,
+    "type": "Leader",
+    "pack": "Civil War",
+    "code": "56137",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/56137.jpg"
+  },
+  "spider-woman-leader": {
+    "status": "ok",
+    "card": "Spider-Woman",
+    "subname": null,
+    "type": "Leader",
+    "pack": "Civil War",
+    "code": "56168",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/56168.jpg"
+  },
+  "she-hulk-leader": {
+    "status": "ok",
+    "card": "She-Hulk",
+    "subname": null,
+    "type": "Leader",
+    "pack": "Synthezoid Smackdown",
+    "code": "57001",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/57001.jpg"
+  },
+  "vision-leader": {
+    "status": "ok",
+    "card": "Vision",
+    "subname": null,
+    "type": "Leader",
+    "pack": "Synthezoid Smackdown",
+    "code": "57040",
+    "score": 999,
+    "source": "https://marvelcdb.com/bundles/cards/57040.jpg"
+  },
+  "bullseye": {
+    "status": "ok",
+    "card": "Bullseye",
+    "subname": null,
+    "type": "Minion",
+    "pack": "Civil War",
+    "code": "56088",
+    "score": 165,
+    "source": "https://marvelcdb.com/bundles/cards/56088.jpg"
+  },
+  "electro-fne": {
+    "status": "ok",
+    "card": "Electro",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Sinister Motives",
+    "code": "27095",
+    "score": 242,
+    "source": "https://marvelcdb.com/bundles/cards/27095.png"
+  },
+  "hammerhead": {
+    "status": "unresolved"
+  },
+  "purple-man": {
+    "status": "unresolved"
+  },
+  "typhoid-mary": {
+    "status": "unresolved"
+  },
+  "kingpin": {
+    "status": "unresolved"
+  }
+}

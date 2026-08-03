@@ -1,0 +1,593 @@
+{
+  "spider-man-peter": {
+    "status": "ok",
+    "source": "Peter Parker (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/7/71/Peter_Parker_%28Earth-616%29_from_Amazing_Spider-Man_Vol_5_15_Cover.jpg/revision/latest/scale-to-width-down/324?cb=20251003212608"
+  },
+  "she-hulk": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/5/53/Jennifer_Walters_%28Earth-616%29_from_Sensational_She-Hulk_Vol_2_9_001.jpg/revision/latest/scale-to-width-down/500?cb=20240818212144"
+  },
+  "black-panther-tchalla": {
+    "status": "cached"
+  },
+  "black-panther-shuri": {
+    "status": "cached"
+  },
+  "ant-man": {
+    "status": "cached"
+  },
+  "wasp": {
+    "status": "cached"
+  },
+  "ghost-spider": {
+    "status": "ok",
+    "source": "Gwendolyn Stacy (Earth-65)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/0/07/All-New_Spider-Gwen_The_Ghost-Spider_Vol_1_1_Textless.jpg/revision/latest/scale-to-width-down/329?cb=20250726091838"
+  },
+  "spider-woman": {
+    "status": "cached"
+  },
+  "spider-man-miles": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/d/d1/Miles_Morales_Spider-Man_Vol_1_25_Greg_Horn_Art_and_Bird_City_Comics_Exclusive_Variant_C.jpg/revision/latest/scale-to-width-down/500?cb=20210428204343"
+  },
+  "thor": {
+    "status": "ok",
+    "source": "Thor Odinson (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/f/f2/Immortal_Thor_Vol_1_4_D%C3%A1vila_Variant_Textless.jpg/revision/latest/scale-to-width-down/328?cb=20250614002031"
+  },
+  "hercules": {
+    "status": "cached"
+  },
+  "hulkling": {
+    "status": "cached"
+  },
+  "iron-man": {
+    "status": "ok",
+    "source": "Anthony Stark (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/42/Iron_Man_Vol_7_1_Villalobos_Virgin_Variant.jpg/revision/latest/scale-to-width-down/325?cb=20260128204028"
+  },
+  "captain-america": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/b/bf/Steven_Rogers_%28Earth-201163%29_from_Captain_America_This_Is_Captain_America_001.jpg/revision/latest/scale-to-width-down/500?cb=20260109191327"
+  },
+  "winter-soldier": {
+    "status": "cached"
+  },
+  "hulk": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/1/1a/Bruce_Banner_%28Earth-616%29_from_Incredible_Hulk_Vol_6_1_001.jpeg/revision/latest/scale-to-width-down/500?cb=20250623175330"
+  },
+  "black-widow": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/e/e6/Natasha_Romanoff_%28Earth-78149%29_from_Marvel_Strike_Force_001.jpg/revision/latest/scale-to-width-down/500?cb=20190712230819"
+  },
+  "hawkeye": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/5/55/Clint_Barton_%28Earth-1610%29_from_Ultimate_Hawkeye_Vol_1_1_Kubert_Variant_Cover.png/revision/latest/scale-to-width-down/500?cb=20110615030330"
+  },
+  "vision": {
+    "status": "cached"
+  },
+  "war-machine": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/2/22/James_Rhodes_%28Earth-616%29_from_War_Machine_Vol_2_2_0001.jpg/revision/latest/scale-to-width-down/500?cb=20220729230144"
+  },
+  "falcon": {
+    "status": "ok",
+    "source": "Samuel Wilson (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/44/Captain_America_Vol_13_6_Black_History_Month_Variant_Textless.jpg/revision/latest/scale-to-width-down/329?cb=20240801013216"
+  },
+  "captain-marvel": {
+    "status": "cached"
+  },
+  "spectrum": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/0/0f/Monica_Rambeau_%28Earth-616%29_from_Astonishing_Avengers_Infinity_Comic_Vol_1_1_001.jpg/revision/latest/scale-to-width-down/500?cb=20250127153353"
+  },
+  "rocket-raccoon": {
+    "status": "cached"
+  },
+  "groot": {
+    "status": "cached"
+  },
+  "star-lord": {
+    "status": "cached"
+  },
+  "gamora": {
+    "status": "failed",
+    "error": "no thumbnail found"
+  },
+  "nebula-hero": {
+    "status": "cached"
+  },
+  "drax": {
+    "status": "cached"
+  },
+  "nova": {
+    "status": "ok",
+    "source": "Richard Rider (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/9/99/Imperial_Vol_1_3_Just_Spectacular_Collection_Virgin_Variant.jpg/revision/latest/scale-to-width-down/325?cb=20250825201846"
+  },
+  "doctor-strange": {
+    "status": "cached"
+  },
+  "scarlet-witch": {
+    "status": "cached"
+  },
+  "adam-warlock": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/b/b2/Adam_Warlock_from_Marvel_Snap_004.jpg/revision/latest/scale-to-width-down/500?cb=20241111101320"
+  },
+  "valkyrie": {
+    "status": "cached"
+  },
+  "daredevil": {
+    "status": "cached"
+  },
+  "tigra": {
+    "status": "cached"
+  },
+  "venom-hero": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/4f/Venom_Vol_4_19_Codex_Variant_Textless.jpg/revision/latest/scale-to-width-down/500?cb=20200823015905"
+  },
+  "spdr": {
+    "status": "ok",
+    "source": "Peni Parker (Earth-14512)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/6/6a/Edge_of_Spider-Geddon_Vol_1_2_Textless.jpg/revision/latest/scale-to-width-down/329?cb=20181005044750"
+  },
+  "psylocke": {
+    "status": "cached"
+  },
+  "deadpool": {
+    "status": "cached"
+  },
+  "spider-ham": {
+    "status": "cached"
+  },
+  "wolverine": {
+    "status": "ok",
+    "source": "James Howlett (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/9/90/Wolverine_Vol_8_22_Textless.jpg/revision/latest/scale-to-width-down/329?cb=20260610095638"
+  },
+  "rogue": {
+    "status": "cached"
+  },
+  "bishop": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/a/a5/Lucas_Bishop_%28Earth-31393%29_from_X-Men_%2797_Season_1_001.jpg/revision/latest/scale-to-width-down/500?cb=20240222042319"
+  },
+  "jubilee": {
+    "status": "cached"
+  },
+  "cyclops": {
+    "status": "ok",
+    "source": "Scott Summers (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/8/89/X-Men_Vol_7_10_Textless.jpg/revision/latest/scale-to-width-down/350?cb=20250202202519"
+  },
+  "shadowcat": {
+    "status": "cached"
+  },
+  "storm": {
+    "status": "ok",
+    "source": "Ororo Munroe (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/9/9a/Storm_Vol_5_7_Textless.jpg/revision/latest/scale-to-width-down/329?cb=20250307222426"
+  },
+  "colossus": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/9/97/Piotr_Rasputin_%28Earth-TRN1507%29_from_X-Men_Genetix_001.png/revision/latest?cb=20250106071317"
+  },
+  "magneto-hero": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/1/11/Max_Eisenhardt_%28Earth-616%29_from_X-Men_Vol_2_1_cover.png/revision/latest?cb=20090102052225"
+  },
+  "nightcrawler": {
+    "status": "cached"
+  },
+  "x-23": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/8/8a/Generation_X-23_Vol_1_6_Hellfire_Costume_Swap_Variant.jpg/revision/latest/scale-to-width-down/500?cb=20260726020949"
+  },
+  "iceman": {
+    "status": "cached"
+  },
+  "cable": {
+    "status": "cached"
+  },
+  "gambit": {
+    "status": "cached"
+  },
+  "domino": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/4f/Domino_Vol_3_1_ComicXposure_Exclusive_Variant_Textless.jpg/revision/latest/scale-to-width-down/500?cb=20180703235530"
+  },
+  "angel": {
+    "status": "cached"
+  },
+  "magik": {
+    "status": "cached"
+  },
+  "phoenix": {
+    "status": "ok",
+    "source": "Jean Grey (Earth-616)/Gallery",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/3/36/House_of_X_Vol_1_2_Character_Decades_Variant_Textless.jpg/revision/latest/scale-to-width-down/330?cb=20200514071622"
+  },
+  "nick-fury": {
+    "status": "ok",
+    "source": "Nicholas Fury (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/4e/Deadpool_Wolverine_Vol_1_5_Timeless_Variant.jpg/revision/latest/scale-to-width-down/318?cb=20250604155653"
+  },
+  "ironheart": {
+    "status": "cached"
+  },
+  "ms-marvel": {
+    "status": "ok",
+    "source": "Kamala Khan (Earth-616)/Gallery",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/f/f8/Kamala_Khan_%28Earth-616%29_from_Marvel_75th_Anniversary_Celebration_Vol_1_1_001.jpg/revision/latest?cb=20150113182915"
+  },
+  "wonder-man": {
+    "status": "cached"
+  },
+  "maria-hill": {
+    "status": "cached"
+  },
+  "quicksilver": {
+    "status": "ok",
+    "source": "Pietro Maximoff (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/8/80/Pietro_Maximoff_%28Earth-616%29_from_Scarlet_Witch_%26_Quicksilver_Vol_1_3_Cover_001.jpg/revision/latest/scale-to-width-down/325?cb=20250517010915"
+  },
+  "echo": {
+    "status": "cached"
+  },
+  "silk": {
+    "status": "cached"
+  },
+  "luke-cage": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/1/12/Luke_Cage_%28Earth-51156%29_from_Marvel_Future_Fight_001.jpg/revision/latest?cb=20160702231221"
+  },
+  "jessica-jones": {
+    "status": "cached"
+  },
+  "rhino": {
+    "status": "cached"
+  },
+  "klaw": {
+    "status": "cached"
+  },
+  "ultron": {
+    "status": "cached"
+  },
+  "norman-osborn": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/a/ac/What_If%3F_Dark_Reign_Vol_1_1_Textless.jpg/revision/latest/scale-to-width-down/500?cb=20101210183345"
+  },
+  "green-goblin": {
+    "status": "ok",
+    "source": "Green Goblin",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/48/Amazing_Spider-Man_Vol_5_76_Marvel_Masterpieces_Variant_Textless.jpg/revision/latest/scale-to-width-down/328?cb=20220405011735"
+  },
+  "wrecker": {
+    "status": "cached"
+  },
+  "piledriver": {
+    "status": "cached"
+  },
+  "bulldozer": {
+    "status": "cached"
+  },
+  "thunderball": {
+    "status": "cached"
+  },
+  "kang": {
+    "status": "cached"
+  },
+  "crossbones": {
+    "status": "cached"
+  },
+  "absorbing-man": {
+    "status": "cached"
+  },
+  "taskmaster": {
+    "status": "cached"
+  },
+  "zola": {
+    "status": "cached"
+  },
+  "red-skull": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/c/c9/Johann_Shmidt_%28Earth-18191%29_from_Red_Skull_Vol_2_1_0001.jpg/revision/latest/scale-to-width-down/500?cb=20180702002612"
+  },
+  "drang": {
+    "status": "cached"
+  },
+  "collector": {
+    "status": "cached"
+  },
+  "nebula-villain": {
+    "status": "cached"
+  },
+  "ronan": {
+    "status": "cached"
+  },
+  "ebony-maw": {
+    "status": "cached"
+  },
+  "corvus-glaive": {
+    "status": "cached"
+  },
+  "proxima-midnight": {
+    "status": "cached"
+  },
+  "thanos": {
+    "status": "cached"
+  },
+  "hela": {
+    "status": "cached"
+  },
+  "loki": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/d/da/Loki_Laufeyson_%28Earth-199999%29_from_Thor_%28film%29_Concept_Art_0001.jpg/revision/latest?cb=20120113072505"
+  },
+  "the-hood": {
+    "status": "cached"
+  },
+  "sandman": {
+    "status": "ok",
+    "source": "William Baker (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/f/f3/Red_Goblin_Vol_1_3_Timeless_Variant.jpg/revision/latest/scale-to-width-down/325?cb=20230417022123"
+  },
+  "venom-villain": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/b/b7/Carnage_Vol_3_13_Venom_The_Other_Variant.jpg/revision/latest/scale-to-width-down/500?cb=20230608202337"
+  },
+  "mysterio": {
+    "status": "cached"
+  },
+  "doctor-octopus": {
+    "status": "cached"
+  },
+  "electro": {
+    "status": "cached"
+  },
+  "hobgoblin": {
+    "status": "cached"
+  },
+  "kraven": {
+    "status": "cached"
+  },
+  "scorpion": {
+    "status": "cached"
+  },
+  "vulture": {
+    "status": "cached"
+  },
+  "venom-goblin": {
+    "status": "cached"
+  },
+  "magog": {
+    "status": "cached"
+  },
+  "spiral": {
+    "status": "cached"
+  },
+  "mojo": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/a/a1/Mojo_%28Mojoverse%29_from_X-Men_Black_-_Mojo_Vol_1_1_003.jpg/revision/latest/scale-to-width-down/500?cb=20181013190140"
+  },
+  "sabretooth": {
+    "status": "ok",
+    "source": "Victor Creed (Earth-616)/Gallery",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/1/1c/Victor_Creed_%28Earth-616%29_from_Sabretooth_The_Dead_Don%27t_Talk_Vol_1_1_001.jpg/revision/latest/scale-to-width-down/319?cb=20241230104132"
+  },
+  "sentinel": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/f/f5/Sentinels_%28Earth-616%29_Mark_X_from_Cable_and_X-Force_Vol_1_15.jpg/revision/latest?cb=20131002020031"
+  },
+  "master-mold": {
+    "status": "cached"
+  },
+  "avalanche": {
+    "status": "cached"
+  },
+  "blob": {
+    "status": "cached"
+  },
+  "pyro": {
+    "status": "cached"
+  },
+  "toad": {
+    "status": "cached"
+  },
+  "magneto-villain": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/1/11/Max_Eisenhardt_%28Earth-616%29_from_X-Men_Vol_2_1_cover.png/revision/latest?cb=20090102052225"
+  },
+  "arclight": {
+    "status": "cached"
+  },
+  "blockbuster": {
+    "status": "cached"
+  },
+  "chimera": {
+    "status": "cached"
+  },
+  "greycrow": {
+    "status": "cached"
+  },
+  "harpoon": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/4e/Kodiak_Noatak_%28Earth-616%29_from_Official_Handbook_of_the_Marvel_Universe_Update_%2789_Vol_1_5.jpg/revision/latest?cb=20130607221519"
+  },
+  "riptide": {
+    "status": "cached"
+  },
+  "vertigo": {
+    "status": "cached"
+  },
+  "juggernaut": {
+    "status": "cached"
+  },
+  "mister-sinister": {
+    "status": "ok",
+    "source": "Nathaniel Essex (Original) (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/9/91/Nathaniel_Essex_%28Original%29_%28Earth-616%29_from_Immortal_X-Men_Vol_1_8_001.jpg/revision/latest/scale-to-width-down/347?cb=20240124210148"
+  },
+  "stryfe": {
+    "status": "ok",
+    "source": "Nathan Summers (Stryfe) (Earth-4935)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/1/1a/Nathan_Summers_%28Stryfe%29_%28Earth-4935%29_from_Deadpool_Wolverine_Vol_1_1_001.jpg/revision/latest/scale-to-width-down/370?cb=20250101173621"
+  },
+  "unus": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/2/2a/Gunther_Bain_%28Earth-58163%29_from_Civil_War_House_of_M_Vol_1_2_001.jpg/revision/latest?cb=20200516020935"
+  },
+  "horseman-war": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/7/7c/Horseman_of_War_%28Earth-41578%29_from_X-Men-_Apocalypse_001.png/revision/latest?cb=20160701043937"
+  },
+  "horseman-famine": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/9/95/Famine_%28First_Horsemen%29_%28Earth-616%29_from_X_of_Swords_Creation_Vol_1_1_001.jpg/revision/latest/scale-to-width-down/500?cb=20200925012408"
+  },
+  "horseman-pestilence": {
+    "status": "cached"
+  },
+  "horseman-death": {
+    "status": "cached"
+  },
+  "apocalypse": {
+    "status": "cached"
+  },
+  "dark-beast": {
+    "status": "cached"
+  },
+  "en-sabah-nur": {
+    "status": "cached"
+  },
+  "black-widow-yelena": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/e/e1/Yelena_Belova_%28Earth-616%29_from_Web_of_Black_Widow_Vol_1_3_001.jpg/revision/latest?cb=20191108064231"
+  },
+  "batroc": {
+    "status": "cached"
+  },
+  "modok": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/2/21/Super-Villain_Team-Up_MODOK%27s_11_Vol_1_1.jpg/revision/latest/scale-to-width-down/500?cb=20210610024833"
+  },
+  "citizen-v": {
+    "status": "cached"
+  },
+  "atlas": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/46/Erik_Josten_%28Earth-616%29_from_Thunderbolts_Vol_4_2_002.png/revision/latest/scale-to-width-down/500?cb=20160608174810"
+  },
+  "mach-x": {
+    "status": "cached"
+  },
+  "meteorite": {
+    "status": "ok",
+    "source": "Karla Sofen (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/f/fa/Karla_Sofen_%28Earth-616%29_from_Giant-Man_Vol_1_3_cover_001.jpg/revision/latest/scale-to-width-down/351?cb=20240916084438"
+  },
+  "songbird": {
+    "status": "cached"
+  },
+  "techno": {
+    "status": "ok",
+    "source": "Norbert Ebersol (Robot) (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/b/bd/Norbert_Ebersol_%28Robot%29_%28Earth-616%29_from_Thunderbolts_Vol_1_8_001.jpg/revision/latest/scale-to-width-down/329?cb=20201206222822"
+  },
+  "baron-zemo": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/c/c0/Helmut_Zemo_%28Earth-51156%29_from_Marvel_Future_Fight_001.jpg/revision/latest/scale-to-width-down/500?cb=20200506074751"
+  },
+  "enchantress": {
+    "status": "ok",
+    "source": "Amora (Earth-616)/Gallery",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/9/91/Amora_%28Earth-616%29_from_Avengers_Vol_1_7_001.jpg/revision/latest/scale-to-width-down/399?cb=20191221201919"
+  },
+  "loki-god-of-lies": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/d/da/Loki_Laufeyson_%28Earth-199999%29_from_Thor_%28film%29_Concept_Art_0001.jpg/revision/latest?cb=20120113072505"
+  },
+  "iron-man-leader": {
+    "status": "ok",
+    "source": "Anthony Stark (Earth-616)",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/4/42/Iron_Man_Vol_7_1_Villalobos_Virgin_Variant.jpg/revision/latest/scale-to-width-down/325?cb=20260128204028"
+  },
+  "captain-marvel-leader": {
+    "status": "cached"
+  },
+  "captain-america-leader": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/b/bf/Steven_Rogers_%28Earth-201163%29_from_Captain_America_This_Is_Captain_America_001.jpg/revision/latest/scale-to-width-down/500?cb=20260109191327"
+  },
+  "spider-woman-leader": {
+    "status": "cached"
+  },
+  "she-hulk-leader": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/5/53/Jennifer_Walters_%28Earth-616%29_from_Sensational_She-Hulk_Vol_2_9_001.jpg/revision/latest/scale-to-width-down/500?cb=20240818212144"
+  },
+  "vision-leader": {
+    "status": "cached"
+  },
+  "bullseye": {
+    "status": "cached"
+  },
+  "electro-fne": {
+    "status": "cached"
+  },
+  "hammerhead": {
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/c/c2/Hammerhead_%28Joseph%29_%28Earth-616%29_from_Amazing_Spider-Man_Vol_3_17.1_001.jpg/revision/latest?cb=20150425030948"
+  },
+  "purple-man": {
+    "status": "cached"
+  },
+  "typhoid-mary": {
+    "status": "cached"
+  },
+  "kingpin": {
+    "status": "cached"
+  }
+}
