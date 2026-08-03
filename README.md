@@ -27,7 +27,9 @@ Edit `matchups.json` for reference, but the current `app.js` contains an embedde
 - No hero fights their own villain incarnation, and Nebula, Magneto, and Angel debut as heroes only after their villain encounters.
 - Every battle shows its official recommended or required encounter modules; variable and catalog-pending setups are labeled honestly.
 - A frequency-sorted hero usage panel shows total appearances and repeat counts for all 69 heroes.
-- Mansion Attack now gives Shadowcat a second appearance instead of giving Storm a third; Cyclops remains at two appearances.
+- No hero appears more than three times, and repeat appearances are always separated by at least six battle numbers.
+- Daredevil now appears twice instead of six times; Thor appears three times instead of five.
+- Only Thor, Peter Parker, and Scarlet Witch reach three appearances; 55 of the 69 heroes now appear exactly twice.
 - Active search and campaign filters now show a concise results summary.
 - A Reset filters button returns the full 65-matchup sequence in one step.
 - Empty searches offer an immediate “Show all matchups” recovery action.

@@ -6,6 +6,8 @@
 
 **Release-order constraint:** Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.
 
+**Casting balance:** No hero appears more than three times, and repeat appearances are separated by at least six battle numbers. Exact two-hero teams never repeat.
+
 **Encounter setup:** Official recommended and required modular sets for every battle are maintained in `matchups.json` and displayed on each battle card. Variable setups remain variable, and unavailable Fear No Evil recommendations are marked as catalog-pending instead of being guessed.
 
 ## Core Set
@@ -29,8 +31,8 @@
 
 ### 4. Risky Business — Norman Osborn / Green Goblin
 - **Villain side:** Norman Osborn + Green Goblin
-- **Hero team:** Spider-Man (Peter Parker) 🔁 + Ghost-Spider
-- **Context:** Peter gets his defining Goblin feud, while Gwen understands better than almost anyone what a Goblin can cost a Spider-hero.
+- **Hero team:** Ghost-Spider + Silk
+- **Context:** Gwen carries the Goblin stakes, while Cindy gives the operation a second New York Spider who can track Norman’s shifting public and criminal identities.
 
 ### 5. Mutagen Formula — Green Goblin
 - **Villain side:** Green Goblin
@@ -55,35 +57,35 @@
 
 ### 8. Crossbones
 - **Villain side:** Crossbones
-- **Hero team:** Captain America + Winter Soldier
-- **Context:** Both heroes have deeply personal HYDRA history, and Crossbones is one of Steve’s most persistent modern enemies.
+- **Hero team:** Winter Soldier + Falcon
+- **Context:** Crossbones has personal history with both of Steve’s closest partners; Bucky brings the HYDRA scars while Sam brings modern Captain America fieldcraft.
 
 ### 9. Absorbing Man
 - **Villain side:** Absorbing Man
-- **Hero team:** Thor 🔁 + Hulk
-- **Context:** Crusher Creel is a recurring Thor opponent who also fits naturally into Hulk’s heavyweight division.
+- **Hero team:** Hulk + Wonder Man
+- **Context:** Two Avengers heavy hitters meet Crusher Creel at his own level: Hulk matches the raw force while Simon’s ionic body is difficult to neutralize.
 
 ### 10. Taskmaster
 - **Villain side:** Taskmaster
-- **Hero team:** Black Widow + Hawkeye
-- **Context:** Two elite combat specialists face an enemy specifically designed to copy and counter fighting styles.
+- **Hero team:** Black Widow + Echo
+- **Context:** Natasha knows Taskmaster’s mercenary world, while Echo turns his copied technique back on him with mimicry of her own.
 
 ### 11. Zola
 - **Villain side:** Zola
-- **Hero team:** Vision + War Machine
-- **Context:** Vision confronts Zola’s artificial-life experimentation while Rhodey brings military firepower against the laboratory complex.
+- **Hero team:** Vision + SP//dr
+- **Context:** Vision confronts Zola’s artificial-life experiments while Peni and SP//dr infiltrate and dismantle the laboratory machinery.
 
 ### 12. Red Skull
 - **Villain side:** Red Skull
-- **Hero team:** Captain America 🔁 + Falcon
-- **Context:** Steve faces his defining ideological enemy with his closest Captain America partner beside him.
+- **Hero team:** Captain America + Nick Fury
+- **Context:** Steve faces his defining ideological enemy while Fury coordinates the global intelligence operation needed to dismantle HYDRA around him.
 
 ## Galaxy’s Most Wanted
 
 ### 13. Drang
 - **Villain side:** Drang
-- **Hero team:** Captain Marvel + Spectrum
-- **Context:** Two space-capable military heroes respond to a full Badoon invasion.
+- **Hero team:** Spectrum + War Machine
+- **Context:** Two military veterans with flight and long-range firepower form an ideal planetary defense against a full Badoon invasion.
 
 ### 14. The Collector — Infiltrate the Museum
 - **Villain side:** The Collector
@@ -92,12 +94,12 @@
 
 ### 15. The Collector — Escape the Museum
 - **Villain side:** The Collector
-- **Hero team:** Drax + Gamora
-- **Context:** Drax supplies the muscle while Gamora's discipline and experience keep their escape from becoming another museum exhibit.
+- **Hero team:** Drax + Venom
+- **Context:** Drax supplies the force while Agent Venom brings Guardians experience, military discipline and symbiote flexibility to an impossible museum escape.
 
 ### 16. Nebula
 - **Villain side:** Nebula
-- **Hero team:** Gamora 🔁 + Star-Lord
+- **Hero team:** Gamora + Star-Lord
 - **Context:** Gamora confronts her sister while Star-Lord keeps the Guardians focused on stopping Nebula's assault.
 
 ### 17. Ronan the Accuser
@@ -119,25 +121,25 @@
 
 ### 20. Thanos
 - **Villain side:** Thanos
-- **Hero team:** Adam Warlock + Iron Man 🔁
-- **Context:** Adam is among Thanos’s most defining cosmic opponents, while Tony brings Avengers leadership and the desperate technological plan.
+- **Hero team:** Adam Warlock + Rocket Raccoon 🔁
+- **Context:** Adam is among Thanos’s defining cosmic opponents, while Rocket supplies the Guardians ingenuity and desperate engineering plan needed against the Infinity Stones.
 
 ### 21. Hela
 - **Villain side:** Hela
-- **Hero team:** Thor 🔁 + Valkyrie
-- **Context:** Both are directly rooted in Asgard, death mythology and the struggle over Hel.
+- **Hero team:** Valkyrie + Magik
+- **Context:** Valkyrie has a direct duty to Asgard’s dead, while Magik knows how to invade, survive and escape a hostile hell dimension.
 
 ### 22. Loki
 - **Villain side:** Loki
-- **Hero team:** Thor 🔁 + Doctor Strange 🔁
-- **Context:** Thor confronts his brother while Doctor Strange cuts through Loki’s sorcery, illusions and dimensional tricks.
+- **Hero team:** Thor 🔁 + Hulkling 🔁
+- **Context:** Thor knows Loki’s schemes by heart, while Hulkling brings Young Avengers experience with shapeshifters, stolen identities and dynastic deception.
 
 ## The Hood
 
 ### 23. The Hood
 - **Villain side:** The Hood
-- **Hero team:** Daredevil + Spider-Woman 🔁
-- **Context:** Matt handles the New York criminal empire while Jessica brings espionage, investigation and experience with larger conspiracies.
+- **Hero team:** Daredevil + Tigra
+- **Context:** Matt handles the New York criminal empire while Tigra tracks the supernatural fingerprints and underworld network behind Parker Robbins’s operation.
 
 ## Sinister Motives
 
@@ -145,27 +147,27 @@
 
 ### 24. Sandman
 - **Villain side:** Sandman
-- **Hero team:** She-Hulk 🔁 + Tigra
-- **Context:** Two grounded New York heroes respond to a city-scale physical disaster. Jen supplies brute strength while Tigra provides speed, tracking and urban mobility.
+- **Hero team:** She-Hulk 🔁 + Hercules 🔁
+- **Context:** Two grounded heavy hitters tackle a city-scale physical disaster: Jen protects the civilians while Hercules breaks through Sandman’s shifting mass.
 
 ### 25. Venom
 - **Villain side:** Venom
-- **Hero team:** Spider-Man (Peter Parker) 🔁 + Venom
+- **Hero team:** Spider-Man (Peter Parker) 🔁 + Venom 🔁
 - **Context:** Peter’s symbiote history is too important to ignore, while heroic Flash Thompson confronting a hostile Venom creates a strong mirror matchup.
 
 ### 26. Mysterio
 - **Villain side:** Mysterio
-- **Hero team:** Doctor Strange 🔁 + Vision 🔁
-- **Context:** Strange determines whether anything apparently supernatural is real; Vision’s synthetic senses provide a believable defense against sensory illusions.
+- **Hero team:** Spider-Man (Miles Morales) 🔁 + Vision 🔁
+- **Context:** Miles keeps the fight rooted in Spider-Man’s world, while Vision’s synthetic senses provide a believable defense against sensory illusions.
 
 ### 27. The Sinister Six
 - **Villain side:** Doctor Octopus + Electro + Hobgoblin + Kraven the Hunter + Scorpion + Vulture
-- **Hero team:** Spider-Man (Miles Morales) 🔁 + Hawkeye 🔁
-- **Context:** Miles preserves the Spider legacy while Clint provides veteran urban tactics against six coordinated threats.
+- **Hero team:** Spider-Ham + Nova 🔁
+- **Context:** One Spider keeps the villains personal, while Nova’s speed and aerial control prevent six coordinated threats from swarming the city; Peter Porker’s unpredictability makes their usual counters unreliable.
 
 ### 28. Venom Goblin
 - **Villain side:** Venom Goblin
-- **Hero team:** Ghost-Spider 🔁 + SP//dr
+- **Hero team:** Ghost-Spider 🔁 + SP//dr 🔁
 - **Context:** Gwen carries the Goblin connection and emotional stakes; Peni supplies specialized Spider technology against Norman’s symbiote-enhanced equipment.
 
 ## MojoMania
@@ -177,20 +179,20 @@
 
 ### 30. Spiral
 - **Villain side:** Spiral
-- **Hero team:** Psylocke + Deadpool
-- **Context:** Psylocke has direct mutant-world connections to Spiral, while Deadpool belongs naturally in Mojoworld’s chaotic entertainment format.
+- **Hero team:** Psylocke + Domino
+- **Context:** Psylocke has direct mutant-world connections to Spiral, while Domino’s probability manipulation destabilizes Mojoworld’s choreographed chaos.
 
 ### 31. Mojo
 - **Villain side:** Mojo
-- **Hero team:** Spider-Ham + Deadpool 🔁
-- **Context:** Two fourth-wall-breaking heroes fight a villain obsessed with ratings, audience reactions and narrative nonsense.
+- **Hero team:** Deadpool + Wonder Man 🔁
+- **Context:** Deadpool weaponizes the fourth wall, while Simon understands cameras, performance and ratings well enough to sabotage Mojo from inside the production.
 
 ## Mutant Genesis
 
 ### 32. Sabretooth
 - **Villain side:** Sabretooth
-- **Hero team:** Wolverine + Rogue
-- **Context:** Logan is Sabretooth’s defining rival, while Rogue fits the Brotherhood-era conflict and mission to protect Senator Kelly.
+- **Hero team:** Wolverine + Gambit
+- **Context:** Logan is Sabretooth’s defining rival, while Gambit’s history with Creed and the Marauders gives him a personal reason to help stop him.
 
 ### 33. Project Wideawake
 - **Villain side:** Sentinel
@@ -199,17 +201,17 @@
 
 ### 34. Master Mold
 - **Villain side:** Master Mold
-- **Hero team:** Cyclops + Shadowcat
-- **Context:** Scott leads the tactical assault while Kitty phases through Sentinel defenses and machinery.
+- **Hero team:** Shadowcat + Ant-Man 🔁
+- **Context:** Kitty phases into the Sentinel machinery while Scott shrinks into Master Mold’s production core to sabotage it from the inside.
 
 ### 35. Mansion Attack
 - **Villain side:** Avalanche + Blob + Pyro + Toad
-- **Hero team:** Shadowcat 🔁 + Colossus
-- **Context:** Kitty phases through the mansion’s defenses to protect its students while Colossus provides the strength to drive the Brotherhood back.
+- **Hero team:** Magik 🔁 + Iceman
+- **Context:** Illyana teleports students out of danger while Bobby shields the mansion and contains the Brotherhood’s assault behind barriers of ice.
 
 ### 36. Magneto
 - **Villain side:** Magneto
-- **Hero team:** Cyclops 🔁 + Phoenix
+- **Hero team:** Cyclops + Phoenix
 - **Context:** Scott and Jean unite X-Men leadership, tactics and telepathy against their team's most defining ideological enemy.
 
 ## NeXt Evolution
@@ -221,40 +223,40 @@
 
 ### 38. On the Run — The Marauders
 - **Villain side:** Arclight + Blockbuster + Chimera + Greycrow + Harpoon + Riptide + Vertigo
-- **Hero team:** X-23 + Wolverine 🔁
-- **Context:** The most natural pair for surviving a violent mutant manhunt and turning it against the hunters.
+- **Hero team:** X-23 + Domino 🔁
+- **Context:** This X-Force pairing is built for a mutant manhunt: Laura tracks the hunters while Domino bends the odds against the Marauders’ ambushes.
 
 ### 39. Juggernaut
 - **Villain side:** Juggernaut
-- **Hero team:** Colossus 🔁 + Iceman
-- **Context:** Colossus provides the iconic powerhouse collision while Bobby supplies battlefield control capable of slowing Cain down.
+- **Hero team:** Colossus + Bishop 🔁
+- **Context:** Colossus provides the iconic powerhouse collision, while Bishop’s future-war tactics and energy absorption give the team a way to redirect Juggernaut’s momentum.
 
 ### 40. Mister Sinister
 - **Villain side:** Mister Sinister
-- **Hero team:** Cable + Gambit
-- **Context:** Cable is tied to Sinister’s obsession with the Summers bloodline; Gambit has personal history with Sinister and the Marauders.
+- **Hero team:** Gambit 🔁 + Magneto
+- **Context:** Gambit has personal history with Sinister and the Marauders, while Magneto refuses to let Sinister weaponize mutant genetics again.
 
 ### 41. Stryfe
 - **Villain side:** Stryfe
-- **Hero team:** Cable 🔁 + Domino
-- **Context:** Cable faces his clone and defining enemy, backed by his most dependable X-Force partner.
+- **Hero team:** Cable + Psylocke 🔁
+- **Context:** Cable faces his clone and defining enemy, while Psylocke supplies the telepathic discipline needed to withstand Stryfe’s psychic assault.
 
 ## The Age of Apocalypse
 
 ### 42. Unus
 - **Villain side:** Unus
-- **Hero team:** Bishop 🔁 + Iceman 🔁
-- **Context:** Two resistance-ready X-Men oppose a Brotherhood-linked enforcer in Apocalypse’s altered world.
+- **Hero team:** Jubilee 🔁 + Iceman 🔁
+- **Context:** Two generations of X-Men oppose a Brotherhood-linked enforcer: Jubilee keeps the pressure on at range while Iceman controls the battlefield around Unus’s force field.
 
 ### 43. The Four Horsemen
 - **Villain side:** War + Famine + Pestilence + Death
-- **Hero team:** Nightcrawler 🔁 + Psylocke 🔁
-- **Context:** Nightcrawler's faith and compassion resist Apocalypse's corruption, while Psylocke brings the psychic discipline to withstand the Horsemen.
+- **Hero team:** Nightcrawler 🔁 + Cyclops 🔁
+- **Context:** Nightcrawler’s faith and compassion resist Apocalypse’s corruption, while Cyclops coordinates the shifting fight against four very different Horsemen.
 
 ### 44. Apocalypse
 - **Villain side:** Apocalypse
-- **Hero team:** Magik + Angel
-- **Context:** Magik breaks into Apocalypse's domain while Warren confronts the tyrant who transformed him into Death.
+- **Hero team:** Angel + Adam Warlock 🔁
+- **Context:** Warren confronts the tyrant who transformed him into Death, while Adam brings cosmic insight and power against Apocalypse’s Celestial technology.
 
 ### 45. Dark Beast
 - **Villain side:** Dark Beast
@@ -263,7 +265,7 @@
 
 ### 46. En Sabah Nur
 - **Villain side:** En Sabah Nur
-- **Hero team:** Magneto + Rogue 🔁
+- **Hero team:** Magneto 🔁 + Rogue
 - **Context:** Both have major stakes in the Age of Apocalypse reality and its mutant resistance.
 
 ## Agents of S.H.I.E.L.D.
@@ -272,13 +274,13 @@
 
 ### 47. Black Widow — Yelena Belova
 - **Villain side:** Black Widow
-- **Hero team:** Black Widow 🔁 + Winter Soldier 🔁
-- **Context:** Natasha faces her Red Room counterpart, with Bucky completing the team of damaged former super-spies.
+- **Hero team:** Black Widow 🔁 + Nick Fury 🔁
+- **Context:** Natasha faces her Red Room counterpart while Fury runs the extraction and counterintelligence operation around their confrontation.
 
 ### 48. Batroc
 - **Villain side:** Batroc
-- **Hero team:** Falcon 🔁 + Nick Fury
-- **Context:** Sam brings the Captain America-world connection while Fury manages the infiltration and intelligence operation.
+- **Hero team:** Falcon 🔁 + Maria Hill
+- **Context:** Sam brings direct Captain America-world history with Batroc, while Hill controls the S.H.I.E.L.D. infiltration and cuts off the mercenary’s escape.
 
 ### 49. M.O.D.O.K.
 - **Villain side:** M.O.D.O.K.
@@ -287,13 +289,13 @@
 
 ### 50. Thunderbolts — Citizen V
 - **Villain side:** Citizen V + Atlas + MACH-X + Meteorite + Songbird + Techno
-- **Hero team:** Hawkeye 🔁 + Wonder Man
-- **Context:** Clint has extensive Thunderbolts history, while Simon represents the Avengers side of the team’s false-hero identity.
+- **Hero team:** Hawkeye + Spectrum 🔁
+- **Context:** Clint brings extensive Thunderbolts history, while Monica’s Avengers leadership exposes the false-hero team and keeps its volatile powers contained.
 
 ### 51. Baron Zemo
 - **Villain side:** Baron Zemo
-- **Hero team:** Captain America 🔁 + Maria Hill
-- **Context:** Steve confronts his historic enemy while Hill exposes and dismantles Zemo’s infiltration of S.H.I.E.L.D.
+- **Hero team:** Winter Soldier 🔁 + Black Panther (T’Challa) 🔁
+- **Context:** Bucky has endured Zemo’s manipulation firsthand, while T’Challa brings the strategic focus and personal resolve to expose the entire infiltration.
 
 ## Trickster Takeover
 
@@ -304,8 +306,8 @@
 
 ### 53. Loki, God of Lies
 - **Villain side:** Loki
-- **Hero team:** Thor 🔁 + Hulkling 🔁
-- **Context:** Thor faces his brother once more, while Hulkling brings Young Avengers experience with identity manipulation and reality-scale deception.
+- **Hero team:** Thor 🔁 + Doctor Strange 🔁
+- **Context:** Thor confronts his brother while Doctor Strange cuts through Loki’s sorcery, illusions and reality-bending tricks.
 
 ## Civil War
 
@@ -323,13 +325,13 @@
 
 ### 56. Captain America — Resistance
 - **Villain side:** Captain America
-- **Hero team:** Iron Man 🔁 + Black Widow 🔁
-- **Context:** Tony is the obvious opposing leader, while Natasha embodies the conflict’s shifting loyalties and moral uncertainty.
+- **Hero team:** Iron Man 🔁 + Maria Hill 🔁
+- **Context:** Tony leads the registration case while Hill supplies the institutional strategy needed to counter the resistance network.
 
 ### 57. Spider-Woman — Resistance
 - **Villain side:** Spider-Woman
-- **Hero team:** Captain Marvel 🔁 + Hawkeye 🔁
-- **Context:** Carol is Jessica’s closest major heroic relationship, while Clint offers the grounded Avengers perspective.
+- **Hero team:** Captain Marvel + Luke Cage
+- **Context:** Carol is Jessica’s closest major heroic relationship, while Luke brings the street-level resistance perspective and firsthand opposition to registration.
 
 ## Synthezoid Smackdown
 
@@ -337,8 +339,8 @@
 
 ### 58. She-Hulk — Registration
 - **Villain side:** She-Hulk
-- **Hero team:** Daredevil 🔁 + Tigra 🔁
-- **Context:** Matt can oppose Jen through both legal philosophy and combat, while Tigra is a longtime Avenger peer who can survive the physical confrontation.
+- **Hero team:** Tigra 🔁 + Wasp 🔁
+- **Context:** Two longtime Avengers peers challenge Jen without mirroring her directly: Greer can survive the close fight while Janet supplies veteran leadership and de-escalation.
 
 ### 59. Vision — Resistance
 - **Villain side:** Vision
@@ -349,28 +351,28 @@
 
 ### 60. Bullseye
 - **Villain side:** Bullseye
-- **Hero team:** Daredevil 🔁 + Echo
-- **Context:** Bullseye is Matt’s definitive assassin enemy, while Echo can match his precision and has her own history within Kingpin’s world.
+- **Hero team:** Echo 🔁 + Hawkeye 🔁
+- **Context:** Echo can match Bullseye’s precision with copied technique of her own, while Clint turns the scenario into the marksman duel it deserves.
 
 ### 61. Electro
 - **Villain side:** Electro
-- **Hero team:** Spider-Man (Peter Parker) 🔁 + Silk
+- **Hero team:** Spider-Man (Peter Parker) 🔁 + Silk 🔁
 - **Context:** Two New York web-warriors confront one of Spider-Man’s foundational villains.
 
 ### 62. Hammerhead
 - **Villain side:** Hammerhead
-- **Hero team:** Luke Cage + Tigra 🔁
-- **Context:** Luke protects New York neighborhoods from organized crime, while Tigra brings street-level investigation and enough strength for a Maggia war.
+- **Hero team:** Black Panther (Shuri) 🔁 + War Machine 🔁
+- **Context:** Shuri traces and dismantles the Maggia’s weapons network while Rhodey breaks through Hammerhead’s fortified operation with controlled firepower.
 
 ### 63. Purple Man
 - **Villain side:** Purple Man
-- **Hero team:** Jessica Jones + Daredevil 🔁
-- **Context:** Jessica is mandatory because Killgrave is the central source of her trauma; Matt adds another Defender familiar with his methods.
+- **Hero team:** Jessica Jones + Captain Marvel 🔁
+- **Context:** Jessica is mandatory because Killgrave is the central source of her trauma; Carol is the close friend most likely to believe her and stand beside her through it.
 
 ### 64. Typhoid Mary
 - **Villain side:** Typhoid Mary
-- **Hero team:** Daredevil 🔁 + Deadpool 🔁
-- **Context:** Mary is one of Matt’s most personal enemies and also has substantial history with Deadpool.
+- **Hero team:** Deadpool 🔁 + Wolverine 🔁
+- **Context:** Deadpool brings direct history with Mary, while Wolverine’s senses and healing factor help him survive her misdirection, psychic attacks and fire.
 
 ### 65. Kingpin
 - **Villain side:** Kingpin
@@ -379,4 +381,4 @@
 
 ## Instructions for a work assistant
 
-Treat this document and `matchups.json` as the canonical source for the campaign matchup project. Preserve scenario order, hero pairings, repeat markers, encounter setup, battle context, and the Luke Cage/Jessica Jones availability gate unless the user explicitly changes them. When revising a pairing, re-audit all 65 scenarios and all 69 heroes for omissions and update repeat markers based on first appearance in sequence.
+Treat this document and `matchups.json` as the canonical source for the campaign matchup project. Preserve scenario order, hero pairings, repeat markers, encounter setup, battle context, the three-appearance cap, the minimum repeat gap, and the Luke Cage/Jessica Jones availability gate unless the user explicitly changes them. When revising a pairing, re-audit all 65 scenarios and all 69 heroes for omissions and update repeat markers based on first appearance in sequence.

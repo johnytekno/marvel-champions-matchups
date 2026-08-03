@@ -4,28 +4,40 @@
   "rules": {
     "repeatMarker": "🔁",
     "sequenceNote": "Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.",
-    "scope": "65 scenario matchups through Fear No Evil. Shadowland is excluded because it is upcoming in this sequence."
+    "scope": "65 scenario matchups through Fear No Evil. Shadowland is excluded because it is upcoming in this sequence.",
+    "appearanceCap": 3,
+    "minimumRepeatGap": 6
   },
   "encounterModules": {
     "battle-01": {
       "type": "official",
-      "sets": ["Bomb Scare"]
+      "sets": [
+        "Bomb Scare"
+      ]
     },
     "battle-02": {
       "type": "official",
-      "sets": ["Masters of Evil"]
+      "sets": [
+        "Masters of Evil"
+      ]
     },
     "battle-03": {
       "type": "official",
-      "sets": ["Under Attack"]
+      "sets": [
+        "Under Attack"
+      ]
     },
     "battle-04": {
       "type": "official",
-      "sets": ["Goblin Gimmicks"]
+      "sets": [
+        "Goblin Gimmicks"
+      ]
     },
     "battle-05": {
       "type": "official",
-      "sets": ["Goblin Gimmicks"]
+      "sets": [
+        "Goblin Gimmicks"
+      ]
     },
     "battle-06": {
       "type": "self-contained",
@@ -34,232 +46,407 @@
     },
     "battle-07": {
       "type": "official",
-      "sets": ["Temporal"]
+      "sets": [
+        "Temporal"
+      ]
     },
     "battle-08": {
       "type": "official",
-      "sets": ["Experimental Weapons", "Hydra Assault", "Weapon Master", "Legions of Hydra"]
+      "sets": [
+        "Experimental Weapons",
+        "Hydra Assault",
+        "Weapon Master",
+        "Legions of Hydra"
+      ]
     },
     "battle-09": {
       "type": "official",
-      "sets": ["Hydra Patrol"]
+      "sets": [
+        "Hydra Patrol"
+      ]
     },
     "battle-10": {
       "type": "official",
-      "sets": ["Hydra Patrol", "Weapon Master"]
+      "sets": [
+        "Hydra Patrol",
+        "Weapon Master"
+      ]
     },
     "battle-11": {
       "type": "official",
-      "sets": ["Under Attack"]
+      "sets": [
+        "Under Attack"
+      ]
     },
     "battle-12": {
       "type": "official",
-      "sets": ["Hydra Assault", "Hydra Patrol"]
+      "sets": [
+        "Hydra Assault",
+        "Hydra Patrol"
+      ]
     },
     "battle-13": {
       "type": "official",
-      "sets": ["Ship Command", "Band of Badoon"]
+      "sets": [
+        "Ship Command",
+        "Band of Badoon"
+      ]
     },
     "battle-14": {
       "type": "official",
-      "sets": ["Galactic Artifacts", "Menagerie Medley"]
+      "sets": [
+        "Galactic Artifacts",
+        "Menagerie Medley"
+      ]
     },
     "battle-15": {
       "type": "official",
-      "sets": ["Galactic Artifacts", "Ship Command", "Menagerie Medley"]
+      "sets": [
+        "Galactic Artifacts",
+        "Ship Command",
+        "Menagerie Medley"
+      ]
     },
     "battle-16": {
       "type": "official",
-      "sets": ["Power Stone", "Ship Command", "Space Pirates"]
+      "sets": [
+        "Power Stone",
+        "Ship Command",
+        "Space Pirates"
+      ]
     },
     "battle-17": {
       "type": "official",
-      "sets": ["Power Stone", "Ship Command", "Kree Militants"]
+      "sets": [
+        "Power Stone",
+        "Ship Command",
+        "Kree Militants"
+      ]
     },
     "battle-18": {
       "type": "official",
-      "sets": ["Armies of Titan", "Black Order"]
+      "sets": [
+        "Armies of Titan",
+        "Black Order"
+      ]
     },
     "battle-19": {
       "type": "official",
-      "sets": ["Armies of Titan"]
+      "sets": [
+        "Armies of Titan"
+      ]
     },
     "battle-20": {
       "type": "official",
-      "sets": ["Infinity Gauntlet", "Black Order", "Children of Thanos"]
+      "sets": [
+        "Infinity Gauntlet",
+        "Black Order",
+        "Children of Thanos"
+      ]
     },
     "battle-21": {
       "type": "official",
-      "sets": ["Legions of Hel", "Frost Giants"]
+      "sets": [
+        "Legions of Hel",
+        "Frost Giants"
+      ]
     },
     "battle-22": {
       "type": "official",
-      "sets": ["Infinity Gauntlet", "Enchantress", "Frost Giants"]
+      "sets": [
+        "Infinity Gauntlet",
+        "Enchantress",
+        "Frost Giants"
+      ]
     },
     "battle-23": {
       "type": "variable",
-      "sets": ["Choose 7 modular encounter sets"],
+      "sets": [
+        "Choose 7 modular encounter sets"
+      ],
       "note": "The Hood pack includes Beasty Boys, Brothers Grimm, Crossfire’s Crew, Mister Hyde, Ransacked Armory, Sinister Syndicate, State of Emergency, Streets of Mayhem, and Wrecking Crew as its modular pool."
     },
     "battle-24": {
       "type": "official",
-      "sets": ["City in Chaos", "Down to Earth"]
+      "sets": [
+        "City in Chaos",
+        "Down to Earth"
+      ]
     },
     "battle-25": {
       "type": "official",
-      "sets": ["Symbiotic Strength", "Down to Earth"]
+      "sets": [
+        "Symbiotic Strength",
+        "Down to Earth"
+      ]
     },
     "battle-26": {
       "type": "official",
-      "sets": ["Personal Nightmare", "Whispers of Paranoia"]
+      "sets": [
+        "Personal Nightmare",
+        "Whispers of Paranoia"
+      ]
     },
     "battle-27": {
       "type": "official",
-      "sets": ["Guerrilla Tactics"]
+      "sets": [
+        "Guerrilla Tactics"
+      ]
     },
     "battle-28": {
       "type": "official",
-      "sets": ["Symbiotic Strength", "Goblin Gear"]
+      "sets": [
+        "Symbiotic Strength",
+        "Goblin Gear"
+      ]
     },
     "battle-29": {
       "type": "variable",
-      "sets": ["1 random MojoMania modular set"],
+      "sets": [
+        "1 random MojoMania modular set"
+      ],
       "note": "Official pool: Crime, Fantasy, Horror, Sci-Fi, Sitcom, and Western."
     },
     "battle-30": {
       "type": "variable",
-      "sets": ["3 random MojoMania modular sets"],
+      "sets": [
+        "3 random MojoMania modular sets"
+      ],
       "note": "Official pool: Crime, Fantasy, Horror, Sci-Fi, Sitcom, and Western."
     },
     "battle-31": {
       "type": "variable",
-      "sets": ["Choose 1 + 1 per hero"],
+      "sets": [
+        "Choose 1 + 1 per hero"
+      ],
       "note": "Choose from the MojoMania pool: Crime, Fantasy, Horror, Sci-Fi, Sitcom, and Western."
     },
     "battle-32": {
       "type": "official",
-      "sets": ["Brotherhood", "Mystique"]
+      "sets": [
+        "Brotherhood",
+        "Mystique"
+      ]
     },
     "battle-33": {
       "type": "official",
-      "sets": ["Zero Tolerance", "Sentinels"]
+      "sets": [
+        "Zero Tolerance",
+        "Sentinels"
+      ]
     },
     "battle-34": {
       "type": "official",
-      "sets": ["Sentinels", "Zero Tolerance"]
+      "sets": [
+        "Sentinels",
+        "Zero Tolerance"
+      ]
     },
     "battle-35": {
       "type": "official",
-      "sets": ["Brotherhood", "Mystique"]
+      "sets": [
+        "Brotherhood",
+        "Mystique"
+      ]
     },
     "battle-36": {
       "type": "official",
-      "sets": ["Acolytes"]
+      "sets": [
+        "Acolytes"
+      ]
     },
     "battle-37": {
       "type": "official",
-      "sets": ["Military Grade", "Mutant Slayers"]
+      "sets": [
+        "Military Grade",
+        "Mutant Slayers"
+      ]
     },
     "battle-38": {
       "type": "official",
-      "sets": ["Mutant Slayers", "Military Grade", "Nasty Boys"]
+      "sets": [
+        "Mutant Slayers",
+        "Military Grade",
+        "Nasty Boys"
+      ]
     },
     "battle-39": {
       "type": "official",
-      "sets": ["Hope Summers", "Black Tom Cassidy"]
+      "sets": [
+        "Hope Summers",
+        "Black Tom Cassidy"
+      ]
     },
     "battle-40": {
       "type": "official",
-      "sets": ["Flight", "Super Strength", "Telepathy", "Hope Summers", "Nasty Boys"]
+      "sets": [
+        "Flight",
+        "Super Strength",
+        "Telepathy",
+        "Hope Summers",
+        "Nasty Boys"
+      ]
     },
     "battle-41": {
       "type": "official",
-      "sets": ["Hope Summers", "Extreme Measures", "Mutant Insurrection"]
+      "sets": [
+        "Hope Summers",
+        "Extreme Measures",
+        "Mutant Insurrection"
+      ]
     },
     "battle-42": {
       "type": "official",
-      "sets": ["Infinites", "Dystopian Nightmare"]
+      "sets": [
+        "Infinites",
+        "Dystopian Nightmare"
+      ]
     },
     "battle-43": {
       "type": "official",
-      "sets": ["Dystopian Nightmare", "Hounds"]
+      "sets": [
+        "Dystopian Nightmare",
+        "Hounds"
+      ]
     },
     "battle-44": {
       "type": "official",
-      "sets": ["Prelates", "Dark Riders", "Infinites"]
+      "sets": [
+        "Prelates",
+        "Dark Riders",
+        "Infinites"
+      ]
     },
     "battle-45": {
       "type": "official",
-      "sets": ["Blue Moon", "Genosha", "Savage Land", "Dystopian Nightmare"]
+      "sets": [
+        "Blue Moon",
+        "Genosha",
+        "Savage Land",
+        "Dystopian Nightmare"
+      ]
     },
     "battle-46": {
       "type": "official",
-      "sets": ["Celestial Tech", "Clan Akkaba"]
+      "sets": [
+        "Celestial Tech",
+        "Clan Akkaba"
+      ]
     },
     "battle-47": {
       "type": "official",
-      "sets": ["A.I.M. Abduction", "A.I.M. Science"]
+      "sets": [
+        "A.I.M. Abduction",
+        "A.I.M. Science"
+      ]
     },
     "battle-48": {
       "type": "official",
-      "sets": ["A.I.M. Science", "Batroc’s Brigade"]
+      "sets": [
+        "A.I.M. Science",
+        "Batroc’s Brigade"
+      ]
     },
     "battle-49": {
       "type": "official",
-      "sets": ["Scientist Supreme"]
+      "sets": [
+        "Scientist Supreme"
+      ]
     },
     "battle-50": {
       "type": "variable",
-      "sets": ["Choose 1 + 1 per hero"],
+      "sets": [
+        "Choose 1 + 1 per hero"
+      ],
       "note": "Each selected set must contain an Elite Thunderbolt minion. Official pool: Gravitational Pull, Hard Sound, Pale Little Spider, Power of the Atom, Supersonic, and The Leaper."
     },
     "battle-51": {
       "type": "official",
-      "sets": ["Scientist Supreme", "S.H.I.E.L.D."],
+      "sets": [
+        "Scientist Supreme",
+        "S.H.I.E.L.D."
+      ],
       "note": "The S.H.I.E.L.D. Executive Board and Executive Board Evidence sets are handled separately by the scenario setup."
     },
     "battle-52": {
       "type": "official",
-      "sets": ["Trickster Magic"]
+      "sets": [
+        "Trickster Magic"
+      ]
     },
     "battle-53": {
       "type": "official",
-      "sets": ["Trickster Magic"]
+      "sets": [
+        "Trickster Magic"
+      ]
     },
     "battle-54": {
       "type": "official",
-      "sets": ["Mighty Avengers", "The Initiative", "Maria Hill", "Dangerous Recruits"],
+      "sets": [
+        "Mighty Avengers",
+        "The Initiative",
+        "Maria Hill",
+        "Dangerous Recruits"
+      ],
       "note": "Official preconstructed scenario. Main schemes: Cut Off Support → Negative Zone Prison."
     },
     "battle-55": {
       "type": "official",
-      "sets": ["Cape-Killer", "Martial Law", "Heroes for Hire", "Paladin"],
+      "sets": [
+        "Cape-Killer",
+        "Martial Law",
+        "Heroes for Hire",
+        "Paladin"
+      ],
       "note": "Official preconstructed scenario. Main schemes: S.H.I.E.L.D. Recruits → Hunting Rebel Heroes."
     },
     "battle-56": {
       "type": "official",
-      "sets": ["New Avengers", "Secret Avengers", "Namor", "Atlanteans"],
+      "sets": [
+        "New Avengers",
+        "Secret Avengers",
+        "Namor",
+        "Atlanteans"
+      ],
       "note": "Official preconstructed scenario. Main schemes: Gathering Support → Secret Avengers."
     },
     "battle-57": {
       "type": "official",
-      "sets": ["Spider-Man", "Defenders", "Hell’s Kitchen", "Cloak & Dagger"],
+      "sets": [
+        "Spider-Man",
+        "Defenders",
+        "Hell’s Kitchen",
+        "Cloak & Dagger"
+      ],
       "note": "Official preconstructed scenario. Main schemes: Open Rebellion → Neighborhood Protectors."
     },
     "battle-58": {
       "type": "official",
-      "sets": ["S.H.I.E.L.D. Ops", "Thunderbolts", "Taskmaster", "Deadly Duo"],
+      "sets": [
+        "S.H.I.E.L.D. Ops",
+        "Thunderbolts",
+        "Taskmaster",
+        "Deadly Duo"
+      ],
       "note": "Official preconstructed scenario. Main schemes: Enforce the Law → Mighty Avengers."
     },
     "battle-59": {
       "type": "official",
-      "sets": ["Young Avengers", "Scarlet Twins", "Moon Knight", "Royal Guard"],
+      "sets": [
+        "Young Avengers",
+        "Scarlet Twins",
+        "Moon Knight",
+        "Royal Guard"
+      ],
       "note": "Official preconstructed scenario. Main schemes: Protect Secret Identities → Expose Overreach."
     },
     "battle-60": {
       "type": "official",
       "scenarioSet": "Protection Racket",
-      "sets": ["Disasters", "Tracksuit Mafia"],
+      "sets": [
+        "Disasters",
+        "Tracksuit Mafia"
+      ],
       "note": "Official Fear No Evil campaign pairing."
     },
     "battle-61": {
@@ -288,7 +475,9 @@
     },
     "battle-65": {
       "type": "special",
-      "sets": ["Each hero’s nemesis set"],
+      "sets": [
+        "Each hero’s nemesis set"
+      ],
       "note": "Kingpin’s official special setup does not use the Standard encounter set and brings each player’s nemesis into the scenario."
     }
   },
@@ -378,19 +567,19 @@
             "green-goblin"
           ],
           "heroes": [
-            "spider-man-peter",
-            "ghost-spider"
+            "ghost-spider",
+            "silk"
           ],
-          "context": "Peter gets his defining Goblin feud, while Gwen understands better than almost anyone what a Goblin can cost a Spider-hero.",
+          "context": "Gwen carries the Goblin stakes, while Cindy gives the operation a second New York Spider who can track Norman’s shifting public and criminal identities.",
           "number": 4,
           "id": "battle-04",
           "heroAssignments": [
             {
-              "id": "spider-man-peter",
-              "repeat": true
+              "id": "ghost-spider",
+              "repeat": false
             },
             {
-              "id": "ghost-spider",
+              "id": "silk",
               "repeat": false
             }
           ]
@@ -491,19 +680,19 @@
             "crossbones"
           ],
           "heroes": [
-            "captain-america",
-            "winter-soldier"
+            "winter-soldier",
+            "falcon"
           ],
-          "context": "Both heroes have deeply personal HYDRA history, and Crossbones is one of Steve’s most persistent modern enemies.",
+          "context": "Crossbones has personal history with both of Steve’s closest partners; Bucky brings the HYDRA scars while Sam brings modern Captain America fieldcraft.",
           "number": 8,
           "id": "battle-08",
           "heroAssignments": [
             {
-              "id": "captain-america",
+              "id": "winter-soldier",
               "repeat": false
             },
             {
-              "id": "winter-soldier",
+              "id": "falcon",
               "repeat": false
             }
           ]
@@ -514,19 +703,19 @@
             "absorbing-man"
           ],
           "heroes": [
-            "thor",
-            "hulk"
+            "hulk",
+            "wonder-man"
           ],
-          "context": "Crusher Creel is a recurring Thor opponent who also fits naturally into Hulk’s heavyweight division.",
+          "context": "Two Avengers heavy hitters meet Crusher Creel at his own level: Hulk matches the raw force while Simon’s ionic body is difficult to neutralize.",
           "number": 9,
           "id": "battle-09",
           "heroAssignments": [
             {
-              "id": "thor",
-              "repeat": true
+              "id": "hulk",
+              "repeat": false
             },
             {
-              "id": "hulk",
+              "id": "wonder-man",
               "repeat": false
             }
           ]
@@ -538,9 +727,9 @@
           ],
           "heroes": [
             "black-widow",
-            "hawkeye"
+            "echo"
           ],
-          "context": "Two elite combat specialists face an enemy specifically designed to copy and counter fighting styles.",
+          "context": "Natasha knows Taskmaster’s mercenary world, while Echo turns his copied technique back on him with mimicry of her own.",
           "number": 10,
           "id": "battle-10",
           "heroAssignments": [
@@ -549,7 +738,7 @@
               "repeat": false
             },
             {
-              "id": "hawkeye",
+              "id": "echo",
               "repeat": false
             }
           ]
@@ -561,9 +750,9 @@
           ],
           "heroes": [
             "vision",
-            "war-machine"
+            "spdr"
           ],
-          "context": "Vision confronts Zola’s artificial-life experimentation while Rhodey brings military firepower against the laboratory complex.",
+          "context": "Vision confronts Zola’s artificial-life experiments while Peni and SP//dr infiltrate and dismantle the laboratory machinery.",
           "number": 11,
           "id": "battle-11",
           "heroAssignments": [
@@ -572,7 +761,7 @@
               "repeat": false
             },
             {
-              "id": "war-machine",
+              "id": "spdr",
               "repeat": false
             }
           ]
@@ -584,18 +773,18 @@
           ],
           "heroes": [
             "captain-america",
-            "falcon"
+            "nick-fury"
           ],
-          "context": "Steve faces his defining ideological enemy with his closest Captain America partner beside him.",
+          "context": "Steve faces his defining ideological enemy while Fury coordinates the global intelligence operation needed to dismantle HYDRA around him.",
           "number": 12,
           "id": "battle-12",
           "heroAssignments": [
             {
               "id": "captain-america",
-              "repeat": true
+              "repeat": false
             },
             {
-              "id": "falcon",
+              "id": "nick-fury",
               "repeat": false
             }
           ]
@@ -612,19 +801,19 @@
             "drang"
           ],
           "heroes": [
-            "captain-marvel",
-            "spectrum"
+            "spectrum",
+            "war-machine"
           ],
-          "context": "Two space-capable military heroes respond to a full Badoon invasion.",
+          "context": "Two military veterans with flight and long-range firepower form an ideal planetary defense against a full Badoon invasion.",
           "number": 13,
           "id": "battle-13",
           "heroAssignments": [
             {
-              "id": "captain-marvel",
+              "id": "spectrum",
               "repeat": false
             },
             {
-              "id": "spectrum",
+              "id": "war-machine",
               "repeat": false
             }
           ]
@@ -659,9 +848,9 @@
           ],
           "heroes": [
             "drax",
-            "gamora"
+            "venom-hero"
           ],
-          "context": "Drax supplies the muscle while Gamora's discipline and experience keep their escape from becoming another museum exhibit.",
+          "context": "Drax supplies the force while Agent Venom brings Guardians experience, military discipline and symbiote flexibility to an impossible museum escape.",
           "number": 15,
           "id": "battle-15",
           "heroAssignments": [
@@ -670,7 +859,7 @@
               "repeat": false
             },
             {
-              "id": "gamora",
+              "id": "venom-hero",
               "repeat": false
             }
           ]
@@ -690,7 +879,7 @@
           "heroAssignments": [
             {
               "id": "gamora",
-              "repeat": true
+              "repeat": false
             },
             {
               "id": "star-lord",
@@ -781,9 +970,9 @@
           ],
           "heroes": [
             "adam-warlock",
-            "iron-man"
+            "rocket-raccoon"
           ],
-          "context": "Adam is among Thanos’s most defining cosmic opponents, while Tony brings Avengers leadership and the desperate technological plan.",
+          "context": "Adam is among Thanos’s defining cosmic opponents, while Rocket supplies the Guardians ingenuity and desperate engineering plan needed against the Infinity Stones.",
           "number": 20,
           "id": "battle-20",
           "heroAssignments": [
@@ -792,7 +981,7 @@
               "repeat": false
             },
             {
-              "id": "iron-man",
+              "id": "rocket-raccoon",
               "repeat": true
             }
           ]
@@ -803,19 +992,19 @@
             "hela"
           ],
           "heroes": [
-            "thor",
-            "valkyrie"
+            "valkyrie",
+            "magik"
           ],
-          "context": "Both are directly rooted in Asgard, death mythology and the struggle over Hel.",
+          "context": "Valkyrie has a direct duty to Asgard’s dead, while Magik knows how to invade, survive and escape a hostile hell dimension.",
           "number": 21,
           "id": "battle-21",
           "heroAssignments": [
             {
-              "id": "thor",
-              "repeat": true
+              "id": "valkyrie",
+              "repeat": false
             },
             {
-              "id": "valkyrie",
+              "id": "magik",
               "repeat": false
             }
           ]
@@ -827,9 +1016,9 @@
           ],
           "heroes": [
             "thor",
-            "doctor-strange"
+            "hulkling"
           ],
-          "context": "Thor confronts his brother while Doctor Strange cuts through Loki’s sorcery, illusions and dimensional tricks.",
+          "context": "Thor knows Loki’s schemes by heart, while Hulkling brings Young Avengers experience with shapeshifters, stolen identities and dynastic deception.",
           "number": 22,
           "id": "battle-22",
           "heroAssignments": [
@@ -838,7 +1027,7 @@
               "repeat": true
             },
             {
-              "id": "doctor-strange",
+              "id": "hulkling",
               "repeat": true
             }
           ]
@@ -856,9 +1045,9 @@
           ],
           "heroes": [
             "daredevil",
-            "spider-woman"
+            "tigra"
           ],
-          "context": "Matt handles the New York criminal empire while Jessica brings espionage, investigation and experience with larger conspiracies.",
+          "context": "Matt handles the New York criminal empire while Tigra tracks the supernatural fingerprints and underworld network behind Parker Robbins’s operation.",
           "number": 23,
           "id": "battle-23",
           "heroAssignments": [
@@ -867,8 +1056,8 @@
               "repeat": false
             },
             {
-              "id": "spider-woman",
-              "repeat": true
+              "id": "tigra",
+              "repeat": false
             }
           ]
         }
@@ -886,9 +1075,9 @@
           ],
           "heroes": [
             "she-hulk",
-            "tigra"
+            "hercules"
           ],
-          "context": "Two grounded New York heroes respond to a city-scale physical disaster. Jen supplies brute strength while Tigra provides speed, tracking and urban mobility.",
+          "context": "Two grounded heavy hitters tackle a city-scale physical disaster: Jen protects the civilians while Hercules breaks through Sandman’s shifting mass.",
           "number": 24,
           "id": "battle-24",
           "heroAssignments": [
@@ -897,8 +1086,8 @@
               "repeat": true
             },
             {
-              "id": "tigra",
-              "repeat": false
+              "id": "hercules",
+              "repeat": true
             }
           ]
         },
@@ -921,7 +1110,7 @@
             },
             {
               "id": "venom-hero",
-              "repeat": false
+              "repeat": true
             }
           ]
         },
@@ -931,15 +1120,15 @@
             "mysterio"
           ],
           "heroes": [
-            "doctor-strange",
+            "spider-man-miles",
             "vision"
           ],
-          "context": "Strange determines whether anything apparently supernatural is real; Vision’s synthetic senses provide a believable defense against sensory illusions.",
+          "context": "Miles keeps the fight rooted in Spider-Man’s world, while Vision’s synthetic senses provide a believable defense against sensory illusions.",
           "number": 26,
           "id": "battle-26",
           "heroAssignments": [
             {
-              "id": "doctor-strange",
+              "id": "spider-man-miles",
               "repeat": true
             },
             {
@@ -959,19 +1148,19 @@
             "vulture"
           ],
           "heroes": [
-            "spider-man-miles",
-            "hawkeye"
+            "spider-ham",
+            "nova"
           ],
-          "context": "Miles preserves the Spider legacy while Clint provides veteran urban tactics against six coordinated threats.",
+          "context": "One Spider keeps the villains personal, while Nova’s speed and aerial control prevent six coordinated threats from swarming the city; Peter Porker’s unpredictability makes their usual counters unreliable.",
           "number": 27,
           "id": "battle-27",
           "heroAssignments": [
             {
-              "id": "spider-man-miles",
-              "repeat": true
+              "id": "spider-ham",
+              "repeat": false
             },
             {
-              "id": "hawkeye",
+              "id": "nova",
               "repeat": true
             }
           ]
@@ -995,7 +1184,7 @@
             },
             {
               "id": "spdr",
-              "repeat": false
+              "repeat": true
             }
           ]
         }
@@ -1035,9 +1224,9 @@
           ],
           "heroes": [
             "psylocke",
-            "deadpool"
+            "domino"
           ],
-          "context": "Psylocke has direct mutant-world connections to Spiral, while Deadpool belongs naturally in Mojoworld’s chaotic entertainment format.",
+          "context": "Psylocke has direct mutant-world connections to Spiral, while Domino’s probability manipulation destabilizes Mojoworld’s choreographed chaos.",
           "number": 30,
           "id": "battle-30",
           "heroAssignments": [
@@ -1046,7 +1235,7 @@
               "repeat": false
             },
             {
-              "id": "deadpool",
+              "id": "domino",
               "repeat": false
             }
           ]
@@ -1057,19 +1246,19 @@
             "mojo"
           ],
           "heroes": [
-            "spider-ham",
-            "deadpool"
+            "deadpool",
+            "wonder-man"
           ],
-          "context": "Two fourth-wall-breaking heroes fight a villain obsessed with ratings, audience reactions and narrative nonsense.",
+          "context": "Deadpool weaponizes the fourth wall, while Simon understands cameras, performance and ratings well enough to sabotage Mojo from inside the production.",
           "number": 31,
           "id": "battle-31",
           "heroAssignments": [
             {
-              "id": "spider-ham",
+              "id": "deadpool",
               "repeat": false
             },
             {
-              "id": "deadpool",
+              "id": "wonder-man",
               "repeat": true
             }
           ]
@@ -1087,9 +1276,9 @@
           ],
           "heroes": [
             "wolverine",
-            "rogue"
+            "gambit"
           ],
-          "context": "Logan is Sabretooth’s defining rival, while Rogue fits the Brotherhood-era conflict and mission to protect Senator Kelly.",
+          "context": "Logan is Sabretooth’s defining rival, while Gambit’s history with Creed and the Marauders gives him a personal reason to help stop him.",
           "number": 32,
           "id": "battle-32",
           "heroAssignments": [
@@ -1098,7 +1287,7 @@
               "repeat": false
             },
             {
-              "id": "rogue",
+              "id": "gambit",
               "repeat": false
             }
           ]
@@ -1132,20 +1321,20 @@
             "master-mold"
           ],
           "heroes": [
-            "cyclops",
-            "shadowcat"
+            "shadowcat",
+            "ant-man"
           ],
-          "context": "Scott leads the tactical assault while Kitty phases through Sentinel defenses and machinery.",
+          "context": "Kitty phases into the Sentinel machinery while Scott shrinks into Master Mold’s production core to sabotage it from the inside.",
           "number": 34,
           "id": "battle-34",
           "heroAssignments": [
             {
-              "id": "cyclops",
+              "id": "shadowcat",
               "repeat": false
             },
             {
-              "id": "shadowcat",
-              "repeat": false
+              "id": "ant-man",
+              "repeat": true
             }
           ]
         },
@@ -1158,19 +1347,19 @@
             "toad"
           ],
           "heroes": [
-            "shadowcat",
-            "colossus"
+            "magik",
+            "iceman"
           ],
-          "context": "Kitty phases through the mansion’s defenses to protect its students while Colossus provides the strength to drive the Brotherhood back.",
+          "context": "Illyana teleports students out of danger while Bobby shields the mansion and contains the Brotherhood’s assault behind barriers of ice.",
           "number": 35,
           "id": "battle-35",
           "heroAssignments": [
             {
-              "id": "shadowcat",
+              "id": "magik",
               "repeat": true
             },
             {
-              "id": "colossus",
+              "id": "iceman",
               "repeat": false
             }
           ]
@@ -1190,7 +1379,7 @@
           "heroAssignments": [
             {
               "id": "cyclops",
-              "repeat": true
+              "repeat": false
             },
             {
               "id": "phoenix",
@@ -1246,9 +1435,9 @@
           ],
           "heroes": [
             "x-23",
-            "wolverine"
+            "domino"
           ],
-          "context": "The most natural pair for surviving a violent mutant manhunt and turning it against the hunters.",
+          "context": "This X-Force pairing is built for a mutant manhunt: Laura tracks the hunters while Domino bends the odds against the Marauders’ ambushes.",
           "number": 38,
           "id": "battle-38",
           "heroAssignments": [
@@ -1257,7 +1446,7 @@
               "repeat": false
             },
             {
-              "id": "wolverine",
+              "id": "domino",
               "repeat": true
             }
           ]
@@ -1269,19 +1458,19 @@
           ],
           "heroes": [
             "colossus",
-            "iceman"
+            "bishop"
           ],
-          "context": "Colossus provides the iconic powerhouse collision while Bobby supplies battlefield control capable of slowing Cain down.",
+          "context": "Colossus provides the iconic powerhouse collision, while Bishop’s future-war tactics and energy absorption give the team a way to redirect Juggernaut’s momentum.",
           "number": 39,
           "id": "battle-39",
           "heroAssignments": [
             {
               "id": "colossus",
-              "repeat": true
+              "repeat": false
             },
             {
-              "id": "iceman",
-              "repeat": false
+              "id": "bishop",
+              "repeat": true
             }
           ]
         },
@@ -1291,19 +1480,19 @@
             "mister-sinister"
           ],
           "heroes": [
-            "cable",
-            "gambit"
+            "gambit",
+            "magneto-hero"
           ],
-          "context": "Cable is tied to Sinister’s obsession with the Summers bloodline; Gambit has personal history with Sinister and the Marauders.",
+          "context": "Gambit has personal history with Sinister and the Marauders, while Magneto refuses to let Sinister weaponize mutant genetics again.",
           "number": 40,
           "id": "battle-40",
           "heroAssignments": [
             {
-              "id": "cable",
-              "repeat": false
+              "id": "gambit",
+              "repeat": true
             },
             {
-              "id": "gambit",
+              "id": "magneto-hero",
               "repeat": false
             }
           ]
@@ -1315,19 +1504,19 @@
           ],
           "heroes": [
             "cable",
-            "domino"
+            "psylocke"
           ],
-          "context": "Cable faces his clone and defining enemy, backed by his most dependable X-Force partner.",
+          "context": "Cable faces his clone and defining enemy, while Psylocke supplies the telepathic discipline needed to withstand Stryfe’s psychic assault.",
           "number": 41,
           "id": "battle-41",
           "heroAssignments": [
             {
               "id": "cable",
-              "repeat": true
+              "repeat": false
             },
             {
-              "id": "domino",
-              "repeat": false
+              "id": "psylocke",
+              "repeat": true
             }
           ]
         }
@@ -1343,15 +1532,15 @@
             "unus"
           ],
           "heroes": [
-            "bishop",
+            "jubilee",
             "iceman"
           ],
-          "context": "Two resistance-ready X-Men oppose a Brotherhood-linked enforcer in Apocalypse’s altered world.",
+          "context": "Two generations of X-Men oppose a Brotherhood-linked enforcer: Jubilee keeps the pressure on at range while Iceman controls the battlefield around Unus’s force field.",
           "number": 42,
           "id": "battle-42",
           "heroAssignments": [
             {
-              "id": "bishop",
+              "id": "jubilee",
               "repeat": true
             },
             {
@@ -1370,9 +1559,9 @@
           ],
           "heroes": [
             "nightcrawler",
-            "psylocke"
+            "cyclops"
           ],
-          "context": "Nightcrawler's faith and compassion resist Apocalypse's corruption, while Psylocke brings the psychic discipline to withstand the Horsemen.",
+          "context": "Nightcrawler’s faith and compassion resist Apocalypse’s corruption, while Cyclops coordinates the shifting fight against four very different Horsemen.",
           "number": 43,
           "id": "battle-43",
           "heroAssignments": [
@@ -1381,7 +1570,7 @@
               "repeat": true
             },
             {
-              "id": "psylocke",
+              "id": "cyclops",
               "repeat": true
             }
           ]
@@ -1392,20 +1581,20 @@
             "apocalypse"
           ],
           "heroes": [
-            "magik",
-            "angel"
+            "angel",
+            "adam-warlock"
           ],
-          "context": "Magik breaks into Apocalypse's domain while Warren confronts the tyrant who transformed him into Death.",
+          "context": "Warren confronts the tyrant who transformed him into Death, while Adam brings cosmic insight and power against Apocalypse’s Celestial technology.",
           "number": 44,
           "id": "battle-44",
           "heroAssignments": [
             {
-              "id": "magik",
+              "id": "angel",
               "repeat": false
             },
             {
-              "id": "angel",
-              "repeat": false
+              "id": "adam-warlock",
+              "repeat": true
             }
           ]
         },
@@ -1447,11 +1636,11 @@
           "heroAssignments": [
             {
               "id": "magneto-hero",
-              "repeat": false
+              "repeat": true
             },
             {
               "id": "rogue",
-              "repeat": true
+              "repeat": false
             }
           ]
         }
@@ -1469,9 +1658,9 @@
           ],
           "heroes": [
             "black-widow",
-            "winter-soldier"
+            "nick-fury"
           ],
-          "context": "Natasha faces her Red Room counterpart, with Bucky completing the team of damaged former super-spies.",
+          "context": "Natasha faces her Red Room counterpart while Fury runs the extraction and counterintelligence operation around their confrontation.",
           "number": 47,
           "id": "battle-47",
           "heroAssignments": [
@@ -1480,7 +1669,7 @@
               "repeat": true
             },
             {
-              "id": "winter-soldier",
+              "id": "nick-fury",
               "repeat": true
             }
           ]
@@ -1492,9 +1681,9 @@
           ],
           "heroes": [
             "falcon",
-            "nick-fury"
+            "maria-hill"
           ],
-          "context": "Sam brings the Captain America-world connection while Fury manages the infiltration and intelligence operation.",
+          "context": "Sam brings direct Captain America-world history with Batroc, while Hill controls the S.H.I.E.L.D. infiltration and cuts off the mercenary’s escape.",
           "number": 48,
           "id": "battle-48",
           "heroAssignments": [
@@ -1503,7 +1692,7 @@
               "repeat": true
             },
             {
-              "id": "nick-fury",
+              "id": "maria-hill",
               "repeat": false
             }
           ]
@@ -1543,19 +1732,19 @@
           ],
           "heroes": [
             "hawkeye",
-            "wonder-man"
+            "spectrum"
           ],
-          "context": "Clint has extensive Thunderbolts history, while Simon represents the Avengers side of the team’s false-hero identity.",
+          "context": "Clint brings extensive Thunderbolts history, while Monica’s Avengers leadership exposes the false-hero team and keeps its volatile powers contained.",
           "number": 50,
           "id": "battle-50",
           "heroAssignments": [
             {
               "id": "hawkeye",
-              "repeat": true
+              "repeat": false
             },
             {
-              "id": "wonder-man",
-              "repeat": false
+              "id": "spectrum",
+              "repeat": true
             }
           ]
         },
@@ -1565,20 +1754,20 @@
             "baron-zemo"
           ],
           "heroes": [
-            "captain-america",
-            "maria-hill"
+            "winter-soldier",
+            "black-panther-tchalla"
           ],
-          "context": "Steve confronts his historic enemy while Hill exposes and dismantles Zemo’s infiltration of S.H.I.E.L.D.",
+          "context": "Bucky has endured Zemo’s manipulation firsthand, while T’Challa brings the strategic focus and personal resolve to expose the entire infiltration.",
           "number": 51,
           "id": "battle-51",
           "heroAssignments": [
             {
-              "id": "captain-america",
+              "id": "winter-soldier",
               "repeat": true
             },
             {
-              "id": "maria-hill",
-              "repeat": false
+              "id": "black-panther-tchalla",
+              "repeat": true
             }
           ]
         }
@@ -1618,9 +1807,9 @@
           ],
           "heroes": [
             "thor",
-            "hulkling"
+            "doctor-strange"
           ],
-          "context": "Thor faces his brother once more, while Hulkling brings Young Avengers experience with identity manipulation and reality-scale deception.",
+          "context": "Thor confronts his brother while Doctor Strange cuts through Loki’s sorcery, illusions and reality-bending tricks.",
           "number": 53,
           "id": "battle-53",
           "heroAssignments": [
@@ -1629,7 +1818,7 @@
               "repeat": true
             },
             {
-              "id": "hulkling",
+              "id": "doctor-strange",
               "repeat": true
             }
           ]
@@ -1694,9 +1883,9 @@
           ],
           "heroes": [
             "iron-man",
-            "black-widow"
+            "maria-hill"
           ],
-          "context": "Tony is the obvious opposing leader, while Natasha embodies the conflict’s shifting loyalties and moral uncertainty.",
+          "context": "Tony leads the registration case while Hill supplies the institutional strategy needed to counter the resistance network.",
           "number": 56,
           "id": "battle-56",
           "heroAssignments": [
@@ -1705,7 +1894,7 @@
               "repeat": true
             },
             {
-              "id": "black-widow",
+              "id": "maria-hill",
               "repeat": true
             }
           ]
@@ -1717,19 +1906,19 @@
           ],
           "heroes": [
             "captain-marvel",
-            "hawkeye"
+            "luke-cage"
           ],
-          "context": "Carol is Jessica’s closest major heroic relationship, while Clint offers the grounded Avengers perspective.",
+          "context": "Carol is Jessica’s closest major heroic relationship, while Luke brings the street-level resistance perspective and firsthand opposition to registration.",
           "number": 57,
           "id": "battle-57",
           "heroAssignments": [
             {
               "id": "captain-marvel",
-              "repeat": true
+              "repeat": false
             },
             {
-              "id": "hawkeye",
-              "repeat": true
+              "id": "luke-cage",
+              "repeat": false
             }
           ]
         }
@@ -1746,19 +1935,19 @@
             "she-hulk-leader"
           ],
           "heroes": [
-            "daredevil",
-            "tigra"
+            "tigra",
+            "wasp"
           ],
-          "context": "Matt can oppose Jen through both legal philosophy and combat, while Tigra is a longtime Avenger peer who can survive the physical confrontation.",
+          "context": "Two longtime Avengers peers challenge Jen without mirroring her directly: Greer can survive the close fight while Janet supplies veteran leadership and de-escalation.",
           "number": 58,
           "id": "battle-58",
           "heroAssignments": [
             {
-              "id": "daredevil",
+              "id": "tigra",
               "repeat": true
             },
             {
-              "id": "tigra",
+              "id": "wasp",
               "repeat": true
             }
           ]
@@ -1798,20 +1987,20 @@
             "bullseye"
           ],
           "heroes": [
-            "daredevil",
-            "echo"
+            "echo",
+            "hawkeye"
           ],
-          "context": "Bullseye is Matt’s definitive assassin enemy, while Echo can match his precision and has her own history within Kingpin’s world.",
+          "context": "Echo can match Bullseye’s precision with copied technique of her own, while Clint turns the scenario into the marksman duel it deserves.",
           "number": 60,
           "id": "battle-60",
           "heroAssignments": [
             {
-              "id": "daredevil",
+              "id": "echo",
               "repeat": true
             },
             {
-              "id": "echo",
-              "repeat": false
+              "id": "hawkeye",
+              "repeat": true
             }
           ]
         },
@@ -1834,7 +2023,7 @@
             },
             {
               "id": "silk",
-              "repeat": false
+              "repeat": true
             }
           ]
         },
@@ -1844,19 +2033,19 @@
             "hammerhead"
           ],
           "heroes": [
-            "luke-cage",
-            "tigra"
+            "black-panther-shuri",
+            "war-machine"
           ],
-          "context": "Luke protects New York neighborhoods from organized crime, while Tigra brings street-level investigation and enough strength for a Maggia war.",
+          "context": "Shuri traces and dismantles the Maggia’s weapons network while Rhodey breaks through Hammerhead’s fortified operation with controlled firepower.",
           "number": 62,
           "id": "battle-62",
           "heroAssignments": [
             {
-              "id": "luke-cage",
-              "repeat": false
+              "id": "black-panther-shuri",
+              "repeat": true
             },
             {
-              "id": "tigra",
+              "id": "war-machine",
               "repeat": true
             }
           ]
@@ -1868,9 +2057,9 @@
           ],
           "heroes": [
             "jessica-jones",
-            "daredevil"
+            "captain-marvel"
           ],
-          "context": "Jessica is mandatory because Killgrave is the central source of her trauma; Matt adds another Defender familiar with his methods.",
+          "context": "Jessica is mandatory because Killgrave is the central source of her trauma; Carol is the close friend most likely to believe her and stand beside her through it.",
           "number": 63,
           "id": "battle-63",
           "heroAssignments": [
@@ -1879,7 +2068,7 @@
               "repeat": false
             },
             {
-              "id": "daredevil",
+              "id": "captain-marvel",
               "repeat": true
             }
           ]
@@ -1890,19 +2079,19 @@
             "typhoid-mary"
           ],
           "heroes": [
-            "daredevil",
-            "deadpool"
+            "deadpool",
+            "wolverine"
           ],
-          "context": "Mary is one of Matt’s most personal enemies and also has substantial history with Deadpool.",
+          "context": "Deadpool brings direct history with Mary, while Wolverine’s senses and healing factor help him survive her misdirection, psychic attacks and fire.",
           "number": 64,
           "id": "battle-64",
           "heroAssignments": [
             {
-              "id": "daredevil",
+              "id": "deadpool",
               "repeat": true
             },
             {
-              "id": "deadpool",
+              "id": "wolverine",
               "repeat": true
             }
           ]

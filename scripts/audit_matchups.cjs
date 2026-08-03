@@ -61,6 +61,7 @@ const usedVillains = new Set();
 const seenHeroes = new Set();
 const seenPairs = new Map();
 const seenBattleIds = new Set();
+const heroBattles = new Map();
 const validModuleTypes = new Set(["official", "variable", "self-contained", "campaign", "special"]);
 const firstHeroBattle = new Map();
 const firstVillainBattle = new Map();
@@ -122,6 +123,8 @@ for (const campaign of data.campaigns) {
         errors.push(`Battle ${scenario.number} lists non-hero ${heroId} on the hero team.`);
       }
       usedHeroes.add(heroId);
+      if (!heroBattles.has(heroId)) heroBattles.set(heroId, []);
+      heroBattles.get(heroId).push(scenario.number);
       const identity = identityFor(heroId);
       heroIdentities.add(identity);
       if (!firstHeroBattle.has(identity)) firstHeroBattle.set(identity, scenario.number);
@@ -158,6 +161,18 @@ for (const campaign of data.campaigns) {
 
 for (const battleId of Object.keys(data.encounterModules || {})) {
   if (!seenBattleIds.has(battleId)) errors.push(`Encounter-module setup references unknown battle ${battleId}.`);
+}
+
+for (const [heroId, battles] of heroBattles) {
+  if (battles.length > data.rules.appearanceCap) {
+    errors.push(`${heroId} appears ${battles.length} times, above the cap of ${data.rules.appearanceCap}.`);
+  }
+  for (let index = 1; index < battles.length; index += 1) {
+    const gap = battles[index] - battles[index - 1];
+    if (gap < data.rules.minimumRepeatGap) {
+      errors.push(`${heroId} repeats in battles ${battles[index - 1]} and ${battles[index]}, only ${gap} battles apart.`);
+    }
+  }
 }
 
 for (const [identity, heroBattle] of firstHeroBattle) {
@@ -207,8 +222,12 @@ const sequencedIdentities = [...firstHeroBattle.keys()]
   .filter((identity) => firstVillainBattle.has(identity))
   .map((identity) => `${identityLabels[identity] || identity}: villain ${firstVillainBattle.get(identity)} -> hero ${firstHeroBattle.get(identity)}`)
   .join("; ");
+const appearanceMaximum = Math.max(...[...heroBattles.values()].map((battles) => battles.length));
+const repeatGaps = [...heroBattles.values()].flatMap((battles) => battles.slice(1).map((battle, index) => battle - battles[index]));
+const closestRepeat = Math.min(...repeatGaps);
 
 console.log("Matchup audit passed");
 console.log(`${battleCount} battles; ${heroRoster.length} heroes; ${villainRoster.length} villain-side identities; ${characters.length} local portraits`);
-console.log("0 self-matchups; 0 premature hero debuts; 0 repeated hero pairs; 0 unused roster entries; 0 repeat-marker errors");
+console.log(`Maximum ${appearanceMaximum} appearances per hero; closest repeat is ${closestRepeat} battles apart`);
+console.log("0 self-matchups; 0 premature hero debuts; 0 repeated hero pairs; 0 unused roster entries; 0 repeat-marker errors; 0 casting-balance errors");
 console.log(`Sequenced dual-role identities: ${sequencedIdentities}`);
