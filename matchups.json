@@ -1,6 +1,6 @@
 {
   "title": "Marvel Champions: Thematic Two-Hero Matchups",
-  "updated": "2026-07-30",
+  "updated": "2026-08-03",
   "rules": {
     "repeatMarker": "🔁",
     "sequenceNote": "Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; they become eligible afterward.",
@@ -372,15 +372,15 @@
             "collector"
           ],
           "heroes": [
-            "star-lord",
+            "nebula-hero",
             "gamora"
           ],
-          "context": "Peter devises the reckless escape plan while Gamora makes sure it has at least some chance of succeeding.",
+          "context": "Nebula and Gamora turn their shared experience as Thanos's unwilling operatives into the perfect skill set for escaping the Collector's museum.",
           "number": 15,
           "id": "battle-15",
           "heroAssignments": [
             {
-              "id": "star-lord",
+              "id": "nebula-hero",
               "repeat": false
             },
             {
@@ -396,9 +396,9 @@
           ],
           "heroes": [
             "gamora",
-            "nebula-hero"
+            "star-lord"
           ],
-          "context": "The sisters confront their shared history, with heroic Nebula facing the villainous incarnation of herself.",
+          "context": "Gamora confronts her sister while Star-Lord keeps the Guardians focused on stopping Nebula's assault.",
           "number": 16,
           "id": "battle-16",
           "heroAssignments": [
@@ -407,7 +407,7 @@
               "repeat": true
             },
             {
-              "id": "nebula-hero",
+              "id": "star-lord",
               "repeat": false
             }
           ]
@@ -873,9 +873,9 @@
           ],
           "heroes": [
             "storm",
-            "colossus"
+            "magneto-hero"
           ],
-          "context": "Two classic X-Men defend their home and students from the Brotherhood.",
+          "context": "Storm leads the defense of the mansion while heroic Magneto turns the Brotherhood's attack back against its perpetrators.",
           "number": 35,
           "id": "battle-35",
           "heroAssignments": [
@@ -884,7 +884,7 @@
               "repeat": true
             },
             {
-              "id": "colossus",
+              "id": "magneto-hero",
               "repeat": false
             }
           ]
@@ -896,9 +896,9 @@
           ],
           "heroes": [
             "cyclops",
-            "magneto-hero"
+            "colossus"
           ],
-          "context": "Scott confronts the opposing mutant leader while heroic Magneto creates a direct ideological mirror match.",
+          "context": "Cyclops leads an iconic X-Men showdown while Colossus provides the strength and resolve to stand against Magneto's power.",
           "number": 36,
           "id": "battle-36",
           "heroAssignments": [
@@ -907,7 +907,7 @@
               "repeat": true
             },
             {
-              "id": "magneto-hero",
+              "id": "colossus",
               "repeat": false
             }
           ]
