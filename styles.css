@@ -31,15 +31,19 @@
   .stat span{color:#b8aaac}
 
   .toolbar-wrap{background:rgba(18,13,16,.95);border-bottom:1px solid #5d3741;backdrop-filter:blur(12px)}
+  .toolbar{grid-template-columns:minmax(210px,1fr) 180px 150px auto;gap:8px;padding:9px 0 7px;align-items:start}
   .control{border-color:#5d4048;border-radius:5px;background:#1c161a;color:#f0e7e2}
+  .control,.btn{height:40px}
   .control:focus{border-color:#d2a05f;box-shadow:0 0 0 3px rgba(210,160,95,.16)}
   .player-count{border-color:#7d6142;background:linear-gradient(135deg,rgba(210,160,95,.11),#1c161a)}
-  .btn{border-color:#5b3d46;border-radius:5px;background:#251c21;color:#f0e6e1}
+  .actions{gap:6px;flex-wrap:nowrap}
+  .btn{border-color:#5b3d46;border-radius:5px;background:#251c21;color:#f0e6e1;padding:0 11px;font-size:.84rem;white-space:nowrap}
   .btn:hover{border-color:#9b6473;background:#302229}
   .btn.primary{background:linear-gradient(135deg,#a92c40,#6e1e2d);border-color:#bd485b}
   .filter-chip{border-color:#503740;border-radius:5px;background:#181216;color:#c3b5b6}
   .filter-chip.active{background:#702231;border-color:#b13a4e;color:#fff}
-  .filter-feedback{color:#ad9fa2}
+  .filter-feedback{padding-bottom:6px;color:#ad9fa2}
+  .filter-strip{gap:6px;padding-bottom:8px}
 
   main{padding-top:26px}
   .tuner-guide{border-color:#6e5438;border-radius:6px;background:linear-gradient(135deg,rgba(210,160,95,.11),rgba(112,34,49,.1));color:#d8cbca}
@@ -118,6 +122,11 @@
   .mast .shell{grid-template-columns:1fr;grid-template-areas:"eyebrow" "title" "deck" "stats";row-gap:0}
   .stats{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:22px}
   .battle-context{grid-template-columns:minmax(200px,.55fr) minmax(0,1.45fr)}
+}
+
+@media screen and (min-width:641px) and (max-width:1350px){
+  .toolbar{grid-template-columns:minmax(220px,1fr) 190px 160px}
+  .toolbar .actions{grid-column:1/-1;justify-content:flex-start}
 }
 
 @media screen and (max-width:720px){
