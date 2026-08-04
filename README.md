@@ -45,3 +45,4 @@ Edit `matchups.json` for reference, but the current `app.js` contains an embedde
 - Empty searches offer an immediate “Show all matchups” recovery action.
 - Pressing Escape clears active filters.
 - Campaign expand/collapse controls now expose their state to assistive technology.
+- Phone layouts use a compact two-row filter bar, hide redundant campaign chips, and place secondary actions behind an accessible Tools toggle.
