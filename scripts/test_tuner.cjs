@@ -34,6 +34,8 @@ function assert(condition, message) {
 }
 
 assert(index.includes('id="playerCount"'), "Player-count selector is missing.");
+assert(index.indexOf('id="campaigns"') < index.indexOf('class="notice"'), "Sequence constraint should follow the campaign list.");
+assert(index.indexOf('id="campaigns"') < index.indexOf('class="hero-usage"'), "Hero appearance counts should follow the campaign list.");
 for (const className of ["tuner-guide", "tuner-tabs", "tuner-choice", "tuner-panel", "module-profile"]) {
   assert(styles.includes(`.${className}`), `Missing tuner style: ${className}.`);
 }
