@@ -93,6 +93,50 @@ for (const campaign of data.campaigns) {
       }
     }
 
+    const tuning = data.difficultyTuner?.scenarios?.[scenario.id];
+    if (!tuning) {
+      errors.push(`Battle ${scenario.number} is missing encounter-tuner data.`);
+    } else {
+      if (typeof tuning.villainCode !== "string" || !tuning.villainCode.trim()) {
+        errors.push(`Battle ${scenario.number} has an invalid tuner villain code.`);
+      }
+      const signatures = new Set();
+      for (const key of ["easier", "thematic", "harder"]) {
+        const choice = tuning[key];
+        if (choice === null) continue;
+        if (!choice || typeof choice.name !== "string" || !choice.name.trim()) {
+          errors.push(`Battle ${scenario.number} has an invalid ${key} tuner choice.`);
+          continue;
+        }
+        if (!Number.isInteger(choice.difficulty)) {
+          errors.push(`Battle ${scenario.number} ${key} choice has a non-integer difficulty delta.`);
+        }
+        if (key === "easier" && choice.difficulty >= 0) {
+          errors.push(`Battle ${scenario.number} easier choice is not below the official baseline.`);
+        }
+        if (key === "harder" && choice.difficulty <= 0) {
+          errors.push(`Battle ${scenario.number} harder choice is not above the official baseline.`);
+        }
+        if (!Array.isArray(choice.sets) || choice.sets.some((set) => !set?.name || !set?.code)) {
+          errors.push(`Battle ${scenario.number} ${key} choice has invalid modular sets.`);
+        }
+        if (!Array.isArray(choice.mainSchemes) || !Array.isArray(choice.tags)) {
+          errors.push(`Battle ${scenario.number} ${key} choice has invalid setup metadata.`);
+        }
+        if (typeof choice.notes !== "string" || !choice.url?.startsWith("https://modularchampions.com/scenario/")) {
+          errors.push(`Battle ${scenario.number} ${key} choice has invalid attribution.`);
+        }
+        const signature = JSON.stringify([
+          choice.sets.map((set) => set.code).sort(),
+          [...choice.mainSchemes].sort(),
+        ]);
+        if (signatures.has(signature)) {
+          errors.push(`Battle ${scenario.number} repeats an exact tuner recipe.`);
+        }
+        signatures.add(signature);
+      }
+    }
+
     const heroIdentities = new Set();
     const villainIdentities = new Set();
 
@@ -162,6 +206,24 @@ for (const campaign of data.campaigns) {
 for (const battleId of Object.keys(data.encounterModules || {})) {
   if (!seenBattleIds.has(battleId)) errors.push(`Encounter-module setup references unknown battle ${battleId}.`);
 }
+for (const battleId of Object.keys(data.difficultyTuner?.scenarios || {})) {
+  if (!seenBattleIds.has(battleId)) errors.push(`Encounter-tuner data references unknown battle ${battleId}.`);
+}
+if (data.difficultyTuner?.source?.curator !== "VillainTheory") {
+  errors.push("Encounter-tuner source attribution is missing or incorrect.");
+}
+if (Object.keys(data.difficultyTuner?.moduleRatings || {}).length < 100) {
+  errors.push("Encounter-tuner player-count matrix is missing or incomplete.");
+} else {
+  for (const [moduleName, ratings] of Object.entries(data.difficultyTuner.moduleRatings)) {
+    for (const playerCount of ["solo", "two", "group"]) {
+      const rating = ratings[playerCount];
+      if (rating !== null && (!Number.isInteger(rating) || rating < 1 || rating > 10)) {
+        errors.push(`${moduleName} has an invalid ${playerCount} module rating.`);
+      }
+    }
+  }
+}
 
 for (const [heroId, battles] of heroBattles) {
   if (battles.length > data.rules.appearanceCap) {
@@ -228,6 +290,7 @@ const closestRepeat = Math.min(...repeatGaps);
 
 console.log("Matchup audit passed");
 console.log(`${battleCount} battles; ${heroRoster.length} heroes; ${villainRoster.length} villain-side identities; ${characters.length} local portraits`);
+console.log(`${Object.keys(data.difficultyTuner.scenarios).length} encounter tuners; ${Object.keys(data.difficultyTuner.moduleRatings).length} player-count-rated modular sets`);
 console.log(`Maximum ${appearanceMaximum} appearances per hero; closest repeat is ${closestRepeat} battles apart`);
 console.log("0 self-matchups; 0 premature hero debuts; 0 repeated hero pairs; 0 unused roster entries; 0 repeat-marker errors; 0 casting-balance errors");
 console.log(`Sequenced dual-role identities: ${sequencedIdentities}`);

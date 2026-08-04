@@ -10,6 +10,8 @@
 
 **Encounter setup:** Official recommended and required modular sets for every battle are maintained in `matchups.json` and displayed on each battle card. Variable setups remain variable, and unavailable Fear No Evil recommendations are marked as catalog-pending instead of being guessed.
 
+**Encounter tuner:** The printed Fantasy Flight Games setup remains the default for every battle. `matchups.json` also contains one published VillainTheory easier, thematic, and harder recipe per available slot, imported from Modular Champions on August 4, 2026. Difficulty deltas are relative to the current villain. Solo, two-player, and 3–4-player module profiles come from VillainTheory’s May 2026 matrix; required/story sets missing from that matrix stay explicitly unrated. Browser selections are local preferences and do not overwrite the canonical official setup.
+
 ## Core Set
 
 ### 1. Rhino
@@ -381,4 +383,4 @@
 
 ## Instructions for a work assistant
 
-Treat this document and `matchups.json` as the canonical source for the campaign matchup project. Preserve scenario order, hero pairings, repeat markers, encounter setup, battle context, the three-appearance cap, the minimum repeat gap, and the Luke Cage/Jessica Jones availability gate unless the user explicitly changes them. When revising a pairing, re-audit all 65 scenarios and all 69 heroes for omissions and update repeat markers based on first appearance in sequence.
+Treat this document and `matchups.json` as the canonical source for the campaign matchup project. Preserve scenario order, hero pairings, repeat markers, official encounter setup, VillainTheory tuner attribution, battle context, the three-appearance cap, the minimum repeat gap, and the Luke Cage/Jessica Jones availability gate unless the user explicitly changes them. Do not replace printed setup with an optional tuner recipe. When revising a pairing, re-audit all 65 scenarios and all 69 heroes for omissions and update repeat markers based on first appearance in sequence.

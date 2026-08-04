@@ -1,6 +1,6 @@
 {
   "title": "Marvel Champions: Thematic Two-Hero Matchups",
-  "updated": "2026-08-03",
+  "updated": "2026-08-04",
   "rules": {
     "repeatMarker": "🔁",
     "sequenceNote": "Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.",
@@ -3591,6 +3591,5161 @@
     {
       "label": "Fantasy Flight Games — Fear No Evil preview",
       "url": "https://www.fantasyflightgames.com/en/news/2026/4/16/fear-no-evil/"
+    },
+    {
+      "label": "VillainTheory — Every Villain’s Best Modular Sets",
+      "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit"
+    },
+    {
+      "label": "VillainTheory — 2026 Modular Set Difficulty Ranking",
+      "url": "https://docs.google.com/spreadsheets/d/1nmrzdk9KpIvOWY8eRy5okYFDOmWaxK7UPdkHS_Hlx7k/edit"
+    },
+    {
+      "label": "Modular Champions public scenario catalog",
+      "url": "https://modularchampions.com"
     }
-  ]
+  ],
+  "difficultyTuner": {
+    "source": {
+      "curator": "VillainTheory",
+      "catalog": "Modular Champions",
+      "catalogUrl": "https://modularchampions.com",
+      "recommendationsUrl": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+      "matrixUrl": "https://docs.google.com/spreadsheets/d/1nmrzdk9KpIvOWY8eRy5okYFDOmWaxK7UPdkHS_Hlx7k/edit",
+      "matrixUpdated": "2026-05",
+      "imported": "2026-08-04",
+      "method": "Published VillainTheory combinations; closest easier option, near-neutral thematic option, and moderate harder option."
+    },
+    "playerCounts": {
+      "solo": "Solo",
+      "two": "2 players",
+      "group": "3–4 players"
+    },
+    "moduleRatings": {
+      "a i m abduction": {
+        "solo": 4,
+        "two": 4,
+        "group": 5
+      },
+      "a i m science": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "a mess of things": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "acolytes": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "age of apocalypse": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "all versus all": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "anachronauts": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "arcade": {
+        "solo": 4,
+        "two": 4,
+        "group": 5
+      },
+      "armadillo": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "armies of titan": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "atlanteans res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "badoon headhunter": {
+        "solo": 10,
+        "two": 10,
+        "group": 10
+      },
+      "band of badoon": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "batroc s brigade": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "beasty boys": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "black order": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "black tom cassidy": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "blue moon setup": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "bomb scare": {
+        "solo": 1,
+        "two": 1,
+        "group": 1
+      },
+      "brotherhood": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "brothers grimm": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "cape killer reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "celestial tech": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "children of thanos": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "city in chaos": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "clan akkaba setup": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "cloak dagger res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "crazy gang": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "crime mojo": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "crossfire s crew": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "dangerous recruits reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "dark riders": {
+        "solo": 4,
+        "two": 4,
+        "group": 5
+      },
+      "deadly duo reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "deathstrike": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "defenders res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "down to earth": {
+        "solo": 3,
+        "two": 2,
+        "group": 2
+      },
+      "dystopian nightmare": {
+        "solo": 5,
+        "two": 2,
+        "group": 2
+      },
+      "enchantress": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "exodus": {
+        "solo": 9,
+        "two": 9,
+        "group": 9
+      },
+      "experimental weapons": {
+        "solo": 1,
+        "two": 1,
+        "group": 1
+      },
+      "extreme measures": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "extreme risk tbolt": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "fantasy mojo": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "flight setup": {
+        "solo": 9,
+        "two": 9,
+        "group": 9
+      },
+      "frost giants": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "future past": {
+        "solo": 10,
+        "two": 10,
+        "group": 10
+      },
+      "galactic artifacts": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "genosha setup": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "goblin gear": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "goblin gimmicks": {
+        "solo": 1,
+        "two": 1,
+        "group": 1
+      },
+      "gravitational pull tbolt": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "growing strong tbolt": {
+        "solo": 9,
+        "two": 9,
+        "group": 8
+      },
+      "guerrilla tactics expert": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "guerrilla tactics standard": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "hard sound tbolt": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "hell s kitchen res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "hellfire": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "heroes for hire reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "horror mojo": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "hounds": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "hydra assault": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "hydra patrol": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "infinites setup": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "infinity gauntlet setup": {
+        "solo": 9,
+        "two": 9,
+        "group": 9
+      },
+      "iron spider s sinister six": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "kree fanatic": {
+        "solo": 10,
+        "two": 10,
+        "group": 10
+      },
+      "kree militants": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "legions of hel": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "legions of hydra": {
+        "solo": 9,
+        "two": 9,
+        "group": 9
+      },
+      "maria hill reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "martial law reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "master of time": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "masters of evil": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "menagerie medley": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "mighty avengers reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "military grade": {
+        "solo": 2,
+        "two": 2,
+        "group": 2
+      },
+      "mister hyde": {
+        "solo": 9,
+        "two": 9,
+        "group": 9
+      },
+      "moon knight res": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "mutant insurrection": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "mutant slayers": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "mystique": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "namor res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "nasty boys": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "new avengers res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "osborn tech": {
+        "solo": 9,
+        "two": 9,
+        "group": 9
+      },
+      "paladin reg": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "pale little spider tbolt": {
+        "solo": 8,
+        "two": 7,
+        "group": 7
+      },
+      "personal nightmare": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "power drain": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "power of the atom tbolt": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "ransacked armory": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "reavers": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "royal guard res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "running interference": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "s h i e l d": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "s h i e l d executive board": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "s h i e l d ops reg": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "sauron": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "savage land setup": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "scarlet twins res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "sci fi mojo": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "scientist supreme": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "secret avengers res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "sentinels": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "shadow king": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "sinister assault": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "sinister syndicate": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "sitcom mojo": {
+        "solo": 3,
+        "two": 3,
+        "group": 2
+      },
+      "space pirates": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "spider man res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "state of emergency": {
+        "solo": 5,
+        "two": 6,
+        "group": 7
+      },
+      "super strength setup": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "supersonic tbolt": {
+        "solo": 9,
+        "two": 9,
+        "group": 8
+      },
+      "symbiotic strength": {
+        "solo": 7,
+        "two": 6,
+        "group": 5
+      },
+      "taskmaster reg tbolt": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "techno tbolt": {
+        "solo": 8,
+        "two": 7,
+        "group": 7
+      },
+      "telepathy setup": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "temporal": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "the doomsday chair": {
+        "solo": 9,
+        "two": 8,
+        "group": 8
+      },
+      "the inheritors": {
+        "solo": 7,
+        "two": 7,
+        "group": 7
+      },
+      "the initiative reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "the leaper tbolt": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "thunderbolts reg": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "trickster magic": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "under attack": {
+        "solo": 5,
+        "two": 5,
+        "group": 5
+      },
+      "weapons master": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "western mojo": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "whispers of paranoia": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "whiteout tbolt": {
+        "solo": 8,
+        "two": 8,
+        "group": 8
+      },
+      "wrecking crew": {
+        "solo": 6,
+        "two": 6,
+        "group": 6
+      },
+      "young avengers res": {
+        "solo": 4,
+        "two": 4,
+        "group": 4
+      },
+      "zero tolerance": {
+        "solo": 3,
+        "two": 3,
+        "group": 3
+      },
+      "zzzax": {
+        "solo": 2,
+        "two": 2,
+        "group": 2
+      }
+    },
+    "scenarios": {
+      "battle-01": {
+        "villainCode": "rhino",
+        "easier": null,
+        "thematic": {
+          "id": "28fa462d-0714-4def-96cc-f7aab6734569",
+          "name": "Property Damage",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Armadillo",
+              "code": "armadillo"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Status Cards",
+            "Thematic",
+            "Toughs"
+          ],
+          "notes": "Toughs (makes extra use of Rhino's toughs). Large minion. Thematic.",
+          "updated": "2026-04-18",
+          "url": "https://modularchampions.com/scenario/28fa462d-0714-4def-96cc-f7aab6734569"
+        },
+        "harder": {
+          "id": "1e33247c-f5f3-4f5a-a8ff-5a29e5de8ece",
+          "name": "Hydra Heist",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Hydra Assault",
+              "code": "hydra_assault"
+            },
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Attachments. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/1e33247c-f5f3-4f5a-a8ff-5a29e5de8ece"
+        }
+      },
+      "battle-02": {
+        "villainCode": "klaw",
+        "easier": {
+          "id": "bd73f7ff-5dfd-453a-8802-d6d497ea9275",
+          "name": "Tooth and Klaw",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Armies of Titan",
+              "code": "armies_of_titan"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Small Minions"
+          ],
+          "notes": "Small minions. Impactful boost abilities.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/bd73f7ff-5dfd-453a-8802-d6d497ea9275"
+        },
+        "thematic": {
+          "id": "34b4e685-80e4-4621-b7a5-569c87178b6e",
+          "name": "Sounds Like Trouble",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Sinister Syndicate",
+              "code": "sinister_syndicate"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Impactful boost abilities. Mixed minions. Thematic.",
+          "updated": "2026-05-13",
+          "url": "https://modularchampions.com/scenario/34b4e685-80e4-4621-b7a5-569c87178b6e"
+        },
+        "harder": {
+          "id": "3a0b813b-6b4e-484e-bae7-833342a52171",
+          "name": "Klaw Starts a Band",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Band of Badoon",
+              "code": "band_of_badoon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Minion Swarm",
+            "Mixed Minions",
+            "Surprise Damage"
+          ],
+          "notes": "Mixed minions. Surprise damage. Impactful boost abilities. Swarm.",
+          "updated": "2025-11-13",
+          "url": "https://modularchampions.com/scenario/3a0b813b-6b4e-484e-bae7-833342a52171"
+        }
+      },
+      "battle-03": {
+        "villainCode": "ultron",
+        "easier": {
+          "id": "118bba50-fff3-409b-ba29-8f3e4ad5f2af",
+          "name": "Do The Robot",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Sentinels",
+              "code": "sentinels"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. Thematic.",
+          "updated": "2026-06-28",
+          "url": "https://modularchampions.com/scenario/118bba50-fff3-409b-ba29-8f3e4ad5f2af"
+        },
+        "thematic": {
+          "id": "9ef959fe-5659-4ef6-945b-bc2daad89a02",
+          "name": "Glitch in the System",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Sci-Fi",
+              "code": "sci-fi"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Status Cards",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Toughness environment (deadly with drones). Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/9ef959fe-5659-4ef6-945b-bc2daad89a02"
+        },
+        "harder": {
+          "id": "3a726871-2595-44fb-a049-3254245b9431",
+          "name": "Vibranium Might",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "ATK Boost",
+            "High Boost Icons",
+            "Steady",
+            "Thematic"
+          ],
+          "notes": "Steady (keeps drones spawning). ATK bonus. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/3a726871-2595-44fb-a049-3254245b9431"
+        }
+      },
+      "battle-04": {
+        "villainCode": "risky_business",
+        "easier": null,
+        "thematic": {
+          "id": "1df1de93-c637-4743-914a-1d36125d897a",
+          "name": "Criminal Enterprise",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Down to Earth",
+              "code": "down_to_earth"
+            },
+            {
+              "name": "Running Interference",
+              "code": "running_interference"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion",
+            "Sends Alter-Ego",
+            "Small Minions",
+            "Status Cards",
+            "Thematic"
+          ],
+          "notes": "Sends alter-ego (makes Norman tougher). Small minions. Boss minion. Thematic.",
+          "updated": "2025-11-18",
+          "url": "https://modularchampions.com/scenario/1df1de93-c637-4743-914a-1d36125d897a"
+        },
+        "harder": {
+          "id": "21cdb402-4e47-4758-93cc-6c7583a9f20e",
+          "name": "Goblin Might",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "ATK Boost",
+            "High Boost Icons",
+            "Steady",
+            "Thematic"
+          ],
+          "notes": "Steady (keeps Goblin activating). ATK bonus. High boost icons. Thematic.",
+          "updated": "2025-12-06",
+          "url": "https://modularchampions.com/scenario/21cdb402-4e47-4758-93cc-6c7583a9f20e"
+        }
+      },
+      "battle-05": {
+        "villainCode": "mutagen_formula",
+        "easier": {
+          "id": "837b850a-2126-4b8c-92c7-fbec9d418a24",
+          "name": "Mutant Formula",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Hope Summers",
+              "code": "hope_summers"
+            },
+            {
+              "name": "Mutant Slayers",
+              "code": "mutant_slayers"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Mutant"
+          ],
+          "notes": "Adds helpful setup ally. Mixed minions. Adds mutant theme.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/837b850a-2126-4b8c-92c7-fbec9d418a24"
+        },
+        "thematic": {
+          "id": "b5ca16cd-c5b5-46b4-a02b-3ec938a76a68",
+          "name": "Goblin Gang",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "A Mess of Things",
+              "code": "a_mess_of_things"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Extra Attacks",
+            "Large Minions",
+            "Minion Swarm",
+            "Status Cards",
+            "Stuns",
+            "Thematic"
+          ],
+          "notes": "Extra attack (Gang-Up, works well with minion swarm). Large minion. Stuns. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/b5ca16cd-c5b5-46b4-a02b-3ec938a76a68"
+        },
+        "harder": {
+          "id": "a154e7fd-744c-40bf-bd6e-bb0c7e7fb9b3",
+          "name": "Ben Reilly",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Spider-Man",
+              "code": "spider_man_modular"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Medium Minions",
+            "Thematic"
+          ],
+          "notes": "Medium minion. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/a154e7fd-744c-40bf-bd6e-bb0c7e7fb9b3"
+        }
+      },
+      "battle-06": {
+        "villainCode": "wrecking_crew",
+        "easier": null,
+        "thematic": {
+          "id": "bdb2e2c8-b168-4dc1-ae5a-1c23876e31b2",
+          "name": "Get Wrecked",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "City in Chaos",
+              "code": "city_in_chaos"
+            },
+            {
+              "name": "Down to Earth",
+              "code": "down_to_earth"
+            },
+            {
+              "name": "State of Emergency",
+              "code": "state_of_emergency"
+            },
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Thematic"
+          ],
+          "notes": "Keeps the scenario to very few minions. Thematic (wrecking the city).",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/bdb2e2c8-b168-4dc1-ae5a-1c23876e31b2"
+        },
+        "harder": {
+          "id": "6787ebd8-faf0-4085-be49-4338d2bf6fcf",
+          "name": "Mass Breakout",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Sinister Syndicate",
+              "code": "sinister_syndicate"
+            },
+            {
+              "name": "Iron Spider's Sinister Six",
+              "code": "ironspider_sinister"
+            },
+            {
+              "name": "Masters of Evil",
+              "code": "masters_of_evil"
+            },
+            {
+              "name": "Running Interference",
+              "code": "running_interference"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Many minions. Mixed minions. Criminal trait interaction. Thematic (breaking out).",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/6787ebd8-faf0-4085-be49-4338d2bf6fcf"
+        }
+      },
+      "battle-07": {
+        "villainCode": "kang",
+        "easier": null,
+        "thematic": {
+          "id": "1d669066-fc5f-45ec-ba63-4fff7129420d",
+          "name": "Dark Future",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Dystopian Nightmare",
+              "code": "dystopian_nightmare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Obligations",
+            "Sends Alter-Ego",
+            "Thematic"
+          ],
+          "notes": "Obligations (combos with Kang's cards). Sends alter-ego. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/1d669066-fc5f-45ec-ba63-4fff7129420d"
+        },
+        "harder": {
+          "id": "164ce9ad-79ee-4763-b68e-565db1edf574",
+          "name": "Jurassic World",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Savage Land",
+              "code": "savage_land"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Mixed Minions",
+            "Retaliate",
+            "Thematic"
+          ],
+          "notes": "Retaliate. Discards. Mixed minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/164ce9ad-79ee-4763-b68e-565db1edf574"
+        }
+      },
+      "battle-08": {
+        "villainCode": "crossbones",
+        "easier": {
+          "id": "fedf89f3-bdd1-41db-a5bb-efca02b17658",
+          "name": "Here to Slay",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            },
+            {
+              "name": "Military Grade",
+              "code": "military_grade"
+            },
+            {
+              "name": "Mutant Slayers",
+              "code": "mutant_slayers"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Medium Minions",
+            "Mutant"
+          ],
+          "notes": "Attachments. Medium minions. Adds mutant theme.",
+          "updated": "2025-11-22",
+          "url": "https://modularchampions.com/scenario/fedf89f3-bdd1-41db-a5bb-efca02b17658"
+        },
+        "thematic": {
+          "id": "48871abf-bf31-4314-ac63-b445f5b7fddf",
+          "name": "Alternative Hydration",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Weapon Master",
+              "code": "weap_master"
+            },
+            {
+              "name": "Hydra Patrol",
+              "code": "hydra_patrol"
+            },
+            {
+              "name": "Captain America Nemesis",
+              "code": "captain_america_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Rush",
+            "Extra Attacks",
+            "Thematic"
+          ],
+          "notes": "5x Hydra Soldiers led by Zemo. Extra attacks. Anti-Rush. Thematic.",
+          "updated": "2025-11-23",
+          "url": "https://modularchampions.com/scenario/48871abf-bf31-4314-ac63-b445f5b7fddf"
+        },
+        "harder": {
+          "id": "508702f7-4783-4ec7-bb28-06c9c13301c9",
+          "name": "Don't Fear the Reaver",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Weapon Master",
+              "code": "weap_master"
+            },
+            {
+              "name": "Reavers",
+              "code": "reavers"
+            },
+            {
+              "name": "Deathstrike",
+              "code": "deathstrike"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Extra Attacks",
+            "Mixed Minions",
+            "Teamwork",
+            "Thematic"
+          ],
+          "notes": "Extra attacks. Mixed minions. Attachments. Teamwork. Thematic (Crossbones looks like a Reaver).",
+          "updated": "2025-12-02",
+          "url": "https://modularchampions.com/scenario/508702f7-4783-4ec7-bb28-06c9c13301c9"
+        }
+      },
+      "battle-09": {
+        "villainCode": "absorbing_man",
+        "easier": null,
+        "thematic": {
+          "id": "90258f41-4215-4b6d-aa68-44924ff4cbcc",
+          "name": "Part Of The Team",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Masters of Evil",
+              "code": "masters_of_evil"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. Thematic. (Absorbing Man has been a member.)",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/90258f41-4215-4b6d-aa68-44924ff4cbcc"
+        },
+        "harder": {
+          "id": "277dd286-54f4-4539-87ff-8fdf498829b6",
+          "name": "Sharknado",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Menagerie Medley",
+              "code": "menagerie_medley"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Confuses",
+            "Impactful Boost Abilities",
+            "Mixed Minions",
+            "Status Cards",
+            "Surprise Damage"
+          ],
+          "notes": "Anti-Ally. Surprise damage. Mixed minions. Impactful boost abilities. Confuses.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/277dd286-54f4-4539-87ff-8fdf498829b6"
+        }
+      },
+      "battle-10": {
+        "villainCode": "taskmaster",
+        "easier": {
+          "id": "6abb3f43-0e3a-4329-84f6-46eab0bf4e88",
+          "name": "Trickmaster",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Trickster Magic",
+              "code": "trickster_magic"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions"
+          ],
+          "notes": "Large minions. Adds more allies to be rescued.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/6abb3f43-0e3a-4329-84f6-46eab0bf4e88"
+        },
+        "thematic": {
+          "id": "ec3ac75d-6842-4caf-a77d-c2a05b9549fe",
+          "name": "A.I.M. Membership",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "A.I.M. Abduction",
+              "code": "a.i.m._abduction"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Captures allies. Small minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/ec3ac75d-6842-4caf-a77d-c2a05b9549fe"
+        },
+        "harder": {
+          "id": "878b1adb-7152-4817-ae18-2fb72d4a6d61",
+          "name": "Crime-Master",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Down to Earth",
+              "code": "down_to_earth"
+            },
+            {
+              "name": "Whispers of Paranoia",
+              "code": "whispers_of_paranoia"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Nemesis Interaction",
+            "Sends Alter-Ego",
+            "Small Minions"
+          ],
+          "notes": "Sends alter-ego (for main scheme ability). Small minions. Nemesis interaction.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/878b1adb-7152-4817-ae18-2fb72d4a6d61"
+        }
+      },
+      "battle-11": {
+        "villainCode": "zola",
+        "easier": {
+          "id": "ad20e2d5-8127-4f24-94bf-bbd8ba21d758",
+          "name": "Hydra Distraction",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Bomb Scare",
+              "code": "bomb_scare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. Thematic.",
+          "updated": "2025-12-06",
+          "url": "https://modularchampions.com/scenario/ad20e2d5-8127-4f24-94bf-bbd8ba21d758"
+        },
+        "thematic": {
+          "id": "40d306a9-56a3-409f-97cb-08383cb55888",
+          "name": "New Upgrades",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Thematic"
+          ],
+          "notes": "Attachments. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/40d306a9-56a3-409f-97cb-08383cb55888"
+        },
+        "harder": {
+          "id": "0423f1fb-4b81-4c2e-a386-25e6d258650a",
+          "name": "Experiment Gone Wrong",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Sauron",
+              "code": "sauron"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions"
+          ],
+          "notes": "Large minion.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/0423f1fb-4b81-4c2e-a386-25e6d258650a"
+        }
+      },
+      "battle-12": {
+        "villainCode": "red_skull",
+        "easier": {
+          "id": "bb93caad-8a5e-4613-8e7e-36e11f89ccd3",
+          "name": "Dehydration",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Bomb Scare",
+              "code": "bomb_scare"
+            },
+            {
+              "name": "Hydra Assault",
+              "code": "hydra_assault"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Extra Attacks",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. Extra attacks. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/bb93caad-8a5e-4613-8e7e-36e11f89ccd3"
+        },
+        "thematic": {
+          "id": "69a67165-48e3-4b8c-b62f-50b683e8751d",
+          "name": "Rehydration",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Winter Soldier Nemesis",
+              "code": "winter_soldier_nemesis"
+            },
+            {
+              "name": "Black Widow Nemesis",
+              "code": "black_widow_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Adds Crossbones and Taskmaster. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/69a67165-48e3-4b8c-b62f-50b683e8751d"
+        },
+        "harder": {
+          "id": "9f65e631-e817-4d82-9412-d48cf02a7a9e",
+          "name": "Hellfire Takeover",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Hellfire",
+              "code": "hellfire"
+            },
+            {
+              "name": "Shadowcat Nemesis",
+              "code": "shadowcat_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions"
+          ],
+          "notes": "Mixed minions. Hellfire trait interaction.",
+          "updated": "2026-01-20",
+          "url": "https://modularchampions.com/scenario/9f65e631-e817-4d82-9412-d48cf02a7a9e"
+        }
+      },
+      "battle-13": {
+        "villainCode": "brotherhood_of_badoon",
+        "easier": {
+          "id": "90c1c9cc-243c-44d5-bba5-ac63bedcd356",
+          "name": "Bounty Hunters",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Mutant Slayers",
+              "code": "mutant_slayers"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Medium Minions"
+          ],
+          "notes": "Medium minions.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/90c1c9cc-243c-44d5-bba5-ac63bedcd356"
+        },
+        "thematic": {
+          "id": "0c814e38-8b3d-4892-afaa-134d012ffb82",
+          "name": "Side Scheme Wormhole",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Galactic Artifacts",
+              "code": "galactic_artifacts"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Many side schemes. Attachments. Does not add minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/0c814e38-8b3d-4892-afaa-134d012ffb82"
+        },
+        "harder": {
+          "id": "cbd1c8a9-0f07-4789-99cd-44490010c350",
+          "name": "Gorram Reavers",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Reavers",
+              "code": "reavers"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Teamwork"
+          ],
+          "notes": "Mixed minions. Teamwork.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/cbd1c8a9-0f07-4789-99cd-44490010c350"
+        }
+      },
+      "battle-14": {
+        "villainCode": "infiltrate_the_museum",
+        "easier": {
+          "id": "3b108062-4587-413b-8b7c-bbdea64a4b40",
+          "name": "Sticky Fingers",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Sinister Syndicate",
+              "code": "sinister_syndicate"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Medium Minions"
+          ],
+          "notes": "Medium minions. Impactful boost effects. Sends more cards to The Collection.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/3b108062-4587-413b-8b7c-bbdea64a4b40"
+        },
+        "thematic": {
+          "id": "9b8d604f-5948-4914-a5e3-b2bcd91f6474",
+          "name": "Jump to Lightspeed",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Ship Command",
+              "code": "ship_command"
+            },
+            {
+              "name": "Blue Moon",
+              "code": "blue_moon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Rush",
+            "Teamwork",
+            "Thematic"
+          ],
+          "notes": "Anti-Rush. Milano helps remove cards from The Collection. Teamwork. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/9b8d604f-5948-4914-a5e3-b2bcd91f6474"
+        },
+        "harder": {
+          "id": "51fd9433-82b9-4836-816c-f6928256ea4c",
+          "name": "Infiltrate the Deck",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Mystique",
+              "code": "mystique"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion"
+          ],
+          "notes": "Boss minion. Puts cards in your deck.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/51fd9433-82b9-4836-816c-f6928256ea4c"
+        }
+      },
+      "battle-15": {
+        "villainCode": "escape_the_museum",
+        "easier": {
+          "id": "8599ab59-b768-4038-8b4e-8b5186a49f05",
+          "name": "Freeze!",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Frost Giants",
+              "code": "frost_giants"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Sends Alter-Ego"
+          ],
+          "notes": "Sends alter-ego. Large minions.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/8599ab59-b768-4038-8b4e-8b5186a49f05"
+        },
+        "thematic": {
+          "id": "34bd008f-aada-4b9e-920f-fe96b14292ce",
+          "name": "Kree-ative Solution",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Kree Militants",
+              "code": "kree_militant"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Overkill",
+            "Thematic"
+          ],
+          "notes": "Large minions. Overkill/piercing boost abilities. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/34bd008f-aada-4b9e-920f-fe96b14292ce"
+        },
+        "harder": {
+          "id": "6210849d-185f-477d-a516-d678c875e66e",
+          "name": "One Step Ahead",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Overkill",
+            "Retaliate",
+            "SCH Boost",
+            "Sends Alter-Ego"
+          ],
+          "notes": "Retaliate. Anti-Ally. SCH bonus. Overkill. Sends alter-ego.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/6210849d-185f-477d-a516-d678c875e66e"
+        }
+      },
+      "battle-16": {
+        "villainCode": "nebula",
+        "easier": {
+          "id": "c9a4d609-be62-4c3d-a04f-d5884b842f43",
+          "name": "On Loan to Ronan",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Kree Militants",
+              "code": "kree_militant"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Overkill",
+            "Thematic"
+          ],
+          "notes": "Large minions. Overkill/piercing boost abilities. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/c9a4d609-be62-4c3d-a04f-d5884b842f43"
+        },
+        "thematic": {
+          "id": "491daaaf-44d1-47d4-a15f-b1c3edcf47be",
+          "name": "Daughter of Thanos",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Black Order",
+              "code": "black_order"
+            },
+            {
+              "name": "Children of Thanos",
+              "code": "children_of_thanos"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. Black Order trait interaction. Thematic.",
+          "updated": "2026-02-13",
+          "url": "https://modularchampions.com/scenario/491daaaf-44d1-47d4-a15f-b1c3edcf47be"
+        },
+        "harder": {
+          "id": "e7ed7001-08ee-4661-87e9-b1d804e49937",
+          "name": "Build-A-Groot",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            },
+            {
+              "name": "Black Tom Cassidy",
+              "code": "black_tom_cassidy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Rush",
+            "ATK Boost",
+            "Quickstrike",
+            "Small Minions",
+            "Status Cards",
+            "Steady",
+            "Stuns"
+          ],
+          "notes": "Steady (keeps Techniques triggering). Anti-Rush. ATK bonus. Small minions. Quickstrike. Stuns.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/e7ed7001-08ee-4661-87e9-b1d804e49937"
+        }
+      },
+      "battle-17": {
+        "villainCode": "ronan",
+        "easier": {
+          "id": "ebef6716-6849-43b7-b6d3-4551b79f8292",
+          "name": "Kree Sentries",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Sentinels",
+              "code": "sentinels"
+            },
+            {
+              "name": "Zero Tolerance",
+              "code": "zero_tolerance"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Sentinel trait interaction. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/ebef6716-6849-43b7-b6d3-4551b79f8292"
+        },
+        "thematic": {
+          "id": "ea252bf1-e205-4bfe-a162-0ebfb2ccad8f",
+          "name": "Infinity Ronan",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            },
+            {
+              "name": "Kree Militants",
+              "code": "kree_militant"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Overkill",
+            "SCH Boost",
+            "Status Cards",
+            "Steady",
+            "Thematic"
+          ],
+          "notes": "Steady. ATK/SCH boost. Status cards. Large minions. Overkill/piercing boost abilities. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/ea252bf1-e205-4bfe-a162-0ebfb2ccad8f"
+        },
+        "harder": {
+          "id": "43c98157-c825-4358-aa08-c50eeaab78cf",
+          "name": "Accuse-onauts",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Anachronauts",
+              "code": "anachronauts"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Mixed Minions"
+          ],
+          "notes": "Mixed minions. Impactful boost abilities.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/43c98157-c825-4358-aa08-c50eeaab78cf"
+        }
+      },
+      "battle-18": {
+        "villainCode": "ebony_maw",
+        "easier": {
+          "id": "9d63e829-e756-4ae0-8235-71e5594930da",
+          "name": "Master of Puppets",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Trickster Magic",
+              "code": "trickster_magic"
+            },
+            {
+              "name": "Shadow King",
+              "code": "shadow_king"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Steals Allies",
+            "Thematic"
+          ],
+          "notes": "Large minions. Gives allies. Steals allies. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/9d63e829-e756-4ae0-8235-71e5594930da"
+        },
+        "thematic": {
+          "id": "25c1c084-340b-4dc5-9bca-d466ea7e0332",
+          "name": "Ancient Magic",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Clan Akkaba",
+              "code": "clan_akkaba"
+            },
+            {
+              "name": "Personal Nightmare",
+              "code": "personal_nightmare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Mixed Minions",
+            "Side Schemes",
+            "Thematic",
+            "Threat"
+          ],
+          "notes": "Mixed minions. Adds threat. Huge side scheme. Discards. Thematic.",
+          "updated": "2026-02-25",
+          "url": "https://modularchampions.com/scenario/25c1c084-340b-4dc5-9bca-d466ea7e0332"
+        },
+        "harder": {
+          "id": "e198b351-1d09-4b6d-859f-0b107152b42c",
+          "name": "Oops, Joined Hydra",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Weapon Master",
+              "code": "weap_master"
+            },
+            {
+              "name": "Hydra Assault",
+              "code": "hydra_assault"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Extra Attacks",
+            "Hydra",
+            "Small Minions"
+          ],
+          "notes": "Extra attacks. Small minions. Adds Hydra theme.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/e198b351-1d09-4b6d-859f-0b107152b42c"
+        }
+      },
+      "battle-19": {
+        "villainCode": "tower_defense",
+        "easier": null,
+        "thematic": {
+          "id": "d66f21b9-c0d6-4e44-8634-184ec79a523e",
+          "name": "Mad Titan's Army",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Armies of Titan",
+              "code": "armies_of_titan"
+            },
+            {
+              "name": "Black Order",
+              "code": "black_order"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Black order interaction. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/d66f21b9-c0d6-4e44-8634-184ec79a523e"
+        },
+        "harder": {
+          "id": "3d42822a-3bf3-4b4e-a7fb-4746f14f99c8",
+          "name": "Corvus Starts a Band",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Band of Badoon",
+              "code": "band_of_badoon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Minion Swarm",
+            "Mixed Minions",
+            "Surprise Damage"
+          ],
+          "notes": "Mixed minions. Surprise damage. Impactful boost abilities. Swarm.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/3d42822a-3bf3-4b4e-a7fb-4746f14f99c8"
+        }
+      },
+      "battle-20": {
+        "villainCode": "thanos",
+        "easier": {
+          "id": "4cc54277-bac2-40b6-9069-b5b7548b9bde",
+          "name": "Someone to Stun",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Scientist Supreme",
+              "code": "scientist_supreme"
+            },
+            {
+              "name": "S.H.I.E.L.D.",
+              "code": "s.h.i.e.l.d."
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Vulnerable"
+          ],
+          "notes": "Vulnerable. Mixed minions. Anti-S.H.I.E.L.D.",
+          "updated": "2026-02-28",
+          "url": "https://modularchampions.com/scenario/4cc54277-bac2-40b6-9069-b5b7548b9bde"
+        },
+        "thematic": {
+          "id": "1d80c4ab-b7c0-4832-880d-cb398b362ded",
+          "name": "Galactic Armies",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Armies of Titan",
+              "code": "armies_of_titan"
+            },
+            {
+              "name": "Band of Badoon",
+              "code": "band_of_badoon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Minion Swarm",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Swarm. Impactful boost abilities. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/1d80c4ab-b7c0-4832-880d-cb398b362ded"
+        },
+        "harder": {
+          "id": "af4cfcf4-3f07-42a8-9f54-7328abfc3246",
+          "name": "Ronan's Forces",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Kree Militants",
+              "code": "kree_militant"
+            },
+            {
+              "name": "Under Attack",
+              "code": "under_attack"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Large Minions",
+            "Overkill",
+            "Surprise Damage",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally. Overkill/piercing boost abilities. Large minions. Surprise damage. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/af4cfcf4-3f07-42a8-9f54-7328abfc3246"
+        }
+      },
+      "battle-21": {
+        "villainCode": "hela",
+        "easier": {
+          "id": "9a5a0019-a8a5-4a34-bfbb-0eb80f6361b3",
+          "name": "Down The Rabbit Hole",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Crazy Gang",
+              "code": "crazy_gang"
+            },
+            {
+              "name": "Fantasy",
+              "code": "fantasy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion",
+            "Mixed Minions"
+          ],
+          "notes": "Mixed minions. Boss minion (Dragon).",
+          "updated": "2026-02-04",
+          "url": "https://modularchampions.com/scenario/9a5a0019-a8a5-4a34-bfbb-0eb80f6361b3"
+        },
+        "thematic": {
+          "id": "d873e7db-4ab8-4790-a03e-3decdbe8f7e0",
+          "name": "Army of Giants",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Frost Giants",
+              "code": "frost_giants"
+            },
+            {
+              "name": "Thor Nemesis",
+              "code": "thor_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Sends Alter-Ego",
+            "Thematic"
+          ],
+          "notes": "Large minions (5x giant-traited). Sends alter-ego. Thematic.",
+          "updated": "2025-11-15",
+          "url": "https://modularchampions.com/scenario/d873e7db-4ab8-4790-a03e-3decdbe8f7e0"
+        },
+        "harder": {
+          "id": "2a6b4622-9d71-449c-8e34-af4709ad91a4",
+          "name": "A Bone To Pick",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Personal Nightmare",
+              "code": "personal_nightmare"
+            },
+            {
+              "name": "Horror",
+              "code": "horror"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Mixed Minions",
+            "Quickstrike",
+            "Side Schemes",
+            "Thematic",
+            "Victory Display"
+          ],
+          "notes": "Mixed minions. Victory display side scheme (powers up Hela). Discards. Quickstrike environment. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/2a6b4622-9d71-449c-8e34-af4709ad91a4"
+        }
+      },
+      "battle-22": {
+        "villainCode": "loki",
+        "easier": {
+          "id": "f92133cd-732a-445b-a111-965a16bffc82",
+          "name": "Framed!",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Martial Law",
+              "code": "martial_law"
+            },
+            {
+              "name": "S.H.I.E.L.D.",
+              "code": "s.h.i.e.l.d."
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic",
+            "Vulnerable"
+          ],
+          "notes": "Small minions. Vulnerable. Anti-S.H.I.E.L.D. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/f92133cd-732a-445b-a111-965a16bffc82"
+        },
+        "thematic": {
+          "id": "51491a4d-becc-4c35-935f-e6c7c55588d5",
+          "name": "Time Variance Authority",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Personal Nightmare",
+              "code": "personal_nightmare"
+            },
+            {
+              "name": "Master of Time",
+              "code": "mot"
+            },
+            {
+              "name": "Dystopian Nightmare",
+              "code": "dystopian_nightmare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Status Cards",
+            "Stuns",
+            "Thematic"
+          ],
+          "notes": "Small minions. Stuns. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/51491a4d-becc-4c35-935f-e6c7c55588d5"
+        },
+        "harder": {
+          "id": "12ee4005-6783-4cd3-9da9-6b84010286a0",
+          "name": "Don't Fear the Reaver",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Reavers",
+              "code": "reavers"
+            },
+            {
+              "name": "Deathstrike",
+              "code": "deathstrike"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Mixed Minions",
+            "Teamwork"
+          ],
+          "notes": "Mixed minions. Reaver trait interaction. Teamwork. Discarding.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/12ee4005-6783-4cd3-9da9-6b84010286a0"
+        }
+      },
+      "battle-23": {
+        "villainCode": "the_hood",
+        "easier": {
+          "id": "3e7110db-a8c4-4afb-ac2d-622b071deeb8",
+          "name": "Avenged Sevenfold",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "New Avengers",
+              "code": "new_avengers"
+            },
+            {
+              "name": "Secret Avengers",
+              "code": "secret_avengers"
+            },
+            {
+              "name": "Mighty Avengers",
+              "code": "mighty_avengers"
+            },
+            {
+              "name": "Young Avengers",
+              "code": "young_avengers"
+            },
+            {
+              "name": "The Initiative",
+              "code": "the_initiative"
+            },
+            {
+              "name": "Defenders",
+              "code": "defenders"
+            },
+            {
+              "name": "Spider-Man",
+              "code": "spider_man_modular"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Mixed Minions",
+            "Status Cards"
+          ],
+          "notes": "Mixed minions. Status cards. Impactful boost abilities. Avenger trait interaction. Adds superhero theme.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/3e7110db-a8c4-4afb-ac2d-622b071deeb8"
+        },
+        "thematic": {
+          "id": "3e8c71d6-fcd2-430a-a5d5-658487ee4d54",
+          "name": "Criminal Empire",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Sinister Syndicate",
+              "code": "sinister_syndicate"
+            },
+            {
+              "name": "Iron Spider's Sinister Six",
+              "code": "ironspider_sinister"
+            },
+            {
+              "name": "Space Pirates",
+              "code": "space_pirates"
+            },
+            {
+              "name": "Down to Earth",
+              "code": "down_to_earth"
+            },
+            {
+              "name": "Crazy Gang",
+              "code": "crazy_gang"
+            },
+            {
+              "name": "Crime",
+              "code": "crime"
+            },
+            {
+              "name": "State of Emergency",
+              "code": "state_of_emergency"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Criminal trait interaction. Thematic.",
+          "updated": "2026-04-14",
+          "url": "https://modularchampions.com/scenario/3e8c71d6-fcd2-430a-a5d5-658487ee4d54"
+        },
+        "harder": {
+          "id": "da8115f3-bdb2-4da4-8f66-b20009a38fb2",
+          "name": "A Galaxy Far, Far Away",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Band of Badoon",
+              "code": "band_of_badoon"
+            },
+            {
+              "name": "Kree Militants",
+              "code": "kree_militant"
+            },
+            {
+              "name": "Menagerie Medley",
+              "code": "menagerie_medley"
+            },
+            {
+              "name": "Children of Thanos",
+              "code": "children_of_thanos"
+            },
+            {
+              "name": "Black Order",
+              "code": "black_order"
+            },
+            {
+              "name": "Armies of Titan",
+              "code": "armies_of_titan"
+            },
+            {
+              "name": "Sci-Fi",
+              "code": "sci-fi"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Minion Swarm",
+            "Mixed Minions"
+          ],
+          "notes": "Mixed minions. Swarm. Adds space theme.",
+          "updated": "2025-12-14",
+          "url": "https://modularchampions.com/scenario/da8115f3-bdb2-4da4-8f66-b20009a38fb2"
+        }
+      },
+      "battle-24": {
+        "villainCode": "sandman",
+        "easier": null,
+        "thematic": {
+          "id": "55c8aab4-5f0d-4bad-ba4c-e5b10d5d71a7",
+          "name": "The Sinister Seven",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Sinister Assault",
+              "code": "sinister_assault"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/55c8aab4-5f0d-4bad-ba4c-e5b10d5d71a7"
+        },
+        "harder": {
+          "id": "0f0850bc-f4e8-4628-94b9-5a7deeaf3f01",
+          "name": "\"We Are Sandy!\"",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Dangerous Attacks",
+            "Extra Attacks",
+            "Small Minions"
+          ],
+          "notes": "Extra attacks. Dangerous attacks. Small minions.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/0f0850bc-f4e8-4628-94b9-5a7deeaf3f01"
+        }
+      },
+      "battle-25": {
+        "villainCode": "venom",
+        "easier": {
+          "id": "d1ae5e47-4209-4c29-b3b2-337ff8d67121",
+          "name": "Midnight Suns I",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Bomb Scare",
+              "code": "bomb_scare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions"
+          ],
+          "notes": "Small minions.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/d1ae5e47-4209-4c29-b3b2-337ff8d67121"
+        },
+        "thematic": {
+          "id": "d7019195-d7ab-4cd1-94b3-9b8b86faa703",
+          "name": "Symbiote Swarm",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Venom Nemesis",
+              "code": "vnm_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/d7019195-d7ab-4cd1-94b3-9b8b86faa703"
+        },
+        "harder": {
+          "id": "c2f8426c-bafc-404e-a77d-399a50bc7747",
+          "name": "The Sinister Seven",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Sinister Assault",
+              "code": "sinister_assault"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/c2f8426c-bafc-404e-a77d-399a50bc7747"
+        }
+      },
+      "battle-26": {
+        "villainCode": "mysterio",
+        "easier": {
+          "id": "cf7f311e-e0ce-4a29-b7ee-94ced56254ab",
+          "name": "Doom's Brigade",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Batroc's Brigade",
+              "code": "batrocs_brigade"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Medium Minions",
+            "Thematic"
+          ],
+          "notes": "Medium minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/cf7f311e-e0ce-4a29-b7ee-94ced56254ab"
+        },
+        "thematic": {
+          "id": "3b6f2356-941f-45b7-b03e-22985354ad22",
+          "name": "Special Effects Expert",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Fantasy",
+              "code": "fantasy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Thematic"
+          ],
+          "notes": "Various. Environments. Thematic. (I suggest Fantasy or Horror!)",
+          "updated": "2026-05-11",
+          "url": "https://modularchampions.com/scenario/3b6f2356-941f-45b7-b03e-22985354ad22"
+        },
+        "harder": {
+          "id": "71a79cae-815b-4003-891f-831cf8ab75ed",
+          "name": "The Illusionists",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Enchantress",
+              "code": "enchantress"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Rush",
+            "Sends Alter-Ego",
+            "Steals Allies",
+            "Thematic"
+          ],
+          "notes": "Anti-Rush. Sends alter-ego. Steals allies. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/71a79cae-815b-4003-891f-831cf8ab75ed"
+        }
+      },
+      "battle-27": {
+        "villainCode": "sinister_six",
+        "easier": {
+          "id": "9999ab9c-2dbe-42e1-8a91-c4dda073ff2c",
+          "name": "A Rolling Stone",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Running Interference",
+              "code": "running_interference"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Boss Minion",
+            "Sends Alter-Ego",
+            "Thematic"
+          ],
+          "notes": "Boss minion. Sends alter-ego. Attachments. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/9999ab9c-2dbe-42e1-8a91-c4dda073ff2c"
+        },
+        "thematic": {
+          "id": "db637f61-1d7c-4529-ae44-8f0ceba50eb4",
+          "name": "Running with Rhino",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "City in Chaos",
+              "code": "city_in_chaos"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minion. Acceleration tokens. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/db637f61-1d7c-4529-ae44-8f0ceba50eb4"
+        },
+        "harder": {
+          "id": "69c0b917-957a-41fe-b183-07622f03ca29",
+          "name": "Coordinated Crime",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "State of Emergency",
+              "code": "state_of_emergency"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Side schemes. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/69c0b917-957a-41fe-b183-07622f03ca29"
+        }
+      },
+      "battle-28": {
+        "villainCode": "venom_goblin",
+        "easier": {
+          "id": "456fda73-602d-4dac-888a-e47857e1458c",
+          "name": "A City on Fire",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "State of Emergency",
+              "code": "state_of_emergency"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Side schemes. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/456fda73-602d-4dac-888a-e47857e1458c"
+        },
+        "thematic": {
+          "id": "d31131aa-65b9-450c-bd10-1504fe22da91",
+          "name": "Rogues' Gallery",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Sinister Assault",
+              "code": "sinister_assault"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/d31131aa-65b9-450c-bd10-1504fe22da91"
+        },
+        "harder": {
+          "id": "414b75ef-15cd-46d1-bd52-fea6c8691a01",
+          "name": "Oscorp Unleashed",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "High Boost Icons",
+            "Thematic"
+          ],
+          "notes": "Attachments. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/414b75ef-15cd-46d1-bd52-fea6c8691a01"
+        }
+      },
+      "battle-29": {
+        "villainCode": "magog",
+        "easier": {
+          "id": "c2e2b89e-80fc-4b82-bbc2-606274457f08",
+          "name": "Killing Time",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Temporal",
+              "code": "temporal"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Status Cards",
+            "Stuns"
+          ],
+          "notes": "Small minions. Stuns.",
+          "updated": "2026-05-05",
+          "url": "https://modularchampions.com/scenario/c2e2b89e-80fc-4b82-bbc2-606274457f08"
+        },
+        "thematic": {
+          "id": "04bcfba4-273d-42fc-9860-c8fe2a7135d5",
+          "name": "Gladiators United",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Blue Moon",
+              "code": "blue_moon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Rush",
+            "Mixed Minions",
+            "Teamwork",
+            "Thematic"
+          ],
+          "notes": "Anti-Rush. Teamwork. Mixed minions. Thematic.",
+          "updated": "2026-05-07",
+          "url": "https://modularchampions.com/scenario/04bcfba4-273d-42fc-9860-c8fe2a7135d5"
+        },
+        "harder": {
+          "id": "64dff3b1-6318-45fb-b457-e9d945c8e2ce",
+          "name": "\"We Are Gog!\"",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Dangerous Attacks",
+            "Extra Attacks",
+            "Small Minions"
+          ],
+          "notes": "Extra attacks. Dangerous attacks. Small minions.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/64dff3b1-6318-45fb-b457-e9d945c8e2ce"
+        }
+      },
+      "battle-30": {
+        "villainCode": "spiral",
+        "easier": null,
+        "thematic": {
+          "id": "65f514cf-5847-4b29-a794-e29b114f2d83",
+          "name": "Sisterhood of Mutants #1",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Deathstrike",
+              "code": "deathstrike"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minion. Discarding. Thematic.",
+          "updated": "2026-05-22",
+          "url": "https://modularchampions.com/scenario/65f514cf-5847-4b29-a794-e29b114f2d83"
+        },
+        "harder": {
+          "id": "0b44980a-5a5d-4edd-b8e7-ef8f900c51e7",
+          "name": "\"We Are Fleeing!\"",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Dangerous Attacks",
+            "Extra Attacks",
+            "Small Minions"
+          ],
+          "notes": "Extra attacks (may Escape sooner + lethal with her swords). Dangerous attacks. Small minions.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/0b44980a-5a5d-4edd-b8e7-ef8f900c51e7"
+        }
+      },
+      "battle-31": {
+        "villainCode": "mojo",
+        "easier": {
+          "id": "c1701904-fdf5-4612-9826-1becedf14ed5",
+          "name": "\"Campaign Mode\"",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Longshot",
+              "code": "longshot"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [],
+          "notes": "Occasionally gives you a helpful ally.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/c1701904-fdf5-4612-9826-1becedf14ed5"
+        },
+        "thematic": null,
+        "harder": {
+          "id": "ee29c9d9-6aa3-453a-99bf-09d62cb31925",
+          "name": "Fast Forward",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mills Encounter Deck",
+            "Treacheries"
+          ],
+          "notes": "Mills encounter deck. Treacheries.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/ee29c9d9-6aa3-453a-99bf-09d62cb31925"
+        }
+      },
+      "battle-32": {
+        "villainCode": "sabretooth",
+        "easier": {
+          "id": "5e62beea-8374-447e-92ed-6c38f26ef005",
+          "name": "Otherhood #1",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Brotherhood",
+              "code": "brotherhood"
+            },
+            {
+              "name": "Rogue Nemesis",
+              "code": "rogue_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Brotherhood trait interaction. Puts cards in your deck. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/5e62beea-8374-447e-92ed-6c38f26ef005"
+        },
+        "thematic": {
+          "id": "6206d618-fe0c-4611-902d-f4dafbf56f40",
+          "name": "Otherhood #3",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Brotherhood",
+              "code": "brotherhood"
+            },
+            {
+              "name": "Sauron",
+              "code": "sauron"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Brotherhood trait interaction. Thematic.",
+          "updated": "2026-06-28",
+          "url": "https://modularchampions.com/scenario/6206d618-fe0c-4611-902d-f4dafbf56f40"
+        },
+        "harder": {
+          "id": "9d0aee78-4b4c-4615-8ed2-a8e886e8069b",
+          "name": "Assassin's Creed",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Gambit Nemesis",
+              "code": "gambit_nemesis"
+            },
+            {
+              "name": "Arcade",
+              "code": "arcade"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Quickstrike",
+            "Side Schemes"
+          ],
+          "notes": "Mixed minions. Quickstrike. Side schemes. Assassin trait interaction.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/9d0aee78-4b4c-4615-8ed2-a8e886e8069b"
+        }
+      },
+      "battle-33": {
+        "villainCode": "project_wideawake",
+        "easier": {
+          "id": "7894ad6c-1987-4507-9661-8286bc62dfa1",
+          "name": "High Voltage",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mills Encounter Deck",
+            "Thematic",
+            "Treacheries"
+          ],
+          "notes": "Treacheries. Mills encounter deck. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/7894ad6c-1987-4507-9661-8286bc62dfa1"
+        },
+        "thematic": {
+          "id": "6af1e914-b5f7-41b7-8805-9794a86a8261",
+          "name": "Anti-Mutant Pact",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Genosha",
+              "code": "genosha"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Steady",
+            "Thematic"
+          ],
+          "notes": "Steady. Mixed minions. Thematic.",
+          "updated": "2025-12-06",
+          "url": "https://modularchampions.com/scenario/6af1e914-b5f7-41b7-8805-9794a86a8261"
+        },
+        "harder": {
+          "id": "be25b26f-628b-4974-a87c-c08b8424f25e",
+          "name": "00PS, J01N3D A CULT",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Clan Akkaba",
+              "code": "clan_akkaba"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Threat"
+          ],
+          "notes": "Mixed minions. Adds threat.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/be25b26f-628b-4974-a87c-c08b8424f25e"
+        }
+      },
+      "battle-34": {
+        "villainCode": "master_mold",
+        "easier": {
+          "id": "0b049de6-d150-45c7-bfbf-2308615e01c8",
+          "name": "High Voltage",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mills Encounter Deck",
+            "Thematic",
+            "Treacheries"
+          ],
+          "notes": "Treacheries. Mills encounter deck. Thematic.",
+          "updated": "2026-01-01",
+          "url": "https://modularchampions.com/scenario/0b049de6-d150-45c7-bfbf-2308615e01c8"
+        },
+        "thematic": {
+          "id": "f11d1dc9-6a47-4755-8122-89a7ddf8d34b",
+          "name": "Programmed Robots",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Sci-Fi",
+              "code": "sci-fi"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Status Cards",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Toughness environment. Thematic.",
+          "updated": "2026-07-03",
+          "url": "https://modularchampions.com/scenario/f11d1dc9-6a47-4755-8122-89a7ddf8d34b"
+        },
+        "harder": {
+          "id": "1cd7b462-77cc-4156-9a07-825423071ab0",
+          "name": "No Laughing Matter",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Sitcom",
+              "code": "sitcom"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Obligations",
+            "Sends Alter-Ego"
+          ],
+          "notes": "Sends alter-ego (brings in minions here). Obligations.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/1cd7b462-77cc-4156-9a07-825423071ab0"
+        }
+      },
+      "battle-35": {
+        "villainCode": "mansion_attack",
+        "easier": {
+          "id": "50b4f17e-3714-4ca4-9b48-1168ecedac3b",
+          "name": "Otherhood #1",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Rogue Nemesis",
+              "code": "rogue_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minion. Brotherhood trait interaction. Puts cards in your deck. Thematic.",
+          "updated": "2026-04-18",
+          "url": "https://modularchampions.com/scenario/50b4f17e-3714-4ca4-9b48-1168ecedac3b"
+        },
+        "thematic": {
+          "id": "b1330493-220b-4b4f-a10f-ad5cd619337f",
+          "name": "Family Reunion",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Colossus Nemesis",
+              "code": "colossus_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Overkill",
+            "Thematic"
+          ],
+          "notes": "Overkill/piercing. Large minion. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/b1330493-220b-4b4f-a10f-ad5cd619337f"
+        },
+        "harder": {
+          "id": "11dfde4d-ad7c-410b-8afa-6a1307eadb23",
+          "name": "Motherboard of Evil Mutants",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Future Past",
+              "code": "future_past"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion",
+            "High Boost Icons",
+            "Nemesis Interaction",
+            "Thematic",
+            "Victory Display"
+          ],
+          "notes": "Boss minions. Victory display. High boost icons. Nemesis interaction. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/11dfde4d-ad7c-410b-8afa-6a1307eadb23"
+        }
+      },
+      "battle-36": {
+        "villainCode": "magneto_villain",
+        "easier": {
+          "id": "3c042e56-c1c2-4b08-8320-49ef5edf7d68",
+          "name": "Aco-Lites",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Magneto Nemesis",
+              "code": "magneto_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Discards. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/3c042e56-c1c2-4b08-8320-49ef5edf7d68"
+        },
+        "thematic": {
+          "id": "b598a4a2-d607-4a87-8b69-96217a52f6b0",
+          "name": "Vanity Project",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Sci-Fi",
+              "code": "sci-fi"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Status Cards",
+            "Thematic"
+          ],
+          "notes": "Includes robotic Magneto minion. Mixed minions. Toughness environment. Thematic.",
+          "updated": "2025-12-07",
+          "url": "https://modularchampions.com/scenario/b598a4a2-d607-4a87-8b69-96217a52f6b0"
+        },
+        "harder": {
+          "id": "a54f367a-34aa-446c-b320-01a405535332",
+          "name": "Oops, Joined Hydra",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Weapon Master",
+              "code": "weap_master"
+            },
+            {
+              "name": "Hydra Assault",
+              "code": "hydra_assault"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Extra Attacks",
+            "Hydra",
+            "Small Minions"
+          ],
+          "notes": "Extra attacks. Small minions. Adds Hydra theme.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/a54f367a-34aa-446c-b320-01a405535332"
+        }
+      },
+      "battle-37": {
+        "villainCode": "morlock_siege",
+        "easier": {
+          "id": "a8c0db70-9ae6-41ee-a6a3-e0bee4c43db6",
+          "name": "Making An Entrance",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Bomb Scare",
+              "code": "bomb_scare"
+            },
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mills Encounter Deck",
+            "Small Minions",
+            "Treacheries"
+          ],
+          "notes": "Small minions. Treacheries. Mills encounter deck.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/a8c0db70-9ae6-41ee-a6a3-e0bee4c43db6"
+        },
+        "thematic": {
+          "id": "7f36adb1-06e5-44b6-9327-d0051ebc1af2",
+          "name": "Run For Your Lives",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Genosha",
+              "code": "genosha"
+            },
+            {
+              "name": "Dystopian Nightmare",
+              "code": "dystopian_nightmare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Sends Alter-Ego",
+            "Steady",
+            "Thematic"
+          ],
+          "notes": "Sends alter-ego. Steady. Mixed minions. Thematic.",
+          "updated": "2026-03-29",
+          "url": "https://modularchampions.com/scenario/7f36adb1-06e5-44b6-9327-d0051ebc1af2"
+        },
+        "harder": {
+          "id": "a17938f9-b46c-4551-8bf4-c570e1107ecf",
+          "name": "Changing of the Guard",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Black Tom Cassidy",
+              "code": "black_tom_cassidy"
+            },
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Anti-Rush",
+            "Quickstrike",
+            "Small Minions",
+            "Status Cards",
+            "Stuns"
+          ],
+          "notes": "Anti-Rush. Anti-Ally (defending). Stuns. Quickstrike. Small minions.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/a17938f9-b46c-4551-8bf4-c570e1107ecf"
+        }
+      },
+      "battle-38": {
+        "villainCode": "on_the_run",
+        "easier": {
+          "id": "850cf54f-eaa8-449c-b3ea-52c78f461d01",
+          "name": "Crime Wave",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Down to Earth",
+              "code": "down_to_earth"
+            },
+            {
+              "name": "City in Chaos",
+              "code": "city_in_chaos"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Sends Alter-Ego"
+          ],
+          "notes": "Mixed minions. Sends alter-ego.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/850cf54f-eaa8-449c-b3ea-52c78f461d01"
+        },
+        "thematic": {
+          "id": "f7fa3bf2-b2b8-4f33-a973-db17c6e96d44",
+          "name": "A State of Mayhem",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Streets of Mayhem",
+              "code": "streets_of_mayhem"
+            },
+            {
+              "name": "State of Emergency",
+              "code": "state_of_emergency"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Side schemes. Changing environment. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/f7fa3bf2-b2b8-4f33-a973-db17c6e96d44"
+        },
+        "harder": {
+          "id": "472355b5-2481-48eb-868a-c90961c52c8e",
+          "name": "A Chase Within A Chase",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Genosha",
+              "code": "genosha"
+            },
+            {
+              "name": "Celestial Tech",
+              "code": "celestial_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Mixed Minions",
+            "Steady"
+          ],
+          "notes": "Steady. Mixed minions. Attachments.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/472355b5-2481-48eb-868a-c90961c52c8e"
+        }
+      },
+      "battle-39": {
+        "villainCode": "juggernaut",
+        "easier": {
+          "id": "ec7bf6a4-29c1-42f8-9fda-3061ee11b02f",
+          "name": "Brotherhood Infiltration",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Brotherhood",
+              "code": "brotherhood"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/ec7bf6a4-29c1-42f8-9fda-3061ee11b02f"
+        },
+        "thematic": {
+          "id": "d0c52475-02b4-40a7-a9c7-4379b4296603",
+          "name": "Thunderbolts Are Go",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Thunderbolts",
+              "code": "thunderbolts_modular"
+            },
+            {
+              "name": "Gravitational Pull",
+              "code": "gravitational_pull"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion",
+            "Medium Minions",
+            "Thematic"
+          ],
+          "notes": "Boss minion. Medium minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/d0c52475-02b4-40a7-a9c7-4379b4296603"
+        },
+        "harder": {
+          "id": "3d998dd5-bd08-4e77-ae36-aa8ade06a837",
+          "name": "Anachro-Juggernauts",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Anachronauts",
+              "code": "anachronauts"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Mixed Minions"
+          ],
+          "notes": "Mixed minions. Impactful boost abilities.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/3d998dd5-bd08-4e77-ae36-aa8ade06a837"
+        }
+      },
+      "battle-40": {
+        "villainCode": "mister_sinister",
+        "easier": {
+          "id": "36ea7e7c-6a8c-49d7-88d7-b7346917a429",
+          "name": "Marauder's Orders",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Mutant Slayers",
+              "code": "mutant_slayers"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Medium Minions",
+            "Thematic"
+          ],
+          "notes": "Medium minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/36ea7e7c-6a8c-49d7-88d7-b7346917a429"
+        },
+        "thematic": {
+          "id": "dc0c0be4-cb24-46c7-925b-b3c6297a1907",
+          "name": "Expanding The Gene Pool",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally (defending). Small minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/dc0c0be4-cb24-46c7-925b-b3c6297a1907"
+        },
+        "harder": {
+          "id": "1d9a564e-124c-49ef-94c9-c0d3c7a4419f",
+          "name": "Genetic Boosts",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Anachronauts",
+              "code": "anachronauts"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Impactful Boost Abilities",
+            "Mixed Minions"
+          ],
+          "notes": "Mixed minions. Impactful boost abilities.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/1d9a564e-124c-49ef-94c9-c0d3c7a4419f"
+        }
+      },
+      "battle-41": {
+        "villainCode": "stryfe",
+        "easier": {
+          "id": "17c78d17-b9a9-4c28-a591-1e9fa5b3564d",
+          "name": "Fallen Future",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Sentinels",
+              "code": "sentinels"
+            },
+            {
+              "name": "Zero Tolerance",
+              "code": "zero_tolerance"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Sentinel trait interaction. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/17c78d17-b9a9-4c28-a591-1e9fa5b3564d"
+        },
+        "thematic": {
+          "id": "0173e1ca-c6b2-4e54-80de-a7aa2237cf58",
+          "name": "Anti-Mutant Mayhem",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Military Grade",
+              "code": "military_grade"
+            },
+            {
+              "name": "Genosha",
+              "code": "genosha"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Mixed Minions",
+            "Steady",
+            "Thematic"
+          ],
+          "notes": "Steady. Mixed minions. Attachments. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/0173e1ca-c6b2-4e54-80de-a7aa2237cf58"
+        },
+        "harder": {
+          "id": "da126016-e91d-4f7c-93ed-2e2b7ef10dc9",
+          "name": "Back in Time",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Savage Land",
+              "code": "savage_land"
+            },
+            {
+              "name": "Fantasy",
+              "code": "fantasy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion",
+            "Discarding",
+            "Mixed Minions",
+            "Retaliate",
+            "Thematic"
+          ],
+          "notes": "Retaliate. Discards. Mixed minions. Boss minion (Dragon). Fantasy environment increases hand size. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/da126016-e91d-4f7c-93ed-2e2b7ef10dc9"
+        }
+      },
+      "battle-42": {
+        "villainCode": "unus",
+        "easier": {
+          "id": "03c800db-c109-453a-8c7d-366e682ff575",
+          "name": "Well-Armed Soldiers",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Thematic"
+          ],
+          "notes": "Attachments. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/03c800db-c109-453a-8c7d-366e682ff575"
+        },
+        "thematic": {
+          "id": "468980d1-e5ba-4e91-b582-9d4fe440868b",
+          "name": "Highly-Trained",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Guerrilla Tactics",
+              "code": "guerrilla_tactics"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Bonuses for multiple enemies. Side schemes. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/468980d1-e5ba-4e91-b582-9d4fe440868b"
+        },
+        "harder": {
+          "id": "6f5f906a-071f-4bc6-8a1b-5ee1cbc54841",
+          "name": "A New Prelate",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Deathstrike",
+              "code": "deathstrike"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Discarding",
+            "Large Minions"
+          ],
+          "notes": "Large minion. Discards. Attachments.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/6f5f906a-071f-4bc6-8a1b-5ee1cbc54841"
+        }
+      },
+      "battle-43": {
+        "villainCode": "four_horsemen",
+        "easier": {
+          "id": "7a7a03a8-3bcc-400a-b450-c48fc4456691",
+          "name": "A Different Apocalypse",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Legions of Hel",
+              "code": "legions_of_hel"
+            },
+            {
+              "name": "Shadow King",
+              "code": "shadow_king"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Steals Allies"
+          ],
+          "notes": "Small minions. Steals allies.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/7a7a03a8-3bcc-400a-b450-c48fc4456691"
+        },
+        "thematic": {
+          "id": "0254b0ab-12aa-4d82-8bcf-dc756097a069",
+          "name": "Forces of Apocalypse",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Dark Riders",
+              "code": "dark_riders"
+            },
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Mixed Minions",
+            "Teamwork",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally (defending). Mixed minions. Teamwork. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/0254b0ab-12aa-4d82-8bcf-dc756097a069"
+        },
+        "harder": {
+          "id": "09e87cdb-ee2a-4bde-8d4a-26d668753c8c",
+          "name": "Oops, We Joined Hydra",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Weapon Master",
+              "code": "weap_master"
+            },
+            {
+              "name": "Hydra Assault",
+              "code": "hydra_assault"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Extra Attacks",
+            "Hydra",
+            "Small Minions"
+          ],
+          "notes": "Extra attacks. Small minions. Adds Hydra theme.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/09e87cdb-ee2a-4bde-8d4a-26d668753c8c"
+        }
+      },
+      "battle-44": {
+        "villainCode": "apocalypse",
+        "easier": {
+          "id": "b441894e-9a7a-4beb-8b46-16870eca4ca5",
+          "name": "Upgrading the Troops",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            },
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Attachments",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally (defending). Small minions. Attachments (for Prelates). Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/b441894e-9a7a-4beb-8b46-16870eca4ca5"
+        },
+        "thematic": {
+          "id": "efcce2df-642a-434a-9424-a0f3a7ebb4b1",
+          "name": "Rally the Troops",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            },
+            {
+              "name": "Hydra Patrol",
+              "code": "hydra_patrol"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally (defending). Small minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/efcce2df-642a-434a-9424-a0f3a7ebb4b1"
+        },
+        "harder": {
+          "id": "33f6a37f-182c-4228-bc49-fd6fb8f31a04",
+          "name": "Empire of Evil Mutants",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Brotherhood",
+              "code": "brotherhood"
+            },
+            {
+              "name": "Sauron",
+              "code": "sauron"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Mixed Minions"
+          ],
+          "notes": "Mixed minions. Brotherhood trait interaction.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/33f6a37f-182c-4228-bc49-fd6fb8f31a04"
+        }
+      },
+      "battle-45": {
+        "villainCode": "dark_beast",
+        "easier": {
+          "id": "a7023158-396c-457e-a52b-a27f82c20903",
+          "name": "Face the Past",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Temporal",
+              "code": "temporal"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Status Cards",
+            "Stuns",
+            "Thematic"
+          ],
+          "notes": "Small minions. Stuns. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/a7023158-396c-457e-a52b-a27f82c20903"
+        },
+        "thematic": {
+          "id": "65d9027e-66d9-487b-a734-cf8d62d870fe",
+          "name": "Osborn's Dark X-Men",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "S.H.I.E.L.D.",
+              "code": "s.h.i.e.l.d."
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic",
+            "Vulnerable"
+          ],
+          "notes": "Small minions. Vulnerable. Anti-S.H.I.E.L.D. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/65d9027e-66d9-487b-a734-cf8d62d870fe"
+        },
+        "harder": {
+          "id": "bbcadb7a-5ff2-4580-b1ac-4ddb2c53282f",
+          "name": "Dark Beast's Creations",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally (defending). Small minions. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/bbcadb7a-5ff2-4580-b1ac-4ddb2c53282f"
+        }
+      },
+      "battle-46": {
+        "villainCode": "en_sabah_nur",
+        "easier": {
+          "id": "17cbe50c-a816-4044-b90f-f2d7ab981dfd",
+          "name": "Gifts from the Future",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            },
+            {
+              "name": "Shadow King",
+              "code": "shadow_king"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally. Mixed minions. Stealing allies. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/17cbe50c-a816-4044-b90f-f2d7ab981dfd"
+        },
+        "thematic": {
+          "id": "534e5e7b-6657-4723-a80f-7ecc6052a46e",
+          "name": "Survival of the Fittest",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Hounds",
+              "code": "hounds"
+            },
+            {
+              "name": "Dystopian Nightmare",
+              "code": "dystopian_nightmare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Quickstrike",
+            "Sends Alter-Ego",
+            "Thematic"
+          ],
+          "notes": "Sends alter-ego + brings you back. Quickstrike. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/534e5e7b-6657-4723-a80f-7ecc6052a46e"
+        },
+        "harder": {
+          "id": "618d37b8-76e3-4ea7-a32f-6a8c860ec5b8",
+          "name": "Side Scheme Daydream",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Clan Akkaba",
+              "code": "clan_akkaba"
+            },
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Anti-Ally (defending). Mixed minions. Receives a LOT of threat from form changes. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/618d37b8-76e3-4ea7-a32f-6a8c860ec5b8"
+        }
+      },
+      "battle-47": {
+        "villainCode": "black_widow_villain",
+        "easier": {
+          "id": "c72b5bce-13ca-4c0e-88bc-24faf42f9320",
+          "name": "Agent of S.H.I.E.L.D.",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "S.H.I.E.L.D.",
+              "code": "s.h.i.e.l.d."
+            },
+            {
+              "name": "Experimental Weapons",
+              "code": "exper_weapon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Small Minions",
+            "Thematic",
+            "Vulnerable"
+          ],
+          "notes": "Small minions. Vulnerable. Anti-S.H.I.E.L.D. Attachments. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/c72b5bce-13ca-4c0e-88bc-24faf42f9320"
+        },
+        "thematic": {
+          "id": "283cfc6a-52cc-4cae-adfd-7e6ec77f5785",
+          "name": "Elite S.H.I.E.L.D. Squad",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Cape-Killer",
+              "code": "cape_killer"
+            },
+            {
+              "name": "Martial Law",
+              "code": "martial_law"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. S.H.I.E.L.D. trait interaction. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/283cfc6a-52cc-4cae-adfd-7e6ec77f5785"
+        },
+        "harder": {
+          "id": "d838b6d7-721d-4219-894f-8ad444cb2276",
+          "name": "Trust Nobody",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "S.H.I.E.L.D. Executive Board",
+              "code": "s.h.i.e.l.d._executive_board"
+            },
+            {
+              "name": "Maria Hill",
+              "code": "maria_hill_modular"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "SCH Boost",
+            "Thematic"
+          ],
+          "notes": "Resource sink. Possible ATK/SCH boost. Thematic.",
+          "updated": "2026-04-10",
+          "url": "https://modularchampions.com/scenario/d838b6d7-721d-4219-894f-8ad444cb2276"
+        }
+      },
+      "battle-48": {
+        "villainCode": "batroc",
+        "easier": {
+          "id": "a8c0a3b5-7a95-4416-9f94-9accd4528229",
+          "name": "Diplomatic Crisis",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Bomb Scare",
+              "code": "bomb_scare"
+            },
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Small Minions"
+          ],
+          "notes": "Small minions. Attachments.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/a8c0a3b5-7a95-4416-9f94-9accd4528229"
+        },
+        "thematic": {
+          "id": "89076201-9c53-44ed-b380-86265f4a46e1",
+          "name": "Expanded Brigade",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Batroc's Brigade",
+              "code": "batrocs_brigade"
+            },
+            {
+              "name": "War Machine Nemesis",
+              "code": "warm_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Medium Minions",
+            "Thematic"
+          ],
+          "notes": "Medium minions. Discarding upgrades. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/89076201-9c53-44ed-b380-86265f4a46e1"
+        },
+        "harder": {
+          "id": "50134da6-fa53-4f22-b72a-5e6919815224",
+          "name": "Bat Rock Band",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Band of Badoon",
+              "code": "band_of_badoon"
+            },
+            {
+              "name": "Celestial Tech",
+              "code": "celestial_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Impactful Boost Abilities",
+            "Minion Swarm",
+            "Mixed Minions",
+            "Surprise Damage"
+          ],
+          "notes": "Mixed minions. Surprise damage. Impactful boost abilities. Swarm. Attachments.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/50134da6-fa53-4f22-b72a-5e6919815224"
+        }
+      },
+      "battle-49": {
+        "villainCode": "m.o.d.o.k.",
+        "easier": {
+          "id": "f1d593b1-df0a-405c-ab07-24e54f59f9e1",
+          "name": "Watch Your A.I.M.",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "A.I.M. Abduction",
+              "code": "a.i.m._abduction"
+            },
+            {
+              "name": "A.I.M. Science",
+              "code": "a.i.m._science"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. Anti-Ally. A.I.M. trait interaction. Thematic.",
+          "updated": "2026-03-27",
+          "url": "https://modularchampions.com/scenario/f1d593b1-df0a-405c-ab07-24e54f59f9e1"
+        },
+        "thematic": {
+          "id": "df26087f-e62d-44ca-a6db-3e5fcaf0cfae",
+          "name": "Dark Experiments",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Personal Nightmare",
+              "code": "personal_nightmare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Medium Minions",
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Huge side scheme. Discards. 2x medium minions. Thematic (clones).",
+          "updated": "2026-03-27",
+          "url": "https://modularchampions.com/scenario/df26087f-e62d-44ca-a6db-3e5fcaf0cfae"
+        },
+        "harder": {
+          "id": "658cbe1d-0fb4-4165-9edf-fbb13e91353f",
+          "name": "M.O.R.E. T.E.C.H.",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "The Doomsday Chair",
+              "code": "the_doomsday_chair"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Thematic"
+          ],
+          "notes": "Attachments. Thematic (M.O.D.O.K. minion surges).",
+          "updated": "2026-03-27",
+          "url": "https://modularchampions.com/scenario/658cbe1d-0fb4-4165-9edf-fbb13e91353f"
+        }
+      },
+      "battle-50": {
+        "villainCode": "thunderbolts",
+        "easier": {
+          "id": "2f3db1c5-c206-4e24-9669-794f896ad0fe",
+          "name": "Changing Sides",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Trickster Magic",
+              "code": "trickster_magic"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. Gives allies. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/2f3db1c5-c206-4e24-9669-794f896ad0fe"
+        },
+        "thematic": {
+          "id": "955c4ea3-bae9-4608-bd8f-a60fece056db",
+          "name": "Under Arrest #1",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "S.H.I.E.L.D.",
+              "code": "s.h.i.e.l.d."
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic",
+            "Vulnerable"
+          ],
+          "notes": "Small minions. Vulnerable. Anti-S.H.I.E.L.D. Thematic.",
+          "updated": "2026-04-02",
+          "url": "https://modularchampions.com/scenario/955c4ea3-bae9-4608-bd8f-a60fece056db"
+        },
+        "harder": {
+          "id": "cd84de3c-3db1-4147-a55a-b037ba27eb12",
+          "name": "Sharknado",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Menagerie Medley",
+              "code": "menagerie_medley"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Confuses",
+            "Impactful Boost Abilities",
+            "Mixed Minions",
+            "Status Cards",
+            "Surprise Damage"
+          ],
+          "notes": "Anti-Ally. Surprise damage. Mixed minions. Impactful boost abilities. Confuses.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/cd84de3c-3db1-4147-a55a-b037ba27eb12"
+        }
+      },
+      "battle-51": {
+        "villainCode": "baron_zemo",
+        "easier": {
+          "id": "e905e36f-862b-43b1-a841-50f5f7592283",
+          "name": "Watch Your A.I.M.",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "A.I.M. Abduction",
+              "code": "a.i.m._abduction"
+            },
+            {
+              "name": "A.I.M. Science",
+              "code": "a.i.m._science"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. Anti-Ally. A.I.M. trait interaction. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/e905e36f-862b-43b1-a841-50f5f7592283"
+        },
+        "thematic": {
+          "id": "0a0eb5ba-c61e-423d-96cf-407004e2a30e",
+          "name": "Reluctant Foes #1",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "New Avengers",
+              "code": "new_avengers"
+            },
+            {
+              "name": "Secret Avengers",
+              "code": "secret_avengers"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Medium Minions",
+            "Teamwork",
+            "Thematic"
+          ],
+          "notes": "Medium minions. Teamwork. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/0a0eb5ba-c61e-423d-96cf-407004e2a30e"
+        },
+        "harder": {
+          "id": "c633ad26-5fb4-4580-a889-74ba90115f7f",
+          "name": "Army of Evil",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Masters of Evil",
+              "code": "masters_of_evil"
+            },
+            {
+              "name": "Wrecking Crew",
+              "code": "wrecking_crew_modular"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. High boost icons. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/c633ad26-5fb4-4580-a889-74ba90115f7f"
+        }
+      },
+      "battle-52": {
+        "villainCode": "enchantress_villain",
+        "easier": null,
+        "thematic": {
+          "id": "6e0696fb-5e0a-4eea-8277-219ed6140b17",
+          "name": "Mythical Creatures",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Fantasy",
+              "code": "fantasy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Boss minion (Dragon). Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/6e0696fb-5e0a-4eea-8277-219ed6140b17"
+        },
+        "harder": {
+          "id": "01adab98-3e07-4d70-9fa0-245a8109c3e9",
+          "name": "Beguiling Magic",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Enchantress",
+              "code": "enchantress"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Rush",
+            "Sends Alter-Ego",
+            "Steals Allies",
+            "Thematic"
+          ],
+          "notes": "Anti-Rush. Sends alter-ego. Steals allies. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/01adab98-3e07-4d70-9fa0-245a8109c3e9"
+        }
+      },
+      "battle-53": {
+        "villainCode": "god_of_lies",
+        "easier": null,
+        "thematic": {
+          "id": "4bd3e06e-1409-4d6f-942e-3f07577383da",
+          "name": "Mythical Creatures",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Fantasy",
+              "code": "fantasy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Boss Minion",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Boss minion (Dragon). Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/4bd3e06e-1409-4d6f-942e-3f07577383da"
+        },
+        "harder": {
+          "id": "9b40a63e-3d73-4912-8e4d-32e6f678d41a",
+          "name": "Beguiling Magic",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Enchantress",
+              "code": "enchantress"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Rush",
+            "Sends Alter-Ego",
+            "Steals Allies",
+            "Thematic"
+          ],
+          "notes": "Anti-Rush. Sends alter-ego. Steals allies. Thematic.",
+          "updated": "2025-11-06",
+          "url": "https://modularchampions.com/scenario/9b40a63e-3d73-4912-8e4d-32e6f678d41a"
+        }
+      },
+      "battle-54": {
+        "villainCode": "iron_man_leader",
+        "easier": {
+          "id": "c237b8d5-fe31-40f5-bba6-d23921e9bace",
+          "name": "A Suit of Armor Around World",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Vision Nemesis",
+              "code": "vision_nemesis"
+            },
+            {
+              "name": "Sentinels",
+              "code": "sentinels"
+            },
+            {
+              "name": "Zero Tolerance",
+              "code": "zero_tolerance"
+            }
+          ],
+          "mainSchemes": [
+            "Homeland Security",
+            "Mighty Avengers"
+          ],
+          "tags": [
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. Drones. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/c237b8d5-fe31-40f5-bba6-d23921e9bace"
+        },
+        "thematic": {
+          "id": "4889ba76-9a06-4bc1-abde-e19ebb90aac1",
+          "name": "Extrembiote Suit",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            },
+            {
+              "name": "Venom Nemesis",
+              "code": "vnm_nemesis"
+            },
+            {
+              "name": "Under Attack",
+              "code": "under_attack"
+            }
+          ],
+          "mainSchemes": [
+            "Enforce the Law",
+            "No Going Back"
+          ],
+          "tags": [
+            "Dangerous Attacks",
+            "Extra Attacks",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Extra attacks. Dangerous attacks. Small minions. Unexpected damage. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/4889ba76-9a06-4bc1-abde-e19ebb90aac1"
+        },
+        "harder": {
+          "id": "c44a897e-7b1d-4669-bab4-e1c304f687fb",
+          "name": "Osborn Takeover",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Goblin Gear",
+              "code": "goblin_gear"
+            },
+            {
+              "name": "Goblin Gimmicks",
+              "code": "goblin_gimmicks"
+            },
+            {
+              "name": "Band of Badoon",
+              "code": "band_of_badoon"
+            }
+          ],
+          "mainSchemes": [
+            "Enforce the Law",
+            "Mighty Avengers"
+          ],
+          "tags": [
+            "Attachments",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Attachments. Small minions. Thematic. (Imagine the Badoon are goblins.)",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/c44a897e-7b1d-4669-bab4-e1c304f687fb"
+        }
+      },
+      "battle-55": {
+        "villainCode": "captain_marvel_leader",
+        "easier": {
+          "id": "e54e1677-7b3f-4cb2-82df-0061a9361a55",
+          "name": "Starjammers",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Ship Command",
+              "code": "ship_command"
+            },
+            {
+              "name": "Space Pirates",
+              "code": "space_pirates"
+            },
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            }
+          ],
+          "mainSchemes": [
+            "Cut Off Support",
+            "Negative Zone Prison"
+          ],
+          "tags": [
+            "Attachments",
+            "Quickstrike",
+            "Small Minions",
+            "Thematic",
+            "Treacheries"
+          ],
+          "notes": "Small minions. Quickstrike. Card removal. Additional boost cards. Treacheries. Resource generator. Minion attachments. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/e54e1677-7b3f-4cb2-82df-0061a9361a55"
+        },
+        "thematic": {
+          "id": "214486a4-410f-4e1d-9253-41a813c2576a",
+          "name": "The Mightiest Avenger",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Mighty Avengers",
+              "code": "mighty_avengers"
+            },
+            {
+              "name": "The Initiative",
+              "code": "the_initiative"
+            },
+            {
+              "name": "Sitcom",
+              "code": "sitcom"
+            }
+          ],
+          "mainSchemes": [
+            "Homeland Security",
+            "No Going Back"
+          ],
+          "tags": [
+            "Obligations",
+            "Small Minions",
+            "Status Cards",
+            "Thematic"
+          ],
+          "notes": "Small minions. Status cards. Alter-ego obligations. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/214486a4-410f-4e1d-9253-41a813c2576a"
+        },
+        "harder": {
+          "id": "fa5b17df-3986-4762-a4f1-e3f3e8ca9f78",
+          "name": "Ms. Venom",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            },
+            {
+              "name": "Venom Nemesis",
+              "code": "vnm_nemesis"
+            },
+            {
+              "name": "Whispers of Paranoia",
+              "code": "whispers_of_paranoia"
+            }
+          ],
+          "mainSchemes": [
+            "Enforce the Law",
+            "No Going Back"
+          ],
+          "tags": [
+            "Anti-Ally",
+            "Dangerous Attacks",
+            "Extra Attacks",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Extra attacks. Dangerous attacks. Small minions. Anti-Ally. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/fa5b17df-3986-4762-a4f1-e3f3e8ca9f78"
+        }
+      },
+      "battle-56": {
+        "villainCode": "captain_america_leader",
+        "easier": {
+          "id": "9f317f6d-2997-448c-a99b-6d07ff18a995",
+          "name": "Leading the Troops",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Infinites",
+              "code": "infinites"
+            },
+            {
+              "name": "Armies of Titan",
+              "code": "armies_of_titan"
+            },
+            {
+              "name": "Ransacked Armory",
+              "code": "ransacked_armory"
+            }
+          ],
+          "mainSchemes": [
+            "Rallying Call",
+            "Superhero Jailbreak"
+          ],
+          "tags": [
+            "Anti-Ally",
+            "Attachments",
+            "Small Minions"
+          ],
+          "notes": "Anti-Ally (defending). Small minions. Attachments.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/9f317f6d-2997-448c-a99b-6d07ff18a995"
+        },
+        "thematic": {
+          "id": "e1096101-8b17-4528-934d-3385dc1bdb6d",
+          "name": "Avengers Assemble",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "New Avengers",
+              "code": "new_avengers"
+            },
+            {
+              "name": "Secret Avengers",
+              "code": "secret_avengers"
+            },
+            {
+              "name": "Young Avengers",
+              "code": "young_avengers"
+            }
+          ],
+          "mainSchemes": [
+            "Rallying Call",
+            "Superhero Jailbreak"
+          ],
+          "tags": [
+            "Medium Minions",
+            "Thematic"
+          ],
+          "notes": "Medium minions. Boost effects. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/e1096101-8b17-4528-934d-3385dc1bdb6d"
+        },
+        "harder": {
+          "id": "83879c7c-5d21-4780-91fa-c9491d79457f",
+          "name": "Captain Venom",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            },
+            {
+              "name": "Venom Nemesis",
+              "code": "vnm_nemesis"
+            },
+            {
+              "name": "Dystopian Nightmare",
+              "code": "dystopian_nightmare"
+            }
+          ],
+          "mainSchemes": [
+            "Going Underground",
+            "Superhero Jailbreak"
+          ],
+          "tags": [
+            "Dangerous Attacks",
+            "Extra Attacks",
+            "Small Minions",
+            "Steady",
+            "Thematic"
+          ],
+          "notes": "Steady. Extra attacks. Dangerous attacks. Small minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/83879c7c-5d21-4780-91fa-c9491d79457f"
+        }
+      },
+      "battle-57": {
+        "villainCode": "spider_woman_leader",
+        "easier": {
+          "id": "39338eae-ae3a-4958-a5c2-bb0dca775244",
+          "name": "Hydra Double Agent",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Weapon Master",
+              "code": "weap_master"
+            },
+            {
+              "name": "Hydra Assault",
+              "code": "hydra_assault"
+            },
+            {
+              "name": "Bomb Scare",
+              "code": "bomb_scare"
+            }
+          ],
+          "mainSchemes": [
+            "Open Rebellion",
+            "Expose Overreach"
+          ],
+          "tags": [
+            "Extra Attacks",
+            "Hydra",
+            "Small Minions"
+          ],
+          "notes": "Extra attacks. Small minions. Adds Hydra theme.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/39338eae-ae3a-4958-a5c2-bb0dca775244"
+        },
+        "thematic": {
+          "id": "486f528d-9bdc-4a8e-a0db-210245087daf",
+          "name": "Agent of S.H.I.E.L.D.",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "S.H.I.E.L.D.",
+              "code": "s.h.i.e.l.d."
+            },
+            {
+              "name": "Guerrilla Tactics",
+              "code": "guerrilla_tactics"
+            },
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            }
+          ],
+          "mainSchemes": [
+            "Open Rebellion",
+            "Superhero Jailbreak"
+          ],
+          "tags": [
+            "Small Minions",
+            "Thematic",
+            "Vulnerable"
+          ],
+          "notes": "Vulnerable. Small minions. Anti-S.H.I.E.L.D. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/486f528d-9bdc-4a8e-a0db-210245087daf"
+        },
+        "harder": {
+          "id": "7064dbfd-75cb-475a-ab9d-f25ff98a15a0",
+          "name": "Criminal Treachery",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "City in Chaos",
+              "code": "city_in_chaos"
+            },
+            {
+              "name": "Armadillo",
+              "code": "armadillo"
+            },
+            {
+              "name": "A Mess of Things",
+              "code": "a_mess_of_things"
+            }
+          ],
+          "mainSchemes": [
+            "Open Rebellion",
+            "Guerilla Warfare"
+          ],
+          "tags": [
+            "Large Minions",
+            "Stuns",
+            "Toughs",
+            "Treacheries"
+          ],
+          "notes": "Large minions. Stuns. Toughs. Treacheries.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/7064dbfd-75cb-475a-ab9d-f25ff98a15a0"
+        }
+      },
+      "battle-58": {
+        "villainCode": "she_hulk_leader",
+        "easier": null,
+        "thematic": {
+          "id": "3322b0f7-a05c-464f-9d1f-9121285747a1",
+          "name": "Forced Into S.H.I.E.L.D.",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "S.H.I.E.L.D.",
+              "code": "s.h.i.e.l.d."
+            },
+            {
+              "name": "S.H.I.E.L.D. Ops",
+              "code": "shield_ops"
+            },
+            {
+              "name": "Martial Law",
+              "code": "martial_law"
+            }
+          ],
+          "mainSchemes": [
+            "Enforce the Law",
+            "Negative Zone Prison"
+          ],
+          "tags": [
+            "Small Minions",
+            "Thematic",
+            "Threat"
+          ],
+          "notes": "Small minions. S.H.I.E.L.D. trait interaction. Threat. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/3322b0f7-a05c-464f-9d1f-9121285747a1"
+        },
+        "harder": {
+          "id": "531b0e13-8d2d-413c-ae5a-b06122bd9501",
+          "name": "What If… Venom",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            },
+            {
+              "name": "Venom Nemesis",
+              "code": "vnm_nemesis"
+            },
+            {
+              "name": "Whispers of Paranoia",
+              "code": "whispers_of_paranoia"
+            }
+          ],
+          "mainSchemes": [
+            "Cut Off Support",
+            "Negative Zone Prison"
+          ],
+          "tags": [
+            "Anti-Ally",
+            "Dangerous Attacks",
+            "Extra Attacks",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Extra attacks. Dangerous attacks. Small minions. Anti-ally. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/531b0e13-8d2d-413c-ae5a-b06122bd9501"
+        }
+      },
+      "battle-59": {
+        "villainCode": "vision_leader",
+        "easier": {
+          "id": "d32701e6-e2ff-4400-982e-e78918fe1a01",
+          "name": "Batteries Not Included",
+          "difficulty": -2,
+          "sets": [
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            },
+            {
+              "name": "Zzzax",
+              "code": "zzzax"
+            },
+            {
+              "name": "Military Grade",
+              "code": "military_grade"
+            }
+          ],
+          "mainSchemes": [
+            "Open Rebellion",
+            "Expose Overreach"
+          ],
+          "tags": [
+            "Attachments",
+            "Mills Encounter Deck",
+            "Thematic",
+            "Treacheries"
+          ],
+          "notes": "Treacheries. Mills encounter deck. Attachments. Punishes energy resources. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/d32701e6-e2ff-4400-982e-e78918fe1a01"
+        },
+        "thematic": {
+          "id": "08f3b9e5-fbbf-477b-bb74-074ba6321997",
+          "name": "Failsafe Program",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Young Avengers",
+              "code": "young_avengers"
+            },
+            {
+              "name": "Scarlet Twins",
+              "code": "scarlet_twins"
+            },
+            {
+              "name": "Under Attack",
+              "code": "under_attack"
+            }
+          ],
+          "mainSchemes": [
+            "Going Underground",
+            "Superhero Jailbreak"
+          ],
+          "tags": [
+            "Mixed Minions",
+            "Steady",
+            "Surprise Damage",
+            "Thematic"
+          ],
+          "notes": "Steady. Mixed minions. Revealed effects. Surprise damage. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/08f3b9e5-fbbf-477b-bb74-074ba6321997"
+        },
+        "harder": {
+          "id": "bef1dd8e-9301-4f75-a3b8-b91ddd127b68",
+          "name": "Hydra Imitation",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Legions of Hydra",
+              "code": "legions_of_hydra"
+            },
+            {
+              "name": "Hydra Patrol",
+              "code": "hydra_patrol"
+            },
+            {
+              "name": "Weapon Master",
+              "code": "weap_master"
+            }
+          ],
+          "mainSchemes": [
+            "Going Underground",
+            "Superhero Jailbreak"
+          ],
+          "tags": [
+            "Mixed Minions",
+            "Steady"
+          ],
+          "notes": "Steady. Additional encounter cards. Mixed minions.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/bef1dd8e-9301-4f75-a3b8-b91ddd127b68"
+        }
+      },
+      "battle-60": {
+        "villainCode": "bullseye",
+        "easier": null,
+        "thematic": {
+          "id": "013fb7e0-31f3-439d-b8ba-115af8c08a8a",
+          "name": "Master Assassin",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Dystopian Nightmare",
+              "code": "dystopian_nightmare"
+            },
+            {
+              "name": "Guerrilla Tactics",
+              "code": "guerrilla_tactics"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Obligations",
+            "Sends Alter-Ego",
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Worse per enemy. Sends alter-ego. Obligations. Side schemes. Low minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/013fb7e0-31f3-439d-b8ba-115af8c08a8a"
+        },
+        "harder": {
+          "id": "5f84f2b3-02a4-40b6-909e-0b190983d258",
+          "name": "Adamantium Alliance",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Deathstrike",
+              "code": "deathstrike"
+            },
+            {
+              "name": "X-23 Nemesis",
+              "code": "x23_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Large Minions",
+            "Surprise Damage"
+          ],
+          "notes": "Large minions. Discarding from hand. Surprise damage. Adamantium theme.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/5f84f2b3-02a4-40b6-909e-0b190983d258"
+        }
+      },
+      "battle-61": {
+        "villainCode": "electro",
+        "easier": {
+          "id": "ff3d2b3a-f946-4119-842d-af8d39aeeff4",
+          "name": "Electrical Overload",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            },
+            {
+              "name": "Zzzax",
+              "code": "zzzax"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Mills Encounter Deck",
+            "Thematic",
+            "Treacheries"
+          ],
+          "notes": "Mills encounter deck. Treacheries. Punishes energy resources. Thematic. Electro minion is discarded + surges when revealed, or discarded + ignored if put into play.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/ff3d2b3a-f946-4119-842d-af8d39aeeff4"
+        },
+        "thematic": {
+          "id": "5a90462f-685a-4862-836a-f9c908629470",
+          "name": "Pay Your Power Bill",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Power Drain",
+              "code": "power_drain"
+            },
+            {
+              "name": "Ship Command",
+              "code": "ship_command"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Mills Encounter Deck",
+            "Thematic",
+            "Treacheries"
+          ],
+          "notes": "Mills encounter deck. Free resource generator. Treacheries the Milano can cancel. Thematic. Electro minion is discarded + surges when revealed, or discarded + ignored if put into play.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/5a90462f-685a-4862-836a-f9c908629470"
+        },
+        "harder": {
+          "id": "07450932-e6c3-4155-bbf4-6a95c60fd709",
+          "name": "Crime Shockwave",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Sinister Syndicate",
+              "code": "sinister_syndicate"
+            },
+            {
+              "name": "Crossfire's Crew",
+              "code": "crossfire_crew"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Anti-Ally",
+            "Impactful Boost Abilities",
+            "Medium Minions"
+          ],
+          "notes": "Anti-Ally. Medium minions. Impactful boost abilities.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/07450932-e6c3-4155-bbf4-6a95c60fd709"
+        }
+      },
+      "battle-62": {
+        "villainCode": "hammerhead",
+        "easier": {
+          "id": "af1d8884-1a5b-4995-be16-0edc34d6c856",
+          "name": "Law-Breaking School",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Taskmaster",
+              "code": "taskmaster_modular"
+            },
+            {
+              "name": "Down to Earth",
+              "code": "down_to_earth"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Quickstrike",
+            "Retaliate",
+            "Sends Alter-Ego",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "1x Large Retaliate/Toughness/\"Quickstrike\" minion. Sends alter-ego. Small minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/af1d8884-1a5b-4995-be16-0edc34d6c856"
+        },
+        "thematic": {
+          "id": "620bd329-0e0a-4a7e-8ada-a3781b85e687",
+          "name": "Hammer & Stone",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Running Interference",
+              "code": "running_interference"
+            },
+            {
+              "name": "Tombstone",
+              "code": "tombstone"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Sends Alter-Ego",
+            "Thematic"
+          ],
+          "notes": "Hero + minion attachments. Sends alter-ego. 2x Huge minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/620bd329-0e0a-4a7e-8ada-a3781b85e687"
+        },
+        "harder": {
+          "id": "2102decf-fb66-40fd-86cf-a5a44236a4fa",
+          "name": "The Family Business",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "State of Emergency",
+              "code": "state_of_emergency"
+            },
+            {
+              "name": "Down to Earth",
+              "code": "down_to_earth"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Sends Alter-Ego",
+            "Side Schemes",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Side schemes. High boost icons. Sends alter-ego. Small minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/2102decf-fb66-40fd-86cf-a5a44236a4fa"
+        }
+      },
+      "battle-63": {
+        "villainCode": "purple_man",
+        "easier": {
+          "id": "ad31b720-0f79-4e96-a570-f161ec08b8fe",
+          "name": "Muddled Minds",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Trickster Magic",
+              "code": "trickster_magic"
+            },
+            {
+              "name": "Spider-Man",
+              "code": "spider_man_modular"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Confuses",
+            "Mixed Minions",
+            "Overkill",
+            "Stuns",
+            "Thematic"
+          ],
+          "notes": "Mixed minions (can become allies). “Stun/confuse” attachments. 1x Overkill boost ability. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/ad31b720-0f79-4e96-a570-f161ec08b8fe"
+        },
+        "thematic": {
+          "id": "049a19d6-9351-48dc-aab7-513be2b7a5a7",
+          "name": "Following New Orders",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Martial Law",
+              "code": "martial_law"
+            },
+            {
+              "name": "S.H.I.E.L.D. Ops",
+              "code": "shield_ops"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. Some minions summon other minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/049a19d6-9351-48dc-aab7-513be2b7a5a7"
+        },
+        "harder": {
+          "id": "a853d4fd-acaa-4c48-9f9a-0ce0ff1d40b6",
+          "name": "Master Of Puppets",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Enchantress",
+              "code": "enchantress"
+            },
+            {
+              "name": "Shadow King",
+              "code": "shadow_king"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Sends Alter-Ego",
+            "Steals Allies",
+            "Thematic"
+          ],
+          "notes": "Steals allies. Sends alter-ego. Prevents attacks. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/a853d4fd-acaa-4c48-9f9a-0ce0ff1d40b6"
+        }
+      },
+      "battle-64": {
+        "villainCode": "typhoid_mary",
+        "easier": null,
+        "thematic": {
+          "id": "73b4caae-d19d-4429-aa2d-026b3733b2d0",
+          "name": "Fractured Psyche",
+          "difficulty": 1,
+          "sets": [
+            {
+              "name": "Whispers of Paranoia",
+              "code": "whispers_of_paranoia"
+            },
+            {
+              "name": "Personal Nightmare",
+              "code": "personal_nightmare"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Medium Minions",
+            "Nemesis Interaction",
+            "Sends Alter-Ego",
+            "Side Schemes",
+            "Thematic"
+          ],
+          "notes": "Sends alter-ego. Mixed attachments. Nemesis interaction. Huge side scheme. Medium minions. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/73b4caae-d19d-4429-aa2d-026b3733b2d0"
+        },
+        "harder": {
+          "id": "cefb9e1f-572d-4e35-96f4-438065884a16",
+          "name": "Sisterhood of Mutants",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Deathstrike",
+              "code": "deathstrike"
+            },
+            {
+              "name": "Hellfire",
+              "code": "hellfire"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Discarding",
+            "Impactful Boost Abilities",
+            "Mixed Minions",
+            "Thematic"
+          ],
+          "notes": "Mixed minions. Discarding from hand. Impactful boost abilities. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/cefb9e1f-572d-4e35-96f4-438065884a16"
+        }
+      },
+      "battle-65": {
+        "villainCode": "kingpin",
+        "easier": {
+          "id": "fb041951-c0a0-41b5-b554-918cb7d1cc19",
+          "name": "Safer Streets Initiative",
+          "difficulty": -1,
+          "sets": [
+            {
+              "name": "Cape-Killer",
+              "code": "cape_killer"
+            },
+            {
+              "name": "Martial Law",
+              "code": "martial_law"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Minion Swarm",
+            "Quickstrike",
+            "Small Minions",
+            "Thematic"
+          ],
+          "notes": "Small minions. Swarm. Quickstrike. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/fb041951-c0a0-41b5-b554-918cb7d1cc19"
+        },
+        "thematic": {
+          "id": "9c0b6157-f5e4-4ea3-b57e-8a62c6dfa62b",
+          "name": "The Lieutenants",
+          "difficulty": 0,
+          "sets": [
+            {
+              "name": "Taskmaster",
+              "code": "taskmaster_modular"
+            },
+            {
+              "name": "Tombstone",
+              "code": "tombstone"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Attachments",
+            "Large Minions",
+            "Quickstrike",
+            "Thematic"
+          ],
+          "notes": "Large minions. Quickstrike. Enemy attachments. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/9c0b6157-f5e4-4ea3-b57e-8a62c6dfa62b"
+        },
+        "harder": {
+          "id": "00c3aed4-55ff-441e-af28-794064b7a68d",
+          "name": "Classic Spider-Villains",
+          "difficulty": 2,
+          "sets": [
+            {
+              "name": "Sinister Assault",
+              "code": "sinister_assault"
+            },
+            {
+              "name": "City in Chaos",
+              "code": "city_in_chaos"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "High Boost Icons",
+            "Large Minions",
+            "Thematic"
+          ],
+          "notes": "Large minions. High boost icons. Attack abilities. Acceleration tokens. Thematic.",
+          "updated": "2026-07-26",
+          "url": "https://modularchampions.com/scenario/00c3aed4-55ff-441e-af28-794064b7a68d"
+        }
+      }
+    }
+  }
 }
