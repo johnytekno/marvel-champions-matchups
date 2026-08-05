@@ -174,10 +174,10 @@
     "card": "Hawkeye",
     "subname": "Clint Barton",
     "type": "Ally",
-    "pack": "Wonder Man",
-    "code": "58013",
-    "score": 210,
-    "source": "https://marvelcdb.com/bundles/cards/58013.jpg"
+    "pack": "Marvel Comics reference",
+    "code": null,
+    "score": null,
+    "source": "https://www.writeups.org/wp-content/uploads/Hawkeye-Marvel-Comics-Avengers-Clint-Barton-portrait-featured.jpg"
   },
   "vision": {
     "status": "ok",
@@ -204,10 +204,10 @@
     "card": "Falcon",
     "subname": "Sam Wilson",
     "type": "Ally",
-    "pack": "Captain America",
-    "code": "03011",
-    "score": 210,
-    "source": "https://marvelcdb.com/bundles/cards/03011.png"
+    "pack": "Marvel Comics reference",
+    "code": null,
+    "score": null,
+    "source": "https://www.writeups.org/wp-content/uploads/Falcon-Marvel-Comics-Avengers-Captain-America-Wilson-f.jpg"
   },
   "captain-marvel": {
     "status": "ok",
@@ -814,10 +814,10 @@
     "card": "Taskmaster",
     "subname": null,
     "type": "Villain",
-    "pack": "The Rise of Red Skull",
-    "code": "04093",
-    "score": 242,
-    "source": "https://marvelcdb.com/bundles/cards/04093.png"
+    "pack": "Marvel Comics reference",
+    "code": null,
+    "score": null,
+    "source": "https://www.writeups.org/wp-content/uploads/Taskmaster-Marvel-Comics-b.jpg"
   },
   "zola": {
     "status": "ok",
@@ -1314,22 +1314,22 @@
   "black-widow-yelena": {
     "status": "ok",
     "card": "Black Widow",
-    "subname": null,
+    "subname": "Yelena Belova",
     "type": "Villain",
-    "pack": "Agents of S.H.I.E.L.D.",
-    "code": "50064",
-    "score": 242,
-    "source": "https://marvelcdb.com/bundles/cards/50064.jpg"
+    "pack": "Marvel Comics reference",
+    "code": null,
+    "score": null,
+    "source": "https://www.writeups.org/wp-content/uploads/Black-Widow-Marvel-Comics-Yelena-Belova-1-portrait-featured.jpg"
   },
   "batroc": {
     "status": "ok",
-    "card": "Batroc",
-    "subname": null,
-    "type": "Minion",
-    "pack": "Agents of S.H.I.E.L.D.",
-    "code": "50161",
-    "score": 165,
-    "source": "https://marvelcdb.com/bundles/cards/50161.jpg"
+    "card": "Batroc the Leaper",
+    "subname": "Georges Batroc",
+    "type": "Villain",
+    "pack": "Marvel Comics reference",
+    "code": null,
+    "score": null,
+    "source": "https://www.writeups.org/wp-content/uploads/Batroc-Leaper-Marvel-Comics-Captain-America-portrait-featured-1.jpg"
   },
   "modok": {
     "status": "ok",
