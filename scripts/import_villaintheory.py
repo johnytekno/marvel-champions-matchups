@@ -1,8 +1,8 @@
 """Import a compact VillainTheory difficulty tuner into matchups.json.
 
 Inputs are public exports downloaded from Modular Champions and VillainTheory's
-2026 modular-set spreadsheet. The importer deliberately keeps only three
-curated alternatives per battle; the printed/official setup remains canonical.
+2026 modular-set spreadsheet. The importer keeps a compact set of curated
+alternatives per battle; the printed/official setup remains canonical.
 """
 
 from __future__ import annotations
@@ -171,7 +171,25 @@ def choose_records(records: list[dict]) -> dict[str, dict | None]:
         ),
     )
     harder = pick_unique(harder_candidates, used)
-    return {"easier": easier, "thematic": thematic, "harder": harder}
+
+    maximum_candidates = sorted(
+        (record for record in records if record["difficulty"] > 0),
+        key=lambda record: (
+            -record["difficulty"],
+            "thematic" not in scenario_tags(record),
+            len(record["scenario_modular_sets"]),
+            record["name"],
+        ),
+    )
+    maximum = pick_unique(maximum_candidates, used)
+    if maximum and harder and maximum["difficulty"] <= harder["difficulty"]:
+        maximum = None
+    return {
+        "easier": easier,
+        "thematic": thematic,
+        "harder": harder,
+        "maximum": maximum,
+    }
 
 
 def compact_record(record: dict | None) -> dict | None:
@@ -228,7 +246,7 @@ def main() -> None:
             "matrixUrl": "https://docs.google.com/spreadsheets/d/1nmrzdk9KpIvOWY8eRy5okYFDOmWaxK7UPdkHS_Hlx7k/edit",
             "matrixUpdated": "2026-05",
             "imported": "2026-08-04",
-            "method": "Published VillainTheory combinations; closest easier option, near-neutral thematic option, and moderate harder option.",
+            "method": "Published VillainTheory combinations; closest easier option, near-neutral thematic option, moderate harder option, and a distinct maximum option only when it is rated above harder.",
         },
         "playerCounts": {
             "solo": "Solo",
@@ -269,7 +287,7 @@ def main() -> None:
 
     for battle_id, choices in tuner["scenarios"].items():
         labels = []
-        for key in ("easier", "thematic", "harder"):
+        for key in ("easier", "thematic", "harder", "maximum"):
             choice = choices[key]
             labels.append(f"{key}={choice['name']} ({choice['difficulty']:+d})" if choice else f"{key}=unavailable")
         print(f"{battle_id} {scenarios[battle_id]['title']}: " + "; ".join(labels))

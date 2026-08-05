@@ -36,7 +36,7 @@ function assert(condition, message) {
 assert(index.includes('id="playerCount"'), "Player-count selector is missing.");
 assert(index.includes('id="mobileToolsToggle"') && index.includes('aria-controls="toolbarActions"'), "Accessible mobile tools control is missing.");
 assert(styles.includes('.toolbar.mobile-tools-open .actions{display:grid}') && styles.includes('.filter-strip{display:none}'), "Compact mobile toolbar styles are missing.");
-assert(index.includes('styles.css?v=20260804-oxblood-compact') && index.includes('app.js?v=20260804-oxblood-compact'), "Versioned assets are missing; clients may receive stale layout files.");
+assert(index.includes('styles.css?v=20260804-maximum-final') && index.includes('app.js?v=20260804-maximum-mobile'), "Versioned assets are missing; clients may receive stale layout files.");
 assert(index.indexOf('id="campaigns"') < index.indexOf('class="notice"'), "Sequence constraint should follow the campaign list.");
 assert(index.indexOf('id="campaigns"') < index.indexOf('class="hero-usage"'), "Hero appearance counts should follow the campaign list.");
 for (const className of ["tuner-guide", "tuner-tabs", "tuner-choice", "tuner-panel", "module-profile"]) {
@@ -47,6 +47,12 @@ const defaultRhino = evaluate("encounterModulesHtml(scenarioById('battle-01'))")
 assert(defaultRhino.includes("Official ±0"), "Rhino does not default to the official setup.");
 assert(defaultRhino.includes("Bomb Scare"), "Rhino official setup lost Bomb Scare.");
 assert(defaultRhino.includes('data-choice="easier"') && defaultRhino.includes("disabled"), "Unavailable easier choice is not disabled.");
+assert(defaultRhino.includes('data-choice="maximum"') && defaultRhino.includes("Maximum"), "Rhino Maximum choice is missing.");
+
+evaluate("state.moduleChoices['battle-01']='maximum'; state.playerCount='two'");
+const maximumRhino = evaluate("encounterModulesHtml(scenarioById('battle-01'))");
+assert(maximumRhino.includes("Thanos with a Horn") && maximumRhino.includes("Maximum +4"), "Rhino Maximum recipe is not rendered.");
+assert(maximumRhino.includes("VillainTheory source guide"), "Maximum source-guide attribution is missing.");
 
 evaluate("state.moduleChoices['battle-01']='thematic'; state.playerCount='two'");
 const thematicRhino = evaluate("encounterModulesHtml(scenarioById('battle-01'))");
@@ -58,7 +64,10 @@ assert(thematicRhino.includes("2 players:"), "Player-count profile is missing.")
 const rendered = evaluate(`DATA.campaigns.flatMap(c=>c.scenarios).map(encounterModulesHtml)`);
 assert(rendered.length === 65, "Not all 65 encounter tuners render.");
 assert(rendered.every((html) => !html.includes("undefined") && !html.includes("[object Object]")), "A tuner rendered invalid content.");
-assert(rendered.every((html) => (html.match(/class="tuner-choice/g) || []).length === 4), "A tuner is missing one of its four choice buttons.");
+const choiceCounts = rendered.map((html) => (html.match(/class="tuner-choice/g) || []).length);
+assert(choiceCounts.every((count) => count === 4 || count === 5), "A tuner has an invalid number of choice buttons.");
+assert(choiceCounts.filter((count) => count === 5).length === 60, "Expected exactly 60 sourced Maximum choices.");
+assert((rendered[26].match(/class="tuner-choice/g) || []).length === 4, "Sinister Six should not show a redundant Maximum choice.");
 
 const brief = evaluate("workChatText()");
 assert(brief.includes("Encounter tuner: 2 players"), "Work-chat export omits the player-count setting.");
@@ -66,4 +75,4 @@ assert(brief.includes("Property Damage"), "Work-chat export omits the selected r
 assert(brief.includes("modularchampions.com/scenario/"), "Work-chat export omits recipe attribution.");
 
 console.log("Encounter tuner test passed");
-console.log("65 tuners render with official defaults, published alternatives, player-count profiles, and export attribution");
+console.log("65 tuners render with official defaults, 60 sourced Maximum choices, player-count profiles, and export attribution");

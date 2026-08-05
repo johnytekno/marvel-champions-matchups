@@ -101,7 +101,7 @@ for (const campaign of data.campaigns) {
         errors.push(`Battle ${scenario.number} has an invalid tuner villain code.`);
       }
       const signatures = new Set();
-      for (const key of ["easier", "thematic", "harder"]) {
+      for (const key of ["easier", "thematic", "harder", "maximum"]) {
         const choice = tuning[key];
         if (choice === null) continue;
         if (!choice || typeof choice.name !== "string" || !choice.name.trim()) {
@@ -117,13 +117,19 @@ for (const campaign of data.campaigns) {
         if (key === "harder" && choice.difficulty <= 0) {
           errors.push(`Battle ${scenario.number} harder choice is not above the official baseline.`);
         }
+        if (key === "maximum" && (!tuning.harder || choice.difficulty <= tuning.harder.difficulty)) {
+          errors.push(`Battle ${scenario.number} maximum choice is not above its harder choice.`);
+        }
         if (!Array.isArray(choice.sets) || choice.sets.some((set) => !set?.name || !set?.code)) {
           errors.push(`Battle ${scenario.number} ${key} choice has invalid modular sets.`);
         }
         if (!Array.isArray(choice.mainSchemes) || !Array.isArray(choice.tags)) {
           errors.push(`Battle ${scenario.number} ${key} choice has invalid setup metadata.`);
         }
-        if (typeof choice.notes !== "string" || !choice.url?.startsWith("https://modularchampions.com/scenario/")) {
+        const validAttribution = key === "maximum"
+          ? choice.url === data.difficultyTuner.source.recommendationsUrl && choice.source === "VillainTheory source guide"
+          : choice.url?.startsWith("https://modularchampions.com/scenario/");
+        if (typeof choice.notes !== "string" || !validAttribution) {
           errors.push(`Battle ${scenario.number} ${key} choice has invalid attribution.`);
         }
         const signature = JSON.stringify([

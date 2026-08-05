@@ -10,7 +10,7 @@
 
 **Encounter setup:** Official recommended and required modular sets for every battle are maintained in `matchups.json` and displayed on each battle card. Variable setups remain variable, and unavailable Fear No Evil recommendations are marked as catalog-pending instead of being guessed.
 
-**Encounter tuner:** The printed Fantasy Flight Games setup remains the default for every battle. `matchups.json` also contains one published VillainTheory easier, thematic, and harder recipe per available slot, imported from Modular Champions on August 4, 2026. Difficulty deltas are relative to the current villain. Solo, two-player, and 3–4-player module profiles come from VillainTheory’s May 2026 matrix; required/story sets missing from that matrix stay explicitly unrated. Browser selections are local preferences and do not overwrite the canonical official setup.
+**Encounter tuner:** The printed Fantasy Flight Games setup remains the default for every battle. `matchups.json` also contains one published VillainTheory easier, thematic, and harder recipe per available slot, plus a Maximum recipe only when the source guide has a distinct choice rated above Harder. Difficulty deltas are relative to the current villain. Solo, two-player, and 3–4-player module profiles come from VillainTheory’s May 2026 matrix; required/story sets missing from that matrix stay explicitly unrated. Browser selections are local preferences and do not overwrite the canonical official setup. Expert mode remains separate: use villain stages II/III, add the Expert encounter set, and follow any scenario/campaign-specific Expert instructions.
 
 ## Core Set
 

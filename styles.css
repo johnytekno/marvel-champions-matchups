@@ -150,3 +150,18 @@
   .portrait{width:84px;height:106px}
   .character-name{min-height:3.45em}
 }
+
+/* Maximum is optional; auto-fit keeps both four- and five-choice rows aligned. */
+.tuner-tabs{grid-template-columns:repeat(auto-fit,minmax(112px,1fr))}
+.tuner-choice.maximum.active{border-color:#d2a05f;background:#4a1924;box-shadow:inset 0 0 0 1px rgba(210,160,95,.2)}
+.tuner-panel.maximum{border-left-color:#d2a05f}
+.module-status.maximum{color:#f4c98f;border-color:#9b6840;background:#401923}
+
+@media screen and (max-width:720px){
+  .tuner-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tuner-tabs>.tuner-choice:last-child:nth-child(odd){grid-column:1/-1}
+}
+
+@media screen and (max-width:640px){
+  .toolbar{grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto}
+}

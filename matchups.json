@@ -3614,7 +3614,7 @@
       "matrixUrl": "https://docs.google.com/spreadsheets/d/1nmrzdk9KpIvOWY8eRy5okYFDOmWaxK7UPdkHS_Hlx7k/edit",
       "matrixUpdated": "2026-05",
       "imported": "2026-08-04",
-      "method": "Published VillainTheory combinations; closest easier option, near-neutral thematic option, and moderate harder option."
+      "method": "Published VillainTheory combinations: closest easier option, near-neutral thematic option, moderate harder option, and a distinct source-guide maximum only when rated above harder."
     },
     "playerCounts": {
       "solo": "Solo",
@@ -4336,6 +4336,38 @@
           "notes": "Mixed minions. Attachments. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/1e33247c-f5f3-4f5a-a8ff-5a29e5de8ece"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-01",
+          "name": "Thanos with a Horn",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Children of Thanos",
+              "code": "children_of_thanos"
+            },
+            {
+              "name": "The Black Order",
+              "code": "the_black_order"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "SOLO WARNING: The Infinity Stones will destroy the main scheme Large minions. Status cards. ATK/SCH bonus. Impactful boost effects.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "MTS",
+            "MTS"
+          ]
         }
       },
       "battle-02": {
@@ -4399,6 +4431,38 @@
           "notes": "Mixed minions. Surprise damage. Impactful boost abilities. Swarm.",
           "updated": "2025-11-13",
           "url": "https://modularchampions.com/scenario/3a0b813b-6b4e-484e-bae7-833342a52171"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-02",
+          "name": "Boost Card Highscore",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Anachronauts",
+              "code": "anachronauts"
+            },
+            {
+              "name": "Space Pirates",
+              "code": "space_pirates"
+            },
+            {
+              "name": "Hard Sound",
+              "code": "hard_sound"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "A huge amount of additional boost cards. Mixed minions. Boss minion.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "KANG",
+            "GMW",
+            "SHIELD"
+          ]
         }
       },
       "battle-03": {
@@ -4462,6 +4526,28 @@
           "notes": "Steady (keeps drones spawning). ATK bonus. High boost icons. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/3a726871-2595-44fb-a049-3254245b9431"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-03",
+          "name": "Ultra Ultron",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Attachments. Surge leads to more drones. High boost icons. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM"
+          ]
         }
       },
       "battle-04": {
@@ -4513,6 +4599,33 @@
           "notes": "Steady (keeps Goblin activating). ATK bonus. High boost icons. Thematic.",
           "updated": "2025-12-06",
           "url": "https://modularchampions.com/scenario/21cdb402-4e47-4758-93cc-6c7583a9f20e"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-04",
+          "name": "Osborn's Thunderbolts",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Gravitational Pull",
+              "code": "gravitational_pull"
+            },
+            {
+              "name": "Power of the Atom",
+              "code": "power_of_the_atom"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "2x Boss minions (adds pressure while villain is Norman). Surprise damage. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "SHIELD"
+          ]
         }
       },
       "battle-05": {
@@ -4581,6 +4694,28 @@
           "notes": "Medium minion. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/a154e7fd-744c-40bf-bd6e-bb0c7e7fb9b3"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-05",
+          "name": "New Goblin Toys",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Goblin Gear",
+              "code": "goblin_gear"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Extra activations. Attachments. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM"
+          ]
         }
       },
       "battle-06": {
@@ -4646,6 +4781,43 @@
           "notes": "Many minions. Mixed minions. Criminal trait interaction. Thematic (breaking out).",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/6787ebd8-faf0-4085-be49-4338d2bf6fcf"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-06",
+          "name": "Goblin Quartet",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Goblin Gear",
+              "code": "goblin_gear"
+            },
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            },
+            {
+              "name": "Sinister Assault",
+              "code": "sinister_assault"
+            },
+            {
+              "name": "Iron Spider’s Sinister Six",
+              "code": "iron_spider_s_sinister_six"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Extra minions. Attachments. High boost icons.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM",
+            "SM",
+            "SM",
+            "SP//dr"
+          ]
         }
       },
       "battle-07": {
@@ -4691,6 +4863,33 @@
           "notes": "Retaliate. Discards. Mixed minions. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/164ce9ad-79ee-4763-b68e-565db1edf574"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-07",
+          "name": "Terminator",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Future Past",
+              "code": "future_past"
+            },
+            {
+              "name": "Sci-Fi",
+              "code": "sci_fi"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minions. Victory display. High boost icons. Nemesis interaction. Toughness. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MG",
+            "MOJO"
+          ]
         }
       },
       "battle-08": {
@@ -4780,6 +4979,38 @@
           "notes": "Extra attacks. Mixed minions. Attachments. Teamwork. Thematic (Crossbones looks like a Reaver).",
           "updated": "2025-12-02",
           "url": "https://modularchampions.com/scenario/508702f7-4783-4ec7-bb28-06c9c13301c9"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-08",
+          "name": "Anti-Rush Thunderbolts",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Extreme Risk",
+              "code": "extreme_risk"
+            },
+            {
+              "name": "Whiteout",
+              "code": "whiteout"
+            },
+            {
+              "name": "Blue Moon",
+              "code": "blue_moon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Anti-Rush. Teamwork. Mixed minions. Boss minion. Stuns.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHURI",
+            "WINTER",
+            "APOC"
+          ]
         }
       },
       "battle-09": {
@@ -4826,6 +5057,28 @@
           "notes": "Anti-Ally. Surprise damage. Mixed minions. Impactful boost abilities. Confuses.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/277dd286-54f4-4539-87ff-8fdf498829b6"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-09",
+          "name": "Friends From Mars",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Badoon Headhunter",
+              "code": "badoon_headhunter"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Two large minions. Surge leads to more environment effects triggering.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "GMW"
+          ]
         }
       },
       "battle-10": {
@@ -4890,6 +5143,33 @@
           "notes": "Sends alter-ego (for main scheme ability). Small minions. Nemesis interaction.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/878b1adb-7152-4817-ae18-2fb72d4a6d61"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-10",
+          "name": "Thunderbolts #2",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Pale Little Spider",
+              "code": "pale_little_spider"
+            },
+            {
+              "name": "Techno",
+              "code": "techno"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "2x Boss minions. Piercing. Damage reflect. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "FALCON"
+          ]
         }
       },
       "battle-11": {
@@ -4949,6 +5229,28 @@
           "notes": "Large minion.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/0423f1fb-4b81-4c2e-a386-25e6d258650a"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-11",
+          "name": "Doctor Jekyll",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Mister Hyde",
+              "code": "mister_hyde"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minion. Adds horror theme.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "HOOD"
+          ]
         }
       },
       "battle-12": {
@@ -5021,6 +5323,33 @@
           "notes": "Mixed minions. Hellfire trait interaction.",
           "updated": "2026-01-20",
           "url": "https://modularchampions.com/scenario/9f65e631-e817-4d82-9412-d48cf02a7a9e"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-12",
+          "name": "Legions of Doom",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Legions of Hydra",
+              "code": "legions_of_hydra"
+            },
+            {
+              "name": "The Doomsday Chair",
+              "code": "the_doomsday_chair"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Adds difficult side schemes. Mixed minions. Attachments. …Good luck!",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "CORE",
+            "CORE"
+          ]
         }
       },
       "battle-13": {
@@ -5081,6 +5410,33 @@
           "notes": "Mixed minions. Teamwork.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/cbd1c8a9-0f07-4789-99cd-44490010c350"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-13",
+          "name": "Crashed On Dagobah",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            },
+            {
+              "name": "Black Tom Cassidy",
+              "code": "black_tom_cassidy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Retaliate. Anti-Ally. Anti-Rush. SCH bonus. Overkill. Stuns. Small minions. Quickstrike.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "NEXT",
+            "NEXT"
+          ]
         }
       },
       "battle-14": {
@@ -5145,6 +5501,33 @@
           "notes": "Boss minion. Puts cards in your deck.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/51fd9433-82b9-4836-816c-f6928256ea4c"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-14",
+          "name": "The Special Hell",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "WARNING: Collector collects his own Infinity Stones. Status cards. ATK/SCH bonus. Only one minion total (Space Stone often resets whole deck). Attachments fill The Collection. High boost icons.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "SM"
+          ]
         }
       },
       "battle-15": {
@@ -5209,6 +5592,28 @@
           "notes": "Retaliate. Anti-Ally. SCH bonus. Overkill. Sends alter-ego.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/6210849d-185f-477d-a516-d678c875e66e"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-15",
+          "name": "A Seat on the Council",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "The Doomsday Chair",
+              "code": "the_doomsday_chair"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Large minion. Attachments.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "CORE"
+          ]
         }
       },
       "battle-16": {
@@ -5283,6 +5688,33 @@
           "notes": "Steady (keeps Techniques triggering). Anti-Rush. ATK bonus. Small minions. Quickstrike. Stuns.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/e7ed7001-08ee-4661-87e9-b1d804e49937"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-16",
+          "name": "Usurped Throne",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Kree Fanatic",
+              "code": "kree_fanatic"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Steady. ATK/SCH boost. Status cards. Boss minion. Impactful boost abilities.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "PRINT"
+          ]
         }
       },
       "battle-17": {
@@ -5359,7 +5791,8 @@
           "notes": "Mixed minions. Impactful boost abilities.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/43c98157-c825-4358-aa08-c50eeaab78cf"
-        }
+        },
+        "maximum": null
       },
       "battle-18": {
         "villainCode": "ebony_maw",
@@ -5436,6 +5869,38 @@
           "notes": "Extra attacks. Small minions. Adds Hydra theme.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/e198b351-1d09-4b6d-859f-0b107152b42c"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-18",
+          "name": "Infinite Magic",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Brothers Grimm",
+              "code": "brothers_grimm"
+            },
+            {
+              "name": "Genosha",
+              "code": "genosha"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Status cards. ATK/SCH bonus. Mixed minions. Attachments.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "HOOD",
+            "APOC"
+          ]
         }
       },
       "battle-19": {
@@ -5484,6 +5949,33 @@
           "notes": "Mixed minions. Surprise damage. Impactful boost abilities. Swarm.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/3d42822a-3bf3-4b4e-a7fb-4746f14f99c8"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-19",
+          "name": "Tower of Pain",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Pale Little Spider",
+              "code": "pale_little_spider"
+            },
+            {
+              "name": "Legions of Hydra",
+              "code": "legions_of_hydra"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minion. Damage reflect.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "CORE"
+          ]
         }
       },
       "battle-20": {
@@ -5561,6 +6053,38 @@
           "notes": "Anti-Ally. Overkill/piercing boost abilities. Large minions. Surprise damage. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/af4cfcf4-3f07-42a8-9f54-7328abfc3246"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-20",
+          "name": "Super Thanos",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            },
+            {
+              "name": "Flight",
+              "code": "flight"
+            },
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Overkill. Retaliate. Steady. Anti-Ally. ATK/SCH bonuses. Overkill/piercing. Pain. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "NEXT",
+            "NEXT",
+            "NEXT"
+          ]
         }
       },
       "battle-21": {
@@ -5638,6 +6162,33 @@
           "notes": "Mixed minions. Victory display side scheme (powers up Hela). Discards. Quickstrike environment. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/2a6b4622-9d71-449c-8e34-af4709ad91a4"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-21",
+          "name": "The Victory Dismay",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Galactic Artifacts",
+              "code": "galactic_artifacts"
+            },
+            {
+              "name": "Future Past",
+              "code": "future_past"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Victory display side schemes (powers up Hela). Boss minions. Nemesis interaction. Victory display.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "GMW",
+            "MG"
+          ]
         }
       },
       "battle-22": {
@@ -5718,6 +6269,33 @@
           "notes": "Mixed minions. Reaver trait interaction. Teamwork. Discarding.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/12ee4005-6783-4cd3-9da9-6b84010286a0"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-22",
+          "name": "Misery Business",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Mystique",
+              "code": "mystique"
+            },
+            {
+              "name": "Space Pirates",
+              "code": "space_pirates"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Small minions. Boss minion. Quickstrike. Card removal. Puts cards in your deck. WARNING: Painful.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MG",
+            "GMW"
+          ]
         }
       },
       "battle-23": {
@@ -5851,6 +6429,58 @@
           "notes": "Mixed minions. Swarm. Adds space theme.",
           "updated": "2025-12-14",
           "url": "https://modularchampions.com/scenario/da8115f3-bdb2-4da4-8f66-b20009a38fb2"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-23",
+          "name": "Thunderbolts Are Go",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Gravitational Pull",
+              "code": "gravitational_pull"
+            },
+            {
+              "name": "Hard Sound",
+              "code": "hard_sound"
+            },
+            {
+              "name": "Power of the Atom",
+              "code": "power_of_the_atom"
+            },
+            {
+              "name": "Pale Little Spider",
+              "code": "pale_little_spider"
+            },
+            {
+              "name": "Extreme Risk",
+              "code": "extreme_risk"
+            },
+            {
+              "name": "Techno",
+              "code": "techno"
+            },
+            {
+              "name": "Whiteout",
+              "code": "whiteout"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minions. Boss minions. Boss minions. You are highly likely to have an Elite Thunderbolt minion enter play early due to “Foul Play”.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "SHIELD",
+            "SHIELD",
+            "SHIELD",
+            "SHURI",
+            "FALCON",
+            "WINTER"
+          ]
         }
       },
       "battle-24": {
@@ -5895,6 +6525,33 @@
           "notes": "Extra attacks. Dangerous attacks. Small minions.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/0f0850bc-f4e8-4628-94b9-5a7deeaf3f01"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-24",
+          "name": "Concrete Fists",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Mutant Insurrection",
+              "code": "mutant_insurrection"
+            },
+            {
+              "name": "Extreme Risk",
+              "code": "extreme_risk"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minion. High boost icons.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "NEXT",
+            "SHURI"
+          ]
         }
       },
       "battle-25": {
@@ -5955,6 +6612,33 @@
           "notes": "Large minions. High boost icons. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/c2f8426c-bafc-404e-a77d-399a50bc7747"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-25",
+          "name": "Knull's Lullaby",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Children of Thanos",
+              "code": "children_of_thanos"
+            },
+            {
+              "name": "Hard Sound",
+              "code": "hard_sound"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Large minions. Boss minion. Impactful boost abilities.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "SHIELD"
+          ]
         }
       },
       "battle-26": {
@@ -6016,6 +6700,28 @@
           "notes": "Anti-Rush. Sends alter-ego. Steals allies. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/71a79cae-815b-4003-891f-831cf8ab75ed"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-26",
+          "name": "Deja Vu",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Mystique",
+              "code": "mystique"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minion. Puts cards in your deck.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MG"
+          ]
         }
       },
       "battle-27": {
@@ -6079,7 +6785,8 @@
           "notes": "Side schemes. High boost icons. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/69c0b917-957a-41fe-b183-07622f03ca29"
-        }
+        },
+        "maximum": null
       },
       "battle-28": {
         "villainCode": "venom_goblin",
@@ -6142,6 +6849,38 @@
           "notes": "Attachments. High boost icons. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/414b75ef-15cd-46d1-bd52-fea6c8691a01"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-28",
+          "name": "Nightmare Goblin",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            },
+            {
+              "name": "Goblin Gear",
+              "code": "goblin_gear"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Steady. Status cards. ATK/SCH bonus. Extra activations. Attachments.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "NEXT",
+            "SM"
+          ]
         }
       },
       "battle-29": {
@@ -6206,6 +6945,33 @@
           "notes": "Extra attacks. Dangerous attacks. Small minions.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/64dff3b1-6318-45fb-b457-e9d945c8e2ce"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-29",
+          "name": "Boss Arena",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Growing Strong",
+              "code": "growing_strong"
+            },
+            {
+              "name": "Extreme Risk",
+              "code": "extreme_risk"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "2x Boss minions. Treacheries.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SILK",
+            "SHURI"
+          ]
         }
       },
       "battle-30": {
@@ -6250,7 +7016,8 @@
           "notes": "Extra attacks (may Escape sooner + lethal with her swords). Dangerous attacks. Small minions.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/0b44980a-5a5d-4edd-b8e7-ef8f900c51e7"
-        }
+        },
+        "maximum": null
       },
       "battle-31": {
         "villainCode": "mojo",
@@ -6289,6 +7056,33 @@
           "notes": "Mills encounter deck. Treacheries.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/ee29c9d9-6aa3-453a-99bf-09d62cb31925"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-31",
+          "name": "Red Right Hand",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Steady. Status cards. ATK/SCH bonus. Space Stone discards encounter deck.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "NEXT"
+          ]
         }
       },
       "battle-32": {
@@ -6362,6 +7156,33 @@
           "notes": "Mixed minions. Quickstrike. Side schemes. Assassin trait interaction.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/9d0aee78-4b4c-4615-8ed2-a8e886e8069b"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-32",
+          "name": "Biggest Healer",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Sinister Assault",
+              "code": "sinister_assault"
+            },
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Attachments. High boost icons. Adds Spider-Man theme.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM",
+            "SM"
+          ]
         }
       },
       "battle-33": {
@@ -6424,6 +7245,28 @@
           "notes": "Mixed minions. Adds threat.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/be25b26f-628b-4974-a87c-c08b8424f25e"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-33",
+          "name": "New Hardware",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Attachments. High boost icons. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM"
+          ]
         }
       },
       "battle-34": {
@@ -6486,6 +7329,28 @@
           "notes": "Sends alter-ego (brings in minions here). Obligations.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/1cd7b462-77cc-4156-9a07-825423071ab0"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-34",
+          "name": "Nano-Tech Online",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Future Past",
+              "code": "future_past"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minions. Victory display. High boost icons. Nemesis interaction. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MG"
+          ]
         }
       },
       "battle-35": {
@@ -6550,7 +7415,8 @@
           "notes": "Boss minions. Victory display. High boost icons. Nemesis interaction. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/11dfde4d-ad7c-410b-8afa-6a1307eadb23"
-        }
+        },
+        "maximum": null
       },
       "battle-36": {
         "villainCode": "magneto_villain",
@@ -6617,6 +7483,33 @@
           "notes": "Extra attacks. Small minions. Adds Hydra theme.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/a54f367a-34aa-446c-b320-01a405535332"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-36",
+          "name": "Acolytes United",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Acolytes",
+              "code": "acolytes"
+            },
+            {
+              "name": "Exodus",
+              "code": "exodus"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minion. Teamwork. Status cards. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MG",
+            "GAMBIT"
+          ]
         }
       },
       "battle-37": {
@@ -6696,6 +7589,33 @@
           "notes": "Anti-Rush. Anti-Ally (defending). Stuns. Quickstrike. Small minions.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/a17938f9-b46c-4551-8bf4-c570e1107ecf"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-37",
+          "name": "Boost Card Massacre",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Anachronauts",
+              "code": "anachronauts"
+            },
+            {
+              "name": "Hard Sound",
+              "code": "hard_sound"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minion. Impactful boost abilities (additional boost cards).",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "KANG",
+            "SHIELD"
+          ]
         }
       },
       "battle-38": {
@@ -6770,6 +7690,33 @@
           "notes": "Steady. Mixed minions. Attachments.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/472355b5-2481-48eb-868a-c90961c52c8e"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-38",
+          "name": "Prehistoric Spider",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Savage Land",
+              "code": "savage_land"
+            },
+            {
+              "name": "Pale Little Spider",
+              "code": "pale_little_spider"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Retaliate. Discards. Mixed minions. Boss minion.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "APOC",
+            "SHIELD"
+          ]
         }
       },
       "battle-39": {
@@ -6835,6 +7782,28 @@
           "notes": "Mixed minions. Impactful boost abilities.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/3d998dd5-bd08-4e77-ae36-aa8ade06a837"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-39",
+          "name": "Non-Stop Removal",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Attachments. No minions.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM"
+          ]
         }
       },
       "battle-40": {
@@ -6896,6 +7865,33 @@
           "notes": "Mixed minions. Impactful boost abilities.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/1d9a564e-124c-49ef-94c9-c0d3c7a4419f"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-40",
+          "name": "When The Going Gets Tough",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Armies of Titan",
+              "code": "armies_of_titan"
+            },
+            {
+              "name": "Growing Strong",
+              "code": "growing_strong"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Small minions. Boss minion. Toughs. Side schemes can bring in clones.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "SILK"
+          ]
         }
       },
       "battle-41": {
@@ -6973,6 +7969,38 @@
           "notes": "Retaliate. Discards. Mixed minions. Boss minion (Dragon). Fantasy environment increases hand size. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/da126016-e91d-4f7c-93ed-2e2b7ef10dc9"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-41",
+          "name": "At Full Power",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            },
+            {
+              "name": "Extreme Measures",
+              "code": "extreme_measures"
+            },
+            {
+              "name": "Mutant Insurrection",
+              "code": "mutant_insurrection"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Retaliate. Anti-Ally. SCH bonus. Overkill. Mixed minions. Mutant Liberation Front trait interaction. Sends alter-ego. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "NEXT",
+            "NEXT",
+            "NEXT"
+          ]
         }
       },
       "battle-42": {
@@ -7034,6 +8062,33 @@
           "notes": "Large minion. Discards. Attachments.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/6f5f906a-071f-4bc6-8a1b-5ee1cbc54841"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-42",
+          "name": "Infinite Infinites",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Infinity Gauntlet",
+              "code": "infinity_gauntlet"
+            },
+            {
+              "name": "Celestial Tech",
+              "code": "celestial_tech"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Status cards. ATK/SCH bonus. Attachments.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MTS",
+            "APOC"
+          ]
         }
       },
       "battle-43": {
@@ -7109,6 +8164,33 @@
           "notes": "Extra attacks. Small minions. Adds Hydra theme.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/09e87cdb-ee2a-4bde-8d4a-26d668753c8c"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-43",
+          "name": "The Fifth Horseman",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Extreme Risk",
+              "code": "extreme_risk"
+            },
+            {
+              "name": "Band of Badoon",
+              "code": "band_of_badoon"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minion. Surprise damage. Impactful boost abilities. Swarm.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHURI",
+            "GMW"
+          ]
         }
       },
       "battle-44": {
@@ -7183,6 +8265,33 @@
           "notes": "Mixed minions. Brotherhood trait interaction.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/33f6a37f-182c-4228-bc49-fd6fb8f31a04"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-44",
+          "name": "Zealots & Prelates",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Clan Akkaba",
+              "code": "clan_akkaba"
+            },
+            {
+              "name": "Acolytes",
+              "code": "acolytes"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Adds threat.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "APOC",
+            "MG"
+          ]
         }
       },
       "battle-45": {
@@ -7247,6 +8356,28 @@
           "notes": "Anti-Ally (defending). Small minions. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/bbcadb7a-5ff2-4580-b1ac-4ddb2c53282f"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-45",
+          "name": "Terminator",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Future Past",
+              "code": "future_past"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minions. Victory display. High boost icons. Nemesis interaction. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MG"
+          ]
         }
       },
       "battle-46": {
@@ -7322,6 +8453,33 @@
           "notes": "Anti-Ally (defending). Mixed minions. Receives a LOT of threat from form changes. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/618d37b8-76e3-4ea7-a32f-6a8c860ec5b8"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-46",
+          "name": "Genetic Booster Pack",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Anachronauts",
+              "code": "anachronauts"
+            },
+            {
+              "name": "Hard Sound",
+              "code": "hard_sound"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minion. Impactful boost abilities (additional boost cards).",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "KANG",
+            "SHIELD"
+          ]
         }
       },
       "battle-47": {
@@ -7396,6 +8554,33 @@
           "notes": "Resource sink. Possible ATK/SCH boost. Thematic.",
           "updated": "2026-04-10",
           "url": "https://modularchampions.com/scenario/d838b6d7-721d-4219-894f-8ad444cb2276"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-47",
+          "name": "A.I.M. for the Head",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Scientist Supreme",
+              "code": "scientist_supreme"
+            },
+            {
+              "name": "The Doomsday Chair",
+              "code": "the_doomsday_chair"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Large minions. Vulnerable. Attachments. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "CORE"
+          ]
         }
       },
       "battle-48": {
@@ -7472,6 +8657,33 @@
           "notes": "Mixed minions. Surprise damage. Impactful boost abilities. Swarm. Attachments.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/50134da6-fa53-4f22-b72a-5e6919815224"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-48",
+          "name": "A.I.M. for the Head",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Scientist Supreme",
+              "code": "scientist_supreme"
+            },
+            {
+              "name": "The Doomsday Chair",
+              "code": "the_doomsday_chair"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Large minions. Vulnerable. Attachments.Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "CORE"
+          ]
         }
       },
       "battle-49": {
@@ -7539,6 +8751,33 @@
           "notes": "Attachments. Thematic (M.O.D.O.K. minion surges).",
           "updated": "2026-03-27",
           "url": "https://modularchampions.com/scenario/658cbe1d-0fb4-4165-9edf-fbb13e91353f"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-49",
+          "name": "Stop Hitting Yourself",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            },
+            {
+              "name": "Savage Land",
+              "code": "savage_land"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "+2 Retaliate. Anti-Ally. SCH bonus. Overkill. Sends alter-ego. Discards. Mixed minions.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "NEXT",
+            "APOC"
+          ]
         }
       },
       "battle-50": {
@@ -7604,6 +8843,28 @@
           "notes": "Anti-Ally. Surprise damage. Mixed minions. Impactful boost abilities. Confuses.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/cd84de3c-3db1-4147-a55a-b037ba27eb12"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-50",
+          "name": "Thunderous Teamwork",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Guerrilla Tactics",
+              "code": "guerrilla_tactics"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Bonuses for multiple enemies. Side schemes. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM"
+          ]
         }
       },
       "battle-51": {
@@ -7679,6 +8940,33 @@
           "notes": "Large minions. High boost icons. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/c633ad26-5fb4-4580-a889-74ba90115f7f"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-51",
+          "name": "Finding Zemo",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Menagerie Medley",
+              "code": "menagerie_medley"
+            },
+            {
+              "name": "Guerrilla Tactics",
+              "code": "guerrilla_tactics"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Anti-Ally. Surprise damage. Mixed minions. Impactful boost abilities. Confuses. Bonuses for multiple enemies. Side schemes.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "GMW",
+            "SM"
+          ]
         }
       },
       "battle-52": {
@@ -7724,6 +9012,33 @@
           "notes": "Anti-Rush. Sends alter-ego. Steals allies. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/01adab98-3e07-4d70-9fa0-245a8109c3e9"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-52",
+          "name": "Old Zemo's Plan",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Masters of Evil",
+              "code": "masters_of_evil"
+            },
+            {
+              "name": "Captain America's Nemesis",
+              "code": "captain_america_s_nemesis"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "CORE",
+            "CAP. A."
+          ]
         }
       },
       "battle-53": {
@@ -7769,6 +9084,28 @@
           "notes": "Anti-Rush. Sends alter-ego. Steals allies. Thematic.",
           "updated": "2025-11-06",
           "url": "https://modularchampions.com/scenario/9b40a63e-3d73-4912-8e4d-32e6f678d41a"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-53",
+          "name": "Not a Frost Giant",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Growing Strong",
+              "code": "growing_strong"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minion. Treacheries.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SILK"
+          ]
         }
       },
       "battle-54": {
@@ -7865,6 +9202,41 @@
           "notes": "Attachments. Small minions. Thematic. (Imagine the Badoon are goblins.)",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/c44a897e-7b1d-4669-bab4-e1c304f687fb"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-54",
+          "name": "Iron Patriot",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Supersonic",
+              "code": "supersonic"
+            },
+            {
+              "name": "Extreme Risk",
+              "code": "extreme_risk"
+            },
+            {
+              "name": "Thunderbolts",
+              "code": "thunderbolts"
+            }
+          ],
+          "mainSchemes": [
+            "Homeland Security",
+            "Negative Zone Prison"
+          ],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minions (2). Tech attachments. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "SHURI",
+            "CW"
+          ]
         }
       },
       "battle-55": {
@@ -7966,6 +9338,41 @@
           "notes": "Extra attacks. Dangerous attacks. Small minions. Anti-Ally. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/fa5b17df-3986-4762-a4f1-e3f3e8ca9f78"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-55",
+          "name": "Photonic Backlash",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Savage Land",
+              "code": "savage_land"
+            },
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            },
+            {
+              "name": "Streets of Mayhem",
+              "code": "streets_of_mayhem"
+            }
+          ],
+          "mainSchemes": [
+            "Enforce the Law",
+            "Mighty Avengers"
+          ],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Retaliate 2. Discarding. Anti-ally. Alter-ego. Mixed minions. Environments.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "APOC",
+            "NEXT",
+            "HOOD"
+          ]
         }
       },
       "battle-56": {
@@ -8063,6 +9470,41 @@
           "notes": "Steady. Extra attacks. Dangerous attacks. Small minions. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/83879c7c-5d21-4780-91fa-c9491d79457f"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-56",
+          "name": "Avengers Forever",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Hard Sound",
+              "code": "hard_sound"
+            },
+            {
+              "name": "Master of Time",
+              "code": "master_of_time"
+            },
+            {
+              "name": "Ant-Man’s Nemesis",
+              "code": "ant_man_s_nemesis"
+            }
+          ],
+          "mainSchemes": [
+            "Rallying Call",
+            "Expose Overreach"
+          ],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. Boss minion. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "KANG",
+            "ANT-MAN"
+          ]
         }
       },
       "battle-57": {
@@ -8160,6 +9602,41 @@
           "notes": "Large minions. Stuns. Toughs. Treacheries.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/7064dbfd-75cb-475a-ab9d-f25ff98a15a0"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-57",
+          "name": "Treacherous Titans",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Gravitational Pull",
+              "code": "gravitational_pull"
+            },
+            {
+              "name": "The Leaper",
+              "code": "the_leaper"
+            },
+            {
+              "name": "Growing Strong",
+              "code": "growing_strong"
+            }
+          ],
+          "mainSchemes": [
+            "Rallying Call",
+            "Expose Overreach"
+          ],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Treacheries. 3x Boss minions.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SHIELD",
+            "SHIELD",
+            "SILK"
+          ]
         }
       },
       "battle-58": {
@@ -8228,6 +9705,41 @@
           "notes": "Extra attacks. Dangerous attacks. Small minions. Anti-ally. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/531b0e13-8d2d-413c-ae5a-b06122bd9501"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-58",
+          "name": "Twerking the Fourth Wall",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Sitcom",
+              "code": "sitcom"
+            },
+            {
+              "name": "Wrecking Crew",
+              "code": "wrecking_crew"
+            },
+            {
+              "name": "Hulk’s Nemesis Set",
+              "code": "hulk_s_nemesis_set"
+            }
+          ],
+          "mainSchemes": [
+            "Homeland Security",
+            "No Going Back"
+          ],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Sends alter-ego (for She-Hulk ability). Large minions. High boost icons. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MOJO",
+            "HOOD",
+            "HULK"
+          ]
         }
       },
       "battle-59": {
@@ -8325,6 +9837,41 @@
           "notes": "Steady. Additional encounter cards. Mixed minions.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/bef1dd8e-9301-4f75-a3b8-b91ddd127b68"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-59",
+          "name": "Nanite Shifting Synthezoid",
+          "difficulty": 4,
+          "sets": [
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            },
+            {
+              "name": "Future Past",
+              "code": "future_past"
+            },
+            {
+              "name": "Osborn Tech",
+              "code": "osborn_tech"
+            }
+          ],
+          "mainSchemes": [
+            "Protect Secret Identities",
+            "Expose Overreach"
+          ],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Boss minions. Victory display. Nemesis interaction. Attachments. High boost icons. Surge. Steady. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "MG",
+            "SM",
+            "CORE"
+          ]
         }
       },
       "battle-60": {
@@ -8378,6 +9925,33 @@
           "notes": "Large minions. Discarding from hand. Surprise damage. Adamantium theme.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/5f84f2b3-02a4-40b6-909e-0b190983d258"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-60",
+          "name": "Leaves On The Vine",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Black Tom Cassidy",
+              "code": "black_tom_cassidy"
+            },
+            {
+              "name": "Hard Sound",
+              "code": "hard_sound"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Stuns. Quickstrike. Small minions. Stuns. Two boss minions. Additional boost cards.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "NEXT",
+            "SHIELD"
+          ]
         }
       },
       "battle-61": {
@@ -8455,6 +10029,33 @@
           "notes": "Anti-Ally. Medium minions. Impactful boost abilities.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/07450932-e6c3-4155-bbf4-6a95c60fd709"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-61",
+          "name": "Rogues Gallery",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Sinister Assault",
+              "code": "sinister_assault"
+            },
+            {
+              "name": "Iron Spider’s Sinister Six",
+              "code": "iron_spider_s_sinister_six"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Mixed minions. High boost icons. Attack abilities. Criminal synergy. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM",
+            "SP//DR"
+          ]
         }
       },
       "battle-62": {
@@ -8534,6 +10135,33 @@
           "notes": "Side schemes. High boost icons. Sends alter-ego. Small minions. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/2102decf-fb66-40fd-86cf-a5a44236a4fa"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-62",
+          "name": "Criminal Muscle",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Super Strength",
+              "code": "super_strength"
+            },
+            {
+              "name": "Symbiotic Strength",
+              "code": "symbiotic_strength"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Permanent +1 ATK villain attachment. Villain gains steady. Extra attacks. Small minions. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "NEXT",
+            "SM"
+          ]
         }
       },
       "battle-63": {
@@ -8611,6 +10239,33 @@
           "notes": "Steals allies. Sends alter-ego. Prevents attacks. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/a853d4fd-acaa-4c48-9f9a-0ce0ff1d40b6"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-63",
+          "name": "Violet Violence",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Whispers Of Paranoia",
+              "code": "whispers_of_paranoia"
+            },
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Permanent +1 SCH villain attachment. Villain has Retaliate. Anti-Ally. Sends alter-ego. Attachments. Nemesis interaction. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "SM",
+            "NEXT"
+          ]
         }
       },
       "battle-64": {
@@ -8667,6 +10322,33 @@
           "notes": "Mixed minions. Discarding from hand. Impactful boost abilities. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/cefb9e1f-572d-4e35-96f4-438065884a16"
+        },
+        "maximum": {
+          "id": "villaintheory-maximum-battle-64",
+          "name": "New York State Of Mind",
+          "difficulty": 3,
+          "sets": [
+            {
+              "name": "Weapon Master",
+              "code": "weapon_master"
+            },
+            {
+              "name": "Telepathy",
+              "code": "telepathy"
+            }
+          ],
+          "mainSchemes": [],
+          "tags": [
+            "Maximum challenge"
+          ],
+          "notes": "Permanent +1 SCH villain attachment. Villain has Retaliate. Anti-Ally. Sends alter-ego. Extra villain activations. Villain attachments. Thematic.",
+          "updated": "2026-08-04",
+          "url": "https://docs.google.com/document/d/1AOED4MPkrEGIOAVzV4VJaFAc4bWHfhstOSVTqhSpvHU/edit",
+          "source": "VillainTheory source guide",
+          "packs": [
+            "RORS",
+            "NEXT"
+          ]
         }
       },
       "battle-65": {
@@ -8744,7 +10426,8 @@
           "notes": "Large minions. High boost icons. Attack abilities. Acceleration tokens. Thematic.",
           "updated": "2026-07-26",
           "url": "https://modularchampions.com/scenario/00c3aed4-55ff-441e-af28-794064b7a68d"
-        }
+        },
+        "maximum": null
       }
     }
   }
