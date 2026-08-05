@@ -165,3 +165,22 @@
 @media screen and (max-width:640px){
   .toolbar{grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto}
 }
+
+.campaign-resources{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:9px 18px;border-top:1px solid #4f323a;border-bottom:1px solid #4f323a;background:#171115}
+.campaign-resources-label{margin-right:3px;color:#a9979c;font-size:.67rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+.campaign-resource-link,.campaign-resource-pending{display:inline-flex;align-items:center;min-height:27px;padding:4px 9px;border-radius:4px;font-size:.7rem;font-weight:800;line-height:1.1;white-space:nowrap}
+.campaign-resource-link{color:#f0c98f;text-decoration:none;border:1px solid #765735;background:#2b2118;transition:.16s border-color,.16s background,.16s color}
+.campaign-resource-link:hover,.campaign-resource-link:focus-visible{color:#fff4e3;border-color:#c89558;background:#3a2a1b;outline:none}
+.campaign-resource-pending{color:#8f7f84;border:1px dashed #60464f;background:#21191d}
+.campaign-resources+.campaign-note{border-top:0}
+.campaign.collapsed .campaign-resources{display:none}
+
+@media screen and (max-width:640px){
+  .campaign-resources{padding:9px 13px;gap:6px}
+  .campaign-resources-label{flex-basis:100%;margin:0 0 1px}
+  .campaign-resource-link,.campaign-resource-pending{white-space:normal}
+}
+
+@media print{
+  .campaign-resources{display:none!important}
+}

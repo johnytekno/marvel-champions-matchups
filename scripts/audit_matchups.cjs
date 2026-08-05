@@ -1,9 +1,12 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..");
 const data = JSON.parse(fs.readFileSync(path.join(root, "matchups.json"), "utf8"));
 const errors = [];
+let resourceLinkCount = 0;
+let resourcePendingCount = 0;
 
 // Shared identities use explicit keys so equal codenames held by different people
 // (such as Natasha/Yelena and Eddie Brock/Flash Thompson) stay distinct.
@@ -280,6 +283,43 @@ if (embeddedStart === -1 || embeddedLineEnd === -1) {
   }
 }
 
+const resourcesMatch = app.match(/const PRODUCT_RESOURCES=(\{[\s\S]*?\});\r?\nconst MARVELCDB_DECKS=/);
+if (!resourcesMatch) {
+  errors.push("app.js is missing its product-resource map.");
+} else {
+  try {
+    const resources = vm.runInNewContext(`(${resourcesMatch[1]})`);
+    const campaignIds = new Set(data.campaigns.map((campaign) => campaign.id));
+    for (const campaignId of campaignIds) {
+      if (!Array.isArray(resources[campaignId]) || !resources[campaignId].length) {
+        errors.push(`Product group ${campaignId} is missing an official-resource entry.`);
+      }
+    }
+    for (const [campaignId, entries] of Object.entries(resources)) {
+      if (!campaignIds.has(campaignId)) {
+        errors.push(`Official-resource entry references unknown product group ${campaignId}.`);
+        continue;
+      }
+      for (const entry of entries) {
+        if (typeof entry.label !== "string" || !entry.label.trim()) {
+          errors.push(`Product group ${campaignId} has an unlabeled resource.`);
+        }
+        if (entry.pending) {
+          resourcePendingCount += 1;
+          if (entry.url) errors.push(`Pending resource for ${campaignId} should not link to an unofficial stand-in.`);
+        } else {
+          resourceLinkCount += 1;
+          if (typeof entry.url !== "string" || !entry.url.startsWith("https://images-cdn.fantasyflightgames.com/")) {
+            errors.push(`Product group ${campaignId} has a non-FFG resource URL.`);
+          }
+        }
+      }
+    }
+  } catch {
+    errors.push("app.js contains an invalid product-resource map.");
+  }
+}
+
 if (errors.length) {
   console.error(`Matchup audit failed with ${errors.length} problem(s):`);
   errors.forEach((error) => console.error(`- ${error}`));
@@ -297,6 +337,7 @@ const closestRepeat = Math.min(...repeatGaps);
 console.log("Matchup audit passed");
 console.log(`${battleCount} battles; ${heroRoster.length} heroes; ${villainRoster.length} villain-side identities; ${characters.length} local portraits`);
 console.log(`${Object.keys(data.difficultyTuner.scenarios).length} encounter tuners; ${Object.keys(data.difficultyTuner.moduleRatings).length} player-count-rated modular sets`);
+console.log(`${resourceLinkCount} official FFG product PDFs across ${data.campaigns.length} product groups; ${resourcePendingCount} pending release`);
 console.log(`Maximum ${appearanceMaximum} appearances per hero; closest repeat is ${closestRepeat} battles apart`);
 console.log("0 self-matchups; 0 premature hero debuts; 0 repeated hero pairs; 0 unused roster entries; 0 repeat-marker errors; 0 casting-balance errors");
 console.log(`Sequenced dual-role identities: ${sequencedIdentities}`);
