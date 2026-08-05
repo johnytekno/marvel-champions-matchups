@@ -343,11 +343,11 @@
     "status": "ok",
     "card": "Daredevil",
     "subname": null,
-    "type": "Ally",
-    "pack": "SP//dr",
-    "code": "31014",
+    "type": "Hero",
+    "pack": "Fear No Evil",
+    "code": "60001a",
     "score": 210,
-    "source": "https://marvelcdb.com/bundles/cards/31014.png"
+    "source": "https://marvelcdb.com/bundles/cards/60001a.png"
   },
   "tigra": {
     "status": "ok",

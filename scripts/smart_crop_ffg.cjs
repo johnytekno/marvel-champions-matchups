@@ -14,7 +14,7 @@ const FOCUS_OVERRIDES = {
   "spider-man-peter": { x: 0.25 },
   "captain-america": { x: 0.2, trimBottom: 0.28 },
   hulk: { x: 0, artTop: 0.12 },
-  daredevil: { x: 0.5, artLeft: 0.28, artRight: 0.78, artTop: 0.145, artBottom: 0.545 },
+  daredevil: { x: 0.5, artLeft: 0.24, artRight: 0.76, artTop: 0.115, artBottom: 0.575 },
   hawkeye: { x: 0.5, artLeft: 0.28, artRight: 0.78, artTop: 0.145, artBottom: 0.545 },
   falcon: { x: 0.5, artLeft: 0.28, artRight: 0.78, artTop: 0.145, artBottom: 0.545 },
   "rocket-raccoon": { x: 0, artTop: 0.12 },
