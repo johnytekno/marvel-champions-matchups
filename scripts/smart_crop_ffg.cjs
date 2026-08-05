@@ -36,6 +36,13 @@ const FOCUS_OVERRIDES = {
   crossbones: { x: 0, artTop: 0.12 },
   "absorbing-man": { x: 0.2, artTop: 0.12 },
   "red-skull": { x: 0.3, artTop: 0.12 },
+  "green-goblin": {
+    x: 0.5,
+    artLeft: 0.32,
+    artRight: 0.78,
+    artTop: 0.12,
+    artBottom: 0.53,
+  },
   ultron: { x: 0 },
   "ebony-maw": { x: 0.22, artLeft: 0.12, artTop: 0.12 },
   enchantress: { x: 0.12, artTop: 0.1 },
