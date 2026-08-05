@@ -39,6 +39,7 @@ const FOCUS_OVERRIDES = {
   crossbones: { x: 0, artTop: 0.12 },
   "absorbing-man": { x: 0.2, artTop: 0.12 },
   "red-skull": { x: 0.3, artTop: 0.12 },
+  kang: { x: 0.5, artLeft: 0.35, artRight: 0.7, artTop: 0.08, artBottom: 0.383 },
   "green-goblin": {
     x: 0.5,
     artLeft: 0.32,
@@ -50,7 +51,8 @@ const FOCUS_OVERRIDES = {
   "ebony-maw": { x: 0.22, artLeft: 0.12, artTop: 0.12 },
   enchantress: { x: 0.12, artTop: 0.1 },
   "proxima-midnight": { x: 0.25, artTop: 0.12 },
-  drang: { x: 0.5, artLeft: 0.42, artRight: 0.72, artTop: 0.145, artBottom: 0.413 },
+  drang: { x: 0.5, artLeft: 0.34, artRight: 0.66, artTop: 0.08, artBottom: 0.362 },
+  ronan: { x: 0.5, artLeft: 0.38, artRight: 0.71, artTop: 0.09, artBottom: 0.38 },
   "doctor-octopus": { x: 0.5, artLeft: 0.23, artRight: 0.48, artTop: 0.19, artBottom: 0.414 },
   scorpion: { x: 0.5, artLeft: 0.48, artRight: 0.73, artTop: 0.21, artBottom: 0.434 },
   "venom-goblin": { x: 0.5, artLeft: 0.45, artRight: 0.7, artTop: 0.21, artBottom: 0.434 },
