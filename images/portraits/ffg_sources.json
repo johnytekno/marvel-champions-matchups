@@ -172,12 +172,12 @@
   "hawkeye": {
     "status": "ok",
     "card": "Hawkeye",
-    "subname": null,
-    "type": "Hero",
-    "pack": "The Rise of Red Skull",
-    "code": "04001a",
-    "score": 235,
-    "source": "https://marvelcdb.com/bundles/cards/04001a.png"
+    "subname": "Clint Barton",
+    "type": "Ally",
+    "pack": "Wonder Man",
+    "code": "58013",
+    "score": 210,
+    "source": "https://marvelcdb.com/bundles/cards/58013.jpg"
   },
   "vision": {
     "status": "ok",
@@ -202,12 +202,12 @@
   "falcon": {
     "status": "ok",
     "card": "Falcon",
-    "subname": null,
-    "type": "Hero",
-    "pack": "Falcon",
-    "code": "53001a",
-    "score": 235,
-    "source": "https://marvelcdb.com/bundles/cards/53001a.png"
+    "subname": "Sam Wilson",
+    "type": "Ally",
+    "pack": "Captain America",
+    "code": "03011",
+    "score": 210,
+    "source": "https://marvelcdb.com/bundles/cards/03011.png"
   },
   "captain-marvel": {
     "status": "ok",
@@ -342,12 +342,12 @@
   "daredevil": {
     "status": "ok",
     "card": "Daredevil",
-    "subname": "Matt Murdock",
+    "subname": null,
     "type": "Ally",
-    "pack": "Core Set",
-    "code": "01058",
+    "pack": "SP//dr",
+    "code": "31014",
     "score": 210,
-    "source": "https://marvelcdb.com/bundles/cards/01058.png"
+    "source": "https://marvelcdb.com/bundles/cards/31014.png"
   },
   "tigra": {
     "status": "ok",
@@ -362,12 +362,12 @@
   "venom-hero": {
     "status": "ok",
     "card": "Venom",
-    "subname": null,
-    "type": "Hero",
-    "pack": "Venom",
-    "code": "20001a",
-    "score": 235,
-    "source": "https://marvelcdb.com/bundles/cards/20001a.png"
+    "subname": "Flash Thompson",
+    "type": "Ally",
+    "pack": "Nebula",
+    "code": "22013",
+    "score": 210,
+    "source": "https://marvelcdb.com/bundles/cards/22013.png"
   },
   "spdr": {
     "status": "ok",
@@ -650,17 +650,24 @@
     "source": "https://marvelcdb.com/bundles/cards/14001a.png"
   },
   "echo": {
-    "status": "unresolved"
+    "status": "ok",
+    "card": "Echo",
+    "subname": null,
+    "type": "Hero",
+    "pack": "Fear No Evil",
+    "code": "60037a",
+    "score": 235,
+    "source": "https://hallofheroeslcg.com/wp-content/uploads/2026/08/60037a.jpg"
   },
   "silk": {
     "status": "ok",
     "card": "Silk",
-    "subname": null,
-    "type": "Hero",
-    "pack": "Silk",
-    "code": "52001a",
-    "score": 235,
-    "source": "https://marvelcdb.com/bundles/cards/52001a.png"
+    "subname": "Cindy Moon",
+    "type": "Ally",
+    "pack": "Sinister Motives",
+    "code": "27010",
+    "score": 210,
+    "source": "https://marvelcdb.com/bundles/cards/27010.png"
   },
   "luke-cage": {
     "status": "ok",
@@ -1204,13 +1211,13 @@
   },
   "riptide": {
     "status": "ok",
-    "card": "Riptide",
+    "card": "Dizzying Deeds",
     "subname": null,
-    "type": "Minion",
+    "type": "Treachery",
     "pack": "NeXt Evolution",
-    "code": "40099",
+    "code": "40110",
     "score": 165,
-    "source": "https://marvelcdb.com/bundles/cards/40099.png"
+    "source": "https://hallofheroeslcg.com/wp-content/uploads/2023/08/40110.jpg"
   },
   "vertigo": {
     "status": "ok",
@@ -1275,7 +1282,14 @@
     "status": "unresolved"
   },
   "apocalypse": {
-    "status": "unresolved"
+    "status": "ok",
+    "card": "Apocalypse",
+    "subname": null,
+    "type": "Villain",
+    "pack": "Age of Apocalypse",
+    "code": "45101a",
+    "score": 242,
+    "source": "https://hallofheroeslcg.com/wp-content/uploads/2024/04/45101a.jpg"
   },
   "dark-beast": {
     "status": "ok",
@@ -1288,7 +1302,14 @@
     "source": "https://marvelcdb.com/bundles/cards/45118.jpg"
   },
   "en-sabah-nur": {
-    "status": "unresolved"
+    "status": "ok",
+    "card": "Staggering Strength",
+    "subname": null,
+    "type": "Attachment",
+    "pack": "Age of Apocalypse",
+    "code": "45149",
+    "score": 165,
+    "source": "https://hallofheroeslcg.com/wp-content/uploads/2024/04/45149.jpg"
   },
   "black-widow-yelena": {
     "status": "ok",

@@ -582,7 +582,9 @@
     "url": "https://static.wikia.nocookie.net/marveldatabase/images/c/c2/Hammerhead_%28Joseph%29_%28Earth-616%29_from_Amazing_Spider-Man_Vol_3_17.1_001.jpg/revision/latest?cb=20150425030948"
   },
   "purple-man": {
-    "status": "cached"
+    "status": "ok",
+    "source": "curated file",
+    "url": "https://static.wikia.nocookie.net/marveldatabase/images/f/f2/New_Thunderbolts_Vol_1_10_Textless.jpg/revision/latest?cb=20100210173134"
   },
   "typhoid-mary": {
     "status": "cached"

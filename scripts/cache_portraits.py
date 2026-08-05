@@ -1,5 +1,6 @@
 import io
 import json
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -108,6 +109,7 @@ FILE_OVERRIDES = {
     "atlas": "https://static.wikia.nocookie.net/marveldatabase/images/4/46/Erik_Josten_%28Earth-616%29_from_Thunderbolts_Vol_4_2_002.png/revision/latest/scale-to-width-down/500?cb=20160608174810",
     "baron-zemo": "https://static.wikia.nocookie.net/marveldatabase/images/c/c0/Helmut_Zemo_%28Earth-51156%29_from_Marvel_Future_Fight_001.jpg/revision/latest/scale-to-width-down/500?cb=20200506074751",
     "hammerhead": "https://static.wikia.nocookie.net/marveldatabase/images/c/c2/Hammerhead_%28Joseph%29_%28Earth-616%29_from_Amazing_Spider-Man_Vol_3_17.1_001.jpg/revision/latest?cb=20150425030948",
+    "purple-man": "https://static.wikia.nocookie.net/marveldatabase/images/f/f2/New_Thunderbolts_Vol_1_10_Textless.jpg/revision/latest?cb=20100210173134",
 }
 CENTER_OVERRIDES = {
     "venom-villain": (0.5, 0.68),
@@ -119,6 +121,7 @@ CROP_OVERRIDES = {
     "x-23": (0.0, 0.08, 1.0, 1.0),
     "venom-villain": (0.08, 0.16, 0.92, 0.92),
     "modok": (0.05, 0.26, 0.95, 0.82),
+    "purple-man": (0.29, 0.15, 0.71, 0.50),
 }
 
 
@@ -192,8 +195,22 @@ def save_portrait(character_id, url):
     fitted.save(OUT / f"{character_id}.webp", "WEBP", quality=78, method=6)
 
 
-results = {}
-for index, (character_id, meta) in enumerate(DATA["characters"].items(), start=1):
+manifest_path = OUT / "sources.json"
+requested_ids = set(sys.argv[1:])
+unknown_ids = requested_ids - set(DATA["characters"])
+if unknown_ids:
+    raise SystemExit("Unknown character ids: " + ", ".join(sorted(unknown_ids)))
+character_items = [
+    item
+    for item in DATA["characters"].items()
+    if not requested_ids or item[0] in requested_ids
+]
+results = (
+    json.loads(manifest_path.read_text(encoding="utf-8"))
+    if requested_ids and manifest_path.exists()
+    else {}
+)
+for index, (character_id, meta) in enumerate(character_items, start=1):
     target = OUT / f"{character_id}.webp"
     if target.exists() and character_id not in SEARCH_OVERRIDES and character_id not in TITLE_OVERRIDES and character_id not in FILE_OVERRIDES:
         results[character_id] = {"status": "cached"}
@@ -208,14 +225,14 @@ for index, (character_id, meta) in enumerate(DATA["characters"].items(), start=1
             raise RuntimeError("no thumbnail found")
         save_portrait(character_id, url)
         results[character_id] = {"status": "ok", "source": title, "url": url}
-        print(f"{index:03}/{len(DATA['characters'])} {character_id}: {title}")
+        print(f"{index:03}/{len(character_items)} {character_id}: {title}")
     except Exception as error:
         results[character_id] = {"status": "failed", "error": str(error)}
-        print(f"{index:03}/{len(DATA['characters'])} {character_id}: FAILED {error}")
+        print(f"{index:03}/{len(character_items)} {character_id}: FAILED {error}")
     time.sleep(0.08)
 
-(OUT / "sources.json").write_text(
+manifest_path.write_text(
     json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8"
 )
 ok = sum(item["status"] in {"ok", "cached"} for item in results.values())
-print(f"Cached {ok}/{len(results)} portraits")
+print(f"Cached {ok}/{len(results)} portraits; refreshed {len(character_items)}")
