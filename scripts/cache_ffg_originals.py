@@ -1,5 +1,6 @@
 import io
 import json
+import sys
 import urllib.request
 from pathlib import Path
 
@@ -27,6 +28,15 @@ resolved = [
     for character_id, details in MANIFEST.items()
     if details.get("status") == "ok"
 ]
+
+requested_ids = set(sys.argv[1:])
+if requested_ids:
+    resolved = [item for item in resolved if item[0] in requested_ids]
+    missing_ids = requested_ids - {character_id for character_id, _ in resolved}
+    if missing_ids:
+        raise SystemExit(
+            "Unknown or unavailable character ids: " + ", ".join(sorted(missing_ids))
+        )
 
 for index, (character_id, details) in enumerate(resolved, start=1):
     target = DESTINATION / f"{character_id}.png"
