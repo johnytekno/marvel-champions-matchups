@@ -36,9 +36,9 @@ function assert(condition, message) {
 assert(index.includes('id="playerCount"'), "Player-count selector is missing.");
 assert(index.includes('id="mobileToolsToggle"') && index.includes('aria-controls="toolbarActions"'), "Accessible mobile tools control is missing.");
 assert(styles.includes('.toolbar.mobile-tools-open .actions{display:grid}') && styles.includes('.filter-strip{display:none}'), "Compact mobile toolbar styles are missing.");
-assert(index.includes('styles.css?v=20260805-keyword-guide') && index.includes('app.js?v=20260805-iconic-pass'), "Versioned assets are missing; clients may receive stale layout files.");
-assert(index.includes('id="keywordReference"') && index.includes('mc_rulesreference_v18_compressed.pdf'), "Official keyword-reference link is missing.");
-assert(styles.includes('.player-guide-bar') && styles.includes('.keyword-reference-link'), "Keyword-reference guide styles are missing.");
+assert(index.includes('styles.css?v=20260806-keyword-quickref') && index.includes('keyword-reference.js?v=20260806-keywords-v1') && index.includes('app.js?v=20260805-iconic-pass'), "Versioned assets are missing; clients may receive stale layout files.");
+assert(index.includes('id="keywordReference"') && index.includes('id="keywordDialog"') && index.includes('id="keywordSearch"'), "Compiled keyword-reference controls are missing.");
+assert(styles.includes('.player-guide-bar') && styles.includes('.keyword-dialog') && styles.includes('.keyword-grid'), "Keyword-reference guide styles are missing.");
 assert(index.indexOf('id="campaigns"') < index.indexOf('class="notice"'), "Sequence constraint should follow the campaign list.");
 assert(index.indexOf('id="campaigns"') < index.indexOf('class="hero-usage"'), "Hero appearance counts should follow the campaign list.");
 for (const className of ["tuner-guide", "tuner-tabs", "tuner-choice", "tuner-panel", "module-profile"]) {
