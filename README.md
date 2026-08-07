@@ -27,7 +27,7 @@ Every hero card links to a transparent MarvelCDB recommendation checked August 3
 
 Every battle defaults to the printed Fantasy Flight Games setup and offers up to four optional VillainTheory recipes: easier, thematic, harder, and Maximum. Maximum appears only when the public source guide has a distinct recipe rated above the scenario's Harder choice; 60 of 65 battles qualify. The 719-record public VillainTheory catalog on Modular Champions was imported August 4, 2026 and covers all 65 scenarios in this schedule. The compact site dataset keeps one published recipe per available slot and links directly back to its source record.
 
-Base Threat supplies the missing global comparison. Battles 1–46 use VillainTheory's published Standard-mode 1–10 rankings for solo, two-player, and 3–4-player games with the printed/recommended setup. Battles 47–65 use transparent provisional estimates until a complete published Standard update exists. Effective Threat adds the selected recipe's relative delta to the player-count baseline and clamps the displayed result to the 1–10 scale. Every provisional value is labeled in the UI and export.
+Base Threat supplies the missing global comparison. Battles 1–46 use VillainTheory's published Standard-mode 1–10 rankings for solo, two-player, and 3–4-player games with the printed/recommended setup. Battles 47–65 use transparent provisional estimates until a complete published Standard update exists. Effective Threat adds the selected recipe's relative delta to the player-count baseline without capping the arithmetic. Values above 10 receive an Omega treatment and are explicitly labeled as extrapolations beyond the source scale. Every provisional value is labeled in the UI and export.
 
 The VillainTheory recipe delta remains relative to the selected villain. The global player-count selector updates the Base Threat, Effective Threat, and the corresponding modular-set profile from VillainTheory's May 2026 matrix. Required, story, campaign, and nemesis sets that are absent from that matrix are labeled as unrated instead of receiving invented module scores. Player count and per-battle choices persist locally in the browser. The selected recipes and threat summaries are also included in the work-chat and print/PDF outputs.
 
@@ -43,7 +43,7 @@ Edit `matchups.json` for reference, but the current `app.js` contains an embedde
 - Every battle shows its official recommended or required encounter modules; variable and catalog-pending setups are labeled honestly.
 - All 65 battles include an official-first encounter tuner backed by published VillainTheory recipes, with unavailable slots disabled rather than guessed.
 - Player-count-aware modular ratings switch globally among solo, two-player, and 3–4-player profiles.
-- Every battle now shows a global Base Threat and selected Effective Threat on a consistent 1–10 scale; newer provisional baselines are visibly labeled.
+- Every battle now shows a global Base Threat and selected Effective Threat; results above the source scale retain their raw value and receive an Omega treatment instead of being capped at 10.
 - A frequency-sorted hero usage panel shows total appearances and repeat counts for all 69 heroes.
 - No hero appears more than three times, and repeat appearances are always separated by at least six battle numbers.
 - Daredevil now appears twice instead of six times; Thor appears three times instead of five.

@@ -12,7 +12,7 @@
 
 **Encounter tuner:** The printed Fantasy Flight Games setup remains the default for every battle. `matchups.json` also contains one published VillainTheory easier, thematic, and harder recipe per available slot, plus a Maximum recipe only when the source guide has a distinct choice rated above Harder. Difficulty deltas are relative to the current villain. Solo, two-player, and 3–4-player module profiles come from VillainTheory’s May 2026 matrix; required/story sets missing from that matrix stay explicitly unrated. Browser selections are local preferences and do not overwrite the canonical official setup. Expert mode remains separate: use villain stages II/III, add the Expert encounter set, and follow any scenario/campaign-specific Expert instructions.
 
-**Threat baseline:** Each battle has a player-count-aware Base Threat on a global 1–10 Standard scale. Battles 1–46 use VillainTheory's published rankings with the printed/recommended setup. Battles 47–65 are explicitly provisional pending a complete published Standard update. Effective Threat adds the selected encounter-recipe delta to that baseline and clamps the displayed result to 1–10. Do not silently convert provisional ratings into sourced ratings.
+**Threat baseline:** Each battle has a player-count-aware Base Threat on a global 1–10 Standard scale. Battles 1–46 use VillainTheory's published rankings with the printed/recommended setup. Battles 47–65 are explicitly provisional pending a complete published Standard update. Effective Threat adds the selected encounter-recipe delta without capping the arithmetic. Values above 10 receive an Omega treatment and are labeled as extrapolations beyond the source scale. Do not silently convert provisional ratings into sourced ratings.
 
 ## Core Set
 

@@ -171,6 +171,25 @@
 .module-heading-status{display:flex;align-items:center;justify-content:flex-end;gap:5px;flex-wrap:wrap}
 .effective-threat{display:inline-flex;align-items:baseline;gap:4px;padding:3px 7px;border:1px solid #765d3d;border-radius:4px;color:#d6c8c4;background:#2b2118;font-size:.57rem;font-weight:850;text-transform:uppercase;letter-spacing:.04em}
 .effective-threat strong{color:#fff2e8;font-size:.7rem;letter-spacing:0}
+.effective-threat.omega{position:relative;overflow:hidden;min-height:30px;padding:4px 8px;border-color:#f0b55f;background:linear-gradient(112deg,#481221 0%,#8e203d 34%,#d28e52 49%,#8e203d 64%,#5b2614 100%);background-size:220% 100%;color:#ffe4b7;box-shadow:0 0 0 1px rgba(240,181,95,.2),0 0 16px rgba(210,54,88,.38);animation:omegaPulse 2.8s ease-in-out infinite,omegaFlow 4.2s ease-in-out infinite}
+.effective-threat.omega strong{display:inline-flex;align-items:baseline;gap:2px;color:#fff8dc;font-size:.84rem;text-shadow:0 0 10px rgba(255,214,130,.7)}
+.effective-threat.omega strong b{color:#ffd16f;font-family:Georgia,serif;font-size:1.05em}
+.effective-threat.omega em{display:inline-flex;align-items:center;gap:3px;color:#ffdba0;font-size:.5rem;font-style:normal;letter-spacing:.08em}
+.effective-threat.omega em b{font-family:Georgia,serif;font-size:.72rem}
+.tuner-choice.omega{border-color:#9f6544;background:linear-gradient(135deg,rgba(126,29,53,.3),rgba(84,38,19,.22)),#21191e}
+.tuner-choice.omega small{color:#f1bb71;font-weight:900;text-shadow:0 0 8px rgba(231,120,81,.36)}
+.tuner-choice.omega.active{border-color:#efb25a;background:linear-gradient(135deg,#4a1824,#472313);box-shadow:inset 0 0 0 1px rgba(255,204,118,.22),0 0 13px rgba(182,44,72,.3)}
+@keyframes omegaPulse{0%,100%{box-shadow:0 0 0 1px rgba(240,181,95,.18),0 0 10px rgba(210,54,88,.28)}50%{box-shadow:0 0 0 1px rgba(255,205,122,.35),0 0 20px rgba(225,55,94,.5)}}
+@keyframes omegaFlow{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
+
+@media (prefers-reduced-motion:reduce){
+  .effective-threat.omega{animation:none;background-position:50% 50%}
+}
+
+@media print{
+  .effective-threat.omega{animation:none;box-shadow:none;color:#111!important;border-color:#555!important;background:#fff!important}
+  .effective-threat.omega strong,.effective-threat.omega strong b,.effective-threat.omega em{color:#111!important;text-shadow:none}
+}
 
 @media screen and (max-width:720px){
   .tuner-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -184,6 +203,7 @@
   .threat-summary{margin-bottom:12px}
   .threat-badge em{display:none}
   .module-heading-status{max-width:68%}
+  .effective-threat.omega em{display:none}
 }
 
 .campaign-resources{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:9px 18px;border-top:1px solid #4f323a;border-bottom:1px solid #4f323a;background:#171115}
