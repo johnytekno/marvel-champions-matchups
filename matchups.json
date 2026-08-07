@@ -1,6 +1,6 @@
 {
   "title": "Marvel Champions: Thematic Two-Hero Matchups",
-  "updated": "2026-08-04",
+  "updated": "2026-08-07",
   "rules": {
     "repeatMarker": "🔁",
     "sequenceNote": "Luke Cage and Jessica Jones are not used before Agents of S.H.I.E.L.D.; Nebula, Magneto, and Angel enter the hero roster only after their villain encounters.",
@@ -10428,6 +10428,422 @@
           "url": "https://modularchampions.com/scenario/00c3aed4-55ff-441e-af28-794064b7a68d"
         },
         "maximum": null
+      }
+    }
+  },
+  "difficultyBaselines": {
+    "source": {
+      "curator": "VillainTheory",
+      "title": "Complete Villain Difficulty Ranking",
+      "rankingUrl": "https://www.youtube.com/watch?v=OIHxE77U928",
+      "scaleUrl": "https://tiermaker.com/create/marvel-champions-villains-16731517",
+      "mode": "Standard I/II with each scenario's printed or recommended setup",
+      "published": "2024-09-19",
+      "imported": "2026-08-07",
+      "coverage": "Battles 1–46 are published player-count rankings. Battles 47–65 are clearly labeled provisional estimates pending a complete published Standard update."
+    },
+    "labels": {
+      "1": "Ultra Easy",
+      "2": "Very Easy",
+      "3": "Easy",
+      "4": "Medium",
+      "5": "Good Challenge",
+      "6": "Difficult",
+      "7": "Very Difficult",
+      "8": "Punishing",
+      "9": "Nightmare",
+      "10": "Omega-Level Threat"
+    },
+    "scenarios": {
+      "battle-01": {
+        "solo": 3,
+        "two": 2,
+        "group": 2,
+        "status": "sourced"
+      },
+      "battle-02": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-03": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "sourced"
+      },
+      "battle-04": {
+        "solo": 1,
+        "two": 1,
+        "group": 1,
+        "status": "sourced"
+      },
+      "battle-05": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-06": {
+        "solo": 1,
+        "two": 1,
+        "group": 1,
+        "status": "sourced"
+      },
+      "battle-07": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-08": {
+        "solo": 2,
+        "two": 2,
+        "group": 2,
+        "status": "sourced"
+      },
+      "battle-09": {
+        "solo": 2,
+        "two": 2,
+        "group": 2,
+        "status": "sourced"
+      },
+      "battle-10": {
+        "solo": 3,
+        "two": 3,
+        "group": 3,
+        "status": "sourced"
+      },
+      "battle-11": {
+        "solo": 7,
+        "two": 6,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-12": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "sourced"
+      },
+      "battle-13": {
+        "solo": 4,
+        "two": 4,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-14": {
+        "solo": 8,
+        "two": 7,
+        "group": 7,
+        "status": "sourced"
+      },
+      "battle-15": {
+        "solo": 3,
+        "two": 3,
+        "group": 3,
+        "status": "sourced"
+      },
+      "battle-16": {
+        "solo": 8,
+        "two": 8,
+        "group": 8,
+        "status": "sourced"
+      },
+      "battle-17": {
+        "solo": 10,
+        "two": 10,
+        "group": 10,
+        "status": "sourced"
+      },
+      "battle-18": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-19": {
+        "solo": 1,
+        "two": 1,
+        "group": 1,
+        "status": "sourced"
+      },
+      "battle-20": {
+        "solo": 7,
+        "two": 7,
+        "group": 7,
+        "status": "sourced"
+      },
+      "battle-21": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-22": {
+        "solo": 9,
+        "two": 9,
+        "group": 9,
+        "status": "sourced"
+      },
+      "battle-23": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "sourced"
+      },
+      "battle-24": {
+        "solo": 2,
+        "two": 2,
+        "group": 2,
+        "status": "sourced"
+      },
+      "battle-25": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-26": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-27": {
+        "solo": 3,
+        "two": 3,
+        "group": 3,
+        "status": "sourced"
+      },
+      "battle-28": {
+        "solo": 9,
+        "two": 9,
+        "group": 9,
+        "status": "sourced"
+      },
+      "battle-29": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-30": {
+        "solo": 5,
+        "two": 5,
+        "group": 6,
+        "status": "sourced"
+      },
+      "battle-31": {
+        "solo": 7,
+        "two": 7,
+        "group": 7,
+        "status": "sourced"
+      },
+      "battle-32": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-33": {
+        "solo": 6,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-34": {
+        "solo": 2,
+        "two": 3,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-35": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-36": {
+        "solo": 9,
+        "two": 9,
+        "group": 9,
+        "status": "sourced"
+      },
+      "battle-37": {
+        "solo": 2,
+        "two": 2,
+        "group": 2,
+        "status": "sourced"
+      },
+      "battle-38": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-39": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "sourced"
+      },
+      "battle-40": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-41": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-42": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "sourced"
+      },
+      "battle-43": {
+        "solo": 8,
+        "two": 8,
+        "group": 8,
+        "status": "sourced"
+      },
+      "battle-44": {
+        "solo": 8,
+        "two": 8,
+        "group": 8,
+        "status": "sourced"
+      },
+      "battle-45": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "sourced"
+      },
+      "battle-46": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "sourced"
+      },
+      "battle-47": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "provisional"
+      },
+      "battle-48": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "provisional"
+      },
+      "battle-49": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "provisional"
+      },
+      "battle-50": {
+        "solo": 3,
+        "two": 3,
+        "group": 3,
+        "status": "provisional"
+      },
+      "battle-51": {
+        "solo": 7,
+        "two": 7,
+        "group": 7,
+        "status": "provisional"
+      },
+      "battle-52": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "provisional"
+      },
+      "battle-53": {
+        "solo": 3,
+        "two": 3,
+        "group": 3,
+        "status": "provisional"
+      },
+      "battle-54": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "provisional"
+      },
+      "battle-55": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "provisional"
+      },
+      "battle-56": {
+        "solo": 4,
+        "two": 4,
+        "group": 4,
+        "status": "provisional"
+      },
+      "battle-57": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "provisional"
+      },
+      "battle-58": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "provisional"
+      },
+      "battle-59": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "provisional"
+      },
+      "battle-60": {
+        "solo": 7,
+        "two": 7,
+        "group": 8,
+        "status": "provisional"
+      },
+      "battle-61": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "provisional"
+      },
+      "battle-62": {
+        "solo": 5,
+        "two": 5,
+        "group": 5,
+        "status": "provisional"
+      },
+      "battle-63": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "provisional"
+      },
+      "battle-64": {
+        "solo": 6,
+        "two": 6,
+        "group": 6,
+        "status": "provisional"
+      },
+      "battle-65": {
+        "solo": 7,
+        "two": 8,
+        "group": 8,
+        "status": "provisional"
       }
     }
   }

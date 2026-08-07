@@ -157,13 +157,33 @@
 .tuner-panel.maximum{border-left-color:#d2a05f}
 .module-status.maximum{color:#f4c98f;border-color:#9b6840;background:#401923}
 
+.threat-summary{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:-5px 0 13px}
+.threat-badge{display:inline-flex;align-items:baseline;gap:5px;min-height:27px;padding:4px 7px;border:1px solid #66505a;border-radius:4px;background:#261c21;color:#c9b9bd;font-size:.59rem;font-weight:850;letter-spacing:.04em;text-transform:uppercase}
+.threat-badge strong{color:#fff4ed;font-size:.78rem;letter-spacing:0}
+.threat-badge em{color:#cdbfc1;font-size:.56rem;font-style:normal;letter-spacing:.02em;text-transform:none}
+.threat-badge.low,.effective-threat.low{border-color:#51745c;background:#1b2920}
+.threat-badge.medium,.effective-threat.medium{border-color:#765d3d;background:#2b2118}
+.threat-badge.high,.effective-threat.high{border-color:#8e4b55;background:#351d23}
+.threat-badge.extreme,.effective-threat.extreme{border-color:#c14b5f;background:#4a1a24}
+.threat-origin{padding:3px 5px;border:1px solid #5d4650;border-radius:3px;color:#9f8f93;background:#21181c;font-size:.52rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase}
+.threat-origin.sourced{color:#d7b67f;border-color:#72583a;background:#2a2119}
+.threat-origin.provisional{color:#b9aaad;border-style:dashed}
+.module-heading-status{display:flex;align-items:center;justify-content:flex-end;gap:5px;flex-wrap:wrap}
+.effective-threat{display:inline-flex;align-items:baseline;gap:4px;padding:3px 7px;border:1px solid #765d3d;border-radius:4px;color:#d6c8c4;background:#2b2118;font-size:.57rem;font-weight:850;text-transform:uppercase;letter-spacing:.04em}
+.effective-threat strong{color:#fff2e8;font-size:.7rem;letter-spacing:0}
+
 @media screen and (max-width:720px){
   .tuner-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
   .tuner-tabs>.tuner-choice:last-child:nth-child(odd){grid-column:1/-1}
+  .module-heading{align-items:flex-start}
+  .module-heading-status{max-width:62%}
 }
 
 @media screen and (max-width:640px){
   .toolbar{grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto}
+  .threat-summary{margin-bottom:12px}
+  .threat-badge em{display:none}
+  .module-heading-status{max-width:68%}
 }
 
 .campaign-resources{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:9px 18px;border-top:1px solid #4f323a;border-bottom:1px solid #4f323a;background:#171115}

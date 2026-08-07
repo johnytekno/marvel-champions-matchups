@@ -36,7 +36,7 @@ function assert(condition, message) {
 assert(index.includes('id="playerCount"'), "Player-count selector is missing.");
 assert(index.includes('id="mobileToolsToggle"') && index.includes('aria-controls="toolbarActions"'), "Accessible mobile tools control is missing.");
 assert(styles.includes('.toolbar.mobile-tools-open .actions{display:grid}') && styles.includes('.filter-strip{display:none}'), "Compact mobile toolbar styles are missing.");
-assert(index.includes('styles.css?v=20260806-keyword-quickref') && index.includes('keyword-reference.js?v=20260806-keywords-v1') && index.includes('app.js?v=20260805-iconic-pass'), "Versioned assets are missing; clients may receive stale layout files.");
+assert(index.includes('styles.css?v=20260807-threat-baselines') && index.includes('keyword-reference.js?v=20260806-keywords-v1') && index.includes('app.js?v=20260807-threat-baselines'), "Versioned assets are missing; clients may receive stale layout files.");
 assert(index.includes('id="keywordReference"') && index.includes('id="keywordDialog"') && index.includes('id="keywordSearch"'), "Compiled keyword-reference controls are missing.");
 assert(styles.includes('.player-guide-bar') && styles.includes('.keyword-dialog') && styles.includes('.keyword-grid'), "Keyword-reference guide styles are missing.");
 assert(index.indexOf('id="campaigns"') < index.indexOf('class="notice"'), "Sequence constraint should follow the campaign list.");
@@ -44,6 +44,20 @@ assert(index.indexOf('id="campaigns"') < index.indexOf('class="hero-usage"'), "H
 for (const className of ["tuner-guide", "tuner-tabs", "tuner-choice", "tuner-panel", "module-profile"]) {
   assert(styles.includes(`.${className}`), `Missing tuner style: ${className}.`);
 }
+for (const className of ["threat-summary", "threat-badge", "threat-origin", "effective-threat", "module-heading-status"]) {
+  assert(styles.includes(`.${className}`), `Missing threat style: ${className}.`);
+}
+
+const baselineRecords = evaluate("Object.values(DATA.difficultyBaselines.scenarios)");
+assert(baselineRecords.length === 65, "Expected a threat baseline for all 65 battles.");
+assert(baselineRecords.filter((record) => record.status === "sourced").length === 46, "Expected 46 sourced threat baselines.");
+assert(baselineRecords.filter((record) => record.status === "provisional").length === 19, "Expected 19 provisional threat baselines.");
+assert(baselineRecords.every((record) => ["solo", "two", "group"].every((key) => Number.isInteger(record[key]) && record[key] >= 1 && record[key] <= 10)), "A threat baseline is outside the 1–10 scale.");
+
+const rhinoThreat = evaluate("threatSummaryHtml(scenarioById('battle-01'))");
+assert(rhinoThreat.includes("Base threat") && rhinoThreat.includes("2/10") && rhinoThreat.includes("VillainTheory"), "Rhino's sourced two-player baseline is missing.");
+const blackWidowThreat = evaluate("threatSummaryHtml(scenarioById('battle-47'))");
+assert(blackWidowThreat.includes("5/10") && blackWidowThreat.includes("Provisional"), "The newer provisional baseline is not labeled.");
 
 const defaultRhino = evaluate("encounterModulesHtml(scenarioById('battle-01'))");
 assert(defaultRhino.includes("Official ±0"), "Rhino does not default to the official setup.");
@@ -55,6 +69,7 @@ evaluate("state.moduleChoices['battle-01']='maximum'; state.playerCount='two'");
 const maximumRhino = evaluate("encounterModulesHtml(scenarioById('battle-01'))");
 assert(maximumRhino.includes("Thanos with a Horn") && maximumRhino.includes("Maximum +4"), "Rhino Maximum recipe is not rendered.");
 assert(maximumRhino.includes("VillainTheory source guide"), "Maximum source-guide attribution is missing.");
+assert(maximumRhino.includes("Effective <strong>6/10</strong>") && maximumRhino.includes("+4 → 6/10"), "Rhino Maximum does not show its effective global threat.");
 
 evaluate("state.moduleChoices['battle-01']='thematic'; state.playerCount='two'");
 const thematicRhino = evaluate("encounterModulesHtml(scenarioById('battle-01'))");
@@ -62,6 +77,11 @@ assert(thematicRhino.includes("Property Damage"), "Rhino thematic recipe is not 
 assert(thematicRhino.includes("Armadillo"), "Rhino thematic modular set is not rendered.");
 assert(thematicRhino.includes("VillainTheory via Modular Champions"), "Tuner attribution is missing.");
 assert(thematicRhino.includes("2 players:"), "Player-count profile is missing.");
+assert(thematicRhino.includes("Effective <strong>3/10</strong>"), "Rhino thematic selection has the wrong effective threat.");
+
+assert(evaluate("(state.playerCount='solo', threatFor(scenarioById('battle-01')).value)") === 3, "Solo baseline selection failed.");
+assert(evaluate("(state.playerCount='group', threatFor(scenarioById('battle-11')).value)") === 5, "Group baseline selection failed.");
+evaluate("state.playerCount='two'");
 
 const rendered = evaluate(`DATA.campaigns.flatMap(c=>c.scenarios).map(encounterModulesHtml)`);
 assert(rendered.length === 65, "Not all 65 encounter tuners render.");
@@ -75,6 +95,7 @@ const brief = evaluate("workChatText()");
 assert(brief.includes("Encounter tuner: 2 players"), "Work-chat export omits the player-count setting.");
 assert(brief.includes("Property Damage"), "Work-chat export omits the selected recipe.");
 assert(brief.includes("modularchampions.com/scenario/"), "Work-chat export omits recipe attribution.");
+assert(brief.includes("Threat: Base threat 2/10") && brief.includes("effective 3/10"), "Work-chat export omits the global threat summary.");
 
 console.log("Encounter tuner test passed");
-console.log("65 tuners render with official defaults, 60 sourced Maximum choices, player-count profiles, and export attribution");
+console.log("65 tuners render with global baselines, effective threat, 60 sourced Maximum choices, player-count profiles, and export attribution");
